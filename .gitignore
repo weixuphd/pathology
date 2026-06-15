@@ -14,3 +14,7 @@ terms_and_short.json
 questions_full.json
 questions_local.csv
 _tmp_pages/
+*.csv
+*_backup*
+*_local*
+pathology.pdf

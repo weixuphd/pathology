@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>病理学题库</title>
+<style>
+:root {
+    --primary: #1a5276;
+    --primary-light: #2980b9;
+    --accent: #16a085;
+    --danger: #e74c3c;
+    --warning: #f39c12;
+    --bg: #f0f2f5;
+    --card: #fff;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #e1e8ed;
+    --shadow: 0 2px 12px rgba(0,0,0,.08);
+    --radius: 12px;
+    --opt-a: #3498db;
+    --opt-b: #e67e22;
+    --opt-c: #27ae60;
+    --opt-d: #8e44ad;
+    --opt-e: #e74c3c;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+/* ── Top Nav ── */
+.top-nav {
+    position: sticky; top:0; z-index: 100;
+    background: var(--primary);
+    color: #fff;
+    padding: 12px 16px;
+    display: flex; align-items: center; gap: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.top-nav h1 { font-size: 1.1em; flex:1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-nav button {
+    background: rgba(255,255,255,.15);
+    border: none; color: #fff;
+    padding: 8px 14px; border-radius: 20px;
+    font-size: .85em; cursor: pointer;
+    white-space: nowrap;
+    transition: background .2s;
+}
+.top-nav button:hover { background: rgba(255,255,255,.25); }
+.top-nav button.active { background: var(--accent); }
+
+/* ── Chapter Tabs ── */
+.chapter-tabs {
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.chapter-tabs::-webkit-scrollbar { display:none; }
+.chapter-tab {
+    flex-shrink: 0;
+    padding: 10px 16px;
+    font-size: .85em;
+    color: var(--text-light);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all .2s;
+    white-space: nowrap;
+}
+.chapter-tab.active {
+    color: var(--primary-light);
+    border-bottom-color: var(--primary-light);
+    font-weight: 600;
+}
+
+/* ── Toolbar ── */
+.toolbar {
+    display: flex; gap:8px; padding: 10px 16px;
+    background: #fff; border-bottom: 1px solid var(--border);
+    flex-wrap: wrap; align-items: center;
+}
+.toolbar .search-wrap {
+    flex:1; min-width: 150px; position: relative;
+}
+.toolbar input {
+    width: 100%; padding: 8px 12px 8px 32px;
+    border: 1px solid var(--border);
+    border-radius: 20px; font-size: .9em;
+    background: var(--bg);
+    outline: none;
+}
+.toolbar input:focus { border-color: var(--primary-light); }
+.toolbar .search-icon {
+    position: absolute; left: 10px; top: 50%;
+    transform: translateY(-50%); font-size: .9em;
+}
+.toolbar .type-btns {
+    display: flex; gap: 4px;
+}
+.toolbar .type-btn {
+    padding: 6px 12px; border: 1px solid var(--border);
+    background: #fff; border-radius: 16px;
+    font-size: .8em; cursor: pointer;
+    transition: all .2s; white-space: nowrap;
+}
+.toolbar .type-btn.active {
+    background: var(--primary-light);
+    color: #fff; border-color: var(--primary-light);
+}
+
+/* ── Main Content ── */
+.main-content {
+    padding: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ── Question Card ── */
+.card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+}
+.card-header {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+.badge {
+    font-size: .75em; padding: 4px 10px;
+    border-radius: 12px; font-weight: 600;
+}
+.badge-qnum { background: #e8f0fe; color: var(--primary-light); }
+.badge-type { background: #e8f8f5; color: var(--accent); }
+.badge-ch { background: #fef9e7; color: #b7950b; font-weight: 400; }
+
+.question-stem {
+    font-size: 1.05em; line-height: 1.8;
+    margin-bottom: 16px; color: var(--text);
+}
+
+/* ── Options ── */
+.options { list-style:none; display:flex; flex-direction:column; gap:8px; }
+.opt {
+    padding: 12px 14px; border: 2px solid var(--border);
+    border-radius: 8px; cursor: pointer;
+    transition: all .15s; display: flex; align-items: flex-start;
+    gap: 10px; font-size: .95em; line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+}
+.opt:active { transform: scale(.98); }
+.opt.sel { border-color: var(--primary-light); background: #e8f0fe; }
+.opt.correct { border-color: var(--accent); background: #e8f8f5; }
+.opt.wrong { border-color: var(--danger); background: #fdedec; }
+.opt-letter {
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: .85em; flex-shrink: 0;
+}
+.opt-a .opt-letter { background:#ebf5fb; color:var(--opt-a); }
+.opt-b .opt-letter { background:#fdf2e9; color:var(--opt-b); }
+.opt-c .opt-letter { background:#eafaf1; color:var(--opt-c); }
+.opt-d .opt-letter { background:#f4ecf7; color:var(--opt-d); }
+.opt-e .opt-letter { background:#fdedec; color:var(--opt-e); }
+
+/* ── Answer Section ── */
+.answer-bar {
+    margin-top: 16px; padding-top: 14px;
+    border-top: 1px solid var(--border);
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+}
+.btn {
+    padding: 8px 16px; border-radius: 20px;
+    border: 1px solid var(--border); background: #fff;
+    font-size: .85em; cursor: pointer;
+    transition: all .2s; display: flex; align-items: center;
+    gap: 4px; white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:active { transform: scale(.95); }
+.btn-answer { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-bookmark { border-color: var(--warning); color: #b7950b; }
+.btn-bookmark.on { background: #fef9e7; }
+.btn-done { border-color: var(--primary-light); color: var(--primary-light); }
+.btn-done.on { background: #e8f0fe; }
+
+.answer-box {
+    display: none; margin-top: 12px; padding: 14px;
+    background: #eafaf1; border-radius: 8px;
+    border-left: 4px solid var(--accent);
+    font-size: .9em; line-height: 1.7;
+}
+.answer-box.show { display: block; }
+.answer-box .ans-label { font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+
+/* ── Terminology Card ── */
+.term-card .term-name {
+    font-size: 1.15em; font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+.term-card .term-en {
+    font-size: .85em; color: var(--text-light);
+    font-style: italic; margin-bottom: 12px;
+}
+.term-def {
+    font-size: .95em; line-height: 1.7;
+    color: var(--text); display: none;
+    padding: 12px; background: #f8f9fa;
+    border-radius: 8px; margin-top: 8px;
+}
+.term-def.show { display: block; }
+
+/* ── Short Answer Card ── */
+.sa-card .sa-question {
+    font-size: 1.05em; line-height: 1.7;
+    margin-bottom: 12px;
+}
+.sa-answer {
+    display: none; font-size: .95em; line-height: 1.8;
+    padding: 14px; background: #fef9e7;
+    border-radius: 8px; border-left: 4px solid var(--warning);
+    margin-top: 8px;
+}
+.sa-answer.show { display: block; }
+
+/* ── Bottom Nav ── */
+.bottom-nav {
+    position: fixed; bottom:0; left:0; right:0;
+    background: #fff; border-top: 1px solid var(--border);
+    display: flex; z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,.08);
+}
+.bottom-nav button {
+    flex:1; padding: 12px 8px;
+    border: none; background: transparent;
+    font-size: .8em; cursor: pointer;
+    display: flex; flex-direction: column;
+    align-items: center; gap: 2px;
+    color: var(--text-light);
+    transition: color .2s;
+    -webkit-tap-highlight-color: transparent;
+}
+.bottom-nav button:active { color: var(--primary-light); }
+.bottom-nav button .nav-icon { font-size: 1.3em; }
+
+/* ── Overlay / Modal ── */
+.overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,.5); z-index: 200;
+    justify-content: center; align-items: flex-end;
+}
+.overlay.show { display: flex; }
+.sheet {
+    background: #fff; border-radius: 16px 16px 0 0;
+    width: 100%; max-height: 70vh;
+    overflow-y: auto; padding: 16px;
+    animation: slideUp .25s ease;
+}
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.sheet h3 { margin-bottom: 12px; font-size: 1em; }
+.sheet-item {
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+    cursor: pointer; font-size: .9em;
+    -webkit-tap-highlight-color: transparent;
+}
+.sheet-item:active { background: #f5f5f5; }
+
+/* ── Toast ── */
+.toast {
+    position: fixed; bottom: 100px; left: 50%;
+    transform: translateX(-50%);
+    background: #2c3e50; color: #fff;
+    padding: 8px 20px; border-radius: 20px;
+    font-size: .85em; z-index: 300;
+    opacity:0; transition: opacity .3s;
+    pointer-events: none;
+}
+.toast.show { opacity:1; }
+
+/* ── Stats bar ── */
+.stats-bar {
+    display: flex; gap:8px; padding: 8px 12px;
+    font-size: .8em; color: var(--text-light);
+    justify-content: center; flex-wrap: wrap;
+}
+.stats-bar span { background: #fff; padding: 3px 10px; border-radius: 10px; }
+
+/* ── Empty state ── */
+.empty {
+    text-align: center; padding: 60px 20px;
+    color: var(--text-light);
+}
+.empty .icon { font-size: 3em; margin-bottom: 12px; }
+</style>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<div class="top-nav">
+    <h1 id="topTitle">📚 病理学题库</h1>
+    <button id="btnBookmarkFilter" onclick="toggleBookmarkFilter()">⭐ 收藏</button>
+    <button onclick="randomQ()">🎲 随机</button>
+</div>
+
+<!-- Chapter Tabs -->
+<div class="chapter-tabs" id="chapterTabs"></div>
+
+<!-- Toolbar -->
+<div class="toolbar">
+    <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="搜索题目..." oninput="onSearch()">
+    </div>
+    <div class="type-btns">
+        <button class="type-btn active" onclick="setType('single_choice', this)">选择题</button>
+        <button class="type-btn" onclick="setType('terminology', this)">名词解释</button>
+        <button class="type-btn" onclick="setType('short_answer', this)">简答题</button>
+    </div>
+</div>
+
+<!-- Stats Bar -->
+<div class="stats-bar" id="statsBar"></div>
+
+<!-- Main Content -->
+<div class="main-content" id="mainContent"></div>
+
+<!-- Bottom Navigation -->
+<div class="bottom-nav">
+    <button onclick="prevQ()"><span class="nav-icon">◀</span> 上一题</button>
+    <button onclick="toggleAnswer()"><span class="nav-icon">💡</span> 显示答案</button>
+    <button onclick="toggleBookmark()"><span class="nav-icon" id="bmIcon">☆</span> 收藏</button>
+    <button onclick="nextQ()"><span class="nav-icon">▶</span> 下一题</button>
+</div>
+
+<!-- Chapter Picker Overlay -->
+<div class="overlay" id="chapterOverlay" onclick="closeOverlay(event)">
+    <div class="sheet" onclick="event.stopPropagation()">
+        <h3>📖 选择章节</h3>
+        <div id="chapterSheet"></div>
+    </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── State ──
+let data = { single_choice: [], terminology: [], short_answer: [] };
+let currentType = 'single_choice';
+let currentChapter = '';
+let currentIdx = 0;
+let bookmarks = new Set();
+let doneItems = new Set();
+let bookmarkFilter = false;
+let searchQuery = '';
+
+// Load state
+try {
+    bookmarks = new Set(JSON.parse(localStorage.getItem('path_bm')||'[]'));
+    doneItems = new Set(JSON.parse(localStorage.getItem('path_done')||'[]'));
+} catch(e) {}
+
+function save(k, v) { localStorage.setItem(k, JSON.stringify([...v])); }
+
+// ── Load Data ──
+async function init() {
+    try {
+        const r = await fetch('questions.json');
+        data = await r.json();
+    } catch(e) {
+        document.getElementById('mainContent').innerHTML =
+            `<div class="empty"><div class="icon">⚠️</div><h3>数据加载失败</h3><p>${e.message}</p></div>`;
+        return;
+    }
+    buildChapterTabs();
+    selectChapter(getChapters()[0] || '');
+    updateStats();
+}
+
+function getChapters() {
+    const chs = new Set();
+    for (const q of (data[currentType] || [])) {
+        if (q.chapter) chs.add(q.chapter);
+    }
+    return [...chs];
+}
+
+function getItems() {
+    let items = (data[currentType] || []).filter(q => q.chapter === currentChapter);
+    if (bookmarkFilter) {
+        items = items.filter(q => bookmarks.has(`${currentType}|${q.chapter}|${q.number}`));
+    }
+    if (searchQuery) {
+        const s = searchQuery.toLowerCase();
+        items = items.filter(q => {
+            const allText = [q.stem||'', q.term||'', q.question||'',
+                q.option_a||'', q.option_b||'', q.option_c||'',
+                q.option_d||'', q.option_e||'', q.answer||'',
+                q.definition||'', q.english||''].join(' ').toLowerCase();
+            return allText.includes(s);
+        });
+    }
+    return items;
+}
+
+// ── Chapter Tabs ──
+function buildChapterTabs() {
+    const container = document.getElementById('chapterTabs');
+    const chs = getChapters();
+    container.innerHTML = chs.map(ch => `
+        <div class="chapter-tab" data-ch="${escapeHtml(ch)}" onclick="selectChapter('${escapeHtml(ch)}')">
+            ${ch}
+        </div>`).join('');
+}
+
+function selectChapter(ch) {
+    currentChapter = ch;
+    currentIdx = 0;
+    // Update tab styles
+    document.querySelectorAll('.chapter-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.ch === ch);
+    });
+    updateStats();
+    render();
+}
+
+// ── Type Selection ──
+function setType(type, btn) {
+    currentType = type;
+    currentIdx = 0;
+    document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+    buildChapterTabs();
+    const chs = getChapters();
+    if (!chs.includes(currentChapter)) {
+        currentChapter = chs[0] || '';
+    }
+    selectChapter(currentChapter);
+}
+
+// ── Render ──
+function render() {
+    const items = getItems();
+    const container = document.getElementById('mainContent');
+    const topTitle = document.getElementById('topTitle');
+
+    if (!items.length) {
+        container.innerHTML = `<div class="empty">
+            <div class="icon">📭</div>
+            <h3>暂无内容</h3>
+            <p>${bookmarkFilter?'请先收藏':'请尝试其他搜索'}</p>
+        </div>`;
+        topTitle.textContent = bookmarkFilter ? '⭐ 收藏题库' : '📚 病理学题库';
+        return;
+    }
+
+    if (currentIdx >= items.length) currentIdx = 0;
+    if (currentIdx < 0) currentIdx = items.length - 1;
+
+    const q = items[currentIdx];
+    const key = `${currentType}|${q.chapter}|${q.number}`;
+    const isBM = bookmarks.has(key);
+    const isDone = doneItems.has(key);
+
+    topTitle.textContent = `${q.chapter?.substring(0, 20) || ''}`;
+
+    if (currentType === 'single_choice') {
+        renderChoice(q, key, isBM, isDone);
+    } else if (currentType === 'terminology') {
+        renderTerm(q, key, isBM, isDone);
+    } else {
+        renderShortAnswer(q, key, isBM, isDone);
+    }
+
+    document.getElementById('bmIcon').textContent = isBM ? '⭐' : '☆';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderChoice(q, key, isBM, isDone) {
+    const opts = [
+        {l:'A', t:q.option_a||''}, {l:'B', t:q.option_b||''},
+        {l:'C', t:q.option_c||''}, {l:'D', t:q.option_d||''},
+        {l:'E', t:q.option_e||''}
+    ].filter(o => o.t);
+
+    const hasAns = q.answer && q.answer !== '?';
+
+    document.getElementById('mainContent').innerHTML = `
+    <div class="card">
+        <div class="card-header">
+            <span class="badge badge-qnum">第${q.number}题</span>
+            <span class="badge badge-type">单选题</span>
+            ${isDone ? '<span class="badge" style="background:#e8f8f5;color:#27ae60">✅ 已完成</span>' : ''}
+            <span class="badge badge-ch">${q.chapter||''}</span>
+        </div>
+        <div class="question-stem">${escapeHtml(q.stem)}</div>
+        <ul class="options">
+            ${opts.map(o => `
+            <li class="opt opt-${o.l.toLowerCase()}" id="opt${o.l}" onclick="selOpt('${o.l}')">
+                <span class="opt-letter">${o.l}</span>
+                <span>${escapeHtml(o.t)}</span>
+            </li>`).join('')}
+        </ul>
+        <div class="answer-bar">
+            <button class="btn btn-answer" onclick="toggleAnswer()" id="ansBtn">💡 显示答案</button>
+            <button class="btn btn-bookmark ${isBM?'on':''}" onclick="toggleBookmark()">${isBM?'⭐':'☆'} 收藏</button>
+            <button class="btn btn-done ${isDone?'on':''}" onclick="toggleDone()">${isDone?'✅':'☐'} 完成</button>
+        </div>
+        <div class="answer-box" id="ansBox">
+            <div class="ans-label">✅ 正确答案：${escapeHtml(q.answer||'')} ${hasAns ? '— '+escapeHtml(q['option_'+q.answer.toLowerCase()]||'') : ''}</div>
+        </div>
+    </div>`;
+}
+
+function renderTerm(q, key, isBM, isDone) {
+    document.getElementById('mainContent').innerHTML = `
+    <div class="card term-card">
+        <div class="card-header">
+            <span class="badge badge-qnum">第${q.number}题</span>
+            <span class="badge badge-type">名词解释</span>
+            ${isDone ? '<span class="badge" style="background:#e8f8f5;color:#27ae60">✅ 已完成</span>' : ''}
+        </div>
+        <div class="term-name">${escapeHtml(q.term||'')}</div>
+        <div class="term-en">${escapeHtml(q.english||'')}</div>
+        <div class="answer-bar">
+            <button class="btn btn-answer" onclick="toggleAnswer()">💡 显示释义</button>
+            <button class="btn btn-bookmark ${isBM?'on':''}" onclick="toggleBookmark()">${isBM?'⭐':'☆'} 收藏</button>
+            <button class="btn btn-done ${isDone?'on':''}" onclick="toggleDone()">${isDone?'✅':'☐'} 完成</button>
+        </div>
+        <div class="term-def" id="ansBox">
+            ${escapeHtml(q.definition||'暂无释义，请参考教材。')}
+        </div>
+    </div>`;
+}
+
+function renderShortAnswer(q, key, isBM, isDone) {
+    document.getElementById('mainContent').innerHTML = `
+    <div class="card sa-card">
+        <div class="card-header">
+            <span class="badge badge-qnum">第${q.number}题</span>
+            <span class="badge badge-type">简答题</span>
+            ${isDone ? '<span class="badge" style="background:#e8f8f5;color:#27ae60">✅ 已完成</span>' : ''}
+        </div>
+        <div class="sa-question">${escapeHtml(q.question||'')}</div>
+        <div class="answer-bar">
+            <button class="btn btn-answer" onclick="toggleAnswer()">💡 显示参考答案</button>
+            <button class="btn btn-bookmark ${isBM?'on':''}" onclick="toggleBookmark()">${isBM?'⭐':'☆'} 收藏</button>
+            <button class="btn btn-done ${isDone?'on':''}" onclick="toggleDone()">${isDone?'✅':'☐'} 完成</button>
+        </div>
+        <div class="sa-answer" id="ansBox">
+            ${escapeHtml(q.answer||'暂无参考答案，请参考教材。')}
+        </div>
+    </div>`;
+}
+
+// ── Actions ──
+function selOpt(letter) {
+    document.querySelectorAll('.opt').forEach(o => o.classList.remove('sel'));
+    const el = document.getElementById('opt'+letter);
+    if (el) el.classList.add('sel');
+}
+
+function toggleAnswer() {
+    const box = document.getElementById('ansBox');
+    const btn = document.getElementById('ansBtn');
+    if (!box) return;
+    const show = !box.classList.contains('show');
+    box.classList.toggle('show');
+    if (btn) btn.textContent = show ? '🔄 隐藏' : '💡 显示答案';
+
+    // Highlight correct/wrong for choice questions
+    if (show && currentType === 'single_choice') {
+        const items = getItems();
+        const q = items[currentIdx];
+        if (q.answer) {
+            const co = document.getElementById('opt'+q.answer);
+            if (co) co.classList.add('correct');
+            const sel = document.querySelector('.opt.sel');
+            if (sel && !sel.classList.contains('correct')) sel.classList.add('wrong');
+        }
+    }
+    if (!show && currentType === 'single_choice') {
+        document.querySelectorAll('.opt').forEach(o => o.classList.remove('correct','wrong'));
+    }
+}
+
+function toggleBookmark() {
+    const items = getItems();
+    if (!items.length) return;
+    const q = items[currentIdx];
+    const key = `${currentType}|${q.chapter}|${q.number}`;
+    if (bookmarks.has(key)) { bookmarks.delete(key); toast('已取消收藏'); }
+    else { bookmarks.add(key); toast('已收藏 ⭐'); }
+    save('path_bm', bookmarks);
+    updateStats();
+    render();
+}
+
+function toggleDone() {
+    const items = getItems();
+    if (!items.length) return;
+    const q = items[currentIdx];
+    const key = `${currentType}|${q.chapter}|${q.number}`;
+    if (doneItems.has(key)) { doneItems.delete(key); toast('已取消完成'); }
+    else { doneItems.add(key); toast('已完成 ✅'); }
+    save('path_done', doneItems);
+    updateStats();
+    render();
+}
+
+function toggleBookmarkFilter() {
+    bookmarkFilter = !bookmarkFilter;
+    currentIdx = 0;
+    document.getElementById('btnBookmarkFilter').classList.toggle('active', bookmarkFilter);
+    render();
+}
+
+function onSearch() {
+    searchQuery = document.getElementById('searchInput').value;
+    currentIdx = 0;
+    render();
+}
+
+function prevQ() {
+    const items = getItems();
+    if (currentIdx > 0) { currentIdx--; render(); }
+}
+function nextQ() {
+    const items = getItems();
+    if (currentIdx < items.length - 1) { currentIdx++; render(); }
+}
+
+function randomQ() {
+    let pool = bookmarkFilter ? getItems() : (data[currentType]||[]);
+    if (!pool.length) { toast('暂无题目'); return; }
+    const r = pool[Math.floor(Math.random()*pool.length)];
+    currentChapter = r.chapter;
+    document.querySelectorAll('.chapter-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.ch === currentChapter);
+    });
+    const items = getItems();
+    currentIdx = items.findIndex(q => q.number === r.number && q.chapter === r.chapter);
+    if (currentIdx < 0) currentIdx = 0;
+    render();
+}
+
+function updateStats() {
+    const items = getItems();
+    const doneCount = items.filter(q => doneItems.has(`${currentType}|${q.chapter}|${q.number}`)).length;
+    document.getElementById('statsBar').innerHTML = `
+        <span>📚 ${items.length}题</span>
+        <span>✅ ${doneCount} 已完成</span>
+        <span>⭐ ${bookmarks.size} 收藏</span>
+        <span>📄 ${currentIdx+1}/${items.length}</span>
+    `;
+}
+
+// ── Overlay ──
+function openChapterOverlay() {
+    const sheet = document.getElementById('chapterSheet');
+    sheet.innerHTML = getChapters().map(ch => `
+        <div class="sheet-item" onclick="selectChapter('${escapeHtml(ch)}');closeOverlay();">${ch}</div>
+    `).join('');
+    document.getElementById('chapterOverlay').classList.add('show');
+}
+function closeOverlay(e) {
+    if (e && e.target !== e.currentTarget) return;
+    document.getElementById('chapterOverlay').classList.remove('show');
+}
+
+// ── Keyboard ──
+document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT') return;
+    switch(e.key) {
+        case 'ArrowRight': case 'j': nextQ(); break;
+        case 'ArrowLeft': case 'k': prevQ(); break;
+        case ' ': e.preventDefault(); toggleAnswer(); break;
+        case 'b': toggleBookmark(); break;
+        case 'r': randomQ(); break;
+        case '1':case '2':case '3':case '4':case '5':
+            selOpt(String.fromCharCode(64+parseInt(e.key))); break;
+    }
+});
+
+// ── Utils ──
+function escapeHtml(s) { const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+function toast(m) {
+    const t = document.getElementById('toast');
+    t.textContent = m; t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+// ── Init ──
+init();
+</script>
+</body>
+</html>

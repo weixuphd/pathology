@@ -21,8 +21,8 @@ const QUESTION_DATA = {
       "option_c": "肥大",
       "option_d": "增生",
       "option_e": "化生",
-      "answer": "E",
-      "explanation": "正确答案是E：化生。一种已分化成熟的细胞类型被另一种分化成熟的细胞类型所取代的过程。是细胞对不利环境的适应性改变。常见：(1)吸烟者支气管假复层纤毛柱状上皮→复层鳞状上皮（鳞化）；(2)慢性胃炎胃黏膜→肠上皮（肠化）；(3)Barrett食管。化生增加癌变风险。"
+      "answer": "B",
+      "explanation": "发育不全(发育不良)是先天发育异常，不是适应性变化。萎缩、肥大、增生、化生才是细胞和组织的适应性变化。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -33,8 +33,8 @@ const QUESTION_DATA = {
       "option_c": "一般不发生改变",
       "option_d": "在实质细胞病变之后发生",
       "option_e": "只发生轻度变化",
-      "answer": "B",
-      "explanation": "正确答案是B：较实质细胞出现更早。活体内局部组织、细胞的死亡。是不可逆的病理过程。基本病变：细胞核固缩、碎裂、溶解；胞浆嗜酸性增强、崩解；间质胶原纤维肿胀崩解、基质解聚。分为凝固性坏死、液化性坏死、纤维素样坏死和坏疽。"
+      "answer": "D",
+      "explanation": "坏死早期主要表现为实质细胞病变(核固缩、碎裂、溶解)，间质(胶原纤维、基质)的改变通常在实质细胞病变之后发生。间质的胶原纤维肿胀、崩解和基质解聚是后期改变。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -501,8 +501,8 @@ const QUESTION_DATA = {
       "option_c": "心、肝、肠",
       "option_d": "肝、肾、脾",
       "option_e": "心、肝、肾",
-      "answer": "B",
-      "explanation": "正确答案是B：心、脾、肺。"
+      "answer": "E",
+      "explanation": "心、肝、肾是体内代谢最旺盛的实质器官，耗氧量大，对缺氧、中毒等损伤因素最敏感，最常发生细胞水肿和脂肪变性。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -753,8 +753,8 @@ const QUESTION_DATA = {
       "option_c": "疾病的治疗",
       "option_d": "病理变化",
       "option_e": "患病机体的功能、代谢变化",
-      "answer": "D",
-      "explanation": "正确答案是D：病理变化。"
+      "answer": "C",
+      "explanation": "病理学主要研究疾病的病因、发病机制、病理变化和功能代谢改变，疾病的治疗属于临床医学范畴。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -901,6 +901,126 @@ const QUESTION_DATA = {
       "explanation": "正确答案是A：毛细血管逐渐减少。"
     },
     {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 76,
+      "stem": "细胞水肿最主要的发病机制是",
+      "option_a": "线粒体损伤导致ATP生成减少",
+      "option_b": "溶酶体破裂释放水解酶",
+      "option_c": "核糖体解聚",
+      "option_d": "高尔基体扩张",
+      "option_e": "内质网脱颗粒",
+      "answer": "A",
+      "explanation": "A：线粒体损伤导致ATP生成减少"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 77,
+      "stem": "关于萎缩的概念，下列哪项是正确的",
+      "option_a": "萎缩的细胞体积缩小但功能不变",
+      "option_b": "萎缩仅见于病理状态",
+      "option_c": "萎缩的细胞数目一定减少",
+      "option_d": "发育正常的器官体积缩小称为萎缩",
+      "option_e": "萎缩是不可逆的改变",
+      "answer": "D",
+      "explanation": "D：发育正常的器官体积缩小称为萎缩"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 78,
+      "stem": "最易发生脂肪变性的器官是",
+      "option_a": "心",
+      "option_b": "肝",
+      "option_c": "脾",
+      "option_d": "肺",
+      "option_e": "肾",
+      "answer": "B",
+      "explanation": "B：肝"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 79,
+      "stem": "干酪样坏死的特征性改变是",
+      "option_a": "组织结构轮廓完全消失",
+      "option_b": "保留组织轮廓残影",
+      "option_c": "形成空洞",
+      "option_d": "大量中性粒细胞浸润",
+      "option_e": "伴有钙盐沉积",
+      "answer": "A",
+      "explanation": "A：组织结构轮廓完全消失"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 80,
+      "stem": "关于凋亡的描述，下列哪项是错误的",
+      "option_a": "凋亡是程序性细胞死亡",
+      "option_b": "凋亡细胞形成凋亡小体",
+      "option_c": "凋亡引起周围炎症反应",
+      "option_d": "凋亡与基因调控有关",
+      "option_e": "凋亡可发生于单个细胞",
+      "answer": "C",
+      "explanation": "C：凋亡引起周围炎症反应"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 81,
+      "stem": "化生最容易发生于哪种组织",
+      "option_a": "神经组织",
+      "option_b": "上皮组织",
+      "option_c": "肌肉组织",
+      "option_d": "淋巴组织",
+      "option_e": "骨组织",
+      "answer": "B",
+      "explanation": "B：上皮组织"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 82,
+      "stem": "虎斑心是指",
+      "option_a": "心肌间质脂肪浸润",
+      "option_b": "心肌细胞脂肪变性",
+      "option_c": "心外膜脂肪组织增生",
+      "option_d": "心肌褐色萎缩",
+      "option_e": "心肌梗死",
+      "answer": "B",
+      "explanation": "B：心肌细胞脂肪变性"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 83,
+      "stem": "细胞坏死最具特征性的形态学改变是",
+      "option_a": "细胞膜破裂",
+      "option_b": "细胞核固缩、碎裂、溶解",
+      "option_c": "线粒体肿胀",
+      "option_d": "内质网扩张",
+      "option_e": "溶酶体增多",
+      "answer": "B",
+      "explanation": "B：细胞核固缩、碎裂、溶解"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 84,
+      "stem": "营养不良性钙化是指",
+      "option_a": "血钙增高引起的钙盐沉积",
+      "option_b": "在变性坏死组织中的钙盐沉积",
+      "option_c": "正常骨组织以外的钙盐沉积",
+      "option_d": "仅见于结核病的钙化",
+      "option_e": "转移性钙化的别称",
+      "answer": "B",
+      "explanation": "B：在变性坏死组织中的钙盐沉积"
+    },
+    {
+      "chapter": "第1章 细胞和组织的适应与损伤",
+      "number": 85,
+      "stem": "纤维素样坏死最常见于",
+      "option_a": "心肌梗死",
+      "option_b": "脑梗死",
+      "option_c": "风湿病",
+      "option_d": "肾梗死",
+      "option_e": "脾梗死",
+      "answer": "C",
+      "explanation": "C：风湿病"
+    },
+    {
       "chapter": "第2章 损伤的修复",
       "number": 1,
       "stem": "“静脉石”的形成是静脉内的血栓发生了",
@@ -1029,8 +1149,8 @@ const QUESTION_DATA = {
       "option_c": "神经细胞",
       "option_d": "软骨",
       "option_e": "平滑肌",
-      "answer": "C",
-      "explanation": "正确答案是C：神经细胞。由损伤周围的同种细胞增生来修复缺损的过程。不同组织的再生能力不同：(1)不稳定细胞（持续分裂细胞）：表皮、黏膜上皮、淋巴造血细胞→再生能力强；(2)稳定细胞（静止细胞）：肝、肾、胰腺→有潜在再生能力；(3)永久性细胞（非分裂细胞）：神经细胞、心肌细胞、骨骼肌细胞→几乎不能再生。"
+      "answer": "A",
+      "explanation": "上皮组织(腺体)属于不稳定细胞(持续分裂细胞)，再生能力最强。神经细胞和心肌细胞属于永久性细胞，几乎不能再生。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1533,8 +1653,8 @@ const QUESTION_DATA = {
       "option_c": "心肌细胞",
       "option_d": "唾液腺",
       "option_e": "神经细胞",
-      "answer": "E",
-      "explanation": "正确答案是E：神经细胞。由损伤周围的同种细胞增生来修复缺损的过程。不同组织的再生能力不同：(1)不稳定细胞（持续分裂细胞）：表皮、黏膜上皮、淋巴造血细胞→再生能力强；(2)稳定细胞（静止细胞）：肝、肾、胰腺→有潜在再生能力；(3)永久性细胞（非分裂细胞）：神经细胞、心肌细胞、骨骼肌细胞→几乎不能再生。"
+      "answer": "A",
+      "explanation": "胃肠道黏膜上皮细胞属于不稳定细胞(持续分裂细胞)，再生能力极强。神经细胞为永久性细胞，几乎无再生能力。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1677,8 +1797,8 @@ const QUESTION_DATA = {
       "option_c": "心肌",
       "option_d": "神经胶质细胞",
       "option_e": "软骨",
-      "answer": "C",
-      "explanation": "正确答案是C：心肌。由损伤周围的同种细胞增生来修复缺损的过程。不同组织的再生能力不同：(1)不稳定细胞（持续分裂细胞）：表皮、黏膜上皮、淋巴造血细胞→再生能力强；(2)稳定细胞（静止细胞）：肝、肾、胰腺→有潜在再生能力；(3)永久性细胞（非分裂细胞）：神经细胞、心肌细胞、骨骼肌细胞→几乎不能再生。"
+      "answer": "D",
+      "explanation": "神经胶质细胞具有一定的再生增殖能力(如损伤后形成胶质瘢痕)，而神经细胞(神经元)、心肌细胞、骨骼肌细胞再生能力极弱或缺失。软骨再生能力也较差。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1885,6 +2005,90 @@ const QUESTION_DATA = {
       "explanation": "正确答案是E：创缘不整齐、创面对合不紧密、有感。组织缺损较大、创缘不整、有感染或异物的伤口愈合。愈合过程：需大量肉芽组织从底部和边缘生长填补缺损，表皮再生慢，形成明显瘢痕。时间长，瘢痕大，可影响功能。"
     },
     {
+      "chapter": "第2章 损伤的修复",
+      "number": 83,
+      "stem": "肉芽组织中最重要的功能细胞是",
+      "option_a": "巨噬细胞",
+      "option_b": "成纤维细胞",
+      "option_c": "血管内皮细胞",
+      "option_d": "淋巴细胞",
+      "option_e": "中性粒细胞",
+      "answer": "B",
+      "explanation": "B：成纤维细胞"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 84,
+      "stem": "下列哪种细胞再生能力最强",
+      "option_a": "心肌细胞",
+      "option_b": "神经细胞",
+      "option_c": "肝细胞",
+      "option_d": "表皮基底细胞",
+      "option_e": "骨骼肌细胞",
+      "answer": "D",
+      "explanation": "D：表皮基底细胞"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 85,
+      "stem": "一期愈合的条件不包括",
+      "option_a": "组织缺损少",
+      "option_b": "创缘整齐",
+      "option_c": "无感染",
+      "option_d": "创面对合紧密",
+      "option_e": "组织缺损大但有支架",
+      "answer": "E",
+      "explanation": "E：组织缺损大但有支架"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 86,
+      "stem": "瘢痕组织与肉芽组织的主要区别是",
+      "option_a": "有无毛细血管",
+      "option_b": "有无成纤维细胞",
+      "option_c": "胶原纤维的数量和排列",
+      "option_d": "有无炎细胞浸润",
+      "option_e": "有无水肿",
+      "answer": "C",
+      "explanation": "C：胶原纤维的数量和排列"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 87,
+      "stem": "永久性细胞是指",
+      "option_a": "肝细胞",
+      "option_b": "肾小管上皮细胞",
+      "option_c": "神经细胞",
+      "option_d": "表皮细胞",
+      "option_e": "造血干细胞",
+      "answer": "C",
+      "explanation": "C：神经细胞"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 88,
+      "stem": "肉芽组织取代坏死组织的过程称为",
+      "option_a": "再生",
+      "option_b": "化生",
+      "option_c": "机化",
+      "option_d": "钙化",
+      "option_e": "变性",
+      "answer": "C",
+      "explanation": "C：机化"
+    },
+    {
+      "chapter": "第2章 损伤的修复",
+      "number": 89,
+      "stem": "影响创伤愈合的全身因素不包括",
+      "option_a": "年龄",
+      "option_b": "营养状况",
+      "option_c": "局部血液循环",
+      "option_d": "糖尿病",
+      "option_e": "维生素C缺乏",
+      "answer": "C",
+      "explanation": "C：局部血液循环"
+    },
+    {
       "chapter": "第3章 局部血液循环障碍",
       "number": 1,
       "stem": "炎症反应中最有防御作用的是(）",
@@ -1917,7 +2121,7 @@ const QUESTION_DATA = {
       "option_c": "变质，渗出，增生",
       "option_d": "红，肿，热，痛，功能障碍",
       "option_e": "周围血液中白细胞增多和体温升高",
-      "answer": "B",
+      "answer": "C",
       "explanation": "正确答案是B：组织的炎性充血和水肿。器官或组织因动脉输入血量增多而发生的含血量增多（动脉性充血）。生理性：运动时肌肉充血、情绪激动时面部充血。病理性：炎症性充血。表现为局部鲜红色、温度升高、体积增大。"
     },
     {
@@ -3215,6 +3419,90 @@ const QUESTION_DATA = {
       "option_e": "动脉栓塞",
       "answer": "D",
       "explanation": "正确答案是D：动脉粥样硬化。以大中动脉内膜下脂质沉积、纤维组织增生和粥样斑块（atheroma）形成为特征的慢性进行性动脉疾病。基本病变：脂纹→纤维斑块→粥样斑块→复合病变（斑块破裂、血栓形成、动脉瘤、钙化）。危险因素：高脂血症、高血压、吸烟、糖尿病。"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 112,
+      "stem": "血栓形成的最主要条件是",
+      "option_a": "血流缓慢",
+      "option_b": "血管内膜损伤",
+      "option_c": "血液凝固性增高",
+      "option_d": "血小板增多",
+      "option_e": "静脉曲张",
+      "answer": "B",
+      "explanation": "B：血管内膜损伤"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 113,
+      "stem": "最常见的栓子是",
+      "option_a": "脂肪栓子",
+      "option_b": "气体栓子",
+      "option_c": "血栓栓子",
+      "option_d": "羊水栓子",
+      "option_e": "肿瘤细胞栓子",
+      "answer": "C",
+      "explanation": "C：血栓栓子"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 114,
+      "stem": "贫血性梗死最常发生于",
+      "option_a": "肺",
+      "option_b": "肠",
+      "option_c": "肝",
+      "option_d": "肾",
+      "option_e": "脑",
+      "answer": "D",
+      "explanation": "D：肾"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 115,
+      "stem": "慢性肺淤血最具特征的改变是",
+      "option_a": "肺泡壁毛细血管扩张",
+      "option_b": "肺泡腔内水肿液",
+      "option_c": "心力衰竭细胞",
+      "option_d": "肺泡壁纤维化",
+      "option_e": "漏出性出血",
+      "answer": "C",
+      "explanation": "C：心力衰竭细胞"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 116,
+      "stem": "槟榔肝的形成是由于",
+      "option_a": "急性肝淤血",
+      "option_b": "慢性肝淤血",
+      "option_c": "脂肪肝",
+      "option_d": "肝硬化",
+      "option_e": "肝炎",
+      "answer": "B",
+      "explanation": "B：慢性肝淤血"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 117,
+      "stem": "DIC时最特征性的血栓类型是",
+      "option_a": "白色血栓",
+      "option_b": "混合血栓",
+      "option_c": "红色血栓",
+      "option_d": "透明血栓",
+      "option_e": "附壁血栓",
+      "answer": "D",
+      "explanation": "D：透明血栓"
+    },
+    {
+      "chapter": "第3章 局部血液循环障碍",
+      "number": 118,
+      "stem": "肠梗死属于",
+      "option_a": "贫血性梗死",
+      "option_b": "出血性梗死",
+      "option_c": "凝固性坏死",
+      "option_d": "干性坏疽",
+      "option_e": "液化性坏死",
+      "answer": "B",
+      "explanation": "B：出血性梗死"
     },
     {
       "chapter": "第4章 炎症",
@@ -6901,6 +7189,90 @@ const QUESTION_DATA = {
       "explanation": "正确答案是B：心瓣膜。"
     },
     {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 38,
+      "stem": "动脉粥样硬化最早期的病变是",
+      "option_a": "纤维斑块",
+      "option_b": "粥样斑块",
+      "option_c": "脂纹",
+      "option_d": "斑块破裂",
+      "option_e": "动脉瘤",
+      "answer": "C",
+      "explanation": "C：脂纹"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 39,
+      "stem": "心肌梗死最常见的部位是",
+      "option_a": "左心室前壁",
+      "option_b": "左心室后壁",
+      "option_c": "右心室",
+      "option_d": "心房",
+      "option_e": "室间隔后部",
+      "answer": "A",
+      "explanation": "A：左心室前壁"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 40,
+      "stem": "原发性高血压的基本病变是",
+      "option_a": "大动脉粥样硬化",
+      "option_b": "全身细动脉玻璃样变",
+      "option_c": "中动脉纤维素样坏死",
+      "option_d": "小静脉扩张",
+      "option_e": "毛细血管增生",
+      "answer": "B",
+      "explanation": "B：全身细动脉玻璃样变"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 41,
+      "stem": "风湿病的特征性病变是",
+      "option_a": "纤维素样坏死",
+      "option_b": "风湿小体(Aschoff小体)",
+      "option_c": "黏液样变性",
+      "option_d": "玻璃样变性",
+      "option_e": "淀粉样变性",
+      "answer": "B",
+      "explanation": "B：风湿小体(Aschoff小体)"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 42,
+      "stem": "风湿性心内膜炎最常侵犯的瓣膜是",
+      "option_a": "主动脉瓣",
+      "option_b": "肺动脉瓣",
+      "option_c": "二尖瓣",
+      "option_d": "三尖瓣",
+      "option_e": "所有瓣膜同等受累",
+      "answer": "C",
+      "explanation": "C：二尖瓣"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 43,
+      "stem": "冠心病最常见的病因是",
+      "option_a": "风湿性心脏病",
+      "option_b": "高血压性心脏病",
+      "option_c": "冠状动脉粥样硬化",
+      "option_d": "梅毒性主动脉炎",
+      "option_e": "先天性冠状动脉畸形",
+      "answer": "C",
+      "explanation": "C：冠状动脉粥样硬化"
+    },
+    {
+      "chapter": "第6章 心血管系统疾病",
+      "number": 44,
+      "stem": "恶性高血压的特征性病变是",
+      "option_a": "细动脉玻璃样变",
+      "option_b": "细动脉纤维素样坏死",
+      "option_c": "大动脉粥样硬化",
+      "option_d": "动脉中膜钙化",
+      "option_e": "静脉血栓形成",
+      "answer": "B",
+      "explanation": "B：细动脉纤维素样坏死"
+    },
+    {
       "chapter": "第7章 呼吸系统疾病",
       "number": 1,
       "stem": "关于慢性肺源性心脏病，下列哪一项是错误的()",
@@ -7115,6 +7487,78 @@ const QUESTION_DATA = {
       "option_e": "胆汁郁积性肝炎",
       "answer": "C",
       "explanation": "正确答案是C：重型肝炎。"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 19,
+      "stem": "大叶性肺炎的典型病原菌是",
+      "option_a": "金黄色葡萄球菌",
+      "option_b": "肺炎链球菌",
+      "option_c": "流感嗜血杆菌",
+      "option_d": "肺炎克雷伯杆菌",
+      "option_e": "大肠杆菌",
+      "answer": "B",
+      "explanation": "B：肺炎链球菌"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 20,
+      "stem": "肺气肿最常继发于",
+      "option_a": "支气管哮喘",
+      "option_b": "慢性支气管炎",
+      "option_c": "支气管扩张症",
+      "option_d": "肺结核",
+      "option_e": "间质性肺炎",
+      "answer": "B",
+      "explanation": "B：慢性支气管炎"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 21,
+      "stem": "矽肺的特征性病变是",
+      "option_a": "肺肉质变",
+      "option_b": "矽结节形成",
+      "option_c": "肺大泡形成",
+      "option_d": "胸膜增厚",
+      "option_e": "空洞形成",
+      "answer": "B",
+      "explanation": "B：矽结节形成"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 22,
+      "stem": "慢性支气管炎患者咳痰的病理基础是",
+      "option_a": "支气管黏膜上皮鳞状化生",
+      "option_b": "黏液腺肥大增生、杯状细胞增多",
+      "option_c": "支气管壁纤维化",
+      "option_d": "支气管平滑肌痉挛",
+      "option_e": "支气管壁软骨破坏",
+      "answer": "B",
+      "explanation": "B：黏液腺肥大增生、杯状细胞增多"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 23,
+      "stem": "小叶性肺炎的病变特征是",
+      "option_a": "以肺小叶为单位的化脓性炎",
+      "option_b": "累及整个肺大叶的纤维素性炎",
+      "option_c": "肺间质为主的炎症",
+      "option_d": "肉芽肿性炎",
+      "option_e": "纤维素性炎",
+      "answer": "A",
+      "explanation": "A：以肺小叶为单位的化脓性炎"
+    },
+    {
+      "chapter": "第7章 呼吸系统疾病",
+      "number": 24,
+      "stem": "鼻咽癌最常见的组织学类型是",
+      "option_a": "腺癌",
+      "option_b": "鳞状细胞癌",
+      "option_c": "小细胞癌",
+      "option_d": "淋巴上皮瘤样癌",
+      "option_e": "腺样囊性癌",
+      "answer": "B",
+      "explanation": "B：鳞状细胞癌"
     },
     {
       "chapter": "第8章 消化系统疾病",
@@ -7477,6 +7921,78 @@ const QUESTION_DATA = {
       "explanation": "正确答案是B：胃黏膜糜烂。损伤造成机体部分细胞和组织丧失后，机体对缺损进行修补恢复的过程。修复的两种形式：(1)再生：由同种细胞修复；(2)纤维性修复（瘢痕修复）：由肉芽组织填补。"
     },
     {
+      "chapter": "第8章 消化系统疾病",
+      "number": 31,
+      "stem": "消化性溃疡最好发的部位是",
+      "option_a": "胃大弯",
+      "option_b": "胃小弯近幽门部",
+      "option_c": "贲门部",
+      "option_d": "胃底部",
+      "option_e": "十二指肠升部",
+      "answer": "B",
+      "explanation": "B：胃小弯近幽门部"
+    },
+    {
+      "chapter": "第8章 消化系统疾病",
+      "number": 32,
+      "stem": "肝硬化最具特征性的病变是",
+      "option_a": "肝细胞脂肪变",
+      "option_b": "肝细胞坏死",
+      "option_c": "假小叶形成",
+      "option_d": "纤维组织增生",
+      "option_e": "炎细胞浸润",
+      "answer": "C",
+      "explanation": "C：假小叶形成"
+    },
+    {
+      "chapter": "第8章 消化系统疾病",
+      "number": 33,
+      "stem": "病毒性肝炎的基本病理变化不包括",
+      "option_a": "肝细胞水样变性",
+      "option_b": "肝细胞坏死",
+      "option_c": "炎细胞浸润",
+      "option_d": "肝细胞脂肪变性",
+      "option_e": "Kupffer细胞增生",
+      "answer": "D",
+      "explanation": "D：肝细胞脂肪变性"
+    },
+    {
+      "chapter": "第8章 消化系统疾病",
+      "number": 34,
+      "stem": "胃癌最常见的组织学类型是",
+      "option_a": "鳞状细胞癌",
+      "option_b": "腺癌",
+      "option_c": "小细胞癌",
+      "option_d": "类癌",
+      "option_e": "未分化癌",
+      "answer": "B",
+      "explanation": "B：腺癌"
+    },
+    {
+      "chapter": "第8章 消化系统疾病",
+      "number": 35,
+      "stem": "原发性肝癌最常见的组织学类型是",
+      "option_a": "胆管细胞癌",
+      "option_b": "肝细胞癌",
+      "option_c": "混合型肝癌",
+      "option_d": "纤维板层型肝癌",
+      "option_e": "肝母细胞瘤",
+      "answer": "B",
+      "explanation": "B：肝细胞癌"
+    },
+    {
+      "chapter": "第8章 消化系统疾病",
+      "number": 36,
+      "stem": "早期胃癌的定义是癌组织浸润不超过",
+      "option_a": "黏膜层",
+      "option_b": "黏膜下层",
+      "option_c": "肌层",
+      "option_d": "浆膜层",
+      "option_e": "邻近器官",
+      "answer": "B",
+      "explanation": "B：黏膜下层"
+    },
+    {
       "chapter": "第9章 淋巴造血系统疾病",
       "number": 1,
       "stem": "霍奇金淋巴瘤多发生于(",
@@ -7547,6 +8063,66 @@ const QUESTION_DATA = {
       "option_e": "超敏反应",
       "answer": "D",
       "explanation": "正确答案是D：骨髓移植排斥反应。宿主免疫系统识别移植物中异体HLA抗原，产生细胞免疫和体液免疫反应，导致移植物损伤和功能障碍。分类：(1)超急性排斥（数分钟-24h，ABO血型不合）；(2)急性排斥（数天-数月，细胞免疫为主）；(3)慢性排斥（数月至数年，血管病变为主）。"
+    },
+    {
+      "chapter": "第9章 淋巴造血系统疾病",
+      "number": 7,
+      "stem": "霍奇金淋巴瘤的诊断性细胞是",
+      "option_a": "淋巴细胞",
+      "option_b": "R-S细胞",
+      "option_c": "浆细胞",
+      "option_d": "嗜酸性粒细胞",
+      "option_e": "组织细胞",
+      "answer": "B",
+      "explanation": "B：R-S细胞"
+    },
+    {
+      "chapter": "第9章 淋巴造血系统疾病",
+      "number": 8,
+      "stem": "非霍奇金淋巴瘤最常见的类型是",
+      "option_a": "滤泡性淋巴瘤",
+      "option_b": "弥漫大B细胞淋巴瘤",
+      "option_c": "套细胞淋巴瘤",
+      "option_d": "边缘区淋巴瘤",
+      "option_e": "Burkitt淋巴瘤",
+      "answer": "B",
+      "explanation": "B：弥漫大B细胞淋巴瘤"
+    },
+    {
+      "chapter": "第9章 淋巴造血系统疾病",
+      "number": 9,
+      "stem": "急性白血病最特征性的骨髓改变是",
+      "option_a": "骨髓纤维化",
+      "option_b": "大量原始幼稚细胞增生",
+      "option_c": "骨髓坏死",
+      "option_d": "肉芽肿形成",
+      "option_e": "骨髓萎缩",
+      "answer": "B",
+      "explanation": "B：大量原始幼稚细胞增生"
+    },
+    {
+      "chapter": "第9章 淋巴造血系统疾病",
+      "number": 10,
+      "stem": "关于R-S细胞的描述，下列哪项是正确的",
+      "option_a": "仅见于霍奇金淋巴瘤",
+      "option_b": "细胞体积小",
+      "option_c": "胞核大、核仁明显呈鹰眼样",
+      "option_d": "免疫表型CD3阳性",
+      "option_e": "来源于B细胞",
+      "answer": "C",
+      "explanation": "C：胞核大、核仁明显呈鹰眼样"
+    },
+    {
+      "chapter": "第9章 淋巴造血系统疾病",
+      "number": 11,
+      "stem": "绿色瘤最常见于哪种白血病",
+      "option_a": "急性淋巴细胞白血病",
+      "option_b": "慢性淋巴细胞白血病",
+      "option_c": "急性粒细胞白血病",
+      "option_d": "慢性粒细胞白血病",
+      "option_e": "毛细胞白血病",
+      "answer": "C",
+      "explanation": "C：急性粒细胞白血病"
     },
     {
       "chapter": "第10章 免疫性疾病",
@@ -7633,6 +8209,66 @@ const QUESTION_DATA = {
       "explanation": "正确答案是C：自身抗体。是一种累及全身多系统的自身免疫性疾病。特征：产生多种自身抗体（抗核抗体ANA、抗dsDNA抗体、抗Sm抗体等）。主要病变：全身细小动脉纤维素样坏死、狼疮小体（苏木素小体/LE小体）、狼疮带（皮肤真皮-表皮交界处IgG和C3沉积）、狼疮性肾炎（最具临床意义的脏器损害）。"
     },
     {
+      "chapter": "第10章 免疫性疾病",
+      "number": 8,
+      "stem": "SLE最具特征性的病变是",
+      "option_a": "狼疮小体",
+      "option_b": "纤维素样坏死",
+      "option_c": "肾小球肾炎",
+      "option_d": "皮肤红斑",
+      "option_e": "关节滑膜炎",
+      "answer": "A",
+      "explanation": "A：狼疮小体"
+    },
+    {
+      "chapter": "第10章 免疫性疾病",
+      "number": 9,
+      "stem": "类风湿关节炎的基本病变是",
+      "option_a": "关节腔积脓",
+      "option_b": "滑膜慢性增生性炎",
+      "option_c": "关节软骨钙化",
+      "option_d": "关节融合",
+      "option_e": "痛风石形成",
+      "answer": "B",
+      "explanation": "B：滑膜慢性增生性炎"
+    },
+    {
+      "chapter": "第10章 免疫性疾病",
+      "number": 10,
+      "stem": "超急性移植排斥反应主要由于",
+      "option_a": "T细胞介导",
+      "option_b": "ABO血型不合",
+      "option_c": "HLA配型不合",
+      "option_d": "免疫抑制剂用量不足",
+      "option_e": "病毒感染",
+      "answer": "B",
+      "explanation": "B：ABO血型不合"
+    },
+    {
+      "chapter": "第10章 免疫性疾病",
+      "number": 11,
+      "stem": "关于AIDS的描述，下列哪项是错误的",
+      "option_a": "由HIV感染引起",
+      "option_b": "CD4+T细胞减少",
+      "option_c": "易发生机会性感染",
+      "option_d": "常伴发Kaposi肉瘤",
+      "option_e": "主要经消化道传播",
+      "answer": "E",
+      "explanation": "E：主要经消化道传播"
+    },
+    {
+      "chapter": "第10章 免疫性疾病",
+      "number": 12,
+      "stem": "狼疮性肾炎最具诊断价值的病理改变是",
+      "option_a": "系膜细胞增生",
+      "option_b": "基底膜增厚",
+      "option_c": "苏木素小体",
+      "option_d": "新月体形成",
+      "option_e": "间质纤维化",
+      "answer": "C",
+      "explanation": "C：苏木素小体"
+    },
+    {
       "chapter": "第11章 泌尿系统疾病",
       "number": 1,
       "stem": "下列肾小管变性中．哪种损害最早",
@@ -7645,6 +8281,90 @@ const QUESTION_DATA = {
       "explanation": "正确答案是C：脂变。细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
     },
     {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 2,
+      "stem": "急性弥漫性增生性肾小球肾炎的主要病变是",
+      "option_a": "基底膜增厚",
+      "option_b": "内皮细胞和系膜细胞增生",
+      "option_c": "新月体形成",
+      "option_d": "足突融合",
+      "option_e": "肾小管萎缩",
+      "answer": "B",
+      "explanation": "B：内皮细胞和系膜细胞增生"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 3,
+      "stem": "快速进行性肾小球肾炎的特征性病变是",
+      "option_a": "基底膜增厚",
+      "option_b": "系膜增生",
+      "option_c": "新月体形成",
+      "option_d": "内皮细胞增生",
+      "option_e": "免疫复合物沉积",
+      "answer": "C",
+      "explanation": "C：新月体形成"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 4,
+      "stem": "脂性肾病(微小病变性肾病)的电镜特征是",
+      "option_a": "基底膜增厚",
+      "option_b": "免疫复合物沉积",
+      "option_c": "足突广泛融合",
+      "option_d": "系膜增生",
+      "option_e": "内皮细胞肿胀",
+      "answer": "C",
+      "explanation": "C：足突广泛融合"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 5,
+      "stem": "急性肾盂肾炎最常见的感染途径是",
+      "option_a": "血源性感染",
+      "option_b": "上行性感染",
+      "option_c": "淋巴道感染",
+      "option_d": "直接蔓延",
+      "option_e": "医源性感染",
+      "answer": "B",
+      "explanation": "B：上行性感染"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 6,
+      "stem": "肾细胞癌最常见的组织学类型是",
+      "option_a": "乳头状肾细胞癌",
+      "option_b": "嫌色细胞癌",
+      "option_c": "透明细胞癌",
+      "option_d": "集合管癌",
+      "option_e": "肉瘤样癌",
+      "answer": "C",
+      "explanation": "C：透明细胞癌"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 7,
+      "stem": "膜性肾病的特征性免疫荧光表现是",
+      "option_a": "系膜区IgA沉积",
+      "option_b": "基底膜IgG和C3颗粒状沉积",
+      "option_c": "系膜区C3沉积",
+      "option_d": "毛细血管壁线状IgG沉积",
+      "option_e": "无免疫复合物沉积",
+      "answer": "B",
+      "explanation": "B：基底膜IgG和C3颗粒状沉积"
+    },
+    {
+      "chapter": "第11章 泌尿系统疾病",
+      "number": 8,
+      "stem": "肾母细胞瘤(Wilms瘤)的好发年龄是",
+      "option_a": "新生儿期",
+      "option_b": "1-4岁",
+      "option_c": "10-15岁",
+      "option_d": "20-30岁",
+      "option_e": "50岁以上",
+      "answer": "B",
+      "explanation": "B：1-4岁"
+    },
+    {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 1,
       "stem": "易发生干性坏疽的器官是：",
@@ -7653,7 +8373,7 @@ const QUESTION_DATA = {
       "option_c": "膀胱",
       "option_d": "四肢",
       "option_e": "子宫",
-      "answer": "E",
+      "answer": "D",
       "explanation": "正确答案是E：子宫。较大范围的组织坏死后，继发不同程度的腐败菌感染，使坏死组织呈黑色或暗绿色。根据形态特点分为：干性坏疽（四肢末端多见）、湿性坏疽（内脏多见）和气性坏疽（深部创伤合并厌氧菌感染）。"
     },
     {
@@ -7789,6 +8509,90 @@ const QUESTION_DATA = {
       "explanation": "正确答案是E：原始生殖细胞。又称水泡状胎块。胎盘绒毛的滋养层细胞增生和间质高度水肿，使绒毛肿大形成许多薄壁透明的葡萄样水泡。完全性葡萄胎：所有绒毛均异常，无胚胎；部分性葡萄胎：部分绒毛正常，可见胚胎。属于妊娠滋养细胞疾病，有恶变可能。"
     },
     {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 13,
+      "stem": "子宫颈癌最主要的危险因素是",
+      "option_a": "早婚早育",
+      "option_b": "高危型HPV持续感染",
+      "option_c": "吸烟",
+      "option_d": "口服避孕药",
+      "option_e": "遗传因素",
+      "answer": "B",
+      "explanation": "B：高危型HPV持续感染"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 14,
+      "stem": "葡萄胎的特征性病变是",
+      "option_a": "绒毛间质水肿和滋养细胞增生",
+      "option_b": "绒毛坏死",
+      "option_c": "纤维素沉积",
+      "option_d": "绒毛纤维化",
+      "option_e": "绒毛血管增生",
+      "answer": "A",
+      "explanation": "A：绒毛间质水肿和滋养细胞增生"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 15,
+      "stem": "绒毛膜癌与葡萄胎的主要区别在于",
+      "option_a": "有无绒毛结构",
+      "option_b": "有无出血坏死",
+      "option_c": "有无hCG升高",
+      "option_d": "有无子宫增大",
+      "option_e": "有无阴道流血",
+      "answer": "A",
+      "explanation": "A：有无绒毛结构"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 16,
+      "stem": "乳腺癌最常见的组织学类型是",
+      "option_a": "导管内原位癌",
+      "option_b": "浸润性导管癌",
+      "option_c": "浸润性小叶癌",
+      "option_d": "髓样癌",
+      "option_e": "黏液癌",
+      "answer": "B",
+      "explanation": "B：浸润性导管癌"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 17,
+      "stem": "宫颈上皮内瘤变(CIN)III级相当于",
+      "option_a": "轻度非典型增生",
+      "option_b": "中度非典型增生",
+      "option_c": "重度非典型增生和原位癌",
+      "option_d": "浸润癌",
+      "option_e": "腺体非典型增生",
+      "answer": "C",
+      "explanation": "C：重度非典型增生和原位癌"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 18,
+      "stem": "巧克力囊肿的形成机制是",
+      "option_a": "卵巢子宫内膜异位症反复出血",
+      "option_b": "卵巢黄体囊肿出血",
+      "option_c": "卵巢巧克力样肿瘤",
+      "option_d": "卵巢感染性囊肿",
+      "option_e": "卵巢巧克力样脓肿",
+      "answer": "A",
+      "explanation": "A：卵巢子宫内膜异位症反复出血"
+    },
+    {
+      "chapter": "第12章 生殖系统和乳腺疾病",
+      "number": 19,
+      "stem": "前列腺增生症最常见的症状是",
+      "option_a": "血尿",
+      "option_b": "排尿困难",
+      "option_c": "腰痛",
+      "option_d": "发热",
+      "option_e": "性功能障碍",
+      "answer": "B",
+      "explanation": "B：排尿困难"
+    },
+    {
       "chapter": "第13章 内分泌系统疾病",
       "number": 1,
       "stem": "关于结节性甲状腺肿的叙述，下列哪项是正确的()",
@@ -7895,6 +8699,78 @@ const QUESTION_DATA = {
       "option_e": "血中有抗甲状腺自身抗体",
       "answer": "C",
       "explanation": "正确答案是C：大脑发育不全，智力低下。"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 10,
+      "stem": "Graves病(毒性甲状腺肿)的发病机制是",
+      "option_a": "缺碘",
+      "option_b": "自身抗体(TSI)刺激TSH受体",
+      "option_c": "TSH分泌过多",
+      "option_d": "甲状腺素合成障碍",
+      "option_e": "甲状腺炎",
+      "answer": "B",
+      "explanation": "B：自身抗体(TSI)刺激TSH受体"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 11,
+      "stem": "桥本甲状腺炎的病理特征是",
+      "option_a": "滤泡上皮嗜酸性变和间质淋巴组织增生",
+      "option_b": "滤泡上皮乳头状增生",
+      "option_c": "滤泡高度扩张充满胶质",
+      "option_d": "滤泡上皮明显异型",
+      "option_e": "肉芽肿形成",
+      "answer": "A",
+      "explanation": "A：滤泡上皮嗜酸性变和间质淋巴组织增生"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 12,
+      "stem": "1型糖尿病的发病机制主要是",
+      "option_a": "胰岛素抵抗",
+      "option_b": "胰岛β细胞自身免疫性破坏",
+      "option_c": "胰岛α细胞增生",
+      "option_d": "胰岛素受体缺陷",
+      "option_e": "胰岛淀粉样变性",
+      "answer": "B",
+      "explanation": "B：胰岛β细胞自身免疫性破坏"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 13,
+      "stem": "甲状腺乳头状癌最具诊断意义的核特征是",
+      "option_a": "核分裂增多",
+      "option_b": "毛玻璃样核(核大淡染)",
+      "option_c": "核固缩",
+      "option_d": "核多形性",
+      "option_e": "核膜光滑",
+      "answer": "B",
+      "explanation": "B：毛玻璃样核(核大淡染)"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 14,
+      "stem": "Cushing综合征最常见的病因是",
+      "option_a": "肾上腺皮质腺瘤",
+      "option_b": "肾上腺皮质癌",
+      "option_c": "医源性(长期使用糖皮质激素)",
+      "option_d": "垂体ACTH瘤",
+      "option_e": "异位ACTH综合征",
+      "answer": "C",
+      "explanation": "C：医源性(长期使用糖皮质激素)"
+    },
+    {
+      "chapter": "第13章 内分泌系统疾病",
+      "number": 15,
+      "stem": "单纯性甲状腺肿最主要的病因是",
+      "option_a": "缺碘",
+      "option_b": "甲状腺炎",
+      "option_c": "自身免疫",
+      "option_d": "肿瘤",
+      "option_e": "遗传因素",
+      "answer": "A",
+      "explanation": "A：缺碘"
     }
   ],
   "terminology": [

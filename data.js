@@ -39,18 +39,6 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 4,
-      "stem": "“肥大”是指：",
-      "option_a": "实质细胞数目增多",
-      "option_b": "实质细胞体积增大",
-      "option_c": "组织、器官体积的增大",
-      "option_d": "是细胞、组织、器官体积的增大",
-      "option_e": "间质增生",
-      "answer": "B",
-      "explanation": "正确答案是B：实质细胞体积增大。由于功能增强、合成代谢旺盛，使细胞、组织或器官体积增大。可分为：(1)生理性肥大：如妊娠子宫、运动员心肌；(2)病理性肥大：如高血压时左心室肥厚、幽门梗阻时胃壁平滑肌肥大。肥大常与增生并存。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
       "stem": "在坏死组织发生分离排出的过程中，下列哪项描述的内容不够合适",
       "option_a": "有溶解现象出现",
       "option_b": "有炎性过程参与",
@@ -62,7 +50,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 6,
+      "number": 5,
       "stem": "下述哪项不是心脏萎缩的肉眼特点",
       "option_a": "体积小",
       "option_b": "呈褐色",
@@ -74,7 +62,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 7,
+      "number": 6,
       "stem": "脑萎缩的大体特征是",
       "option_a": "脑沟加深，脑回变窄",
       "option_b": "脑沟加深，脑回增宽",
@@ -86,7 +74,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 8,
+      "number": 7,
       "stem": "老年人产生萎缩的器官主要是()",
       "option_a": "心、肾",
       "option_b": "脑、心",
@@ -98,7 +86,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 9,
+      "number": 8,
       "stem": "关于肝细胞气球样变细胞中下列哪一项改变是错误的()",
       "option_a": "细胞内糖原增多",
       "option_b": "细胞内水分增多",
@@ -110,7 +98,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 10,
+      "number": 9,
       "stem": "确诊淀粉样变常用的染色法是",
       "option_a": "刚果红染色",
       "option_b": "苏丹Ⅲ染色",
@@ -122,7 +110,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 11,
+      "number": 10,
       "stem": "关于结核病引起的干酪样坏死，下列哪一项是错误的",
       "option_a": "坏死灶呈淡黄色，均匀细腻",
       "option_b": "镜下，坏死彻底，呈无结构的颗粒状",
@@ -134,7 +122,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 12,
+      "number": 11,
       "stem": "引起细胞脂肪变性的主要原因不包括",
       "option_a": "贫血",
       "option_b": "严重挤压",
@@ -146,7 +134,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 13,
+      "number": 12,
       "stem": "四肢骨折石膏固定后引起的骨骼肌萎缩．主要属于：",
       "option_a": "神经性萎缩",
       "option_b": "废用性萎缩",
@@ -158,7 +146,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 14,
+      "number": 13,
       "stem": "形成两端开放的通道性坏死的缺损称",
       "option_a": "糜烂",
       "option_b": "窦道",
@@ -170,8 +158,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 15,
-      "stem": "以下哪一项描述不符合硅肺的病变特点(）",
+      "number": 14,
+      "stem": "以下哪一项描述不符合硅肺的病变特点()",
       "option_a": "I期硅肺以淋巴结内引起硅结节为特",
       "option_b": "硅结节可融合成团",
       "option_c": "胸膜可有纤维组织增生、肥厚",
@@ -182,19 +170,19 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 16,
-      "stem": "下列除哪一项外都是帕金森综合症的生，并伴有A.神经元纤维缠结",
+      "number": 15,
+      "stem": "下列除哪一项外都是帕金森综合症的生，",
       "option_a": "中枢神经中乙酰胆碱相对增加",
-      "option_b": "",
+      "option_b": "[选项B待补充]",
       "option_c": "黑质神经元数目减少",
-      "option_d": "",
+      "option_d": "[选项D待补充]",
       "option_e": "色素性神经细胞内出现Lewy 小体细胞胞体萎缩",
       "answer": "C",
       "explanation": "正确答案是C：黑质神经元数目减少D.黑质神经元内30. 神经元单纯性萎缩一般不常伴有。已发育正常的细胞、组织或器官的体积缩小。可因营养不良、缺血、废用、压迫、去神经支配及内分泌功能减退等引起。萎缩的细胞功能降低，但并未死亡，去除病因后部分可恢复。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 17,
+      "number": 16,
       "stem": "化生不可能发生于",
       "option_a": "纤维结缔组织",
       "option_b": "神经纤维组织",
@@ -206,7 +194,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 18,
+      "number": 17,
       "stem": "下述哪种成分是粥样斑块中所不具的",
       "option_a": "胶原纤维",
       "option_b": "胆固醇结晶",
@@ -218,7 +206,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 19,
+      "number": 18,
       "stem": "光镜下判断细胞是否坏死，主要观察",
       "option_a": "染色质形态的改变",
       "option_b": "核仁形态的改变",
@@ -230,7 +218,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 20,
+      "number": 19,
       "stem": "细胞坏死时，具有标志性的改变是",
       "option_a": "核溶解、胞质浓缩和胞膜破裂",
       "option_b": "核碎裂、核膜破裂和核质浓缩",
@@ -242,7 +230,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 21,
+      "number": 20,
       "stem": "细胞萎缩在电镜下最显著的特点是：",
       "option_a": "肌丝增多",
       "option_b": "线粒体增多",
@@ -254,7 +242,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 22,
+      "number": 21,
       "stem": "肝细胞一般不发生",
       "option_a": "脂肪变",
       "option_b": "细胞水肿",
@@ -266,7 +254,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 23,
+      "number": 22,
       "stem": "严重的细胞水肿可导致下列哪种改变",
       "option_a": "纤维素样坏死",
       "option_b": "凝固性坏死",
@@ -278,7 +266,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 24,
+      "number": 23,
       "stem": "细胞坏死过程中，胞核变小，染色质浓集，称为",
       "option_a": "多倍体",
       "option_b": "核分裂象",
@@ -290,7 +278,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 25,
+      "number": 24,
       "stem": "下列病变中不能根据肉眼所见确定坏死性质的是",
       "option_a": "凝固性坏死",
       "option_b": "纤维素样坏死",
@@ -302,7 +290,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 26,
+      "number": 25,
       "stem": "凝固性坏死的特殊类型有",
       "option_a": "坏疽与纤维蛋白样坏死",
       "option_b": "坏疽与脂肪坏死",
@@ -314,7 +302,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 27,
+      "number": 26,
       "stem": "关于急性胰腺炎病理改变的描述中，下列哪项是错误的()",
       "option_a": "水肿性者病变多局限在胰尾",
       "option_b": "水肿性者可见局限性脂肪坏死",
@@ -326,19 +314,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 28,
-      "stem": "脊髓的坏死属于",
-      "option_a": "凝固性坏死",
-      "option_b": "干酪样坏死",
-      "option_c": "液化性坏死",
-      "option_d": "纤维素样坏死",
-      "option_e": "脂肪坏死",
-      "answer": "B",
-      "explanation": "正确答案是B：干酪样坏死。结核病的特征性坏死类型。坏死组织彻底崩解，肉眼呈淡黄色、质软细腻似奶酪。镜下为红染无结构的颗粒状物质，原有组织轮廓完全消失，是凝固性坏死的一种特殊类型。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 29,
+      "number": 27,
       "stem": "电镜下细胞凋亡的特征性改变是",
       "option_a": "细胞皱缩",
       "option_b": "胞浆致密",
@@ -350,7 +326,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 30,
+      "number": 28,
       "stem": "在大多数类型的组织损伤中血管通透性升高的速发反应主要是下列哪种因素影响",
       "option_a": "补体",
       "option_b": "细菌毒素",
@@ -362,7 +338,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 31,
+      "number": 29,
       "stem": "酶解性脂肪坏死时，若有大量脂肪酸的形成，常继发",
       "option_a": "空洞形成",
       "option_b": "窦道形成",
@@ -374,7 +350,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 32,
+      "number": 30,
       "stem": "凝固性坏死总体形态特点是",
       "option_a": "呈灰黑色",
       "option_b": "组织干酪样",
@@ -386,7 +362,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 33,
+      "number": 31,
       "stem": "肾结核时，坏死组织经自然管道排出后可形成",
       "option_a": "糜烂",
       "option_b": "窦道",
@@ -398,7 +374,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 34,
+      "number": 32,
       "stem": "下列哪一种变化属于坏死的病理改变",
       "option_a": "细胞体积肿大，胞浆内有红染颗粒",
       "option_b": "细胞体积缩小，胞浆内有脂褐素颗粒",
@@ -410,7 +386,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 35,
+      "number": 33,
       "stem": "细胞坏死的改变是自溶性改变，其发生与下列哪种细胞器有关",
       "option_a": "线粒体",
       "option_b": "溶酶体",
@@ -422,7 +398,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 36,
+      "number": 34,
       "stem": "凝固性坏死的组织学特点是",
       "option_a": "红染无结构物质",
       "option_b": "可见核碎片",
@@ -434,7 +410,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 37,
+      "number": 35,
       "stem": "干酪样坏死应属于",
       "option_a": "纤维素样坏死",
       "option_b": "彻底的凝固性坏死",
@@ -446,7 +422,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 38,
+      "number": 36,
       "stem": "气性坏疽是湿性坏疽的一种特殊形式，主要是合并了()的感染。",
       "option_a": "结核杆菌",
       "option_b": "产气荚膜杆菌",
@@ -458,7 +434,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 39,
+      "number": 37,
       "stem": "全身营养不良时，首先发生萎缩的组织或器官是：",
       "option_a": "骨骼肌",
       "option_b": "脂肪组织",
@@ -470,7 +446,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 40,
+      "number": 38,
       "stem": "下列哪项是形成痂皮的主要成分",
       "option_a": "上皮细胞",
       "option_b": "纤维结缔组织",
@@ -482,7 +458,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 41,
+      "number": 39,
       "stem": "关于疤痕组织特点的叙述，下列哪项是不正确的",
       "option_a": "由大量胶原纤维束组成",
       "option_b": "纤维束常发生玻璃样变",
@@ -494,7 +470,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 42,
+      "number": 40,
       "stem": "细胞水肿和脂变常发生在",
       "option_a": "肺、脾、肾",
       "option_b": "心、脾、肺",
@@ -506,7 +482,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 43,
+      "number": 41,
       "stem": "引起出血性炎的主要原因是()",
       "option_a": "血管破裂",
       "option_b": "血管壁损伤较重",
@@ -518,7 +494,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 44,
+      "number": 42,
       "stem": "细胞水肿发生的机理是",
       "option_a": "内质网受损",
       "option_b": "线粒体受损",
@@ -530,7 +506,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 45,
+      "number": 43,
       "stem": "漏出性出血常见的部位是()",
       "option_a": "小静脉",
       "option_b": "小动脉",
@@ -542,7 +518,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 46,
+      "number": 44,
       "stem": "细胞水肿，电镜下的形态改变主要特点是",
       "option_a": "线粒体峭增多",
       "option_b": "线粒体及内质网肿胀",
@@ -554,7 +530,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 47,
+      "number": 45,
       "stem": "血液从心腔或血管内流出体外称为()",
       "option_a": "内出血",
       "option_b": "血肿",
@@ -566,7 +542,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 48,
+      "number": 46,
       "stem": "血液从心腔或血管内逸出，并积聚于体腔内称为()",
       "option_a": "体腔积血",
       "option_b": "出血",
@@ -578,7 +554,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 49,
+      "number": 47,
       "stem": "血液流入组织内并局限化时，形成()",
       "option_a": "积血",
       "option_b": "外出血",
@@ -590,7 +566,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 50,
+      "number": 48,
       "stem": "下列出血病变中不属于内出血的是()",
       "option_a": "血肿",
       "option_b": "淤点",
@@ -602,7 +578,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 51,
+      "number": 49,
       "stem": "下列哪项与漏出液的特点无关()",
       "option_a": "液体比重低",
       "option_b": "液体静置后不凝固",
@@ -614,8 +590,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 52,
-      "stem": "白细胞在游出时会引起(",
+      "number": 50,
+      "stem": "白细胞在游出时会引起",
       "option_a": "血管扩张",
       "option_b": "血管内皮细胞损伤",
       "option_c": "血管基底膜损伤",
@@ -626,8 +602,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 53,
-      "stem": "速发性短暂反应时血管壁通透性增高)的机制是()",
+      "number": 51,
+      "stem": "速发性短暂反应时血管壁通透性增高)的机制是(",
       "option_a": "细静脉内皮细胞收缩",
       "option_b": "细动脉内皮损伤",
       "option_c": "基膜降解",
@@ -638,8 +614,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 54,
-      "stem": "典型的镜影细胞是(",
+      "number": 52,
+      "stem": "典型的镜影细胞是",
       "option_a": "多核瘤巨细胞",
       "option_b": "细胞大，胞质丰富，双色性或嗜酸性",
       "option_c": "核大，核膜厚，核呈空泡状",
@@ -650,10 +626,10 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 55,
-      "stem": "下述风湿性病变中，哪一项对机体危害最大(一",
+      "number": 53,
+      "stem": "下述风湿性病变中，哪一项对机体危害最大",
       "option_a": "反复发作的环形红斑",
-      "option_b": "",
+      "option_b": "[选项B待补充]",
       "option_c": "反复发作的风湿性关节炎",
       "option_d": "风湿性动脉炎",
       "option_e": "风湿性皮下结节",
@@ -662,7 +638,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 56,
+      "number": 54,
       "stem": "关于慢性风湿性心脏瓣膜病的描述中．下列哪一项是错误的？",
       "option_a": "瓣膜硬化",
       "option_b": "瓣叶互相粘连",
@@ -674,8 +650,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 57,
-      "stem": "只有一个开口的病理性盲管是)",
+      "number": 55,
+      "stem": "只有一个开口的病理性盲管是",
       "option_a": "糜烂",
       "option_b": "溃疡",
       "option_c": "窦道",
@@ -686,7 +662,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 58,
+      "number": 56,
       "stem": "关于门脉高压症引起的侧支循环形成，下列哪项配对错误()",
       "option_a": "胃左冠状静脉-食道静脉",
       "option_b": "肠系膜下静脉-直肠静脉丛",
@@ -698,7 +674,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 59,
+      "number": 57,
       "stem": "下列组织对缺氧的耐受性依次为",
       "option_a": "脑>肝>肾",
       "option_b": "肾>肝>脑",
@@ -710,7 +686,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 60,
+      "number": 58,
       "stem": "急性胰腺炎时，下列哪项不可能出现()",
       "option_a": "急腹症",
       "option_b": "休克",
@@ -722,7 +698,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 61,
+      "number": 59,
       "stem": "外科病理学应用最广泛的病理学研究方法是",
       "option_a": "尸体剖验",
       "option_b": "细胞培养和组织培养",
@@ -734,7 +710,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 62,
+      "number": 60,
       "stem": "病理学被视为桥梁学科的原因是",
       "option_a": "与基础医学关系密切",
       "option_b": "与临床医学关系密切",
@@ -746,7 +722,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 63,
+      "number": 61,
       "stem": "下列哪种不是病理学的研究范畴",
       "option_a": "病因学",
       "option_b": "发病机制",
@@ -758,7 +734,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 64,
+      "number": 62,
       "stem": "关于动物实验，下列描述中哪项是错误的",
       "option_a": "在适宜的动物身上可以复制某种疾病",
       "option_b": "动物实验的结果可以直接应用于人体",
@@ -770,7 +746,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 65,
+      "number": 63,
       "stem": "在组织学上看到有细胞核固缩、碎裂、溶解时．说明：",
       "option_a": "细胞正开始死亡",
       "option_b": "细胞的功能还有可能恢复",
@@ -782,8 +758,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 66,
-      "stem": "马氏斑（MacCallum's patch）位于",
+      "number": 64,
+      "stem": "马氏斑(MacCallum's patch)位于",
       "option_a": "右心房",
       "option_b": "左心房",
       "option_c": "右心室",
@@ -794,7 +770,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 67,
+      "number": 65,
       "stem": "尖锐湿疣的病因是()",
       "option_a": "HPV 感染",
       "option_b": "HSV 感染",
@@ -806,7 +782,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 68,
+      "number": 66,
       "stem": "细胞缺氧时最常见的病理变化是",
       "option_a": "线粒体肿胀",
       "option_b": "内质网破裂",
@@ -818,7 +794,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 69,
+      "number": 67,
       "stem": "组织中沉积的钙盐在HE染色时，下列哪项描述是正确的",
       "option_a": "红色颗粒状",
       "option_b": "黑褐色颗粒状",
@@ -830,7 +806,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 70,
+      "number": 68,
       "stem": "二氧化硅尘致病力最强的是",
       "option_a": "<5 微米",
       "option_b": ">5 微米",
@@ -842,7 +818,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 71,
+      "number": 69,
       "stem": "下列哪一种细胞器对缺氧最敏感",
       "option_a": "线粒体",
       "option_b": "溶酶体",
@@ -854,7 +830,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 72,
+      "number": 70,
       "stem": "细胞缺氧. 细胞膜受损.细胞内出现：",
       "option_a": "钠多，钾多，水多",
       "option_b": "钠少，钾多，水少",
@@ -866,7 +842,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 73,
+      "number": 71,
       "stem": "大块疤痕可引起：",
       "option_a": "关节运动障碍",
       "option_b": "器官表面凹陷",
@@ -878,19 +854,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 74,
-      "stem": "虎斑心见于：",
-      "option_a": "白喉",
-      "option_b": "中毒",
-      "option_c": "严重贫血",
-      "option_d": "肥胖",
-      "option_e": "高脂血症",
-      "answer": "B",
-      "explanation": "正确答案是B：中毒。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 75,
+      "number": 72,
       "stem": "疤痕组织逐渐缩小、软化的主要原因是",
       "option_a": "毛细血管逐渐减少",
       "option_b": "肌成纤维细胞的作用",
@@ -902,7 +866,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 76,
+      "number": 73,
       "stem": "细胞水肿最主要的发病机制是",
       "option_a": "线粒体损伤导致ATP生成减少",
       "option_b": "溶酶体破裂释放水解酶",
@@ -914,7 +878,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 77,
+      "number": 74,
       "stem": "关于萎缩的概念，下列哪项是正确的",
       "option_a": "萎缩的细胞体积缩小但功能不变",
       "option_b": "萎缩仅见于病理状态",
@@ -926,19 +890,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 78,
-      "stem": "最易发生脂肪变性的器官是",
-      "option_a": "心",
-      "option_b": "肝",
-      "option_c": "脾",
-      "option_d": "肺",
-      "option_e": "肾",
-      "answer": "B",
-      "explanation": "B：肝"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 79,
+      "number": 75,
       "stem": "干酪样坏死的特征性改变是",
       "option_a": "组织结构轮廓完全消失",
       "option_b": "保留组织轮廓残影",
@@ -950,7 +902,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 80,
+      "number": 76,
       "stem": "关于凋亡的描述，下列哪项是错误的",
       "option_a": "凋亡是程序性细胞死亡",
       "option_b": "凋亡细胞形成凋亡小体",
@@ -962,7 +914,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 81,
+      "number": 77,
       "stem": "化生最容易发生于哪种组织",
       "option_a": "神经组织",
       "option_b": "上皮组织",
@@ -974,19 +926,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 82,
-      "stem": "虎斑心是指",
-      "option_a": "心肌间质脂肪浸润",
-      "option_b": "心肌细胞脂肪变性",
-      "option_c": "心外膜脂肪组织增生",
-      "option_d": "心肌褐色萎缩",
-      "option_e": "心肌梗死",
-      "answer": "B",
-      "explanation": "B：心肌细胞脂肪变性"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 83,
+      "number": 78,
       "stem": "细胞坏死最具特征性的形态学改变是",
       "option_a": "细胞膜破裂",
       "option_b": "细胞核固缩、碎裂、溶解",
@@ -998,7 +938,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 84,
+      "number": 79,
       "stem": "营养不良性钙化是指",
       "option_a": "血钙增高引起的钙盐沉积",
       "option_b": "在变性坏死组织中的钙盐沉积",
@@ -1010,7 +950,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 85,
+      "number": 80,
       "stem": "纤维素样坏死最常见于",
       "option_a": "心肌梗死",
       "option_b": "脑梗死",
@@ -1275,7 +1215,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第2章 损伤的修复",
       "number": 22,
-      "stem": "急性病毒性肝炎属于(）",
+      "stem": "急性病毒性肝炎属于()",
       "option_a": "渗出性炎",
       "option_b": "肉芽肿性炎症",
       "option_c": "变质性炎症",
@@ -1299,7 +1239,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第2章 损伤的修复",
       "number": 24,
-      "stem": "下述均为 Crohn 病的病变特点，但除外)",
+      "stem": "下述均为 Crohn 病的病变特点，但除外",
       "option_a": "黏膜水肿并有裂隙状溃疡形成",
       "option_b": "黏膜下层淋巴管扩张，内皮增生、水",
       "option_c": "黏膜下层淋巴滤泡形成",
@@ -1371,7 +1311,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第2章 损伤的修复",
       "number": 30,
-      "stem": "肝细胞大片崩解坏死并有肝细胞结节状再生者见于(一",
+      "stem": "肝细胞大片崩解坏死并有肝细胞结节状再生者见于",
       "option_a": "慢性持续性肝炎",
       "option_b": "慢性活动性肝炎",
       "option_c": "亚急性重型肝炎",
@@ -1395,18 +1335,6 @@ const QUESTION_DATA = {
     {
       "chapter": "第2章 损伤的修复",
       "number": 32,
-      "stem": "肉芽肿指()",
-      "option_a": "结缔组织增生而形成境界清楚的结节",
-      "option_b": "淋巴、网状组织增生形成的结节状病",
-      "option_c": "多核巨噬细胞形成的结节状病灶",
-      "option_d": "巨噬细胞及其演化细胞呈局部浸润和",
-      "option_e": "黏膜上皮、腺体和结缔组织增生并向",
-      "answer": "B",
-      "explanation": "正确答案是B：淋巴、网状组织增生形成的结节状病。在致炎因子、组织崩解产物或某些理化因子刺激下，炎症局部细胞增殖、数目增多。以巨噬细胞、血管内皮细胞和成纤维细胞增生最为常见。增生在炎症后期显著，具有修复意义。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 33,
       "stem": "肝硬化形成过程的基本病理变化不包括()",
       "option_a": "肝细胞溶解性坏",
       "option_b": "肝细胞结节状再生",
@@ -1418,7 +1346,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 34,
+      "number": 33,
       "stem": "下列哪项不是痂下愈合的特点",
       "option_a": "伤口表面有黑褐色硬痂形成",
       "option_b": "愈合时间一般较无痂情况下为长",
@@ -1430,7 +1358,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 35,
+      "number": 34,
       "stem": "决定创伤愈合后局部组织抗牵拉的因素是",
       "option_a": "创伤愈合的时间",
       "option_b": "创面大小和深度",
@@ -1442,7 +1370,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 36,
+      "number": 35,
       "stem": "影响创伤愈合的局部因素中下列哪项除外",
       "option_a": "感染与异物",
       "option_b": "局部血液循环循环",
@@ -1454,7 +1382,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 37,
+      "number": 36,
       "stem": "完成瘢痕修复的物质基础是",
       "option_a": "上皮组织",
       "option_b": "肉芽组织",
@@ -1466,7 +1394,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 38,
+      "number": 37,
       "stem": "细胞在生长过程中，如果互相接触，则生长停止，这种现象叫",
       "option_a": "再生性增生",
       "option_b": "生长的接触抑制",
@@ -1478,7 +1406,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 39,
+      "number": 38,
       "stem": "瘢痕修复过程最重要的细胞成分是",
       "option_a": "上皮细胞",
       "option_b": "渗出的白细胞",
@@ -1490,7 +1418,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 40,
+      "number": 39,
       "stem": "关于创伤性神经瘤的形成下列哪项是正确的",
       "option_a": "神经纤维细胞增生",
       "option_b": "神经纤维断裂变性",
@@ -1502,7 +1430,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 41,
+      "number": 40,
       "stem": "哪项描述符合瘢痕组织的特点",
       "option_a": "细胞间有丰富的液体成分",
       "option_b": "组织内有大量的毛细血管",
@@ -1514,7 +1442,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 42,
+      "number": 41,
       "stem": "下列各项中哪个是错误的",
       "option_a": "机化乃是用肉芽组织来取代坏死组织",
       "option_b": "单核细胞的溶酶体如果功能发生异常",
@@ -1526,7 +1454,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 43,
+      "number": 42,
       "stem": "肉芽组织内能分泌多种生长因子的细胞是",
       "option_a": "浆细胞",
       "option_b": "淋巴细胞",
@@ -1538,7 +1466,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 44,
+      "number": 43,
       "stem": "创伤愈合过程中2~3日后伤口收缩的主要原因是",
       "option_a": "纤维细胞的作用",
       "option_b": "水分的吸收",
@@ -1550,7 +1478,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 45,
+      "number": 44,
       "stem": "支气管粘膜上皮出现鳞状上皮化生．常属于下列哪一种改变",
       "option_a": "分化不良",
       "option_b": "不典型增生",
@@ -1562,7 +1490,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 46,
+      "number": 45,
       "stem": "下列哪项的内容不正确",
       "option_a": "心肌再生力极弱，一般都是瘢痕修复",
       "option_b": "毛细血管多以生芽方式再生",
@@ -1574,7 +1502,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 47,
+      "number": 46,
       "stem": "下列哪种因素对再生修复不利",
       "option_a": "局部感染已被控制",
       "option_b": "患者无血管硬化性疾病",
@@ -1586,7 +1514,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 48,
+      "number": 47,
       "stem": "瘢痕疙瘩的形成可能是",
       "option_a": "全身营养不良",
       "option_b": "年龄较大",
@@ -1598,7 +1526,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 49,
+      "number": 48,
       "stem": "下列哪种病变中没有肉芽组织的存在",
       "option_a": "血肿",
       "option_b": "血栓",
@@ -1610,7 +1538,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 50,
+      "number": 49,
       "stem": "下列哪种因素对再生修复不利",
       "option_a": "充足的维生素 C 供给",
       "option_b": "营养中不缺乏蛋白质",
@@ -1622,7 +1550,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 51,
+      "number": 50,
       "stem": "皮肤损伤后由结缔组织取代的过程",
       "option_a": "化生",
       "option_b": "完全性再生",
@@ -1634,7 +1562,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 52,
+      "number": 51,
       "stem": "下列哪项属病理性再生",
       "option_a": "血细胞的更新",
       "option_b": "消化道黏膜上皮的更新",
@@ -1646,7 +1574,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 53,
+      "number": 52,
       "stem": "再生能力最强的细胞是",
       "option_a": "胃、肠道黏膜上皮细胞",
       "option_b": "软骨细胞",
@@ -1658,7 +1586,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 54,
+      "number": 53,
       "stem": "再生能力最弱的细胞是",
       "option_a": "肝细胞",
       "option_b": "原始的间叶细胞",
@@ -1670,7 +1598,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 55,
+      "number": 54,
       "stem": "关于永久性细胞的描述，正确的是",
       "option_a": "易受损的细胞",
       "option_b": "损伤后不能再生，成为永久性缺损的",
@@ -1682,19 +1610,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 56,
-      "stem": "不稳定细胞是指",
-      "option_a": "损伤后不容易完全再生的细胞",
-      "option_b": "损伤后可以完全再生的细胞",
-      "option_c": "损伤后不能再生的细胞",
-      "option_d": "不容易受损伤的细胞",
-      "option_e": "修复后细胞有化生",
-      "answer": "D",
-      "explanation": "正确答案是D：不容易受损伤的细胞。又称持续分裂细胞。这类细胞在一生中不断分裂增殖，再生能力极强。包括：表皮基底细胞、呼吸道和消化道黏膜上皮细胞、淋巴造血细胞、子宫内膜上皮细胞等。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 57,
+      "number": 55,
       "stem": "一般不会出现肉芽组织的病变是",
       "option_a": "结核空洞",
       "option_b": "脓肿壁",
@@ -1706,7 +1622,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 58,
+      "number": 56,
       "stem": "肉芽组织中抗感染的主要成分是",
       "option_a": "毛细血管",
       "option_b": "成纤维细胞",
@@ -1718,7 +1634,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 59,
+      "number": 57,
       "stem": "肉芽组织中一般没有",
       "option_a": "单核巨噬细胞",
       "option_b": "中性粒细胞",
@@ -1730,7 +1646,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 60,
+      "number": 58,
       "stem": "关于肉芽组织的结局，下列哪项叙述是正确的",
       "option_a": "最终填补缺损",
       "option_b": "最终纤维化形成瘢痕",
@@ -1742,7 +1658,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 61,
+      "number": 59,
       "stem": "毛细血管再生的最初改变是",
       "option_a": "内皮细胞游走",
       "option_b": "内皮细胞分裂增生形成幼芽",
@@ -1754,7 +1670,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 62,
+      "number": 60,
       "stem": "随着肉芽组织演变为瘢痕组织，可见到",
       "option_a": "毛细血管的数量逐渐增多",
       "option_b": "胶原纤维的数量逐渐增多",
@@ -1766,7 +1682,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 63,
+      "number": 61,
       "stem": "在肉芽组织内具有收缩功能，又能产生基质和胶原的细胞是",
       "option_a": "成纤维细胞",
       "option_b": "巨噬细胞",
@@ -1778,19 +1694,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 64,
-      "stem": "肉芽组织可以",
-      "option_a": "为细菌感染提供条件",
-      "option_b": "造成局部皱缩、引起器官变形",
-      "option_c": "保护创面、填补伤",
-      "option_d": "恢复原有组织的功能",
-      "option_e": "无任何有利于机体的作用",
-      "answer": "C",
-      "explanation": "正确答案是C：保护创面、填补伤。由新生毛细血管和成纤维细胞构成的幼稚结缔组织。肉眼：鲜红色、颗粒状、柔软湿润，似新鲜肉芽，触之易出血。镜下：大量新生毛细血管（垂直创面生长）、成纤维细胞、少量炎细胞。功能：保护创面、填补缺损、抗感染、机化异物。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 65,
+      "number": 62,
       "stem": "下列各种组织哪一种再生能力最强",
       "option_a": "骨骼肌",
       "option_b": "神经节细胞",
@@ -1802,7 +1706,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 66,
+      "number": 63,
       "stem": "肉芽组织的基本成分是",
       "option_a": "毛细血管和炎性细胞",
       "option_b": "成纤维细胞和炎性细胞",
@@ -1814,7 +1718,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 67,
+      "number": 64,
       "stem": "骨折愈合的最终阶段应是",
       "option_a": "骨性骨痂形成",
       "option_b": "骨改建",
@@ -1826,19 +1730,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 68,
-      "stem": "动脉瘤是指()",
-      "option_a": "动脉发生的良性肿瘤",
-      "option_b": "动脉血管破裂形成的血肿",
-      "option_c": "动脉内血栓形成并机化",
-      "option_d": "血管壁的局部扩张",
-      "option_e": "动脉发生的恶性肿瘤",
-      "answer": "D",
-      "explanation": "正确答案是D：血管壁的局部扩张。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 69,
+      "number": 65,
       "stem": "在机化的血栓中形成与原血管腔相沟通的毛细血管，使部分血流得以恢复，这种现象称为()",
       "option_a": "血栓脱落",
       "option_b": "侧支循环形成",
@@ -1850,7 +1742,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 70,
+      "number": 66,
       "stem": "下列哪些成分不会成为栓子()",
       "option_a": "肿瘤细胞团",
       "option_b": "血吸虫虫卵",
@@ -1862,19 +1754,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 71,
-      "stem": "静脉石是指(）",
-      "option_a": "静脉血栓",
-      "option_b": "静脉血栓完全机化后钙盐沉积",
-      "option_c": "静脉血栓未完全机化后钙盐沉积",
-      "option_d": "静脉内钙盐沉积",
-      "option_e": "静脉内胆盐沉积",
-      "answer": "A",
-      "explanation": "正确答案是A：静脉血栓。在活体心血管内形成的固体质块。按形态和组成分为：(1)白色血栓（血小板为主，头端）；(2)混合血栓（体部）；(3)红色血栓（尾部）；(4)透明血栓（微循环内）。结局：溶解吸收、机化再通、钙化（静脉石）、脱落成为栓子。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 72,
+      "number": 67,
       "stem": "下列哪种不是异物性肉芽肿的原因()",
       "option_a": "手术缝线",
       "option_b": "注入的油脂",
@@ -1886,7 +1766,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 73,
+      "number": 68,
       "stem": "下列哪项符合硅肺的特点()",
       "option_a": "硅结节是一种肉芽肿性病变",
       "option_b": "早期病变出现于两肺下叶和背侧",
@@ -1898,19 +1778,19 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 74,
+      "number": 69,
       "stem": "下列哪一项，不是渗出液对机体的有利因素()",
       "option_a": "带来各种抗体，补体及杀菌物质",
       "option_b": "稀释毒素或刺激物",
       "option_c": "纤维素的形成可限制细菌蔓延",
       "option_d": "纤维素的形成有利于机化",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：稀释毒素或刺激物。炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是最重要的炎症防御机制，包括液体渗出和细胞渗出。渗出液含较高的蛋白质和细胞成分。"
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 75,
+      "number": 70,
       "stem": "炎性肉芽肿内的细胞成分不包括",
       "option_a": "上皮细胞",
       "option_b": "淋巴细胞",
@@ -1922,7 +1802,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 76,
+      "number": 71,
       "stem": "同时累及脑膜、肾、肺、肠及骨的肉芽肿性病变常是()",
       "option_a": "风湿小体",
       "option_b": "伤寒小体",
@@ -1934,7 +1814,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 77,
+      "number": 72,
       "stem": "下列哪项肉芽肿中无多核巨细胞()",
       "option_a": "风湿小体",
       "option_b": "伤寒小结",
@@ -1946,7 +1826,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 78,
+      "number": 73,
       "stem": "多核细胞不见于下列哪项疾病()",
       "option_a": "伤寒",
       "option_b": "结核",
@@ -1958,8 +1838,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 79,
-      "stem": "下列哪项不属肉芽肿性炎)",
+      "number": 74,
+      "stem": "下列哪项不属肉芽肿性炎",
       "option_a": "风湿病",
       "option_b": "伤寒",
       "option_c": "矽肺",
@@ -1970,7 +1850,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 80,
+      "number": 75,
       "stem": "下列哪种细胞是稳定细胞",
       "option_a": "皮肤表皮细胞",
       "option_b": "移行上皮细胞",
@@ -1982,7 +1862,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 81,
+      "number": 76,
       "stem": "一期愈合应具备的条件是",
       "option_a": "组织缺损少、创缘整齐、无感染",
       "option_b": "组织缺损少、创缘不整齐、有感染",
@@ -1994,7 +1874,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 82,
+      "number": 77,
       "stem": "下列哪项条件易产生二期愈合",
       "option_a": "组织缺损大、创缘整齐、创面对合紧",
       "option_b": "组织缺损少、创缘整齐、创面对合紧",
@@ -2006,7 +1886,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 83,
+      "number": 78,
       "stem": "肉芽组织中最重要的功能细胞是",
       "option_a": "巨噬细胞",
       "option_b": "成纤维细胞",
@@ -2018,7 +1898,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 84,
+      "number": 79,
       "stem": "下列哪种细胞再生能力最强",
       "option_a": "心肌细胞",
       "option_b": "神经细胞",
@@ -2030,7 +1910,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 85,
+      "number": 80,
       "stem": "一期愈合的条件不包括",
       "option_a": "组织缺损少",
       "option_b": "创缘整齐",
@@ -2042,7 +1922,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 86,
+      "number": 81,
       "stem": "瘢痕组织与肉芽组织的主要区别是",
       "option_a": "有无毛细血管",
       "option_b": "有无成纤维细胞",
@@ -2054,19 +1934,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 87,
-      "stem": "永久性细胞是指",
-      "option_a": "肝细胞",
-      "option_b": "肾小管上皮细胞",
-      "option_c": "神经细胞",
-      "option_d": "表皮细胞",
-      "option_e": "造血干细胞",
-      "answer": "C",
-      "explanation": "C：神经细胞"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 88,
+      "number": 82,
       "stem": "肉芽组织取代坏死组织的过程称为",
       "option_a": "再生",
       "option_b": "化生",
@@ -2078,7 +1946,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第2章 损伤的修复",
-      "number": 89,
+      "number": 83,
       "stem": "影响创伤愈合的全身因素不包括",
       "option_a": "年龄",
       "option_b": "营养状况",
@@ -2091,7 +1959,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 1,
-      "stem": "炎症反应中最有防御作用的是(）",
+      "stem": "炎症反应中最有防御作用的是()",
       "option_a": "组织增生",
       "option_b": "动脉充血",
       "option_c": "发热反应",
@@ -2115,7 +1983,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 3,
-      "stem": "炎症的基本病变是(",
+      "stem": "炎症的基本病变是",
       "option_a": "组织细胞的变性坏死",
       "option_b": "组织的炎性充血和水肿",
       "option_c": "变质，渗出，增生",
@@ -2211,19 +2079,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 11,
-      "stem": "肠扭转可引起肠(",
-      "option_a": "贫血性梗死",
-      "option_b": "白色梗死",
-      "option_c": "出血性梗死",
-      "option_d": "凝固性坏死",
-      "option_e": "液化性坏死",
-      "answer": "B",
-      "explanation": "正确答案是B：白色梗死。器官或局部组织由于血管阻塞、血流中断导致缺血缺氧而发生的坏死。根据梗死灶内出血程度：(1)贫血性梗死（白色梗死）：心、脾、肾等实质器官；(2)出血性梗死（红色梗死）：肺、肠等在淤血基础上的梗死。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 12,
-      "stem": "下列哪种病变属于梗死(",
+      "stem": "下列哪种病变属于梗死",
       "option_a": "重Ⅱ度烧伤",
       "option_b": "足坏疽",
       "option_c": "刀割伤",
@@ -2234,7 +2090,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 13,
+      "number": 12,
       "stem": "关于脂肪变，下列哪一种说法不正确",
       "option_a": "长期摄入脂肪过多可致心肌细胞脂肪",
       "option_b": "严重贫血可致心肌细胞脂肪变",
@@ -2246,7 +2102,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 14,
+      "number": 13,
       "stem": "发生液化性坏死基本条件应包括",
       "option_a": "含有较多的可凝固蛋白",
       "option_b": "组织淤血较严重",
@@ -2258,19 +2114,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 15,
-      "stem": "槟榔肝可发展为(",
-      "option_a": "坏死后性肝硬化",
-      "option_b": "门脉性肝硬化",
-      "option_c": "淤血性肝硬化",
-      "option_d": "胆汁性肝硬化",
-      "option_e": "寄生虫性肝硬化",
-      "answer": "E",
-      "explanation": "正确答案是E：寄生虫性肝硬化。慢性肝淤血时，肝小叶中央区因严重淤血呈暗红色，周边区肝细胞因缺氧发生脂肪变性呈黄色，切面呈红黄相间的花纹状外观，类似槟榔切面。常见于右心衰竭导致的慢性肝淤血。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 16,
+      "number": 14,
       "stem": "炎症局部疼痛的主要原因是()",
       "option_a": "细胞增生压迫神经末梢",
       "option_b": "局部组织变性坏死",
@@ -2282,7 +2126,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 17,
+      "number": 15,
       "stem": "关于淤血组织器官的病变，哪项描述是错误的()",
       "option_a": "常伴有水肿",
       "option_b": "呈暗红色",
@@ -2294,7 +2138,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 18,
+      "number": 16,
       "stem": "慢性酒精中毒引起的最严重的肝脏损害是()",
       "option_a": "槟榔肝",
       "option_b": "脂肪肝",
@@ -2306,7 +2150,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 19,
+      "number": 17,
       "stem": "细胞内出现 Mallory 小体常见于()",
       "option_a": "门脉性肝硬化",
       "option_b": "坏死后性肝硬化",
@@ -2318,7 +2162,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 20,
+      "number": 18,
       "stem": "血液中淀粉酶大幅度升高，可考虑为",
       "option_a": "肝细胞坏死",
       "option_b": "脑液化性坏死",
@@ -2330,7 +2174,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 21,
+      "number": 19,
       "stem": "下述肝硬化腹水生成的机制中，不正确的说法是()",
       "option_a": "肝脏合成白蛋白减少",
       "option_b": "血内抗利尿激素、醛固酮增高",
@@ -2342,7 +2186,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 22,
+      "number": 20,
       "stem": "有关慢性肝淤血的叙述中，下列哪一项不妥",
       "option_a": "中央静脉扩张",
       "option_b": "肝窦扩张",
@@ -2354,7 +2198,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 23,
+      "number": 21,
       "stem": "不属于凝固性坏死的病变是",
       "option_a": "脑梗",
       "option_b": "心肌梗死",
@@ -2366,7 +2210,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 24,
+      "number": 22,
       "stem": "慢性肝淤血时，通常不会出现()",
       "option_a": "肝细胞萎缩",
       "option_b": "肝细胞脂肪变性",
@@ -2378,7 +2222,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 25,
+      "number": 23,
       "stem": "下述对贫血性梗死的描述中，哪种说法是错的()",
       "option_a": "形态与脏器的血管分布有关",
       "option_b": "梗死灶边缘常有充血、出血反应带",
@@ -2390,8 +2234,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 26,
-      "stem": "槟榔肝的特点不包括(",
+      "number": 24,
+      "stem": "槟榔肝的特点不包括",
       "option_a": "肝中央静脉扩张",
       "option_b": "胆小管增生",
       "option_c": "肝细胞萎缩",
@@ -2402,7 +2246,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 27,
+      "number": 25,
       "stem": "有关血栓的描述中，错误的是()",
       "option_a": "心瓣膜上的血栓为赘生物",
       "option_b": "混合血栓在光镜下可见灰白和灰褐的",
@@ -2414,7 +2258,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 28,
+      "number": 26,
       "stem": "以下哪一项原因不引起萎缩",
       "option_a": "肾盂积水",
       "option_b": "慢性肝淤血",
@@ -2426,7 +2270,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 29,
+      "number": 27,
       "stem": "慢性肺淤血的镜下改变，下列哪一项应该除外",
       "option_a": "肺泡腔内有心衰细胞",
       "option_b": "肺泡壁增宽",
@@ -2438,8 +2282,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 30,
-      "stem": "透明血栓最常见于(",
+      "number": 28,
+      "stem": "透明血栓最常见于",
       "option_a": "小动脉",
       "option_b": "小静脉",
       "option_c": "毛细血管",
@@ -2450,8 +2294,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 31,
-      "stem": "致使肺梗死的血栓栓子一般来自)",
+      "number": 29,
+      "stem": "致使肺梗死的血栓栓子一般来自",
       "option_a": "静脉系统或右心的血栓",
       "option_b": "二尖瓣疣状血栓的脱落",
       "option_c": "门静脉的血栓脱落",
@@ -2462,7 +2306,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 32,
+      "number": 30,
       "stem": "慢性浅表性胃炎肉眼所见主要是()",
       "option_a": "胃黏膜失去正常光泽",
       "option_b": "胃黏膜皱襞变浅或消失",
@@ -2474,8 +2318,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 33,
-      "stem": "下列关于心肌梗死的描述哪项是错误的(）",
+      "number": 31,
+      "stem": "下列关于心肌梗死的描述哪项是错误的()",
       "option_a": "梗死灶呈楔形",
       "option_b": "多为贫血性梗死",
       "option_c": "梗死灶呈灰黄色周围有充血带",
@@ -2486,8 +2330,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 34,
-      "stem": "脂肪栓塞患者的一般死亡原因是)",
+      "number": 32,
+      "stem": "脂肪栓塞患者的一般死亡原因是",
       "option_a": "动脉系统栓塞",
       "option_b": "脂肪分解产物引起中毒",
       "option_c": "肾小动脉栓塞",
@@ -2498,7 +2342,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 35,
+      "number": 33,
       "stem": "潜水员过快地从海底升到水面容易发生()",
       "option_a": "肺不张",
       "option_b": "氮气气体栓塞",
@@ -2510,7 +2354,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 36,
+      "number": 34,
       "stem": "最常见的栓子是()",
       "option_a": "脱落的肿瘤细胞团",
       "option_b": "空气",
@@ -2522,7 +2366,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 37,
+      "number": 35,
       "stem": "诊断羊水栓塞的证据主要是在下何处发现羊水成分()",
       "option_a": "脑动脉",
       "option_b": "子宫腔内",
@@ -2534,7 +2378,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 38,
+      "number": 36,
       "stem": "妇女分娩时死亡，尸体解剖发现肺小动脉内有角化上皮细胞、毛发等物质，其死亡原因可能是()",
       "option_a": "脂肪栓塞",
       "option_b": "气体栓塞",
@@ -2546,7 +2390,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 39,
+      "number": 37,
       "stem": "在循环血液中出现不溶于血液的异常物质，随着血液流动，阻塞血管腔，这种现象称为",
       "option_a": "血栓再通",
       "option_b": "梗死",
@@ -2558,7 +2402,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 40,
+      "number": 38,
       "stem": "大叶性肺炎患者，明显的紫绀症状常出现在哪一期()",
       "option_a": "充血水肿期",
       "option_b": "红色肝样变期",
@@ -2570,7 +2414,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 41,
+      "number": 39,
       "stem": "血栓对机体的不利影响不包括()",
       "option_a": "阻塞血管",
       "option_b": "引起组织和器官的梗死",
@@ -2582,7 +2426,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 42,
+      "number": 40,
       "stem": "肺动脉栓塞患者常见的死亡原因是()",
       "option_a": "急性右心衰竭",
       "option_b": "急性左心衰竭",
@@ -2594,7 +2438,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 43,
+      "number": 41,
       "stem": "在炎症过程中，最早出现的血管反应：是()",
       "option_a": "细动脉扩张，充血",
       "option_b": "细动脉和毛细血管扩张",
@@ -2606,7 +2450,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 44,
+      "number": 42,
       "stem": "左心的附壁血栓脱落后可引起()",
       "option_a": "脑动脉栓塞",
       "option_b": "肺动脉栓塞",
@@ -2618,7 +2462,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 45,
+      "number": 43,
       "stem": "肿瘤血道转移的确切证据是()",
       "option_a": "恶性肿瘤细胞侵入静脉",
       "option_b": "恶性肿瘤细胞侵入动脉",
@@ -2630,8 +2474,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 46,
-      "stem": "心肌梗死最常见部位是(",
+      "number": 44,
+      "stem": "心肌梗死最常见部位是",
       "option_a": "室间隔后 1/3",
       "option_b": "左心室前壁",
       "option_c": "右心房",
@@ -2642,7 +2486,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 47,
+      "number": 45,
       "stem": "下列哪项属于静脉性充血()",
       "option_a": "减压后充血",
       "option_b": "妊娠子宫充血",
@@ -2654,8 +2498,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 48,
-      "stem": "静脉血栓的尾部是(",
+      "number": 46,
+      "stem": "静脉血栓的尾部是",
       "option_a": "白色血栓",
       "option_b": "混合血栓",
       "option_c": "红色血栓",
@@ -2666,7 +2510,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 49,
+      "number": 47,
       "stem": "动脉粥样硬化合并血栓形成的主要原因是：",
       "option_a": "血液凝固性增高",
       "option_b": "血流旋涡形成",
@@ -2678,8 +2522,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 50,
-      "stem": "成人呼吸窘迫综合征早期最有诊断意义的病理组织学变化是(",
+      "number": 48,
+      "stem": "成人呼吸窘迫综合征早期最有诊断意义的病理组织学变化是",
       "option_a": "部分肺泡萎陷",
       "option_b": "肺泡壁充血水肿",
       "option_c": "肺泡腔充满水肿液",
@@ -2690,7 +2534,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 51,
+      "number": 49,
       "stem": "新生儿呼吸窘迫综合征的主要病变特征是()",
       "option_a": "肺透明膜形成",
       "option_b": "肺淤血水肿",
@@ -2702,7 +2546,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 52,
+      "number": 50,
       "stem": "下述哪项不符合静脉性充血()",
       "option_a": "局部发绀",
       "option_b": "小动脉扩张",
@@ -2714,7 +2558,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 53,
+      "number": 51,
       "stem": "白色血栓主要由下列哪些成分构成()",
       "option_a": "白细胞、纤维素和血小板",
       "option_b": "血小板和纤维素",
@@ -2726,8 +2570,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 54,
-      "stem": "单纯动脉栓塞不易引起(",
+      "number": 52,
+      "stem": "单纯动脉栓塞不易引起",
       "option_a": "肾梗死",
       "option_b": "脑梗死",
       "option_c": "肺梗死",
@@ -2738,7 +2582,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 55,
+      "number": 53,
       "stem": "下述哪种患者不易出现血栓形成()",
       "option_a": "大面积烧伤",
       "option_b": "直肠癌根治术后",
@@ -2750,8 +2594,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 56,
-      "stem": "胸部手术时要注意防止(",
+      "number": 54,
+      "stem": "胸部手术时要注意防止",
       "option_a": "脂肪栓塞",
       "option_b": "肿瘤细胞栓塞",
       "option_c": "气体栓塞",
@@ -2762,8 +2606,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 57,
-      "stem": "左心房内的附壁血栓是(",
+      "number": 55,
+      "stem": "左心房内的附壁血栓是",
       "option_a": "白色血栓",
       "option_b": "红色血栓",
       "option_c": "透明血栓",
@@ -2774,8 +2618,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 58,
-      "stem": "贫血性梗死发生于(",
+      "number": 56,
+      "stem": "贫血性梗死发生于",
       "option_a": "组织疏松的器官",
       "option_b": "有双重血液供给的器官",
       "option_c": "严重淤血的器官",
@@ -2786,7 +2630,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 59,
+      "number": 57,
       "stem": "冠状动脉前降支栓塞可引起()",
       "option_a": "室间隔后 1/3 心肌梗死",
       "option_b": "左心室前壁心肌梗死",
@@ -2798,8 +2642,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 60,
-      "stem": "构成血栓头部的主要成分是)()",
+      "number": 58,
+      "stem": "构成血栓头部的主要成分是)(",
       "option_a": "血小板",
       "option_b": "红细胞",
       "option_c": "中性粒细胞",
@@ -2810,7 +2654,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 61,
+      "number": 59,
       "stem": "下列对肺出血性梗死的叙述，哪项是错的()",
       "option_a": "多由支气管动脉阻塞引起",
       "option_b": "梗死灶呈锥形",
@@ -2822,7 +2666,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 62,
+      "number": 60,
       "stem": "下列哪项不会出现贫血性梗死()",
       "option_a": "脾梗死",
       "option_b": "肠梗死",
@@ -2834,8 +2678,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 63,
-      "stem": "下列哪种疾病易导致心肌间质中出现大量淋巴细胞浸润(）",
+      "number": 61,
+      "stem": "下列哪种疾病易导致心肌间质中出现大量淋巴细胞浸润()",
       "option_a": "风湿性心肌炎",
       "option_b": "病毒性心肌炎",
       "option_c": "心肌病",
@@ -2846,7 +2690,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 64,
+      "number": 62,
       "stem": "下述关于梗死的叙述中，哪一项是错误的()",
       "option_a": "双重血液循环的器官不易发生梗死",
       "option_b": "全身血液循环状态对梗死的形成无影",
@@ -2858,8 +2702,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 65,
-      "stem": "羊水栓塞是指羊水阻塞(的过程. 胎儿呼吸道",
+      "number": 63,
+      "stem": "羊水栓塞是指羊水阻塞(的过程. 胎儿呼吸道)",
       "option_a": "血管受压",
       "option_b": "胎儿肺静脉",
       "option_c": "母体肺静脉",
@@ -2870,7 +2714,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 66,
+      "number": 64,
       "stem": "脾、肾梗死灶肉眼检查的主要特点为()",
       "option_a": "多呈楔形、灰白色、界限清楚",
       "option_b": "多呈不规则形、暗红色、界限不清",
@@ -2882,8 +2726,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 67,
-      "stem": "左心衰竭主要引起(",
+      "number": 65,
+      "stem": "左心衰竭主要引起",
       "option_a": "慢性脾淤血",
       "option_b": "慢性肝淤血",
       "option_c": "胃肠淤血",
@@ -2894,8 +2738,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 68,
-      "stem": "下述哪项不是静脉性充血的原因(一",
+      "number": 66,
+      "stem": "下述哪项不是静脉性充血的原因",
       "option_a": "致炎因子刺激",
       "option_b": "心力衰竭",
       "option_c": "肿瘤压迫",
@@ -2906,7 +2750,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 69,
+      "number": 67,
       "stem": "肺淤血时痰液中出现胞质中含有含铁血黄素颗粒的巨噬细胞称为()",
       "option_a": "心衰细胞",
       "option_b": "异物巨细胞",
@@ -2918,7 +2762,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 70,
+      "number": 68,
       "stem": "“心力衰竭细胞”是指()",
       "option_a": "心力衰竭时病变的心肌细胞",
       "option_b": "心力衰竭时肺泡腔内的泡沫细胞",
@@ -2930,7 +2774,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 71,
+      "number": 69,
       "stem": "下列哪项不属于病理性充血()",
       "option_a": "炎性充血",
       "option_b": "饭后胃肠道黏膜的充血",
@@ -2942,8 +2786,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 72,
-      "stem": "炎症的渗出主要由于(",
+      "number": 70,
+      "stem": "炎症的渗出主要由于",
       "option_a": "血流动力学改变",
       "option_b": "血管壁通透性增高",
       "option_c": "小静脉血栓形成",
@@ -2954,7 +2798,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 73,
+      "number": 71,
       "stem": "右心衰竭可使以下器官淤血的是()",
       "option_a": "肺、肝及胃肠道",
       "option_b": "肝、脾及胃肠道",
@@ -2966,7 +2810,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 74,
+      "number": 72,
       "stem": "右心衰竭时引起淤血的器官主要是：",
       "option_a": "肺、肝及胃肠道",
       "option_b": "肝、脾及胃肠道",
@@ -2978,7 +2822,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 75,
+      "number": 73,
       "stem": "慢性肺淤血的特点不包括()",
       "option_a": "切面流出淡红色泡沫状液体",
       "option_b": "肺泡腔内有心衰细胞",
@@ -2990,7 +2834,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 76,
+      "number": 74,
       "stem": "下列哪项不属于门脉高压症()",
       "option_a": "脾肿大",
       "option_b": "腹水",
@@ -3002,7 +2846,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 77,
+      "number": 75,
       "stem": "下列哪项不属于病理性充血()",
       "option_a": "炎性充血",
       "option_b": "减压后性充血",
@@ -3014,7 +2858,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 78,
+      "number": 76,
       "stem": "肺栓塞的后果包括以下几点，但除外",
       "option_a": "急死",
       "option_b": "肺梗死",
@@ -3026,7 +2870,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 79,
+      "number": 77,
       "stem": "右上肢静脉血栓脱落主要栓塞于",
       "option_a": "肺动脉",
       "option_b": "脑动脉",
@@ -3038,8 +2882,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 80,
-      "stem": "下列哪种变化最能促使血液成分渗出)",
+      "number": 78,
+      "stem": "下列哪种变化最能促使血液成分渗出",
       "option_a": "小动脉短暂痉挛，血流减少",
       "option_b": "小静脉、毛细血管淤血，血流缓慢",
       "option_c": "小动脉扩张，血流加快",
@@ -3050,7 +2894,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 81,
+      "number": 79,
       "stem": "右下肢静脉血栓脱落主要栓塞于：",
       "option_a": "肺动脉",
       "option_b": "下腔静脉",
@@ -3062,7 +2906,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 82,
+      "number": 80,
       "stem": "下述关于肺淤血的描述. 哪一项是错误的",
       "option_a": "肺泡壁毛细血管扩张",
       "option_b": "肺泡内中性白细胞和纤维素渗出",
@@ -3074,8 +2918,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 83,
-      "stem": "肺动脉栓塞不会引起(",
+      "number": 81,
+      "stem": "肺动脉栓塞不会引起",
       "option_a": "猝死",
       "option_b": "间质性肺炎",
       "option_c": "肺梗死",
@@ -3086,8 +2930,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 84,
-      "stem": "皮肤、黏膜和浆膜少而广泛的出血灶称为())",
+      "number": 82,
+      "stem": "皮肤、黏膜和浆膜少而广泛的出血灶称为()",
       "option_a": "体腔积血",
       "option_b": "淤血",
       "option_c": "血肿",
@@ -3098,8 +2942,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 85,
-      "stem": "肺淤血主要由下列哪种病变引起(）",
+      "number": 83,
+      "stem": "肺淤血主要由下列哪种病变引起()",
       "option_a": "肺动脉栓塞",
       "option_b": "急性风湿性心内膜炎",
       "option_c": "空气栓塞",
@@ -3110,7 +2954,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 86,
+      "number": 84,
       "stem": "血栓形成是指()",
       "option_a": "在活体的心脏和血管内血液成分形成",
       "option_b": "血液发生凝固形成固体质块的过程",
@@ -3122,7 +2966,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 87,
+      "number": 85,
       "stem": "关于出血性梗死的病理学特征，以下哪项说法不正确()",
       "option_a": "梗死灶呈锲形",
       "option_b": "梗死区淤血、出血明显",
@@ -3134,7 +2978,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 88,
+      "number": 86,
       "stem": "下列哪种出血不属于破裂性出血()",
       "option_a": "慢性空洞性肺结核大咯血",
       "option_b": "肝硬化食管静脉曲张大呕血",
@@ -3146,7 +2990,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 89,
+      "number": 87,
       "stem": "急性风湿性心内膜炎。心瓣膜上的赘生物为()",
       "option_a": "透明血栓",
       "option_b": "红色血栓",
@@ -3158,8 +3002,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 90,
-      "stem": "左心室附壁血栓可引起(",
+      "number": 88,
+      "stem": "左心室附壁血栓可引起",
       "option_a": "心力衰竭",
       "option_b": "肺淤血",
       "option_c": "脑动脉栓塞",
@@ -3170,8 +3014,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 91,
-      "stem": "肱静脉血栓形成可引起(",
+      "number": 89,
+      "stem": "肱静脉血栓形成可引起",
       "option_a": "肺动脉栓塞",
       "option_b": "尺动脉栓塞",
       "option_c": "桡动脉栓塞",
@@ -3182,20 +3026,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 92,
-      "stem": "层状血栓是()",
-      "option_a": "红色血栓",
-      "option_b": "白色血栓",
-      "option_c": "混合血栓",
-      "option_d": "透明血栓",
-      "option_e": "延续性血栓",
-      "answer": "B",
-      "explanation": "正确答案是B：白色血栓。在活体心血管内形成的固体质块。按形态和组成分为：(1)白色血栓（血小板为主，头端）；(2)混合血栓（体部）；(3)红色血栓（尾部）；(4)透明血栓（微循环内）。结局：溶解吸收、机化再通、钙化（静脉石）、脱落成为栓子。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 93,
-      "stem": "红色血栓的特点不包括(",
+      "number": 90,
+      "stem": "红色血栓的特点不包括",
       "option_a": "暗红色",
       "option_b": "经一定时间后变干燥",
       "option_c": "主要见于静脉内",
@@ -3206,7 +3038,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 94,
+      "number": 91,
       "stem": "炎症早期出现炎性充血时，最先累及的血管为()",
       "option_a": "细动脉",
       "option_b": "小动脉",
@@ -3218,8 +3050,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 95,
-      "stem": "肺动脉栓塞患者，死亡的常见原因是)()",
+      "number": 92,
+      "stem": "肺动脉栓塞患者，死亡的常见原因是)(",
       "option_a": "大片肺出血",
       "option_b": "中毒性休克",
       "option_c": "肾功能衰竭",
@@ -3230,8 +3062,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 96,
-      "stem": "白色血栓在什么情况下形成）(）",
+      "number": 93,
+      "stem": "白色血栓在什么情况下形成)(",
       "option_a": "血流不变时",
       "option_b": "血流减慢时",
       "option_c": "血流停滞时",
@@ -3242,8 +3074,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 97,
-      "stem": "毛细血管内的血栓属于(",
+      "number": 94,
+      "stem": "毛细血管内的血栓属于",
       "option_a": "白色血栓",
       "option_b": "红色血栓",
       "option_c": "混合血栓",
@@ -3254,7 +3086,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 98,
+      "number": 95,
       "stem": "含细菌的血栓脱落可引起()",
       "option_a": "贫血性梗死",
       "option_b": "脓毒性梗死",
@@ -3266,8 +3098,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 99,
-      "stem": "不会引起肺淤血的心脏病是)()",
+      "number": 96,
+      "stem": "不会引起肺淤血的心脏病是)(",
       "option_a": "高血压心脏病",
       "option_b": "冠心病",
       "option_c": "风湿性心脏病",
@@ -3278,7 +3110,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 100,
+      "number": 97,
       "stem": "循环血液中的凝血块，随血流运行至相应大小的血管，引起管腔阻塞的过程叫做：",
       "option_a": "血栓",
       "option_b": "血栓形成",
@@ -3290,7 +3122,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 101,
+      "number": 98,
       "stem": "混合血栓见于()",
       "option_a": "毛细血管内",
       "option_b": "静脉血栓的头部",
@@ -3302,7 +3134,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 102,
+      "number": 99,
       "stem": "慢性肺淤血时肺泡腔中见到的主要成分是()",
       "option_a": "心力衰竭细胞",
       "option_b": "炎症细胞",
@@ -3314,7 +3146,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 103,
+      "number": 100,
       "stem": "下述关于肺淤血的记述中，哪一项是错误的()",
       "option_a": "肺泡壁毛细血管扩张",
       "option_b": "肺泡内中性粒细胞和纤维素渗出",
@@ -3326,7 +3158,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 104,
+      "number": 101,
       "stem": "慢性肺淤血患者痰的特征是()",
       "option_a": "黏液痰",
       "option_b": "粉红色泡沫痰",
@@ -3338,7 +3170,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 105,
+      "number": 102,
       "stem": "左心房血栓脱落不会引起()",
       "option_a": "脑梗死",
       "option_b": "肺梗死",
@@ -3350,7 +3182,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 106,
+      "number": 103,
       "stem": "弥漫性血管内凝血(DIC) 是指()",
       "option_a": "全身小静脉内有广泛性血栓形成",
       "option_b": "全身小动脉内有广泛性血栓形成",
@@ -3362,7 +3194,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 107,
+      "number": 104,
       "stem": "有关血栓形成规律的说法中，不正确的是()",
       "option_a": "静脉血栓多于动脉血栓",
       "option_b": "下肢血栓多于上肢血栓",
@@ -3374,7 +3206,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 108,
+      "number": 105,
       "stem": "手术后好发血栓的部位是()",
       "option_a": "下肢静脉",
       "option_b": "肾动脉",
@@ -3386,8 +3218,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 109,
-      "stem": "白色血栓的主要成分是(",
+      "number": 106,
+      "stem": "白色血栓的主要成分是",
       "option_a": "血小板",
       "option_b": "中性粒细胞",
       "option_c": "红细胞",
@@ -3398,7 +3230,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 110,
+      "number": 107,
       "stem": "下述因素哪种与血栓形成无关",
       "option_a": "血管内膜损伤",
       "option_b": "血流缓慢",
@@ -3410,7 +3242,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 111,
+      "number": 108,
       "stem": "下列哪种因素与动脉阻塞无关()",
       "option_a": "血栓形成",
       "option_b": "动脉瘤",
@@ -3422,7 +3254,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 112,
+      "number": 109,
       "stem": "血栓形成的最主要条件是",
       "option_a": "血流缓慢",
       "option_b": "血管内膜损伤",
@@ -3434,31 +3266,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 113,
-      "stem": "最常见的栓子是",
-      "option_a": "脂肪栓子",
-      "option_b": "气体栓子",
-      "option_c": "血栓栓子",
-      "option_d": "羊水栓子",
-      "option_e": "肿瘤细胞栓子",
-      "answer": "C",
-      "explanation": "C：血栓栓子"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 114,
-      "stem": "贫血性梗死最常发生于",
-      "option_a": "肺",
-      "option_b": "肠",
-      "option_c": "肝",
-      "option_d": "肾",
-      "option_e": "脑",
-      "answer": "D",
-      "explanation": "D：肾"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 115,
+      "number": 110,
       "stem": "慢性肺淤血最具特征的改变是",
       "option_a": "肺泡壁毛细血管扩张",
       "option_b": "肺泡腔内水肿液",
@@ -3470,7 +3278,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 116,
+      "number": 111,
       "stem": "槟榔肝的形成是由于",
       "option_a": "急性肝淤血",
       "option_b": "慢性肝淤血",
@@ -3482,7 +3290,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 117,
+      "number": 112,
       "stem": "DIC时最特征性的血栓类型是",
       "option_a": "白色血栓",
       "option_b": "混合血栓",
@@ -3493,21 +3301,9 @@ const QUESTION_DATA = {
       "explanation": "D：透明血栓"
     },
     {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 118,
-      "stem": "肠梗死属于",
-      "option_a": "贫血性梗死",
-      "option_b": "出血性梗死",
-      "option_c": "凝固性坏死",
-      "option_d": "干性坏疽",
-      "option_e": "液化性坏死",
-      "answer": "B",
-      "explanation": "B：出血性梗死"
-    },
-    {
       "chapter": "第4章 炎症",
       "number": 1,
-      "stem": "慢性萎缩性胃炎与慢性浅表性胃炎的主要区别是(）",
+      "stem": "慢性萎缩性胃炎与慢性浅表性胃炎的主要区别是()",
       "option_a": "黏膜层有水肿、点状出血和上皮坏死",
       "option_b": "黏膜浅层有淋巴细胞、浆细胞浸润",
       "option_c": "腺上皮萎缩伴肠上皮化生",
@@ -3531,7 +3327,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 3,
-      "stem": "在葡萄球菌感染的炎症反应中所见到的炎细胞主要是(）",
+      "stem": "在葡萄球菌感染的炎症反应中所见到的炎细胞主要是()",
       "option_a": "淋巴细胞",
       "option_b": "单核细胞",
       "option_c": "嗜酸性粒细胞",
@@ -3591,7 +3387,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 8,
-      "stem": "慢性炎症组织内浸润的细胞主要是)",
+      "stem": "慢性炎症组织内浸润的细胞主要是",
       "option_a": "淋巴细胞",
       "option_b": "中性粒细胞",
       "option_c": "嗜酸性粒细胞",
@@ -3603,7 +3399,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 9,
-      "stem": "钩端螺旋体病属下列哪种类型炎症)",
+      "stem": "钩端螺旋体病属下列哪种类型炎症",
       "option_a": "浆液性炎",
       "option_b": "化脓性炎",
       "option_c": "蜂窝织炎",
@@ -3639,7 +3435,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 12,
-      "stem": "癌变率较高的大肠病变是(）",
+      "stem": "癌变率较高的大肠病变是()",
       "option_a": "绒毛状腺瘤",
       "option_b": "增生性息肉",
       "option_c": "腺瘤性息肉",
@@ -3723,7 +3519,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 19,
-      "stem": "子宫颈上皮不典型增生是一种)",
+      "stem": "子宫颈上皮不典型增生是一种",
       "option_a": "恶性肿瘤病变",
       "option_b": "良性肿瘤病变",
       "option_c": "炎症性病变",
@@ -3747,7 +3543,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 21,
-      "stem": "子宫颈癌与下列何种病毒感染有关）47.下列关于慢性子宫颈炎的描述，错误的)",
+      "stem": "(子宫颈癌与下列何种病毒感染有关)47.下列关于慢性子宫颈炎的描述，错误的",
       "option_a": "多发生于流产、分娩后",
       "option_b": "宫颈上皮可有不同程度的增生、化生",
       "option_c": "子宫颈腺体囊肿形成",
@@ -3759,11 +3555,11 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 22,
-      "stem": "在梅毒血管周围炎的病变中，哪些炎答案：细胞浸润最多见",
+      "stem": "在梅毒血管周围炎的病变中，哪些炎",
       "option_a": "巨噬细胞和类上皮细胞",
-      "option_b": "",
+      "option_b": "[选项B待补充]",
       "option_c": "淋巴细胞和浆细胞",
-      "option_d": "",
+      "option_d": "[选项D待补充]",
       "option_e": "浆细胞、中性粒细胞和淋巴细胞",
       "answer": "C",
       "explanation": "正确答案是C：淋巴细胞和浆细胞D. 单核细胞，嗜酸。"
@@ -3783,7 +3579,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 24,
-      "stem": "下列哪种细胞不会在炎症灶中增殖)",
+      "stem": "下列哪种细胞不会在炎症灶中增殖",
       "option_a": "中性粒细胞",
       "option_b": "淋巴细胞",
       "option_c": "巨噬细胞",
@@ -3807,7 +3603,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 26,
-      "stem": "在慢性炎症中，下列哪种细胞最常)见",
+      "stem": "(在慢性炎症中，下列哪种细胞最常)见",
       "option_a": "嗜酸性粒细胞",
       "option_b": "淋巴细胞",
       "option_c": "嗜中性粒细胞",
@@ -3867,7 +3663,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 31,
-      "stem": "炎症反应的中心环节是(",
+      "stem": "炎症反应的中心环节是",
       "option_a": "白细胞的渗出",
       "option_b": "吞噬作用",
       "option_c": "血管反应",
@@ -3903,18 +3699,6 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 34,
-      "stem": "引起肾盂肾炎最主要的病原菌是()A.肺炎杆菌(4)关节：95%的病例受累。表现为滑膜充B.葡萄球菌血水肿，单核细胞、淋巴细胞浸润等，紧C.链球菌接上皮处浅表部位的结缔组织内可出现",
-      "option_a": "体积缩小",
-      "option_b": "",
-      "option_c": "",
-      "option_d": "颜色苍白",
-      "option_e": "大肠杆菌",
-      "answer": "E",
-      "explanation": "正确答案是E：大肠杆菌。由细菌感染（主要为大肠杆菌）引起的肾盂和肾间质的化脓性炎症。感染途径：(1)上行性感染（最常见，经尿道→膀胱→输尿管→肾盂→肾实质）；(2)血源性感染（少见）。急性期病变：肾盂黏膜充血、脓性渗出；肾间质脓肿形成。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 35,
       "stem": "下列哪项病变不是浆液性炎()",
       "option_a": "胸膜炎积液",
       "option_b": "早期感冒黏膜炎",
@@ -3926,7 +3710,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 36,
+      "number": 35,
       "stem": "溶血性链球菌感染最常引起()",
       "option_a": "蜂窝织炎",
       "option_b": "脓肿",
@@ -3938,8 +3722,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 37,
-      "stem": "金黄色葡萄球菌感染最常引起(）",
+      "number": 36,
+      "stem": "金黄色葡萄球菌感染最常引起()",
       "option_a": "蜂窝织炎",
       "option_b": "脓肿",
       "option_c": "纤维素性炎",
@@ -3950,7 +3734,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 38,
+      "number": 37,
       "stem": "下列哪一种病变能反映大叶性肺炎的本质()",
       "option_a": "肺泡的化脓性炎症",
       "option_b": "肺泡的出血性炎症",
@@ -3962,7 +3746,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 39,
+      "number": 38,
       "stem": "急性炎症时，炎症局部血流速度的减慢主要是由于()",
       "option_a": "血管内流体静压下降",
       "option_b": "血管口径变小，血流阻力增大",
@@ -3974,8 +3758,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 40,
-      "stem": "下列哪一项能反映小叶性肺炎的本质)",
+      "number": 39,
+      "stem": "下列哪一项能反映小叶性肺炎的本质",
       "option_a": "支气管及肺泡的化脓性炎症",
       "option_b": "支气管及肺泡的纤维素性炎症",
       "option_c": "支气管及肺泡的卡他性炎症",
@@ -3986,7 +3770,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 41,
+      "number": 40,
       "stem": "食道癌的直接浸润一般不会引起()",
       "option_a": "食道-气管瘘",
       "option_b": "肺脓肿",
@@ -3998,7 +3782,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 42,
+      "number": 41,
       "stem": "弥漫性血管内凝血发生广泛出血的主要原因是()",
       "option_a": "肝凝血酶原合成减少",
       "option_b": "血管壁广泛损伤",
@@ -4010,7 +3794,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 43,
+      "number": 42,
       "stem": "痢疾杆菌感染，结肠发生()",
       "option_a": "蜂窝织炎",
       "option_b": "表面化脓",
@@ -4022,7 +3806,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 44,
+      "number": 43,
       "stem": "微循环血管壁通透性增高引起的出血是()",
       "option_a": "破裂性出血",
       "option_b": "体腔积血",
@@ -4034,7 +3818,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 45,
+      "number": 44,
       "stem": "急性炎症反应中出血的机制是()",
       "option_a": "化学介质引起的血管通透性增高",
       "option_b": "白细胞释放的溶酶体酶",
@@ -4046,7 +3830,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 46,
+      "number": 45,
       "stem": "肺炎双球菌感染最常引起肺的()",
       "option_a": "蜂窝织炎",
       "option_b": "脓肿",
@@ -4058,7 +3842,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 47,
+      "number": 46,
       "stem": "关于败血症，以下哪项不准确()",
       "option_a": "血液中有细菌生长繁殖",
       "option_b": "常有较重的全身症状",
@@ -4070,7 +3854,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 48,
+      "number": 47,
       "stem": "下列哪项不是败血症的表()",
       "option_a": "细菌入血并产生毒素",
       "option_b": "高热寒战",
@@ -4082,7 +3866,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 49,
+      "number": 48,
       "stem": "下列哪一种细胞合成免疫球蛋白()",
       "option_a": "单核细胞",
       "option_b": "T淋巴细胞",
@@ -4094,7 +3878,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 50,
+      "number": 49,
       "stem": "淋巴细胞是免疫活性细胞，以下哪细胞不属于其中()",
       "option_a": "B 细胞",
       "option_b": "Th 细胞",
@@ -4106,7 +3890,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 51,
+      "number": 50,
       "stem": "下列属于T细胞性淋巴瘤的恶性肿瘤是()",
       "option_a": "淋巴浆细胞型淋巴瘤",
       "option_b": "蕈样霉菌病/Sezary 综合征",
@@ -4118,7 +3902,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 52,
+      "number": 51,
       "stem": "简述风湿病的基本病变及其一般所持续的时间。",
       "option_a": "吸烟",
       "option_b": "空气污染",
@@ -4130,7 +3914,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 53,
+      "number": 52,
       "stem": "溃疡病穿孔后最严重的后果是()",
       "option_a": "穿孔后引起小网膜急性炎症",
       "option_b": "穿孔后引起急性弥漫性腹膜炎",
@@ -4142,8 +3926,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 54,
-      "stem": "可合并白血病的淋巴瘤主要是)",
+      "number": 53,
+      "stem": "可合并白血病的淋巴瘤主要是",
       "option_a": "淋巴细胞为主型霍奇金病",
       "option_b": "小淋巴细胞性淋巴瘤",
       "option_c": "免疫母细胞性淋巴瘤",
@@ -4154,7 +3938,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 55,
+      "number": 54,
       "stem": "淋巴细胞消减型→混合细胞型→结节硬化型→淋巴细胞为主型",
       "option_a": "细胞单一",
       "option_b": "首先累及深部淋巴结",
@@ -4166,7 +3950,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 56,
+      "number": 55,
       "stem": "伪膜性炎症发生后对患者危害最大的部位在()",
       "option_a": "心包",
       "option_b": "胸膜",
@@ -4178,8 +3962,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 57,
-      "stem": "慢性阻塞性肺病最常见的原因是(）",
+      "number": 56,
+      "stem": "慢性阻塞性肺病最常见的原因是()",
       "option_a": "支气管哮喘",
       "option_b": "支气管扩张",
       "option_c": "肺脓肿",
@@ -4190,7 +3974,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 58,
+      "number": 57,
       "stem": "下列哪项不符合小叶性肺炎",
       "option_a": "多由致病力弱的肺炎球菌引起",
       "option_b": "好发于老人、儿童、久病卧床者",
@@ -4202,7 +3986,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 59,
+      "number": 58,
       "stem": "在结节硬化型霍奇金淋巴瘤中不易见到的细胞是()",
       "option_a": "陷窝细胞",
       "option_b": "嗜酸性粒细胞",
@@ -4214,7 +3998,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 60,
+      "number": 59,
       "stem": "慢性支气管炎最常见的并发症是()",
       "option_a": "支气管扩张症",
       "option_b": "大叶性肺炎",
@@ -4226,8 +4010,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 61,
-      "stem": "胶原纤维束出现在下列哪个类型的霍奇金淋巴瘤(）",
+      "number": 60,
+      "stem": "胶原纤维束出现在下列哪个类型的霍奇金淋巴瘤()",
       "option_a": "淋巴细胞消减型",
       "option_b": "淋巴细胞为主型",
       "option_c": "网织型",
@@ -4238,7 +4022,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 62,
+      "number": 61,
       "stem": "在寄生虫感染病变中，下列哪种细胞常见()",
       "option_a": "嗜酸性粒细胞",
       "option_b": "淋巴细胞",
@@ -4250,7 +4034,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 63,
+      "number": 62,
       "stem": "下列哪项与炎症渗出液无关()",
       "option_a": "血管通透性增高",
       "option_b": "液体比重高",
@@ -4262,7 +4046,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 64,
+      "number": 63,
       "stem": "卡他性炎症指的是()",
       "option_a": "皮肤的浆液性炎",
       "option_b": "浆膜的浆液性炎",
@@ -4274,7 +4058,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 65,
+      "number": 64,
       "stem": "Ph1 染色体主要出现在哪种白血病()",
       "option_a": "急性淋巴细胞性白血病",
       "option_b": "慢性淋巴细胞性白血病",
@@ -4286,7 +4070,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 66,
+      "number": 65,
       "stem": "化脓性炎症组织内浸润的细胞主要是()",
       "option_a": "淋巴细胞",
       "option_b": "浆细胞",
@@ -4298,7 +4082,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 67,
+      "number": 66,
       "stem": "下列哪项不是胰岛素依赖型糖尿病胰岛的镜下改变()",
       "option_a": "胰岛变小数量减少",
       "option_b": "胰岛细胞进行性破坏，胰岛细胞数减",
@@ -4310,8 +4094,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 68,
-      "stem": "引起炎症的因素中最常见的是(C",
+      "number": 67,
+      "stem": "引起炎症的因素中最常见的是",
       "option_a": "机械性损伤",
       "option_b": "物理性损伤",
       "option_c": "化学性损伤",
@@ -4322,7 +4106,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 69,
+      "number": 68,
       "stem": "与移植物的迟发排斥反应关系最密切的细胞是()",
       "option_a": "浆细胞",
       "option_b": "淋巴细胞",
@@ -4334,8 +4118,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 70,
-      "stem": "急性炎症病灶内哪种炎症细胞最多见)",
+      "number": 69,
+      "stem": "急性炎症病灶内哪种炎症细胞最多见",
       "option_a": "浆细胞",
       "option_b": "淋巴细胞",
       "option_c": "嗜酸性粒细胞",
@@ -4346,7 +4130,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 71,
+      "number": 70,
       "stem": "无抗胰岛细胞抗体",
       "option_a": "慢性淋巴细胞性甲状腺炎",
       "option_b": "毒性甲状腺肿",
@@ -4358,7 +4142,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 72,
+      "number": 71,
       "stem": "动脉粥样硬化脂纹病变中主要的细胞成分是()",
       "option_a": "单核细胞",
       "option_b": "T淋巴细胞",
@@ -4370,7 +4154,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 73,
+      "number": 72,
       "stem": "含铁血黄素是在下列哪种细胞内形成的",
       "option_a": "多核巨细胞",
       "option_b": "单核巨噬细胞",
@@ -4382,7 +4166,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 74,
+      "number": 73,
       "stem": "有关炎症的定义，下列哪项最准确()",
       "option_a": "是机体对损伤所发生的反应",
       "option_b": "是活体组织对损伤因子所发生的反应",
@@ -4394,7 +4178,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 75,
+      "number": 74,
       "stem": "炎症时，渗出液的产生最主要的原因是()",
       "option_a": "血管内流体静压升高",
       "option_b": "血管内胶体渗透压降低",
@@ -4406,7 +4190,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 76,
+      "number": 75,
       "stem": "病毒性肺炎的主要病理诊断依据",
       "option_a": "间质性肺炎",
       "option_b": "肺泡性肺炎",
@@ -4418,8 +4202,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 77,
-      "stem": "类上皮细胞来源于(）",
+      "number": 76,
+      "stem": "类上皮细胞来源于()",
       "option_a": "嗜酸性粒细胞",
       "option_b": "淋巴细胞",
       "option_c": "中性粒细胞",
@@ -4430,7 +4214,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 78,
+      "number": 77,
       "stem": "小叶性肺炎不会出现的并发症是()",
       "option_a": "肺脓肿",
       "option_b": "呼吸衰竭",
@@ -4442,7 +4226,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 79,
+      "number": 78,
       "stem": "阑尾炎最严重的并发症是()",
       "option_a": "肝脓肿",
       "option_b": "肾脓肿",
@@ -4454,7 +4238,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 80,
+      "number": 79,
       "stem": "在白细胞的渗出过程中，下列哪种细胞最先渗出()",
       "option_a": "巨噬细胞",
       "option_b": "淋巴细胞",
@@ -4466,7 +4250,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 81,
+      "number": 80,
       "stem": "引起阑尾炎的最重要原因是()",
       "option_a": "阑尾腔内细菌感染",
       "option_b": "阑尾周围炎症蔓延",
@@ -4478,8 +4262,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 82,
-      "stem": "早期硅结节中的细胞是(",
+      "number": 81,
+      "stem": "早期硅结节中的细胞是",
       "option_a": "大量巨噬细胞",
       "option_b": "大量淋巴细胞",
       "option_c": "大量浆细胞",
@@ -4490,7 +4274,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 83,
+      "number": 82,
       "stem": "急性炎症过程中，最先发生哪种变化()",
       "option_a": "白细胞游出",
       "option_b": "白细胞附壁",
@@ -4502,7 +4286,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 84,
+      "number": 83,
       "stem": "纤维素性炎症的好发部位应除外()",
       "option_a": "心包膜",
       "option_b": "腹膜",
@@ -4514,7 +4298,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 85,
+      "number": 84,
       "stem": "慢性炎症病灶内浸润的炎细胞主要是()",
       "option_a": "中性粒细胞和单核细胞",
       "option_b": "单核细胞和淋巴细胞",
@@ -4526,7 +4310,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 86,
+      "number": 85,
       "stem": "急性病毒性肝炎时，最常见的炎症细胞是()",
       "option_a": "嗜酸性粒细胞",
       "option_b": "巨噬细胞",
@@ -4538,7 +4322,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 87,
+      "number": 86,
       "stem": "脓肿中最常见的致病菌是()",
       "option_a": "金黄色葡萄球菌",
       "option_b": "大肠杆菌",
@@ -4550,7 +4334,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 88,
+      "number": 87,
       "stem": "在下列疾病中，除哪项外都是纤维素性炎症()",
       "option_a": "细菌性痢疾",
       "option_b": "小叶性肺炎",
@@ -4562,8 +4346,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 89,
-      "stem": "伪膜性炎症指的是(",
+      "number": 88,
+      "stem": "伪膜性炎症指的是",
       "option_a": "浆膜的纤维素性炎症",
       "option_b": "黏膜的纤维素性炎症",
       "option_c": "浆膜的浆液性炎症",
@@ -4574,7 +4358,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 90,
+      "number": 89,
       "stem": "炎症时，血液中的细胞成分进入组织的现象称为()",
       "option_a": "白细胞附壁",
       "option_b": "白细胞粘着",
@@ -4586,7 +4370,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 91,
+      "number": 90,
       "stem": "炎症灶中吸引炎细胞定向集中的现象称为()",
       "option_a": "白细胞游出",
       "option_b": "白细胞吞噬",
@@ -4598,7 +4382,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 92,
+      "number": 91,
       "stem": "炎症灶中巨噬细胞的主要作用是()",
       "option_a": "释放氧自由基",
       "option_b": "释放血管活性胺",
@@ -4610,7 +4394,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 93,
+      "number": 92,
       "stem": "下列细胞中来源与巨噬细胞无关的是()",
       "option_a": "泡沫细胞",
       "option_b": "Aschoff 细胞",
@@ -4622,7 +4406,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 94,
+      "number": 93,
       "stem": "下述炎症改变中，最有防御意义的是()",
       "option_a": "渗出液的产生",
       "option_b": "氧自由基释放",
@@ -4634,7 +4418,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 95,
+      "number": 94,
       "stem": "下列有关炎症的理解，哪项是不正确的()",
       "option_a": "血管反应是炎症的中心环节",
       "option_b": "炎症对机体有利，又有潜在危害性",
@@ -4646,7 +4430,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 96,
+      "number": 95,
       "stem": "炎症反应的最重要的特征是()",
       "option_a": "血清渗出",
       "option_b": "血浆渗血",
@@ -4658,7 +4442,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 97,
+      "number": 96,
       "stem": "下列各项急性炎症反应，按出现顺序哪一种最先出现()",
       "option_a": "血管扩张",
       "option_b": "血流缓慢",
@@ -4670,7 +4454,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 98,
+      "number": 97,
       "stem": "炎症时，引起白细胞渗出最重要的因素是()",
       "option_a": "血管壁通透性升高",
       "option_b": "白细胞附壁",
@@ -4682,8 +4466,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 99,
-      "stem": "下列哪项是变质性炎(",
+      "number": 98,
+      "stem": "下列哪项是变质性炎",
       "option_a": "流行性脑脊髓膜炎",
       "option_b": "细菌性痢疾",
       "option_c": "大叶性肺炎",
@@ -4694,8 +4478,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 100,
-      "stem": "炎症时白细胞定向移动的主要原因是(）",
+      "number": 99,
+      "stem": "炎症时白细胞定向移动的主要原因是()",
       "option_a": "白细胞的阿米巴样运动",
       "option_b": "轴流消失",
       "option_c": "化学刺激物",
@@ -4706,7 +4490,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 101,
+      "number": 100,
       "stem": "炎症时液体渗出的部位是()",
       "option_a": "细静脉和毛细血管",
       "option_b": "细动脉和细静脉",
@@ -4718,7 +4502,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 102,
+      "number": 101,
       "stem": "下列哪一项不是渗出性炎()",
       "option_a": "卡他性炎症",
       "option_b": "乙型脑炎",
@@ -4730,7 +4514,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 103,
+      "number": 102,
       "stem": "关于嗜酸性粒细胞下列哪一种是错误的()",
       "option_a": "来源于骨髓",
       "option_b": "运动能力弱",
@@ -4742,7 +4526,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 104,
+      "number": 103,
       "stem": "炎症灶内有较多红细胞说明()",
       "option_a": "局部血管受损严重",
       "option_b": "局部血管内静水压较高",
@@ -4754,7 +4538,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 105,
+      "number": 104,
       "stem": "败血症指的是()",
       "option_a": "细菌大量入血，血中可查到细菌，但",
       "option_b": "细菌毒素入血，引起中毒症状",
@@ -4766,7 +4550,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 106,
+      "number": 105,
       "stem": "下列哪项是变质性炎症？",
       "option_a": "肾盂肾炎",
       "option_b": "菌痢",
@@ -4778,8 +4562,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 107,
-      "stem": "脓肿最常见的致病菌是(",
+      "number": 106,
+      "stem": "脓肿最常见的致病菌是",
       "option_a": "溶血性链球菌",
       "option_b": "志贺菌",
       "option_c": "白色葡萄球菌",
@@ -4790,7 +4574,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 108,
+      "number": 107,
       "stem": "炎症灶内红细胞是()",
       "option_a": "主动渗出",
       "option_b": "主动漏出",
@@ -4802,7 +4586,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 109,
+      "number": 108,
       "stem": "炎症灶内下述哪种成分不是由血液中渗出来的()",
       "option_a": "浆液",
       "option_b": "淋巴细胞",
@@ -4814,7 +4598,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 110,
+      "number": 109,
       "stem": "炎性浸润是指()",
       "option_a": "白细胞自血管内进入炎区组织",
       "option_b": "血浆蛋白自血管进入炎区组织",
@@ -4826,7 +4610,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 111,
+      "number": 110,
       "stem": "炎症介质的主要作用是使()",
       "option_a": "局部组织合成代谢增强",
       "option_b": "组织分解代谢增强",
@@ -4838,8 +4622,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 112,
-      "stem": "下列可释放血小板激活因子的细胞应除外(）",
+      "number": 111,
+      "stem": "下列可释放血小板激活因子的细胞应除外()",
       "option_a": "内皮细胞",
       "option_b": "淋巴细胞",
       "option_c": "嗜碱性粒细胞",
@@ -4850,7 +4634,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 113,
+      "number": 112,
       "stem": "下列哪种激素具有抑制炎症的作用()",
       "option_a": "甲状腺素",
       "option_b": "生长激素",
@@ -4862,8 +4646,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 114,
-      "stem": "较多嗜酸性粒细胞浸润见于(）",
+      "number": 113,
+      "stem": "较多嗜酸性粒细胞浸润见于()",
       "option_a": "伤寒杆菌感染",
       "option_b": "变态反应或寄生虫感染",
       "option_c": "乙脑病毒感染",
@@ -4887,8 +4671,8 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 2,
-      "stem": "乳腺最常见的良性肿瘤是(",
-      "option_a": "",
+      "stem": "乳腺最常见的良性肿瘤是",
+      "option_a": "[选项A待补充]",
       "option_b": "卵巢",
       "option_c": "子宫肌壁内形成平滑肌增生的结节限",
       "option_d": "子宫肌壁内出现子宫内膜及腺体",
@@ -4900,7 +4684,7 @@ const QUESTION_DATA = {
       "chapter": "第5章 肿瘤",
       "number": 3,
       "stem": "关于乳腺粉刺癌的描述，正确的是16.女性生殖系统中最常见的良性肿瘤为17.子宫腺肌病主要的病理学特征是",
-      "option_a": "",
+      "option_a": "[选项A待补充]",
       "option_b": "早期浸润癌",
       "option_c": "子宫肌壁内形成平滑肌增生的结节限",
       "option_d": "子宫肌壁内出现子宫内膜及腺体",
@@ -4959,7 +4743,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 8,
-      "stem": "少年及成年人甲状腺功能低下表现为细胞组成78.能引起血中甲状腺素过多，导致甲状腺性度最低)79.下列哪项不是毒性甲状腺肿的临床表期病变特点。",
+      "stem": "(少年及成年人甲状腺功能低下表现为细胞组成78.能引起血中甲状腺素过多，导致甲状腺性度最低)79.下列哪项不是毒性甲状腺肿的临床表期病变特点。",
       "option_a": "结节内常见出血坏死囊性变",
       "option_b": "滤泡上皮有乳头状增生者癌变率高",
       "option_c": "严重者出现心脏肥大、扩张、心力衰",
@@ -4995,12 +4779,12 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 11,
-      "stem": "结节性甲状腺肿的病变应包括)",
+      "stem": "结节性甲状腺肿的病变应包括",
       "option_a": "结节内常见出血坏死囊性变",
       "option_b": "滤泡上皮有乳头状增生者癌变率高",
       "option_c": "结节周围可见完整的包膜",
       "option_d": "上皮细胞可见不典型增生",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "A",
       "explanation": "正确答案是A：结节内常见出血坏死囊性变。活体内局部组织、细胞的死亡。是不可逆的病理过程。基本病变：细胞核固缩、碎裂、溶解；胞浆嗜酸性增强、崩解；间质胶原纤维肿胀崩解、基质解聚。分为凝固性坏死、液化性坏死、纤维素样坏死和坏疽。"
     },
@@ -5043,7 +4827,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 15,
-      "stem": "恶性与良性葡萄胎的相同点在于)",
+      "stem": "恶性与良性葡萄胎的相同点在于",
       "option_a": "可见胎盘绒毛组织",
       "option_b": "明显的出血坏死",
       "option_c": "侵犯肌层内",
@@ -5095,8 +4879,8 @@ const QUESTION_DATA = {
       "option_a": "乳头状癌",
       "option_b": "髓样癌",
       "option_c": "滤泡癌",
-      "option_d": "",
-      "option_e": "",
+      "option_d": "[选项D待补充]",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：髓样癌。在致炎因子、组织崩解产物或某些理化因子刺激下，炎症局部细胞增殖、数目增多。以巨噬细胞、血管内皮细胞和成纤维细胞增生最为常见。增生在炎症后期显著，具有修复意义。"
     },
@@ -5151,7 +4935,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 24,
-      "stem": "上皮非典型性增生是指(",
+      "stem": "上皮非典型性增生是指",
       "option_a": "上皮细胞增生，但极性不丧失",
       "option_b": "不转移",
       "option_c": "不浸润上皮下层",
@@ -5187,7 +4971,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 27,
-      "stem": "在门脉性与坏死后性肝硬化病变的区别中，不包括下列哪一项(",
+      "stem": "在门脉性与坏死后性肝硬化病变的区别中，不包括下列哪一项",
       "option_a": "假小叶的大小",
       "option_b": "纤维间隔的厚薄",
       "option_c": "炎细胞浸润的轻重",
@@ -5211,7 +4995,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 29,
-      "stem": "恶性肿瘤的特点有(）",
+      "stem": "恶性肿瘤的特点有()",
       "option_a": "转移",
       "option_b": "无出血、囊性变",
       "option_c": "呈膨胀性生长或外生性生长",
@@ -5223,7 +5007,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 30,
-      "stem": "早期肝癌是指瘤体(",
+      "stem": "早期肝癌是指瘤体",
       "option_a": "单个有包膜",
       "option_b": "3cm 以下，不超过 2 个",
       "option_c": "微小而多个",
@@ -5259,19 +5043,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第5章 肿瘤",
       "number": 33,
-      "stem": "儿童男性生殖系统中最常见的肿瘤是C. 子宫颈的储备细胞()",
-      "option_a": "畸胎瘤",
-      "option_b": "精原细胞瘤5.子宫颈癌的癌前病变是(",
-      "option_c": "胚胎性癌",
-      "option_d": "内胚窦瘤",
-      "option_e": "阴茎癌",
-      "answer": "C",
-      "explanation": "正确答案是C：胚胎性癌A. 宫颈息肉。机体在各种致瘤因素作用下，局部组织细胞在基因水平上失去对其生长的正常调控，导致克隆性异常增生而形成的新生物。肿瘤性增生与炎性增生有本质区别：肿瘤性增生是克隆性、自主性、持续性的异常增生。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 34,
-      "stem": "由滤泡旁细胞发生的甲状腺癌是)",
+      "stem": "由滤泡旁细胞发生的甲状腺癌是",
       "option_a": "小细胞型",
       "option_b": "梭形细胞型",
       "option_c": "巨细胞型",
@@ -5282,8 +5054,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 35,
-      "stem": "纤维腺瘤最常见于(）",
+      "number": 34,
+      "stem": "纤维腺瘤最常见于()",
       "option_a": "消化道",
       "option_b": "皮下组织",
       "option_c": "乳腺",
@@ -5294,7 +5066,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 36,
+      "number": 35,
       "stem": "下列哪项不是未分化甲状腺腺癌的类型()",
       "option_a": "小细胞型",
       "option_b": "梭形细胞型",
@@ -5306,7 +5078,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 37,
+      "number": 36,
       "stem": "下列哪种肿瘤是上皮组织发生的良性肿瘤()",
       "option_a": "皮样囊肿",
       "option_b": "乳头状瘤",
@@ -5318,7 +5090,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 38,
+      "number": 37,
       "stem": "急性、慢性粒细胞性白血病时，在骨内、骨膜下或其他器官内，出现白血病细胞形成的瘤结，该瘤为()",
       "option_a": "黄色瘤",
       "option_b": "白色瘤",
@@ -5330,19 +5102,19 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 39,
+      "number": 38,
       "stem": "最常见的前列腺癌是()",
       "option_a": "黏液腺癌",
       "option_b": "移行细胞癌",
       "option_c": "腺癌",
-      "option_d": "",
-      "option_e": "",
+      "option_d": "[选项D待补充]",
+      "option_e": "[选项E待补充]",
       "answer": "C",
       "explanation": "正确答案是C：腺癌。来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型（约占恶性肿瘤的85%以上）。好发于中老年人。镜下癌细胞呈巢状（癌巢）排列，实质与间质分界清楚。免疫组化CK阳性。多经淋巴道转移。"
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 40,
+      "number": 39,
       "stem": "与肝细胞性肝癌发生关系最密切的致癌物是()",
       "option_a": "黄曲霉菌",
       "option_b": "乙奈胺",
@@ -5354,7 +5126,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 41,
+      "number": 40,
       "stem": "患者颈部淋巴结肿大时，可能性最小的疾病是()",
       "option_a": "恶性淋巴瘤",
       "option_b": "肺癌淋巴结转移",
@@ -5366,7 +5138,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 42,
+      "number": 41,
       "stem": "按垂体腺瘤功能分类，以哪种类型最多见()",
       "option_a": "生长激素细胞腺瘤",
       "option_b": "催乳素细胞腺瘤",
@@ -5378,7 +5150,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 43,
+      "number": 42,
       "stem": "交界性肿瘤是指()",
       "option_a": "介于良性和恶性肿瘤之间的肿瘤",
       "option_b": "癌前病变",
@@ -5390,7 +5162,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 44,
+      "number": 43,
       "stem": "下列关于子宫颈癌的描述，错误的是()",
       "option_a": "发病高峰为45岁",
       "option_b": "小叶原位癌",
@@ -5402,8 +5174,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 45,
-      "stem": "表达 AFP 最强的癌是(",
+      "number": 44,
+      "stem": "表达 AFP 最强的癌是",
       "option_a": "卵巢癌",
       "option_b": "肝癌",
       "option_c": "结肠癌",
@@ -5414,19 +5186,19 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 46,
+      "number": 45,
       "stem": "乳腺癌最常发生于乳房的()",
       "option_a": "外上象限",
       "option_b": "外下象限",
       "option_c": "内上象限",
-      "option_d": "",
+      "option_d": "[选项D待补充]",
       "option_e": "中央部",
       "answer": "E",
       "explanation": "正确答案是E：中央部。来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型（约占恶性肿瘤的85%以上）。好发于中老年人。镜下癌细胞呈巢状（癌巢）排列，实质与间质分界清楚。免疫组化CK阳性。多经淋巴道转移。"
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 47,
+      "number": 46,
       "stem": "皮样囊肿是指()",
       "option_a": "皮肤囊性肿块",
       "option_b": "卵巢良性畸胎瘤",
@@ -5438,8 +5210,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 48,
-      "stem": "下列哪项属于癌前疾病(",
+      "number": 47,
+      "stem": "下列哪项属于癌前疾病",
       "option_a": "阑尾炎",
       "option_b": "乳腺纤维腺瘤",
       "option_c": "纤维囊性乳腺病",
@@ -5450,8 +5222,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 49,
-      "stem": "甲状腺腺瘤与结节性甲状腺肿的主要)",
+      "number": 48,
+      "stem": "甲状腺腺瘤与结节性甲状腺肿的主要",
       "option_a": "发病年龄和性别不同",
       "option_b": "有无完整的包膜，瘤内组织结构是否",
       "option_c": "结节的数目不同",
@@ -5462,8 +5234,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 50,
-      "stem": "骨肉瘤的好发部位是(",
+      "number": 49,
+      "stem": "骨肉瘤的好发部位是",
       "option_a": "头面骨",
       "option_b": "脊椎骨",
       "option_c": "扁骨",
@@ -5474,8 +5246,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 51,
-      "stem": "颈中部淋巴结转移性肿瘤灶中可见淀粉样物，首先考虑的原发灶是）",
+      "number": 50,
+      "stem": "颈中部淋巴结转移性肿瘤灶中可见淀粉样物，首先考虑的原发灶是",
       "option_a": "鼻咽泡状核细胞癌",
       "option_b": "甲状腺髓样癌",
       "option_c": "肺小细胞癌",
@@ -5486,8 +5258,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 52,
-      "stem": "肺转移性肾癌是指(",
+      "number": 51,
+      "stem": "肺转移性肾癌是指",
       "option_a": "肺癌转移到肾",
       "option_b": "肺癌和肾癌相互转移",
       "option_c": "肾癌转移到肺",
@@ -5498,8 +5270,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 53,
-      "stem": "下列哪项与甲状腺滤泡性癌有关)",
+      "number": 52,
+      "stem": "下列哪项与甲状腺滤泡性癌有关",
       "option_a": "有无滤泡形成",
       "option_b": "包膜或血管有无肿瘤细胞浸润",
       "option_c": "有无完整的包膜",
@@ -5510,7 +5282,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 54,
+      "number": 53,
       "stem": "膀胱最常见的恶性肿瘤为()",
       "option_a": "腺癌",
       "option_b": "鳞状细胞癌",
@@ -5522,7 +5294,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 55,
+      "number": 54,
       "stem": "女性，45岁，主诉有阴道不规则流血及分泌物带血等症状，妇科检查见宫颈稍肥厚，病理学检查为鳞状细胞癌。作子宫颈癌根治术。光镜检查见部分癌细胞已突破基底膜向下浸润达2cm。分析其属于哪)能诊断为(",
       "option_a": "子宫颈内口",
       "option_b": "早期浸润癌",
@@ -5534,7 +5306,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 56,
+      "number": 55,
       "stem": "来源于三个胚层组织的肿瘤称：",
       "option_a": "癌肉瘤",
       "option_b": "混合瘤",
@@ -5546,7 +5318,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 57,
+      "number": 56,
       "stem": "子宫颈癌多开始发生于()",
       "option_a": "子宫颈内口",
       "option_b": "子宫颈外口上皮移行区(",
@@ -5558,8 +5330,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 58,
-      "stem": "下列哪项不是甲状腺乳头状癌的特点(移病灶",
+      "number": 57,
+      "stem": "下列哪项不是甲状腺乳头状癌的特点(移病灶)",
       "option_a": "癌细胞排列成不规则的乳头",
       "option_b": "癌细胞胞核呈透明或毛玻璃状",
       "option_c": "恶性程度高",
@@ -5570,7 +5342,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 59,
+      "number": 58,
       "stem": "下列哪项不属于腺癌的类型()",
       "option_a": "硬癌",
       "option_b": "单纯癌",
@@ -5582,7 +5354,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 60,
+      "number": 59,
       "stem": "鼻咽癌的常见组织学类型",
       "option_a": "高分化鳞癌",
       "option_b": "泡状核细胞癌",
@@ -5594,7 +5366,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 61,
+      "number": 60,
       "stem": "关于甲状腺乳头状癌的叙述，下列哪项是不正确的()",
       "option_a": "为最多见的甲状腺癌",
       "option_b": "青少年女性多见",
@@ -5606,8 +5378,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 62,
-      "stem": "良性肿瘤对机体的影响主要取决于肿瘤的())",
+      "number": 61,
+      "stem": "良性肿瘤对机体的影响主要取决于肿瘤的()",
       "option_a": "间质稀少",
       "option_b": "生长部位",
       "option_c": "生长速度",
@@ -5618,7 +5390,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 63,
+      "number": 62,
       "stem": "下述哪项不是大肠癌的特点()",
       "option_a": "发生部位多见于直肠、乙状结肠",
       "option_b": "发病与环境及遗传因素有关",
@@ -5630,7 +5402,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 64,
+      "number": 63,
       "stem": "甲状腺滤泡性腺瘤和滤泡癌的鉴别诊断最重要的是()",
       "option_a": "滤泡大小",
       "option_b": "被膜是否受侵犯",
@@ -5642,8 +5414,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 65,
-      "stem": "病理诊断肉瘤的主要依据是)()",
+      "number": 64,
+      "stem": "病理诊断肉瘤的主要依据是)(",
       "option_a": "间质稀少",
       "option_b": "血液供应丰富",
       "option_c": "有肺转移",
@@ -5654,8 +5426,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 66,
-      "stem": "胃癌最主要的转移途径是(）",
+      "number": 65,
+      "stem": "胃癌最主要的转移途径是()",
       "option_a": "直接扩散",
       "option_b": "淋巴道转移",
       "option_c": "血道转移",
@@ -5666,7 +5438,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 67,
+      "number": 66,
       "stem": "下列哪种是变异型R-S细胞()",
       "option_a": "Langerhans 细胞",
       "option_b": "陷窝细胞",
@@ -5678,7 +5450,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 68,
+      "number": 67,
       "stem": "女性，53岁，阴道不规则流血，超声显像见子宫浆膜下、肌壁和黏膜有多个大",
       "option_a": "子宫内膜癌",
       "option_b": "绒毛膜癌(",
@@ -5690,7 +5462,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 69,
+      "number": 68,
       "stem": "甲状腺恶性肿瘤中生长慢，恶性程度低，发病率最高的是()",
       "option_a": "滤泡性癌",
       "option_b": "乳头状腺癌",
@@ -5702,7 +5474,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 70,
+      "number": 69,
       "stem": "鼻咽癌的组织学类型中，以哪一种最为多见()",
       "option_a": "未分化癌",
       "option_b": "泡状核细胞癌",
@@ -5714,7 +5486,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 71,
+      "number": 70,
       "stem": "Krukenberg 瘤是指()",
       "option_a": "胃黏液癌种植转移至膀胱上",
       "option_b": "肺癌种植转移至胸膜上",
@@ -5726,7 +5498,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 72,
+      "number": 71,
       "stem": "关于霍奇金淋巴瘤，有诊断意义的细胞是()",
       "option_a": "类上皮细胞",
       "option_b": "陷窝细胞",
@@ -5738,7 +5510,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 73,
+      "number": 72,
       "stem": "黏液癌最常见于()",
       "option_a": "血管壁",
       "option_b": "腹膜后",
@@ -5750,8 +5522,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 74,
-      "stem": "下列哪一项不符合胃癌的转移特点(）",
+      "number": 73,
+      "stem": "下列哪一项不符合胃癌的转移特点()",
       "option_a": "经淋巴道转移至锁骨上淋巴结",
       "option_b": "淋巴道扩散至肝门淋巴结",
       "option_c": "晚期经血道转移至肝脏",
@@ -5762,8 +5534,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 75,
-      "stem": "女性，30岁，右下腹发现包块已3月，手术见右侧卵巢被一囊性肿物取代。囊内充满皮脂样物、毛发及牙齿。该肿块最可)",
+      "number": 74,
+      "stem": "女性，30岁，右下腹发现包块已3月，手术见右侧卵巢被一囊性肿物取代。囊内充满皮脂样物、毛发及牙齿。该肿块最可",
       "option_a": "囊腺瘤",
       "option_b": "囊腺癌",
       "option_c": "畸胎瘤",
@@ -5774,7 +5546,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 76,
+      "number": 75,
       "stem": "关于肿瘤的间质()",
       "option_a": "不具有特异性",
       "option_b": "具有特异性",
@@ -5786,7 +5558,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 77,
+      "number": 76,
       "stem": "胃癌癌细胞主要来源于胃腺的()",
       "option_a": "主细胞",
       "option_b": "壁细胞",
@@ -5798,7 +5570,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 78,
+      "number": 77,
       "stem": "下列肿瘤中，有明显家族发病倾向为()",
       "option_a": "胶质瘤",
       "option_b": "结肠息肉性腺瘤",
@@ -5810,8 +5582,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 79,
-      "stem": "下列哪一项符合慢性肺源性心脏病的演进(）",
+      "number": 78,
+      "stem": "下列哪一项符合慢性肺源性心脏病的演进()",
       "option_a": "支气管肺炎→代偿性肺气肿→慢性肺",
       "option_b": "慢性支气管炎→阻塞性肺气肿→慢性",
       "option_c": "间质性肺炎→间质性肺气肿→慢性肺",
@@ -5822,7 +5594,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 80,
+      "number": 79,
       "stem": "恶性肿瘤细胞主要通过下列哪种途径入血()",
       "option_a": "中等动脉",
       "option_b": "淋巴管",
@@ -5834,7 +5606,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 81,
+      "number": 80,
       "stem": "晚期胃癌，最常发生转移的远处淋巴结为()",
       "option_a": "颈部",
       "option_b": "腋窝",
@@ -5846,8 +5618,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 82,
-      "stem": "输卵管妊娠最常见的部位是)",
+      "number": 81,
+      "stem": "输卵管妊娠最常见的部位是",
       "option_a": "子宫颈癌",
       "option_b": "壶腹部",
       "option_c": "间质部",
@@ -5858,7 +5630,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 83,
+      "number": 82,
       "stem": "在胃癌 HE染色切片中，癌细胞弥漫浸润于黏膜下层及肌层，有大量淡蓝色无结构的物质，其中漂浮小堆癌细胞，部分癌细胞核偏于一侧，胞浆内亦有上述物质。该切片应诊断为()",
       "option_a": "印戒细胞癌",
       "option_b": "腺鳞癌",
@@ -5870,8 +5642,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 84,
-      "stem": "下列哪种肿瘤易发生腹腔和盆腔种植)",
+      "number": 83,
+      "stem": "下列哪种肿瘤易发生腹腔和盆腔种植",
       "option_a": "子宫颈癌",
       "option_b": "子宫绒毛膜癌",
       "option_c": "卵巢畸胎瘤",
@@ -5882,7 +5654,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 85,
+      "number": 84,
       "stem": "淋巴结转移性癌的诊断依据是()",
       "option_a": "淋巴结肿大",
       "option_b": "淋巴结质地变硬",
@@ -5894,8 +5666,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 86,
-      "stem": "溃疡型胃癌与胃溃疡在病理形态上主要不同点是(）",
+      "number": 85,
+      "stem": "溃疡型胃癌与胃溃疡在病理形态上主要不同点是()",
       "option_a": "溃疡面坏",
       "option_b": "溃疡合并穿孔",
       "option_c": "溃疡深及肌层",
@@ -5906,8 +5678,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 87,
-      "stem": "卵巢生殖细胞瘤中最常见的是)",
+      "number": 86,
+      "stem": "卵巢生殖细胞瘤中最常见的是",
       "option_a": "不成熟畸胎瘤",
       "option_b": "卵巢胚胎性癌",
       "option_c": "无性细胞瘤",
@@ -5918,8 +5690,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 88,
-      "stem": "下列哪项最符合转移性肿瘤的概念(）",
+      "number": 87,
+      "stem": "下列哪项最符合转移性肿瘤的概念()",
       "option_a": "远隔器官发生的另一种肿瘤",
       "option_b": "血道转移的结果",
       "option_c": "可形成“癌脐”",
@@ -5930,8 +5702,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 89,
-      "stem": "下列哪项最符合鳞状细胞癌的特征)",
+      "number": 88,
+      "stem": "下列哪项最符合鳞状细胞癌的特征",
       "option_a": "发生于原有单层扁平上皮的覆盖部位",
       "option_b": "呈外生性生长",
       "option_c": "癌细胞的排列及形态仍保留单层扁平",
@@ -5942,7 +5714,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 90,
+      "number": 89,
       "stem": "最容易引起皮肤潮红、水泻、心动过速支气管哮喘等症状的肺癌类型是()",
       "option_a": "大细胞癌",
       "option_b": "黏液癌",
@@ -5954,8 +5726,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 91,
-      "stem": "关于病理性核分裂象(",
+      "number": 90,
+      "stem": "关于病理性核分裂象",
       "option_a": "是恶性肿瘤所特有的",
       "option_b": "是良性肿瘤所特有的",
       "option_c": "良、恶性肿瘤均可有",
@@ -5966,20 +5738,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 92,
-      "stem": "鼻咽癌常发生在",
-      "option_a": "鼻咽后部",
-      "option_b": "鼻咽顶部",
-      "option_c": "鼻咽侧壁",
-      "option_d": "鼻咽前壁",
-      "option_e": "鼻咽底部",
-      "answer": "B",
-      "explanation": "正确答案是B：鼻咽顶部。来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型（约占恶性肿瘤的85%以上）。好发于中老年人。镜下癌细胞呈巢状（癌巢）排列，实质与间质分界清楚。免疫组化CK阳性。多经淋巴道转移。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 93,
-      "stem": "良性肿瘤的异型性主要表现在)",
+      "number": 91,
+      "stem": "良性肿瘤的异型性主要表现在",
       "option_a": "瘤细胞的多形性",
       "option_b": "细胞核的多形性",
       "option_c": "组织结构的异型性",
@@ -5990,8 +5750,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 94,
-      "stem": "确定癌的主要依据是(",
+      "number": 92,
+      "stem": "确定癌的主要依据是",
       "option_a": "灰白、质硬",
       "option_b": "瘤细胞呈巢状排列",
       "option_c": "出现病理性核分裂象",
@@ -6002,8 +5762,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 95,
-      "stem": "间质内可见淀粉样物质的甲状腺癌是)",
+      "number": 93,
+      "stem": "间质内可见淀粉样物质的甲状腺癌是",
       "option_a": "甲状腺乳头状癌",
       "option_b": "甲状腺滤泡癌",
       "option_c": "甲状腺髓样癌",
@@ -6014,8 +5774,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 96,
-      "stem": "下列哪一种是良性肿瘤(",
+      "number": 94,
+      "stem": "下列哪一种是良性肿瘤",
       "option_a": "霍奇金病",
       "option_b": "蕈样霉菌病",
       "option_c": "淋巴瘤",
@@ -6026,8 +5786,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 97,
-      "stem": "甲状腺腺瘤包括以下哪些类型)",
+      "number": 95,
+      "stem": "甲状腺腺瘤包括以下哪些类型",
       "option_a": "胚胎性腺瘤",
       "option_b": "胎儿性腺瘤",
       "option_c": "单纯型腺瘤",
@@ -6038,7 +5798,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 98,
+      "number": 96,
       "stem": "胃癌癌细胞穿透浆膜脱落于腹膜上形成的转移瘤称为()",
       "option_a": "远处转移",
       "option_b": "接触性转移",
@@ -6050,7 +5810,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 99,
+      "number": 97,
       "stem": "关于胰腺癌下述临床表现中，哪项悬错误的()",
       "option_a": "黄疸",
       "option_b": "CEA 阳性",
@@ -6062,8 +5822,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 100,
-      "stem": "对于甲状腺癌的描述，下列哪些是正确）",
+      "number": 98,
+      "stem": "对于甲状腺癌的描述，下列哪些是正确",
       "option_a": "乳头状癌的间质常有砂粒体出现",
       "option_b": "滤泡性腺癌少数情况下主要由嗜酸性",
       "option_c": "未分化癌可分为小细胞型、巨细胞型",
@@ -6074,8 +5834,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 101,
-      "stem": "Krukenberg 瘤是指(",
+      "number": 99,
+      "stem": "Krukenberg 瘤是指",
       "option_a": "卵巢黏液性囊腺瘤恶变",
       "option_b": "卵巢乳头状腺癌",
       "option_c": "卵巢腺癌伴广泛转移",
@@ -6086,8 +5846,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 102,
-      "stem": "容易转移到脊椎的癌是(",
+      "number": 100,
+      "stem": "容易转移到脊椎的癌是",
       "option_a": "胃癌",
       "option_b": "肾癌",
       "option_c": "前列腺癌",
@@ -6098,7 +5858,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 103,
+      "number": 101,
       "stem": "容易恶变的痣是()",
       "option_a": "是恶性肿瘤所独有的生长方式",
       "option_b": "交界痣",
@@ -6110,8 +5870,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 104,
-      "stem": "成熟畸胎瘤镜下最常见的组织为)",
+      "number": 102,
+      "stem": "成熟畸胎瘤镜下最常见的组织为",
       "option_a": "甲状腺",
       "option_b": "皮肤组织、脂肪",
       "option_c": "骨、软骨",
@@ -6122,20 +5882,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 105,
-      "stem": "关于浸润性生长(",
-      "option_a": "是恶性肿瘤所独有的生长方式",
-      "option_b": "是良性肿瘤所独有的生长方式",
-      "option_c": "良、恶性肿瘤均可以呈浸润性生长",
-      "option_d": "良、恶性肿瘤均不可以呈浸润性生长",
-      "option_e": "以上都不是",
-      "answer": "D",
-      "explanation": "正确答案是D：良、恶性肿瘤均不可以呈浸润性生长。机体在各种致瘤因素作用下，局部组织细胞在基因水平上失去对其生长的正常调控，导致克隆性异常增生而形成的新生物。肿瘤性增生与炎性增生有本质区别：肿瘤性增生是克隆性、自主性、持续性的异常增生。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 106,
-      "stem": "子宫颈早期浸润癌是指(",
+      "number": 103,
+      "stem": "子宫颈早期浸润癌是指",
       "option_a": "癌细胞未突破基底膜",
       "option_b": "癌细胞未突破基底膜，但已累及腺体",
       "option_c": "癌浸润深度不超过基底膜下 5mm",
@@ -6146,8 +5894,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 107,
-      "stem": "皮下一肿块，边界清楚，有包膜，质硬，灰白色，切面性质均匀一致，无继发)改变，可见纤细的编织状条纹，该肿物可能诊断为()",
+      "number": 104,
+      "stem": "皮下一肿块，边界清楚，有包膜，质硬，灰白色，切面性质均匀一致，无继发)改变，可见纤细的编织状条纹，该肿物可能诊断为(",
       "option_a": "纤维瘤",
       "option_b": "纤维肉瘤",
       "option_c": "平滑肌瘤",
@@ -6158,7 +5906,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 108,
+      "number": 105,
       "stem": "下列关于子宫颈原位癌的描述，哪项是错误的()",
       "option_a": "预后良好",
       "option_b": "阴道脱落细胞涂片检查阳性",
@@ -6170,8 +5918,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 109,
-      "stem": "诊断恶性肿瘤的重要依据是(）",
+      "number": 106,
+      "stem": "诊断恶性肿瘤的重要依据是()",
       "option_a": "肿块迅速长大",
       "option_b": "病理性核分裂象",
       "option_c": "恶病质",
@@ -6182,8 +5930,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 110,
-      "stem": "下列关于良性畸胎瘤的描述，正确的是)",
+      "number": 107,
+      "stem": "下列关于良性畸胎瘤的描述，正确的是",
       "option_a": "也称为不成熟畸胎瘤",
       "option_b": "来源于生殖细胞",
       "option_c": "一般体积较小，实性多见",
@@ -6194,7 +5942,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 111,
+      "number": 108,
       "stem": "肺石棉沉着症并发的最常见的恶性肿瘤是()",
       "option_a": "喉癌",
       "option_b": "肺癌",
@@ -6206,7 +5954,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 112,
+      "number": 109,
       "stem": "慢性溃疡性结肠炎的病变特点不包括()",
       "option_a": "病变可累及结肠各段",
       "option_b": "临床上呈慢性经过",
@@ -6218,31 +5966,31 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 113,
-      "stem": "下列关CIN的描述，错误的是)",
+      "number": 110,
+      "stem": "下列关CIN的描述，错误的是",
       "option_a": "CIN 属于癌前病变",
       "option_b": "CINIII级即原位癌",
       "option_c": "HBV",
-      "option_d": "",
+      "option_d": "[选项D待补充]",
       "option_e": "MCV",
       "answer": "E",
       "explanation": "正确答案是E：MCV。"
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 114,
-      "stem": "下列哪一项是肿瘤(",
+      "number": 111,
+      "stem": "下列哪一项是肿瘤",
       "option_a": "错构瘤",
       "option_b": "动脉瘤",
       "option_c": "室壁瘤",
       "option_d": "创伤性神经瘤",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：动脉瘤。机体在各种致瘤因素作用下，局部组织细胞在基因水平上失去对其生长的正常调控，导致克隆性异常增生而形成的新生物。肿瘤性增生与炎性增生有本质区别：肿瘤性增生是克隆性、自主性、持续性的异常增生。"
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 115,
+      "number": 112,
       "stem": "溃疡型胃癌与胃溃疡相比，下列关于癌性溃疡的肉眼描述哪项是错的()",
       "option_a": "外形呈火山口状",
       "option_b": "边缘不整齐",
@@ -6254,7 +6002,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 116,
+      "number": 113,
       "stem": "胃癌常见的组织学类型中不包括()",
       "option_a": "乳头状腺癌",
       "option_b": "管状腺癌",
@@ -6266,7 +6014,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 117,
+      "number": 114,
       "stem": "以下哪项是癌与肉瘤的主要区别点()",
       "option_a": "发病年龄",
       "option_b": "大体特点",
@@ -6278,7 +6026,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 118,
+      "number": 115,
       "stem": "按发病率递减的顺序，食道癌最常见的部位依次是()",
       "option_a": "食道上段、中段、下段",
       "option_b": "食道中段、下段、上段",
@@ -6290,7 +6038,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 119,
+      "number": 116,
       "stem": "甲胎蛋白明显升高时，对下列哪种疾病有诊断意义()",
       "option_a": "肝硬变",
       "option_b": "肝转移癌",
@@ -6302,8 +6050,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 120,
-      "stem": "男性，55岁，30年吸烟史，刺激性干咳6个月。查体X线片示右肺门处不规则分叶状巨大阴影，边界不清。最有可能的)诊断是()",
+      "number": 117,
+      "stem": "男性，55岁，30年吸烟史，刺激性干咳6个月。查体X线片示右肺门处不规则分叶状巨大阴影，边界不清。最有可能的)诊断是(",
       "option_a": "肺鳞状细胞癌",
       "option_b": "大叶性肺炎",
       "option_c": "小叶性肺炎",
@@ -6314,7 +6062,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 121,
+      "number": 118,
       "stem": "关于食道癌，下列哪一项是错误的()",
       "option_a": "多见于食道中段",
       "option_b": "鳞状细胞癌最多见",
@@ -6326,7 +6074,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 122,
+      "number": 119,
       "stem": "骨肉瘤的主要血清化验是()",
       "option_a": "碱性磷酸酶活性增高",
       "option_b": "酸性磷酸酶活性降低",
@@ -6338,7 +6086,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 123,
+      "number": 120,
       "stem": "除下列哪项外均为中晚期食道癌的肉眼类型()",
       "option_a": "髓质型",
       "option_b": "蕈伞型",
@@ -6350,7 +6098,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 124,
+      "number": 121,
       "stem": "肺癌的早期诊断中最有价值的检查是()",
       "option_a": "早期症状的发现",
       "option_b": "纤维支气管镜活检",
@@ -6362,7 +6110,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 125,
+      "number": 122,
       "stem": "食道癌最常见的组织学类型是()",
       "option_a": "鳞状细胞癌",
       "option_b": "小细胞癌",
@@ -6374,8 +6122,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 126,
-      "stem": "血道转移发生较早的癌是)()",
+      "number": 123,
+      "stem": "血道转移发生较早的癌是)(",
       "option_a": "绒毛膜癌",
       "option_b": "鼻咽癌",
       "option_c": "肝癌",
@@ -6386,7 +6134,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 127,
+      "number": 124,
       "stem": "早期发现胃癌最可靠的方法是()",
       "option_a": "X 线钡餐检查",
       "option_b": "超声波检查",
@@ -6398,7 +6146,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 128,
+      "number": 125,
       "stem": "肿瘤血道转移最常见的部位是()",
       "option_a": "肺、脑",
       "option_b": "肝、脑",
@@ -6410,7 +6158,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 129,
+      "number": 126,
       "stem": "早期胃癌的病理诊断标准是癌组织()",
       "option_a": "直径小于2cm",
       "option_b": "局限于黏膜层内",
@@ -6422,7 +6170,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 130,
+      "number": 127,
       "stem": "类癌的特性为()",
       "option_a": "为良性肿瘤",
       "option_b": "为移性上皮细胞发生的肿瘤",
@@ -6434,8 +6182,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 131,
-      "stem": "下列各项中哪项不属于区别良恶性肿瘤的要点.(）",
+      "number": 128,
+      "stem": "下列各项中哪项不属于区别良恶性肿瘤的要点.()",
       "option_a": "肿瘤的组织结构",
       "option_b": "生长方式",
       "option_c": "复发与转移",
@@ -6446,7 +6194,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 132,
+      "number": 129,
       "stem": "左锁骨上淋巴结的转移性腺癌的最可能的来源是()",
       "option_a": "乳腺癌",
       "option_b": "卵巢癌",
@@ -6458,8 +6206,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 133,
-      "stem": "下列哪种为恶性肿瘤(",
+      "number": 130,
+      "stem": "下列哪种为恶性肿瘤",
       "option_a": "囊状水瘤",
       "option_b": "畸胎瘤",
       "option_c": "混合瘤",
@@ -6470,7 +6218,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 134,
+      "number": 131,
       "stem": "下列哪一项最符合远隔器官转移瘤的特点()",
       "option_a": "与原发瘤组织学类型不同",
       "option_b": "在远隔器官内形成单个转移灶",
@@ -6482,7 +6230,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 135,
+      "number": 132,
       "stem": "下列哪一项是判断良恶性肿瘤的主要组织学特征()",
       "option_a": "肿瘤细胞排列紊乱",
       "option_b": "肿瘤细胞核的多型性",
@@ -6494,8 +6242,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 136,
-      "stem": "低分化肿瘤的特点是(",
+      "number": 133,
+      "stem": "低分化肿瘤的特点是",
       "option_a": "异型性小",
       "option_b": "瘤细胞呈明显的巢状排列",
       "option_c": "瘤细胞呈明显的弥散状排列",
@@ -6506,8 +6254,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 137,
-      "stem": "肉瘤的肉眼特点通常为(",
+      "number": 134,
+      "stem": "肉瘤的肉眼特点通常为",
       "option_a": "结节状、有包膜，切面灰白质硬",
       "option_b": "结节状、有包膜，切面灰白质软",
       "option_c": "分叶状，可有或无包膜，切面灰红或",
@@ -6518,8 +6266,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 138,
-      "stem": "肿瘤的特性取决于(",
+      "number": 135,
+      "stem": "肿瘤的特性取决于",
       "option_a": "肿瘤的生长部位",
       "option_b": "肿瘤的生长速度",
       "option_c": "肿瘤的生长方式",
@@ -6530,7 +6278,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 139,
+      "number": 136,
       "stem": "原发性肝癌的肉眼分型不包括()",
       "option_a": "结节型",
       "option_b": "弥漫型",
@@ -6542,7 +6290,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 140,
+      "number": 137,
       "stem": "下列哪一项表示良性肿瘤的一般特征()",
       "option_a": "生长速度慢",
       "option_b": "不转移",
@@ -6554,7 +6302,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 141,
+      "number": 138,
       "stem": "晚期胃癌常转移到左锁骨上淋巴结，后者又称()",
       "option_a": "Aschoff 淋巴结",
       "option_b": "Ewing 淋巴结",
@@ -6566,8 +6314,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 142,
-      "stem": "肝癌最常见的转移方式是(）",
+      "number": 139,
+      "stem": "肝癌最常见的转移方式是()",
       "option_a": "门静脉转移",
       "option_b": "淋巴道转移",
       "option_c": "肝静脉转移",
@@ -6578,8 +6326,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 143,
-      "stem": "肿瘤细胞分化程度越高(",
+      "number": 140,
+      "stem": "肿瘤细胞分化程度越高",
       "option_a": "肿瘤的恶性程度越低",
       "option_b": "对放射治疗越敏感",
       "option_c": "肿瘤转移越早",
@@ -6590,8 +6338,8 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 144,
-      "stem": "肝细胞癌患者最有诊断意义的血清学指标是(一",
+      "number": 141,
+      "stem": "肝细胞癌患者最有诊断意义的血清学指标是",
       "option_a": "甲胎蛋白",
       "option_b": "癌胚抗原",
       "option_c": "碱性磷酸酶",
@@ -6602,7 +6350,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 145,
+      "number": 142,
       "stem": "肿瘤的异型性主要反映()",
       "option_a": "肿瘤的生长速度",
       "option_b": "肿瘤的性质",
@@ -6614,7 +6362,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 146,
+      "number": 143,
       "stem": "原发性肝癌是指()",
       "option_a": "胆管上皮发生的癌",
       "option_b": "肝细胞和肝内胆管上皮发生的癌",
@@ -6626,7 +6374,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 147,
+      "number": 144,
       "stem": "下列哪项是恶性肿瘤的主要特征()",
       "option_a": "核分裂象多见",
       "option_b": "细胞丰富",
@@ -6638,7 +6386,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 148,
+      "number": 145,
       "stem": "下列哪种肿瘤的恶性型归入癌()",
       "option_a": "腺瘤",
       "option_b": "纤维瘤",
@@ -6650,7 +6398,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 149,
+      "number": 146,
       "stem": "肿瘤恶性程度的高低取决于()",
       "option_a": "肿瘤体积的大小",
       "option_b": "肿瘤患者的临床表现",
@@ -6662,7 +6410,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 150,
+      "number": 147,
       "stem": "最能体现腺癌的特点的是",
       "option_a": "发生于腺上皮",
       "option_b": "癌细胞呈腺样排列",
@@ -6674,7 +6422,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 151,
+      "number": 148,
       "stem": "有些肿瘤的生物学行为介于良、恶性肿",
       "option_a": "好发于青少年",
       "option_b": "是一种早期癌",
@@ -6686,7 +6434,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 152,
+      "number": 149,
       "stem": "骨肉瘤的主要诊断依据是()",
       "option_a": "好发于青少年",
       "option_b": "血道转移",
@@ -6698,19 +6446,19 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 153,
+      "number": 150,
       "stem": "目前诊断肿瘤最可靠的方法是()",
       "option_a": "细胞学检查法",
       "option_b": "活体组织检查法",
       "option_c": "彩色超声检查法",
       "option_d": "核磁共振检查法",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：活体组织检查法。机体在各种致瘤因素作用下，局部组织细胞在基因水平上失去对其生长的正常调控，导致克隆性异常增生而形成的新生物。肿瘤性增生与炎性增生有本质区别：肿瘤性增生是克隆性、自主性、持续性的异常增生。"
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 154,
+      "number": 151,
       "stem": "下列哪种不是恶性肿瘤",
       "option_a": "肾母细胞瘤",
       "option_b": "krukenberg 瘤",
@@ -6722,7 +6470,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 155,
+      "number": 152,
       "stem": "瘤的实质是指()",
       "option_a": "肿瘤内肿瘤细胞",
       "option_b": "肿瘤内淋巴管",
@@ -6734,7 +6482,7 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第5章 肿瘤",
-      "number": 156,
+      "number": 153,
       "stem": "恶性肿瘤在生长过程中变得越来越富骨组织的肿瘤",
       "option_a": "多呈分叶状",
       "option_b": "包膜不完整，切除后易复发",
@@ -6831,7 +6579,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 心血管系统疾病",
       "number": 8,
-      "stem": "二尖瓣狭窄首先引起(一",
+      "stem": "二尖瓣狭窄首先引起",
       "option_a": "左心房肥大扩张",
       "option_b": "心室肥大扩张",
       "option_c": "肠球菌",
@@ -6848,7 +6596,7 @@ const QUESTION_DATA = {
       "option_b": "右心室肥大、扩张",
       "option_c": "左心房肥大、扩张",
       "option_d": "右心房肥大、扩张",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：右心室肥大、扩张。由于功能增强、合成代谢旺盛，使细胞、组织或器官体积增大。可分为：(1)生理性肥大：如妊娠子宫、运动员心肌；(2)病理性肥大：如高血压时左心室肥厚、幽门梗阻时胃壁平滑肌肥大。肥大常与增生并存。"
     },
@@ -6891,7 +6639,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 心血管系统疾病",
       "number": 13,
-      "stem": "血液凝固性增加见于(",
+      "stem": "血液凝固性增加见于",
       "option_a": "动脉中膜钙化",
       "option_b": "血脂增高时",
       "option_c": "梅毒性主动脉炎",
@@ -6967,8 +6715,8 @@ const QUESTION_DATA = {
       "option_a": "遗传因素",
       "option_b": "肾因素",
       "option_c": "社会心理应激",
-      "option_d": "",
-      "option_e": "",
+      "option_d": "[选项D待补充]",
+      "option_e": "[选项E待补充]",
       "answer": "B",
       "explanation": "正确答案是B：肾因素。以体循环动脉血压持续升高（≥140/90mmHg）为主要表现的临床综合征。原发性高血压的基本病变是全身细动脉玻璃样变（细小动脉硬化）。主要受累器官：心（左心室肥厚→心衰）、脑（脑出血、脑梗死）、肾（原发性颗粒性固缩肾→肾衰）。"
     },
@@ -7107,7 +6855,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 心血管系统疾病",
       "number": 31,
-      "stem": "动脉粥样硬化主要累及(",
+      "stem": "动脉粥样硬化主要累及",
       "option_a": "小动脉的内膜",
       "option_b": "大、中动脉的中膜",
       "option_c": "大、中动脉的内膜",
@@ -7179,7 +6927,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 心血管系统疾病",
       "number": 37,
-      "stem": "心脏赘生物最常见于(",
+      "stem": "心脏赘生物最常见于",
       "option_a": "心外膜",
       "option_b": "心瓣膜",
       "option_c": "心内膜",
@@ -7287,7 +7035,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第7章 呼吸系统疾病",
       "number": 2,
-      "stem": "平滑肌瘤最常发生于(一",
+      "stem": "平滑肌瘤最常发生于",
       "option_a": "腹膜后",
       "option_b": "子宫",
       "option_c": "胃肠道",
@@ -7311,7 +7059,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第7章 呼吸系统疾病",
       "number": 4,
-      "stem": "慢性支气管炎并发肺气肿通常是(）",
+      "stem": "慢性支气管炎并发肺气肿通常是()",
       "option_a": "腺泡中央型肺气肿",
       "option_b": "全腺泡型肺气肿",
       "option_c": "肺泡远端型肺气肿",
@@ -7371,7 +7119,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第7章 呼吸系统疾病",
       "number": 9,
-      "stem": "下列不会导致支气管扩张症的疾病是(）",
+      "stem": "下列不会导致支气管扩张症的疾病是()",
       "option_a": "肺结核",
       "option_b": "慢性支气管炎",
       "option_c": "小叶性肺炎",
@@ -7419,7 +7167,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第7章 呼吸系统疾病",
       "number": 13,
-      "stem": "下列能引起间质性肺炎的病原体是)",
+      "stem": "下列能引起间质性肺炎的病原体是",
       "option_a": "肺炎链球菌",
       "option_b": "肺炎支原体",
       "option_c": "溶血性链球菌",
@@ -7575,7 +7323,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第8章 消化系统疾病",
       "number": 2,
-      "stem": "慢性萎缩性胃炎B型的表现有(）",
+      "stem": "慢性萎缩性胃炎B型的表现有()",
       "option_a": "胃体部黏膜弥漫性病变",
       "option_b": "胃窦部黏膜病变严重",
       "option_c": "血清自身抗体阳性",
@@ -7791,7 +7539,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第8章 消化系统疾病",
       "number": 20,
-      "stem": "与慢性胃炎发病有关的细菌是(）",
+      "stem": "与慢性胃炎发病有关的细菌是()",
       "option_a": "幽门螺杆菌",
       "option_b": "白色念珠菌",
       "option_c": "葡萄球菌",
@@ -7815,7 +7563,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第8章 消化系统疾病",
       "number": 22,
-      "stem": "复合性消化性溃疡是指(",
+      "stem": "复合性消化性溃疡是指",
       "option_a": "胃大弯和胃小弯都有溃疡",
       "option_b": "胃底部和胃体部都有溃疡",
       "option_c": "胃和十二指肠都有溃疡",
@@ -7827,7 +7575,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第8章 消化系统疾病",
       "number": 23,
-      "stem": "毛玻璃样肝细胞可见于(",
+      "stem": "毛玻璃样肝细胞可见于",
       "option_a": "急性普通型肝炎",
       "option_b": "慢性普通型肝炎",
       "option_c": "急性重型肝炎",
@@ -7863,7 +7611,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第8章 消化系统疾病",
       "number": 26,
-      "stem": "肝硬化引起门脉高压的原因一般不包括(）",
+      "stem": "肝硬化引起门脉高压的原因一般不包括()",
       "option_a": "假小叶压迫小叶下静脉",
       "option_b": "纤维组织压迫中央静脉",
       "option_c": "肝窦狭窄、闭合",
@@ -7995,7 +7743,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第9章 淋巴造血系统疾病",
       "number": 1,
-      "stem": "霍奇金淋巴瘤多发生于(",
+      "stem": "霍奇金淋巴瘤多发生于",
       "option_a": "颈部淋巴结",
       "option_b": "纵隔淋巴结",
       "option_c": "腋下淋巴结",
@@ -8007,7 +7755,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第9章 淋巴造血系统疾病",
       "number": 2,
-      "stem": "关于霍奇金淋巴瘤的特点下列说法正确的是(）",
+      "stem": "关于霍奇金淋巴瘤的特点下列说法正确的是()",
       "option_a": "细胞单一",
       "option_b": "首先累及深部淋巴结",
       "option_c": "病变先从一个淋巴结开始，逐渐向远",
@@ -8031,7 +7779,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第9章 淋巴造血系统疾病",
       "number": 4,
-      "stem": "霍奇金淋巴瘤最常发生的部位是(）",
+      "stem": "霍奇金淋巴瘤最常发生的部位是()",
       "option_a": "腋下淋巴结",
       "option_b": "纵隔淋巴结",
       "option_c": "腹膜后淋巴结",
@@ -8043,7 +7791,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第9章 淋巴造血系统疾病",
       "number": 5,
-      "stem": "下列哪项是淋巴瘤(）",
+      "stem": "下列哪项是淋巴瘤()",
       "option_a": "霍奇金病",
       "option_b": "恶性间皮瘤",
       "option_c": "Krukenberg 瘤",
@@ -8451,7 +8199,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 8,
-      "stem": "异位妊娠最常发生的部位是)",
+      "stem": "异位妊娠最常发生的部位是",
       "option_a": "子宫颈",
       "option_b": "可以单发或多发",
       "option_c": "输卵管",
@@ -8463,7 +8211,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 9,
-      "stem": "下列哪一项不符合子宫肌瘤的病理学)",
+      "stem": "下列哪一项不符合子宫肌瘤的病理学",
       "option_a": "可以发生在子宫壁内、浆膜下或黏膜",
       "option_b": "可以单发或多发",
       "option_c": "具有明显的包膜",
@@ -8499,7 +8247,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 12,
-      "stem": "葡萄胎来源于何种细胞(",
+      "stem": "葡萄胎来源于何种细胞",
       "option_a": "蜕膜细胞",
       "option_b": "胎盘内血管内皮细胞",
       "option_c": "子宫内膜细胞",
@@ -8559,7 +8307,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 17,
-      "stem": "宫颈上皮内瘤变(CIN)III级相当于",
+      "stem": "宫颈上皮内瘤变(IN)III级相当于",
       "option_a": "轻度非典型增生",
       "option_b": "中度非典型增生",
       "option_c": "重度非典型增生和原位癌",
@@ -8607,7 +8355,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第13章 内分泌系统疾病",
       "number": 2,
-      "stem": "下列关于慢性胰腺炎病理特点的描述，哪一项是错误的(一",
+      "stem": "下列关于慢性胰腺炎病理特点的描述，哪一项是错误的",
       "option_a": "胰腺呈结节状，质硬",
       "option_b": "有纤维组织增生及钙盐沉着",
       "option_c": "间质纤维组织增生，胰管扩张",
@@ -8619,7 +8367,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第13章 内分泌系统疾病",
       "number": 3,
-      "stem": "新生儿或幼儿时期甲状腺功能低下，表)",
+      "stem": "新生儿或幼儿时期甲状腺功能低下，表",
       "option_a": "黏液水肿",
       "option_b": "弥漫性增生性甲状腺肿",
       "option_c": "弥漫性胶样甲状腺肿",
@@ -8631,11 +8379,11 @@ const QUESTION_DATA = {
     {
       "chapter": "第13章 内分泌系统疾病",
       "number": 4,
-      "stem": "下列哪项不是甲状腺功能低下的原因(",
+      "stem": "下列哪项不是甲状腺功能低下的原因",
       "option_a": "甲状腺正常结构破坏，有大量的淋巴(",
       "option_b": "甲状腺滤泡萎缩，滤泡上皮常有嗜酸",
       "option_c": "病变向周围组织蔓延，粘连，质硬似",
-      "option_d": "",
+      "option_d": "[选项D待补充]",
       "option_e": "钙化",
       "answer": "B",
       "explanation": "正确答案是B：甲状腺滤泡萎缩，滤泡上皮常有嗜酸。已发育正常的细胞、组织或器官的体积缩小。可因营养不良、缺血、废用、压迫、去神经支配及内分泌功能减退等引起。萎缩的细胞功能降低，但并未死亡，去除病因后部分可恢复。"
@@ -8647,8 +8395,8 @@ const QUESTION_DATA = {
       "option_a": "甲状腺正常结构破坏，有大量的淋巴(",
       "option_b": "甲状腺滤泡萎缩，滤泡上皮常有嗜酸",
       "option_c": "病变向周围组织蔓延，粘连，质硬似",
-      "option_d": "",
-      "option_e": "",
+      "option_d": "[选项D待补充]",
+      "option_e": "[选项E待补充]",
       "answer": "C",
       "explanation": "正确答案是C：病变向周围组织蔓延，粘连，质硬似D. 胶样腺瘤。慢性淋巴细胞性甲状腺炎，是最常见的自身免疫性甲状腺疾病。甲状腺弥漫性肿大，质韧如橡皮。镜下：甲状腺滤泡萎缩，间质大量淋巴细胞、浆细胞浸润，形成淋巴滤泡（生发中心），滤泡上皮嗜酸性变（Hürthle细胞）。可导致甲状腺功能减退。"
     },
@@ -8660,14 +8408,14 @@ const QUESTION_DATA = {
       "option_b": "克汀病",
       "option_c": "结节性甲状腺肿",
       "option_d": "Cushing 综合征",
-      "option_e": "",
+      "option_e": "[选项E待补充]",
       "answer": "A",
       "explanation": "正确答案是A：黏液水肿。"
     },
     {
       "chapter": "第13章 内分泌系统疾病",
       "number": 7,
-      "stem": "嗜铬细胞瘤最常见于(",
+      "stem": "嗜铬细胞瘤最常见于",
       "option_a": "肾上腺髓质",
       "option_b": "主动脉旁副节细胞",
       "option_c": "肾上腺皮质",
@@ -8691,7 +8439,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第13章 内分泌系统疾病",
       "number": 9,
-      "stem": "关于克汀病的叙述，下列哪项是正确的)",
+      "stem": "关于克汀病的叙述，下列哪项是正确的",
       "option_a": "甲状腺肿大",
       "option_b": "骨骼发育异常，身材高大",
       "option_c": "大脑发育不全，智力低下",
@@ -8992,83 +8740,11 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 1,
-      "term": "坏死细胞的蛋白质凝固，常保留组织结",
-      "english": "",
-      "type": "名词解释",
-      "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 2,
       "term": "是较大范围的坏死伴腐败菌感染而继发",
       "english": "",
       "type": "名词解释",
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 3,
-      "term": "湿性坏疽",
-      "english": "",
-      "type": "名词解释",
-      "definition": "较大范围的组织坏死后，继发不同程度的腐败菌感染，使坏死组织呈黑色或暗绿色。根据形态特点分为：干性坏疽（四肢末端多见）、湿性坏疽（内脏多见）和气性坏疽（深部创伤合并厌氧菌感染）。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 4,
-      "term": "干性坏疽",
-      "english": "",
-      "type": "名词解释",
-      "definition": "较大范围的组织坏死后，继发不同程度的腐败菌感染，使坏死组织呈黑色或暗绿色。根据形态特点分为：干性坏疽（四肢末端多见）、湿性坏疽（内脏多见）和气性坏疽（深部创伤合并厌氧菌感染）。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
-      "term": "一种特殊类型的湿性坏疽。见于深达肌",
-      "english": "",
-      "type": "名词解释",
-      "definition": "较大范围的组织坏死后，继发不同程度的腐败菌感染，使坏死组织呈黑色或暗绿色。根据形态特点分为干性坏疽、湿性坏疽和气性坏疽三种类型。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 6,
-      "term": "坏死",
-      "english": "",
-      "type": "名词解释",
-      "definition": "坏死组织因蛋白质变性凝固而呈灰白或黄白色、干燥坚实的凝固体。镜下组织轮廓残影可见，但微细结构消失。多见于脾、肾、心等实质器官的缺血性梗死（贫血性梗死）。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 7,
-      "term": "纤维素样坏死",
-      "english": "",
-      "type": "名词解释",
-      "definition": "发生于结缔组织和小血管壁的一种坏死。病变部位组织结构消失，变为境界不清的颗粒状、小条状强嗜伊红无结构物质，状似纤维素。常见于风湿病、系统性红斑狼疮、恶性高血压、结节性多动脉炎等变态反应性疾病。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 8,
-      "term": "坏死灶如较大，或坏死物难于溶解吸收，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 9,
-      "term": "结核病时形成的彻底的凝固性坏死，肉",
-      "english": "",
-      "type": "名词解释",
-      "definition": "坏死组织因蛋白质变性凝固而呈灰白或黄白色、干燥坚实的凝固体，常见于脾、肾、心等实质器官的缺血性梗死。镜下可见组织轮廓残影，但细胞微细结构消失。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 10,
-      "term": "肥大",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由于功能增强、合成代谢旺盛，使细胞、组织或器官体积增大。可分为：(1)生理性肥大：如妊娠子宫、运动员心肌；(2)病理性肥大：如高血压时左心室肥厚、幽门梗阻时胃壁平滑肌肥大。肥大常与增生并存。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -9088,91 +8764,11 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 13,
-      "term": "水样变性",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 14,
-      "term": "变性",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 15,
-      "term": "增生",
-      "english": "",
-      "type": "名词解释",
-      "definition": "在致炎因子、组织崩解产物或某些理化因子刺激下，炎症局部细胞增殖、数目增多。以巨噬细胞、血管内皮细胞和成纤维细胞增生最为常见。增生在炎症后期显著，具有修复意义。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 16,
-      "term": "纤维素样坏死",
-      "english": "",
-      "type": "名词解释",
-      "definition": "发生于结缔组织和小血管壁的一种坏死。病变部位组织结构消失，变为境界不清的颗粒状、小条状强嗜伊红无结构物质，状似纤维素。常见于风湿病、系统性红斑狼疮、恶性高血压、结节性多动脉炎等变态反应性疾病。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 17,
-      "term": "萎缩",
-      "english": "",
-      "type": "名词解释",
-      "definition": "已发育正常的细胞、组织或器官的体积缩小。可因营养不良、缺血、废用、压迫、去神经支配及内分泌功能减退等引起。萎缩的细胞功能降低，但并未死亡，去除病因后部分可恢复。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 18,
-      "term": "淀粉样变性",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
       "number": 19,
       "term": "黏液样变性",
       "english": "",
       "type": "名词解释",
       "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 21,
-      "term": "再生：组织和细胞丧失后形成的组织缺",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由损伤周围的同种细胞增生来修复缺损的过程。不同组织的再生能力不同，表皮、黏膜上皮等不稳定细胞再生能力强，肝、肾等稳定细胞有一定再生能力，心肌和神经细胞再生能力极弱。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 22,
-      "term": "修复",
-      "english": "",
-      "type": "名词解释",
-      "definition": "损伤造成机体部分细胞和组织丧失后，机体对缺损进行修补恢复的过程。修复的两种形式：(1)再生：由同种细胞修复；(2)纤维性修复（瘢痕修复）：由肉芽组织填补。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 23,
-      "term": "不稳定细胞：此类细胞总在不断地增",
-      "english": "",
-      "type": "名词解释",
-      "definition": "又称持续分裂细胞。这类细胞在一生中不断分裂增殖，再生能力极强。包括：表皮基底细胞、呼吸道和消化道黏膜上皮细胞、淋巴造血细胞、子宫内膜上皮细胞等。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 24,
-      "term": "永久性细胞：这类细胞出生后都不能分",
-      "english": "",
-      "type": "名词解释",
-      "definition": "又称非分裂细胞。这类细胞出生后即丧失分裂能力，损伤后不能再生，只能由瘢痕修复。包括：神经细胞、心肌细胞、骨骼肌细胞。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -9183,26 +8779,10 @@ const QUESTION_DATA = {
       "definition": "由新生毛细血管和成纤维细胞构成的幼稚结缔组织。肉眼观呈鲜红色、颗粒状、柔软湿润，似新鲜肉芽。在创伤愈合、机化等过程中起重要作用。"
     },
     {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 26,
-      "term": "稳定细胞：这类细胞在生理情况下，细",
-      "english": "",
-      "type": "名词解释",
-      "definition": "又称静止细胞。在生理情况下处于G0期，不分裂，但损伤后能进入细胞周期进行分裂再生。包括：肝细胞、肾小管上皮细胞、胰腺实质细胞、间叶组织细胞（成纤维细胞、平滑肌细胞）等。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 27,
-      "term": "瘢痕疙瘩：肥大性瘢痕突出于皮肤表面",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由于功能增强、合成代谢旺盛，使细胞、组织或器官体积增大。可分为生理性肥大（如妊娠子宫）和病理性肥大（如高血压时左心室肥厚）。肥大常伴有增生。"
-    },
-    {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 28,
-      "term": "空洞：肾、肺等内脏器官坏死组织液化",
-      "english": "",
+      "term": "空洞",
+      "english": "cavity",
       "type": "名词解释",
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
     },
@@ -9239,38 +8819,6 @@ const QUESTION_DATA = {
       "definition": "机体遭受外力作用使组织断裂或缺损后，由局部组织进行修补恢复的过程。基本过程：出血→炎症反应→肉芽组织增生→瘢痕形成→表皮及其他组织再生。"
     },
     {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 33,
-      "term": "一期愈合：见于组织缺损少，创缘整齐，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "组织缺损少、创缘整齐、无感染、对合紧密的伤口愈合。如手术切口。愈合过程：少量肉芽组织从创缘长入，表皮再生覆盖，形成线状瘢痕。时间短（约1周），瘢痕小。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 34,
-      "term": "溃疡：皮肤或黏膜坏死，崩解脱落形成",
-      "english": "",
-      "type": "名词解释",
-      "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 35,
-      "term": "骨折愈合：骨折后，经过良好复位，通",
-      "english": "",
-      "type": "名词解释",
-      "definition": "骨折后经过以下阶段完成愈合：(1)血肿形成期；(2)纤维性骨痂形成期（成纤维细胞和软骨细胞增生）；(3)骨性骨痂形成期（骨样组织钙化）；(4)骨改建期（按力学方向改建）。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 36,
-      "term": "骨性骨痂：纤维性骨痂形成后，骨母细",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以纤维蛋白原渗出为主的炎症，渗出的纤维蛋白原在组织内转化为纤维素（纤维蛋白）。好发于黏膜（喉、肠黏膜）、浆膜（胸膜、腹膜、心包）和肺（大叶性肺炎）。"
-    },
-    {
       "chapter": "第2章 损伤的修复",
       "number": 37,
       "term": "肉芽组织：由新生的毛细血管及成纤维",
@@ -9293,14 +8841,6 @@ const QUESTION_DATA = {
       "english": "embolus",
       "type": "名词解释",
       "definition": "阻塞血管的异常物质，如血栓、脂肪滴、气体、羊水、肿瘤细胞团等。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 40,
-      "term": "机化",
-      "english": "organization",
-      "type": "名词解释",
-      "definition": "坏死组织、血栓、炎性渗出物或其他异物被肉芽组织取代的过程。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -9431,44 +8971,12 @@ const QUESTION_DATA = {
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
     },
     {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 39,
-      "term": "阻塞血管管腔的异常物质称为栓子。",
-      "english": "",
-      "type": "名词解释",
-      "definition": "阻塞血管腔的异常物质。最常见的栓子是脱落的血栓，此外还有脂肪滴、气体、羊水、肿瘤细胞团、细菌菌落、寄生虫等。"
-    },
-    {
       "chapter": "第2章 损伤的修复",
       "number": 40,
       "term": "由新生肉芽组织取代坏死组织、血栓或",
       "english": "",
       "type": "名词解释",
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 41,
-      "term": "发生于微循环小血管内，只能在显微镜",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 42,
-      "term": "右心或下腔静脉的栓子，由于某种原因",
-      "english": "",
-      "type": "名词解释",
-      "definition": "阻塞血管腔的异常物质。最常见的栓子是脱落的血栓，此外还有脂肪滴、气体、羊水、肿瘤细胞团、细菌菌落、寄生虫等。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 43,
-      "term": "血栓机化中的新生内皮细胞，被覆血栓",
-      "english": "",
-      "type": "名词解释",
-      "definition": "坏死组织、血栓、炎性渗出物或其他异物被新生的肉芽组织取代的过程。机化后最终形成纤维性瘢痕。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -9480,22 +8988,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 45,
-      "term": "血液自心、血管腔逸出，称为出血。",
-      "english": "",
-      "type": "名词解释",
-      "definition": "血液从心血管内逸出至组织间隙、体腔或体表。可分为破裂性出血（血管壁破裂）和漏出性出血（毛细血管通透性增高）。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 46,
-      "term": "由含细菌的栓子栓塞所致，常形成栓塞",
-      "english": "",
-      "type": "名词解释",
-      "definition": "在循环血液中出现不溶于血液的异常物质，随血流运行阻塞血管腔的现象。阻塞血管的异常物质称为栓子，最常见的栓子是血栓栓子。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
       "number": 47,
       "term": "在循环血液中出现的不溶于血液的异",
       "english": "",
@@ -9504,83 +8996,11 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第3章 局部血液循环障碍",
-      "number": 48,
-      "term": "由血栓引起的栓塞称为血栓栓塞。",
-      "english": "",
-      "type": "名词解释",
-      "definition": "在循环血液中出现不溶于血液的异常物质，随血流运行阻塞血管腔的现象。阻塞血管的异常物质称为栓子，最常见的栓子是血栓栓子。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 49,
-      "term": "来自静脉系统的栓子，经房",
-      "english": "室",
-      "type": "名词解释",
-      "definition": "阻塞血管腔的异常物质。最常见的栓子是脱落的血栓，此外还有脂肪滴、气体、羊水、肿瘤细胞团、细菌菌落、寄生虫等。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
       "number": 50,
       "term": "在活体的心脏或血管腔内血液发生凝",
       "english": "",
       "type": "名词解释",
       "definition": ""
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 204,
-      "term": "B211.D218.C225.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 205,
-      "term": "B212.D219.E226.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 206,
-      "term": "B213.C220.A227.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 207,
-      "term": "E214.A221.D228.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 208,
-      "term": "A215.A222.C229.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 209,
-      "term": "D216.E223.D230.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第三章 局部血液循环障碍",
-      "number": 210,
-      "term": "B217.C224.D231.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -9597,14 +9017,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": "在活体心血管内形成的固体质块。按形态和组成分为：(1)白色血栓（血小板为主，头端）；(2)混合血栓（体部）；(3)红色血栓（尾部）；(4)透明血栓（微循环内）。结局：溶解吸收、机化再通、钙化（静脉石）、脱落成为栓子。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 53,
-      "term": "梗死灶内含血量多，颜色呈暗红，称为",
-      "english": "",
-      "type": "名词解释",
-      "definition": "器官或局部组织由于血管阻塞、血流中断导致缺血缺氧而发生的坏死。根据梗死灶内出血程度分为贫血性梗死和出血性梗死。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -9629,14 +9041,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": "炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是炎症最具特征性的变化，对机体有防御作用。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 57,
-      "term": "痈",
-      "english": "carbuncle",
-      "type": "名词解释",
-      "definition": ""
     },
     {
       "chapter": "第4章 炎症",
@@ -9711,60 +9115,12 @@ const QUESTION_DATA = {
       "definition": "局限性化脓性炎，伴有组织坏死液化形成的充满脓液的腔。"
     },
     {
-      "chapter": "第4章 炎症",
-      "number": 67,
-      "term": "疖",
-      "english": "furuncle",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 57,
-      "term": "是多个疗的融合，在皮下脂肪和筋膜组",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 58,
-      "term": "发生于黏膜的纤维素性炎症，可见上面",
-      "english": "",
-      "type": "名词解释",
-      "definition": "具有血管系统的活体组织对损伤因子所发生的以防御为主的局部组织反应。基本病理变化包括变质、渗出和增生。临床上表现为红、肿、热、痛和功能障碍。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 59,
-      "term": "肉芽肿是增生性炎症，由巨噬细胞及其",
-      "english": "",
-      "type": "名词解释",
-      "definition": "组织或器官内实质细胞数目增多，导致组织或器官体积增大。可分为生理性增生（如青春期乳腺增生）和病理性增生（如子宫内膜增生症）。"
-    },
-    {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 60,
       "term": "是皮肤或黏膜浅表组织坏死脱落后所",
       "english": "",
       "type": "名词解释",
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 61,
-      "term": "菌血症是细菌进入血液循环，血液中可",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细菌进入血液循环，血液中可查到细菌，但全身无明显中毒症状，称为菌血症。常见于拔牙、导尿等操作后，细菌很快被免疫系统清除。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 62,
-      "term": "炎性息肉是发生在黏膜上的慢性炎症，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "具有血管系统的活体组织对损伤因子所发生的以防御为主的局部组织反应。基本病理变化包括变质、渗出和增生。临床上表现为红、肿、热、痛和功能障碍。"
     },
     {
       "chapter": "第4章 炎症",
@@ -9792,14 +9148,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 66,
-      "term": "脓肿是局限性化脓性炎，伴有脓腔形",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以中性粒细胞大量渗出为主，伴有不同程度的组织坏死和脓液形成的炎症。脓液由坏死组织、中性粒细胞、细菌和浆液组成。"
-    },
-    {
-      "chapter": "第4章 炎症",
       "number": 67,
       "term": "疗是单个毛囊、皮脂腺及其周围组织的",
       "english": "",
@@ -9815,164 +9163,12 @@ const QUESTION_DATA = {
       "definition": "疏松结缔组织的弥漫性化脓性炎症。炎症范围广泛，无明显边界。常见于皮下组织、肌肉间和阑尾。主要由溶血性链球菌引起。"
     },
     {
-      "chapter": "第4章 炎症",
-      "number": 69,
-      "term": "黏膜或浆膜的化脓性炎，深部组织无明",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以中性粒细胞大量渗出为主，伴有不同程度的组织坏死和脓液形成的炎症。脓液由坏死组织、中性粒细胞、细菌和浆液组成。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 70,
-      "term": "病程几周或几个月，可由急性炎转变而",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是轻度、可复性的细胞损伤。包括：水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性、病理性色素沉着和病理性钙化等。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 289,
-      "term": "C299.B309.A",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 290,
-      "term": "B300.D310.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 291,
-      "term": "D301.A311.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 292,
-      "term": "C302.D312.A",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 293,
-      "term": "A303.D313.A",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 294,
-      "term": "B304.D314.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 295,
-      "term": "C305.C315.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 296,
-      "term": "B306.D316.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 297,
-      "term": "C307.D317.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 298,
-      "term": "B308.D318.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 72,
-      "term": "绒毛心是发生在心包的纤维素性炎，渗",
-      "english": "",
-      "type": "名词解释",
-      "definition": "心包的纤维素性炎，渗出的纤维素随心脏搏动形成绒毛状物覆盖在心外膜表面，称为绒毛心。常见于风湿性心包炎和尿毒症性心包炎。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 73,
-      "term": "病灶较小，机体抵抗力较强，完全恢复",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 74,
       "term": "是皮肤或黏膜深在组织坏死脱落后留",
       "english": "",
       "type": "名词解释",
       "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 75,
-      "term": "以纤维蛋白渗出为主，继而形成纤维",
-      "english": "",
-      "type": "名词解释",
-      "definition": "炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是炎症最具特征性的变化，对机体有防御作用。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 76,
-      "term": "以浆液渗出为特征，渗出物以血浆成分",
-      "english": "",
-      "type": "名词解释",
-      "definition": "炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是炎症最具特征性的变化，对机体有防御作用。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 77,
-      "term": "细胞体积大，胞质丰富，细胞核可达几",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由多个巨噬细胞融合而成的多核巨大细胞。根据胞核排列分为：(1)Langhans巨细胞：核排列在细胞周边呈马蹄形（结核结节中）；(2)异物巨细胞：核不规则散布于胞浆中（异物肉芽肿中）。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 78,
-      "term": "脓毒败血症是由化脓菌引起的败血症，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细菌在血液中大量繁殖并产生毒素，引起全身明显中毒症状，如寒战、高热、皮肤黏膜出血点、脾肿大等。病情严重，可危及生命。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 79,
-      "term": "化脓性炎是以中性粒细胞渗出为主，并",
-      "english": "",
-      "type": "名词解释",
-      "definition": "炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是炎症最具特征性的变化，对机体有防御作用。"
     },
     {
       "chapter": "第4章 炎症",
@@ -9983,108 +9179,12 @@ const QUESTION_DATA = {
       "definition": "细菌在血液中大量繁殖并产生毒素，引起全身明显中毒症状，如寒战、高热、皮肤黏膜出血点、脾肿大等。病情严重，可危及生命。"
     },
     {
-      "chapter": "第四章 炎症",
-      "number": 319,
-      "term": "E329.A339.D349.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 320,
-      "term": "E330.C340.C350.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 321,
-      "term": "B331.A341.B351.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 322,
-      "term": "D332.E342.D352.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 323,
-      "term": "E333.D343.C353.A",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 324,
-      "term": "B334.D344.A354.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 325,
-      "term": "C335.A345.B355.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 326,
-      "term": "B336.E346.E356.E",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 327,
-      "term": "E337.C347.E",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第四章 炎症",
-      "number": 328,
-      "term": "C338.D348.B",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
       "chapter": "第4章 炎症",
       "number": 81,
       "term": "毒血症是细菌毒性产物或毒素进入",
       "english": "",
       "type": "名词解释",
       "definition": "细菌的毒素或毒性代谢产物进入血液循环，引起全身中毒症状（高热、寒战等），但血培养查不到细菌。如白喉杆菌产生的外毒素引起的毒血症。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 82,
-      "term": "是指连接皮肤与空腔脏器，或连接两",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 83,
-      "term": "是指一端与皮肤或黏膜相通，而另一",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -10215,14 +9315,6 @@ const QUESTION_DATA = {
       "definition": "体腔内器官的肿瘤蔓延至器官表面时，瘤细胞脱落并像播种一样种植在体腔和体腔内各器官表面，形成多数的转移瘤。"
     },
     {
-      "chapter": "第6章 心血管系统疾病",
-      "number": 1,
-      "term": "指动脉粥样硬化的中晚期，在病灶周围",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以大中动脉内膜下脂质沉积、纤维组织增生和粥样斑块形成为特征的最常见动脉硬化类型。主要危险因素包括高脂血症、高血压、吸烟和糖尿病。并发症有斑块破裂、血栓形成、动脉瘤等。"
-    },
-    {
       "chapter": "第1-2章 细胞的损伤、适应与修复",
       "number": 2,
       "term": "是一种与A族乙型溶血性链球菌感染有",
@@ -10245,14 +9337,6 @@ const QUESTION_DATA = {
       "english": "atheroma",
       "type": "名词解释",
       "definition": ""
-    },
-    {
-      "chapter": "第6章 心血管系统疾病",
-      "number": 5,
-      "term": "是指动脉粥样硬化的早期改变，表现为",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以大中动脉内膜下脂质沉积、纤维组织增生和粥样斑块形成为特征的最常见动脉硬化类型。主要危险因素包括高脂血症、高血压、吸烟和糖尿病。并发症有斑块破裂、血栓形成、动脉瘤等。"
     },
     {
       "chapter": "第4章 炎症",
@@ -10320,14 +9404,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第7章 呼吸系统疾病",
-      "number": 6,
-      "term": "红色肝样变：大叶性肺炎第二期，即实",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由肺炎链球菌引起的累及整个大叶的急性纤维素性炎症。典型病程分为充血水肿期、红色肝样变期、灰色肝样变期和溶解消散期。抗生素治疗后典型分期已少见。"
-    },
-    {
-      "chapter": "第7章 呼吸系统疾病",
       "number": 7,
       "term": "支气管扩张症：指肺内支气管管腔持久",
       "english": "",
@@ -10362,14 +9438,6 @@ const QUESTION_DATA = {
       "chapter": "第7章 呼吸系统疾病",
       "number": 11,
       "term": "大叶性肺炎：是主要由肺炎链球菌引",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由肺炎链球菌引起的累及整个大叶的急性纤维素性炎症。典型病程分为充血水肿期、红色肝样变期、灰色肝样变期和溶解消散期。抗生素治疗后典型分期已少见。"
-    },
-    {
-      "chapter": "第7章 呼吸系统疾病",
-      "number": 12,
-      "term": "灰色肝样变：大叶性肺炎第三期，即实",
       "english": "",
       "type": "名词解释",
       "definition": "由肺炎链球菌引起的累及整个大叶的急性纤维素性炎症。典型病程分为充血水肿期、红色肝样变期、灰色肝样变期和溶解消散期。抗生素治疗后典型分期已少见。"
@@ -10413,30 +9481,6 @@ const QUESTION_DATA = {
       "english": "lobular pneumonia",
       "type": "名词解释",
       "definition": "以肺小叶为单位的急性化脓性炎症。病变常起始于细支气管，并向周围末梢肺组织扩展，呈多发性、灶状分布。多见于儿童和老年人，常为其他疾病的并发症。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
-      "term": "碎片状坏死：慢性肝炎时，肝小叶周边",
-      "english": "",
-      "type": "名词解释",
-      "definition": "活体内局部组织、细胞的死亡。是不可逆的病理过程，以酶溶性改变为特征，表现为细胞核固缩、碎裂、溶解，胞浆嗜酸性增强，间质崩解。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 6,
-      "term": "小肝癌：即早期肝癌，是指单个肝癌结",
-      "english": "",
-      "type": "名词解释",
-      "definition": "来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型，多发生于中老年人。癌多经淋巴道转移。"
-    },
-    {
-      "chapter": "第8章 消化系统疾病",
-      "number": 157,
-      "term": "男性患者昏迷不醒，曾有乙肝病史，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "由肝炎病毒（甲、乙、丙、丁、戊型）引起的以肝细胞变性坏死为主要病变的传染病。基本病理变化：(1)肝细胞变性（水样变、气球样变、嗜酸性变）；(2)肝细胞坏死（点状坏死、碎屑样坏死、桥接坏死、大块坏死）；(3)炎细胞浸润；(4)Kupffer细胞增生。"
     },
     {
       "chapter": "第8章 消化系统疾病",
@@ -10565,22 +9609,6 @@ const QUESTION_DATA = {
       "english": "ballooning degeneration",
       "type": "名词解释",
       "definition": "细胞或间质内出现异常物质或正常物质异常蓄积的现象，常伴有细胞功能降低。是可复性改变，包括水变性、脂肪变性、玻璃样变性、淀粉样变性、黏液样变性等。"
-    },
-    {
-      "chapter": "第9章 淋巴造血系统疾病",
-      "number": 28,
-      "term": "是霍奇金病的诊断性细胞，体积大，胞",
-      "english": "",
-      "type": "名词解释",
-      "definition": "又称非分裂细胞。这类细胞出生后即丧失分裂能力，损伤后不能再生，只能由瘢痕修复。包括：神经细胞、心肌细胞、骨骼肌细胞。"
-    },
-    {
-      "chapter": "第9章 淋巴造血系统疾病",
-      "number": 29,
-      "term": "是霍奇金病的诊断性细胞，体积大，胞",
-      "english": "",
-      "type": "名词解释",
-      "definition": "又称非分裂细胞。这类细胞出生后即丧失分裂能力，损伤后不能再生，只能由瘢痕修复。包括：神经细胞、心肌细胞、骨骼肌细胞。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -10823,14 +9851,6 @@ const QUESTION_DATA = {
       "definition": "胎盘绒毛的滋养层细胞增生和间质水肿，使绒毛肿大形成许多薄壁透明的水泡状物，形似葡萄。完全性葡萄胎无胚胎，部分性葡萄胎可见胚胎。可发展为侵袭性葡萄胎或绒毛膜癌。"
     },
     {
-      "chapter": "第5章 肿瘤",
-      "number": 8,
-      "term": "Krukenberg 瘤",
-      "english": "",
-      "type": "名词解释",
-      "definition": "胃癌细胞（印戒细胞癌）经腹腔种植转移到卵巢形成的转移性黏液细胞癌。双侧卵巢受累，大体呈肾形，切面胶冻状。镜下见大量印戒细胞。是种植性转移的典型例子。"
-    },
-    {
       "chapter": "第12章 生殖系统和乳腺疾病",
       "number": 9,
       "term": "子宫腺肌病",
@@ -10863,28 +9883,12 @@ const QUESTION_DATA = {
       "definition": "来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型，多发生于中老年人。癌多经淋巴道转移。"
     },
     {
-      "chapter": "第12章 生殖系统和乳腺疾病",
-      "number": 2,
-      "term": "子宫颈糜烂：多出现于慢性子宫颈炎时，",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
       "chapter": "第5章 肿瘤",
       "number": 3,
       "term": "宫颈息肉：慢性子宫颈炎时如果子宫颈",
       "english": "",
       "type": "名词解释",
       "definition": "慢性炎症时，局部黏膜上皮、腺体和肉芽组织过度增生，形成向黏膜表面突出、根部有蒂的肉样肿块。常见于鼻黏膜（鼻息肉）、子宫颈（宫颈息肉）和大肠（结肠息肉）。"
-    },
-    {
-      "chapter": "第12章 生殖系统和乳腺疾病",
-      "number": 4,
-      "term": "纳博特囊肿：慢性子宫颈炎时，子宫颈",
-      "english": "",
-      "type": "名词解释",
-      "definition": "以肉芽肿形成为特征的慢性特异性炎症。肉芽肿由巨噬细胞及其衍生细胞（上皮样细胞、多核巨细胞）局限性增生形成境界清楚的结节状病灶。根据病因分为：(1)感染性肉芽肿（结核、麻风、梅毒等）；(2)异物性肉芽肿（手术缝线、石棉等）。"
     },
     {
       "chapter": "第5章 肿瘤",
@@ -10901,14 +9905,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": "子宫内膜异位症发生于卵巢，随月经反复出血，在卵巢内形成充满陈旧血液的囊肿，囊内容物呈巧克力色，故称巧克力囊肿。"
-    },
-    {
-      "chapter": "第12章 生殖系统和乳腺疾病",
-      "number": 7,
-      "term": "侵袭性葡萄胎：水泡状物侵袭子宫壁层，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "胎盘绒毛的滋养层细胞增生和间质水肿，使绒毛肿大形成许多薄壁透明的水泡状物，形似葡萄。完全性葡萄胎无胚胎，部分性葡萄胎可见胚胎。可发展为侵袭性葡萄胎或绒毛膜癌。"
     },
     {
       "chapter": "第5章 肿瘤",
@@ -10935,65 +9931,9 @@ const QUESTION_DATA = {
       "definition": "来源于多能生殖细胞的肿瘤，由2~3个胚层组织构成。好发于卵巢和睾丸。成熟畸胎瘤（皮样囊肿）为良性，未成熟畸胎瘤为恶性。"
     },
     {
-      "chapter": "第12章 生殖系统和乳腺疾病",
-      "number": 11,
-      "term": "完全性葡萄胎：又称为水泡状胎块，肉",
-      "english": "",
-      "type": "名词解释",
-      "definition": "胎盘绒毛的滋养层细胞增生和间质水肿，使绒毛肿大形成许多薄壁透明的水泡状物，形似葡萄。完全性葡萄胎无胚胎，部分性葡萄胎可见胚胎。可发展为侵袭性葡萄胎或绒毛膜癌。"
-    },
-    {
       "chapter": "第1-2章 细胞的损伤、适应与修复",
       "number": 5,
       "term": "何谓 CIN?",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 6,
-      "term": "试述乳腺癌时乳头下陷的原因。",
-      "english": "",
-      "type": "名词解释",
-      "definition": "来源于上皮组织的恶性肿瘤。是最常见的恶性肿瘤类型，多发生于中老年人。癌多经淋巴道转移。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 17,
-      "term": "D22.D27.B32.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 18,
-      "term": "C23.D28.E33.E",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 19,
-      "term": "B24.C29.D34.C",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 20,
-      "term": "B25.C30.A35.D",
-      "english": "",
-      "type": "名词解释",
-      "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 21,
-      "term": "D26.C31.B36.D",
       "english": "",
       "type": "名词解释",
       "definition": "弥漫性血管内凝血。在多种致病因素作用下，凝血系统被广泛激活，微循环内广泛形成微血栓（透明血栓），同时消耗大量凝血因子和血小板，导致继发性纤溶亢进和全身性出血的临床综合征。"
@@ -11056,30 +9996,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第13章 内分泌系统疾病",
-      "number": 13,
-      "term": "毒性甲状腺肿",
-      "english": "toxic goiter",
-      "type": "名词解释",
-      "definition": "伴有甲状腺功能亢进的甲状腺肿大，患者甲状腺素水平升高。"
-    },
-    {
-      "chapter": "第13章 内分泌系统疾病",
-      "number": 14,
-      "term": "结节性甲状腺肿",
-      "english": "nodular goiter",
-      "type": "名词解释",
-      "definition": "又称非毒性甲状腺肿。由缺碘、致甲状腺肿物质或遗传因素引起甲状腺激素合成不足→TSH反馈性分泌增多→甲状腺滤泡上皮增生→甲状腺肿大。按发展过程分为：(1)增生期（弥漫性增生性甲状腺肿）；(2)胶质贮积期（弥漫性胶样甲状腺肿）；(3)结节期（结节性甲状腺肿）。不伴甲亢。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 15,
-      "term": "甲状腺腺瘤",
-      "english": "thyroid adencmaa",
-      "type": "名词解释",
-      "definition": "甲状腺最常见的良性肿瘤。多为单个结节，圆形或椭圆形，有完整纤维包膜，包膜内外组织不同（这是与结节性甲状腺肿的重要鉴别点）。组织学类型：滤泡性腺瘤（最常见）、乳头状腺瘤（罕见，需排除乳头状癌）。"
-    },
-    {
-      "chapter": "第13章 内分泌系统疾病",
       "number": 16,
       "term": "非毒性甲状腺肿：由于甲状腺素分泌不",
       "english": "",
@@ -11093,22 +10009,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": "甲状腺最常见的良性肿瘤。多为单个结节，圆形或椭圆形，有完整纤维包膜，包膜内外组织不同（这是与结节性甲状腺肿的重要鉴别点）。组织学类型：滤泡性腺瘤（最常见）、乳头状腺瘤（罕见，需排除乳头状癌）。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 18,
-      "term": "垂体腺瘤",
-      "english": "pituitary adenoma",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 1,
-      "term": "嗜神经细胞现象：当神经元发生坏变时，",
-      "english": "",
-      "type": "名词解释",
-      "definition": "来源于肾上腺髓质嗜铬细胞的肿瘤。大多数为良性。肿瘤细胞分泌大量儿茶酚胺（肾上腺素和去甲肾上腺素），引起阵发性或持续性高血压、心悸、头痛、出汗。尿中儿茶酚胺代谢物VMA升高。"
     },
     {
       "chapter": "第1-2章 细胞的损伤、适应与修复",
@@ -11133,14 +10033,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": "来源于肝细胞（肝细胞癌）或肝内胆管上皮细胞（胆管细胞癌）的恶性肿瘤。肝细胞癌最常见，与乙肝/丙肝病毒感染、肝硬化、黄曲霉素B1等密切相关。血清甲胎蛋白（AFP）显著升高。大体分型：巨块型、结节型和弥漫型。"
-    },
-    {
-      "chapter": "第5章 肿瘤",
-      "number": 2,
-      "term": "结核球又称肺结核瘤，是指有纤维包裹",
-      "english": "",
-      "type": "名词解释",
-      "definition": "较大的坏死灶、异物或寄生虫等不能被完全溶解吸收或机化时，由周围增生的纤维组织将其包绕，形成纤维性包裹，使其与正常组织隔离。"
     },
     {
       "chapter": "第4章 炎症",
@@ -11194,14 +10086,6 @@ const QUESTION_DATA = {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 41,
       "term": "下列脑瘤中钙化最少见于",
-      "english": "",
-      "type": "名词解释",
-      "definition": ""
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 42,
-      "term": "震颤麻痹时，Lewy 小体最常见于",
       "english": "",
       "type": "名词解释",
       "definition": ""
@@ -11320,14 +10204,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第1-2章 细胞的损伤、适应与修复",
-      "number": 10,
-      "term": "在梅毒血管周围炎的病变中，哪些炎",
-      "english": "",
-      "type": "名词解释",
-      "definition": "细菌的毒素或毒性代谢产物进入血液循环，引起全身中毒症状（高热、寒战等），但血培养查不到细菌。如白喉杆菌外毒素引起的毒血症、破伤风杆菌外毒素引起的毒血症。"
-    },
-    {
-      "chapter": "第1-2章 细胞的损伤、适应与修复",
       "number": 11,
       "term": "晚期梅毒最常侵犯",
       "english": "",
@@ -11349,22 +10225,6 @@ const QUESTION_DATA = {
       "english": "",
       "type": "名词解释",
       "definition": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 14,
-      "term": "位于肺尖呈结节状，并以增生为主的",
-      "english": "",
-      "type": "名词解释",
-      "definition": "组织或器官内实质细胞数目增多，导致组织或器官体积增大。可分为生理性增生（如青春期乳腺增生）和病理性增生（如子宫内膜增生症）。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 15,
-      "term": "病变以渗出为主，X线见锁骨下区有",
-      "english": "",
-      "type": "名词解释",
-      "definition": "炎症局部组织血管内的液体和细胞成分通过血管壁进入组织间隙、体腔、黏膜表面和体表的过程。渗出是炎症最具特征性的变化，对机体有防御作用。"
     },
     {
       "chapter": "第1-2章 细胞的损伤、适应与修复",

@@ -185,9 +185,13 @@ try {
 function save(k,v) { localStorage.setItem(k, JSON.stringify([...v])); }
 function esc(s) { const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
 function toast(m) { const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); }
-// Base64 decode for encrypted JSON data
+// Base64 decode for encrypted answer fields only
 function d64(s) { if(!s||s.length<4) return s||''; try { return atob(s); } catch(e) { return s; } }
-function dec(q, field) { return d64(q[field]||''); }
+// Only decode answer/explanation/definition fields
+function decAns(q) { return d64(q.answer||''); }
+function decExpl(q) { return d64(q.explanation||''); }
+function decDef(t) { return d64(t.definition||''); }
+function decSA(s) { return d64(s.answer||''); }
 
 async function init() {
     try { const r=await fetch('questions.json'); data=await r.json(); } catch(e) { document.getElementById('homeView').innerHTML=`<div class="empty"><div class="icon">⚠️</div><h3>加载失败</h3><p>${e.message}</p></div>`; return; }
@@ -258,7 +262,7 @@ function goHome() {
 function getItems() {
     let items = (data[cType]||[]).filter(q => q.chapter === cChapter);
     if (bmFilter) items = items.filter(q => bookmarks.has(`${cType}|${q.chapter}|${q.number}`));
-    if (searchQ) { const s=searchQ.toLowerCase(); items=items.filter(q=>{ const all=[dec(q,'stem'),dec(q,'term'),dec(q,'question'),dec(q,'option_a'),dec(q,'option_b'),dec(q,'option_c'),dec(q,'option_d'),dec(q,'option_e'),dec(q,'answer'),dec(q,'definition'),dec(q,'english'),dec(q,'explanation')].join(' ').toLowerCase(); return all.includes(s); }); }
+    if (searchQ) { const s=searchQ.toLowerCase(); items=items.filter(q=>{ const all=[q.stem||'',q.term||'',q.question||'',q.option_a||'',q.option_b||'',q.option_c||'',q.option_d||'',q.option_e||'',q.english||''].join(' ').toLowerCase(); return all.includes(s); }); }
     return items;
 }
 
@@ -278,13 +282,12 @@ function renderQ() {
 
     let html = '';
     if (cType === 'single_choice') {
-        const st = dec(q,'stem'), oa = dec(q,'option_a'), ob = dec(q,'option_b'), oc = dec(q,'option_c'), od = dec(q,'option_d'), oe = dec(q,'option_e');
-        const ansRaw = dec(q,'answer'), expl = dec(q,'explanation');
-        const opts = [{l:'A',t:oa},{l:'B',t:ob},{l:'C',t:oc},{l:'D',t:od},{l:'E',t:oe}].filter(o=>o.t&&o.t.length>1);
+        const ansRaw = decAns(q), expl = decExpl(q);
+        const opts = [{l:'A',t:q.option_a||''},{l:'B',t:q.option_b||''},{l:'C',t:q.option_c||''},{l:'D',t:q.option_d||''},{l:'E',t:q.option_e||''}].filter(o=>o.t&&o.t.length>1);
         const ansText = opts.find(o=>o.l===ansRaw);
         html = `<div class="card">
             <div class="card-header"><span class="badge b-num">第${q.number}题</span><span class="badge b-type">单选题</span>${isDone?'<span class="badge b-done">✅</span>':''}</div>
-            <div class="stem">${esc(st)}</div>
+            <div class="stem">${esc(q.stem||'')}</div>
             <ul class="options">${opts.map(o=>`<li class="opt o${o.l.toLowerCase()}" id="opt${o.l}" onclick="selOpt('${o.l}')"><span class="ol">${o.l}</span><span>${esc(o.t)}</span></li>`).join('')}</ul>
             <div class="act-bar">
                 <button class="btn btn-a" onclick="toggleAns()" id="ansBtn">💡 显示答案</button>
@@ -297,11 +300,11 @@ function renderQ() {
             </div>
         </div>`;
     } else if (cType === 'terminology') {
-        const tm = dec(q,'term'), en = dec(q,'english'), defn = dec(q,'definition');
+        const defn = decDef(q);
         html = `<div class="card">
             <div class="card-header"><span class="badge b-num">第${q.number}题</span><span class="badge b-type">名词解释</span>${isDone?'<span class="badge b-done">✅</span>':''}</div>
-            <div class="term-name">${esc(tm)}</div>
-            <div class="term-en">${esc(en)}</div>
+            <div class="term-name">${esc(q.term||'')}</div>
+            <div class="term-en">${esc(q.english||'')}</div>
             <div class="act-bar">
                 <button class="btn btn-a" onclick="toggleAns()">💡 显示释义</button>
                 <button class="btn btn-bm ${isBm?'on':''}" onclick="toggleBm()">${isBm?'⭐':'☆'} 收藏</button>
@@ -310,10 +313,10 @@ function renderQ() {
             <div class="ans-box ans-term" id="ansBox">${esc(defn||'暂无释义，请参考教材。')}</div>
         </div>`;
     } else {
-        const sq = dec(q,'question'), sa = dec(q,'answer');
+        const sa = decSA(q);
         html = `<div class="card">
             <div class="card-header"><span class="badge b-num">第${q.number}题</span><span class="badge b-type">简答题</span>${isDone?'<span class="badge b-done">✅</span>':''}</div>
-            <div class="sa-q">${esc(sq)}</div>
+            <div class="sa-q">${esc(q.question||'')}</div>
             <div class="act-bar">
                 <button class="btn btn-a" onclick="toggleAns()">💡 显示参考答案</button>
                 <button class="btn btn-bm ${isBm?'on':''}" onclick="toggleBm()">${isBm?'⭐':'☆'} 收藏</button>
@@ -328,7 +331,7 @@ function renderQ() {
 
 function selOpt(l) { document.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel')); const e=document.getElementById('opt'+l); if(e)e.classList.add('sel'); }
 function toggleAns() { const b=document.getElementById('ansBox'), btn=document.getElementById('ansBtn'); if(!b)return; const show=!b.classList.contains('show'); b.classList.toggle('show'); if(btn)btn.textContent=show?'🔄 隐藏':'💡 显示答案';
-    if(show&&cType==='single_choice'){const items=getItems(),q=items[cIdx];const a=d64(q.answer||'');if(a){const co=document.getElementById('opt'+a);if(co)co.classList.add('correct');const sel=document.querySelector('.opt.sel');if(sel&&!sel.classList.contains('correct'))sel.classList.add('wrong');}}
+    if(show&&cType==='single_choice'){const items=getItems(),q=items[cIdx];const a=decAns(q);if(a){const co=document.getElementById('opt'+a);if(co)co.classList.add('correct');const sel=document.querySelector('.opt.sel');if(sel&&!sel.classList.contains('correct'))sel.classList.add('wrong');}}
     if(!show&&cType==='single_choice'){document.querySelectorAll('.opt').forEach(o=>o.classList.remove('correct','wrong'));} }
 function toggleBm() { const items=getItems(); if(!items.length)return; const q=items[cIdx],key=`${cType}|${q.chapter}|${q.number}`; if(bookmarks.has(key)){bookmarks.delete(key);toast('已取消收藏');}else{bookmarks.add(key);toast('已收藏⭐');} save('pb_bm',bookmarks); renderQ(); }
 function toggleDone() { const items=getItems(); if(!items.length)return; const q=items[cIdx],key=`${cType}|${q.chapter}|${q.number}`; if(doneItems.has(key)){doneItems.delete(key);toast('已取消完成');}else{doneItems.add(key);toast('已完成✅');} save('pb_done',doneItems); renderQ(); }

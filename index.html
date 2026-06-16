@@ -163,8 +163,9 @@ body {
 
 <div class="toast" id="toast"></div>
 
+<script src="data.js"></script>
 <script>
-let data = {single_choice:[], terminology:[], short_answer:[]};
+let data = (typeof QUESTION_DATA !== 'undefined') ? QUESTION_DATA : {single_choice:[], terminology:[], short_answer:[]};
 let cType = 'single_choice';
 let cChapter = ''; let cIdx = 0;
 let bookmarks = new Set(); let doneItems = new Set(); let bmFilter = false; let searchQ = '';
@@ -185,16 +186,17 @@ try {
 function save(k,v) { localStorage.setItem(k, JSON.stringify([...v])); }
 function esc(s) { const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
 function toast(m) { const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); }
-// Base64 decode for encrypted answer fields only
-function d64(s) { if(!s||s.length<4) return s||''; try { return atob(s); } catch(e) { return s; } }
-// Only decode answer/explanation/definition fields
-function decAns(q) { return d64(q.answer||''); }
-function decExpl(q) { return d64(q.explanation||''); }
-function decDef(t) { return d64(t.definition||''); }
-function decSA(s) { return d64(s.answer||''); }
+// All data is plain text - no decoding needed
+function decAns(q) { return q.answer||''; }
+function decExpl(q) { return q.explanation||''; }
+function decDef(t) { return t.definition||''; }
+function decSA(s) { return s.answer||''; }
 
-async function init() {
-    try { const r=await fetch('questions.json'); data=await r.json(); } catch(e) { document.getElementById('homeView').innerHTML=`<div class="empty"><div class="icon">⚠️</div><h3>加载失败</h3><p>${e.message}</p></div>`; return; }
+function init() {
+    if (!data.single_choice || data.single_choice.length === 0) {
+        document.getElementById('homeView').innerHTML=`<div class="empty"><div class="icon">⚠️</div><h3>数据加载失败</h3><p>请刷新页面重试</p></div>`;
+        return;
+    }
     buildHome();
 }
 

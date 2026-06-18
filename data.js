@@ -1,4 +1,11 @@
-const QUESTION_DATA = {
+const QUESTION_DATA = 
+
+
+
+
+
+
+{
   "single_choice": [
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -766,7 +773,7 @@ const QUESTION_DATA = {
       "option_d": "左心室",
       "option_e": "心外膜",
       "answer": "C",
-      "explanation": "正确答案是C：右心室。"
+      "explanation": "马氏斑位于右心房间隔下部下缘的静脉壁，是右心房壁较薄区域，对应右心室流入道与流出道交界处。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -790,7 +797,7 @@ const QUESTION_DATA = {
       "option_d": "脂褐素增多",
       "option_e": "溶酶体增多",
       "answer": "B",
-      "explanation": "正确答案是B：内质网破裂。"
+      "explanation": "细胞脂肪变性的主要原因包括：中毒(化学毒物)、感染(细菌毒素)、缺氧(导致线粒体损伤)、营养不良(必需脂肪酸缺乏)。贫血不是直接原因。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -802,7 +809,7 @@ const QUESTION_DATA = {
       "option_d": "粉红色颗粒状",
       "option_e": "黄褐色颗粒状",
       "answer": "D",
-      "explanation": "正确答案是D：粉红色颗粒状。"
+      "explanation": "钙盐在HE染色中呈深蓝色或蓝紫色颗粒状沉积，这是钙盐嗜碱性的典型表现，与蛋白质的嗜酸性形成对比。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -814,7 +821,7 @@ const QUESTION_DATA = {
       "option_d": "1-2 微米",
       "option_e": "3-4 微米",
       "answer": "B",
-      "explanation": "正确答案是B：>5 微米。"
+      "explanation": "二氧化硅尘粒径在>5微米时最易沉积于肺泡并被巨噬细胞吞噬，引发纤维化反应，这是矽肺发病的关键条件。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -826,7 +833,7 @@ const QUESTION_DATA = {
       "option_d": "高尔基器",
       "option_e": "粗面内质网",
       "answer": "C",
-      "explanation": "正确答案是C：光面内质网。"
+      "explanation": "细胞脂肪变性的主要原因包括：中毒(化学毒物)、感染(细菌毒素)、缺氧(导致线粒体损伤)、营养不良(必需脂肪酸缺乏)。贫血不是直接原因。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -838,7 +845,7 @@ const QUESTION_DATA = {
       "option_d": "钠多，钾少，水少",
       "option_e": "钠少，钾多，水多",
       "answer": "A",
-      "explanation": "正确答案是A：钠多，钾多，水多。"
+      "explanation": "细胞脂肪变性的主要原因包括：中毒(化学毒物)、感染(细菌毒素)、缺氧(导致线粒体损伤)、营养不良(必需脂肪酸缺乏)。贫血不是直接原因。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -850,7 +857,7 @@ const QUESTION_DATA = {
       "option_d": "腔室狭窄",
       "option_e": "以上均可",
       "answer": "D",
-      "explanation": "正确答案是D：腔室狭窄。"
+      "explanation": "大块疤痕收缩可引起邻近腔室狭窄，如瘢痕性幽门狭窄可导致胃出口梗阻，影响食物通过。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -862,7 +869,7 @@ const QUESTION_DATA = {
       "option_d": "胶原酶的作用",
       "option_e": "机体抵抗力增强",
       "answer": "A",
-      "explanation": "正确答案是A：毛细血管逐渐减少。"
+      "explanation": "肉芽组织逐渐缩小的主要原因是毛细血管减少和退化，同时成纤维细胞转化为成纤维细胞，胶原沉积增加。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -874,7 +881,7 @@ const QUESTION_DATA = {
       "option_d": "高尔基体扩张",
       "option_e": "内质网脱颗粒",
       "answer": "A",
-      "explanation": "A：线粒体损伤导致ATP生成减少"
+      "explanation": "细胞水肿主要因线粒体损伤导致ATP生成减少，Na+-K+泵功能障碍，使细胞内钠水潴留所致。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -886,7 +893,7 @@ const QUESTION_DATA = {
       "option_d": "发育正常的器官体积缩小称为萎缩",
       "option_e": "萎缩是不可逆的改变",
       "answer": "D",
-      "explanation": "D：发育正常的器官体积缩小称为萎缩"
+      "explanation": "萎缩是指发育正常的器官、组织或细胞体积缩小，可因营养不良、缺血、废用、神经支配障碍等原因引起。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -898,7 +905,7 @@ const QUESTION_DATA = {
       "option_d": "大量中性粒细胞浸润",
       "option_e": "伴有钙盐沉积",
       "answer": "A",
-      "explanation": "A：组织结构轮廓完全消失"
+      "explanation": "干酪样坏死是结核病的特征性病变，镜下表现为组织轮廓完全消失，呈红染无结构的颗粒状物质。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -910,7 +917,7 @@ const QUESTION_DATA = {
       "option_d": "凋亡与基因调控有关",
       "option_e": "凋亡可发生于单个细胞",
       "answer": "C",
-      "explanation": "C：凋亡引起周围炎症反应"
+      "explanation": "细胞凋亡是程序性死亡，不引起周围炎症反应，因为凋亡细胞被邻近细胞或巨噬细胞吞噬清除。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -922,7 +929,7 @@ const QUESTION_DATA = {
       "option_d": "淋巴组织",
       "option_e": "骨组织",
       "answer": "B",
-      "explanation": "B：上皮组织"
+      "explanation": "化生最常见于上皮组织，如支气管柱状上皮化为鳞状上皮（吸烟者），以及宫颈柱状上皮化为鳞状上皮。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -934,7 +941,7 @@ const QUESTION_DATA = {
       "option_d": "内质网扩张",
       "option_e": "溶酶体增多",
       "answer": "B",
-      "explanation": "B：细胞核固缩、碎裂、溶解"
+      "explanation": "细胞坏死最具特征性的形态学改变是细胞核的变化，包括核固缩、核碎裂和核溶解，其中核固缩最早出现。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -946,7 +953,7 @@ const QUESTION_DATA = {
       "option_d": "仅见于结核病的钙化",
       "option_e": "转移性钙化的别称",
       "answer": "B",
-      "explanation": "B：在变性坏死组织中的钙盐沉积"
+      "explanation": "营养不良性钙化发生在变性、坏死的组织中，如结核干酪样坏死、胰腺脂肪坏死中的钙盐沉积。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -958,7 +965,7 @@ const QUESTION_DATA = {
       "option_d": "肾梗死",
       "option_e": "脾梗死",
       "answer": "C",
-      "explanation": "C：风湿病"
+      "explanation": "纤维素样坏死最常见于风湿病、结节性多动脉炎等变态反应性疾病，是结缔组织的变态胶原纤维坏死。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1030,7 +1037,7 @@ const QUESTION_DATA = {
       "option_d": "化生",
       "option_e": "适应",
       "answer": "C",
-      "explanation": "正确答案是C：分化。"
+      "explanation": "一种成熟组织变成另一种成熟组织的过程称为化生，是细胞适应环境改变的方式，如支气管柱状上皮化为鳞状上皮。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1450,7 +1457,7 @@ const QUESTION_DATA = {
       "option_d": "机体对外界侵入体内的异物.总是以",
       "option_e": "机化对机体是有利的. 但有时也可带",
       "answer": "D",
-      "explanation": "正确答案是D：机体对外界侵入体内的异物.总是以。"
+      "explanation": "机体对外界侵入体内的异物总是以肉芽组织增生包裹或机化来应对，这是修复的重要方式，而非其他选项所述。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1762,7 +1769,7 @@ const QUESTION_DATA = {
       "option_d": "寄生虫",
       "option_e": "滑石粉",
       "answer": "B",
-      "explanation": "正确答案是B：注入的油脂。"
+      "explanation": "异物性肉芽肿的常见原因包括手术缝线、滑石粉、植物纤维、寄生虫等。注入的油脂属于化学物质，不是异物性肉芽肿的典型原因。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1774,7 +1781,7 @@ const QUESTION_DATA = {
       "option_d": "吸入的二氧化硅尘粒越大，密度越高",
       "option_e": "以上都不是",
       "answer": "C",
-      "explanation": "正确答案是C：硅肺性空洞是合并结核病的结果。"
+      "explanation": "硅肺患者由于巨噬细胞功能受损，易合并肺结核。硅肺本身不形成空洞，空洞是合并结核病的结果。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1810,7 +1817,7 @@ const QUESTION_DATA = {
       "option_d": "矽结节",
       "option_e": "结核结节",
       "answer": "C",
-      "explanation": "正确答案是C：麻风小结。"
+      "explanation": "同时累及脑膜、肾、肺、肠及骨的肉芽肿性病变常为麻风，麻风杆菌可经血道播散至全身多处器官形成肉芽肿。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1834,7 +1841,7 @@ const QUESTION_DATA = {
       "option_d": "血吸虫虫卵结节",
       "option_e": "异物肉芽肿",
       "answer": "A",
-      "explanation": "正确答案是A：伤寒。"
+      "explanation": "伤寒病变中可见伤寒细胞和多核巨细胞（伤寒巨细胞），是多核细胞存在的典型疾病。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1894,7 +1901,7 @@ const QUESTION_DATA = {
       "option_d": "淋巴细胞",
       "option_e": "中性粒细胞",
       "answer": "B",
-      "explanation": "B：成纤维细胞"
+      "explanation": "肉芽组织中最重要的功能细胞是成纤维细胞，负责合成胶原纤维和基质，形成瘢痕组织的基础。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1906,7 +1913,7 @@ const QUESTION_DATA = {
       "option_d": "表皮基底细胞",
       "option_e": "骨骼肌细胞",
       "answer": "D",
-      "explanation": "D：表皮基底细胞"
+      "explanation": "表皮基底细胞再生能力最强，属于不稳定细胞，不断分裂增殖以补充脱落的表皮细胞。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1918,7 +1925,7 @@ const QUESTION_DATA = {
       "option_d": "创面对合紧密",
       "option_e": "组织缺损大但有支架",
       "answer": "E",
-      "explanation": "E：组织缺损大但有支架"
+      "explanation": "一期愈合条件：组织缺损少、创缘整齐、无感染、对合紧密。如手术切口。愈合快，瘢痕小。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1930,7 +1937,7 @@ const QUESTION_DATA = {
       "option_d": "有无炎细胞浸润",
       "option_e": "有无水肿",
       "answer": "C",
-      "explanation": "C：胶原纤维的数量和排列"
+      "explanation": "瘢痕组织与肉芽组织的主要区别是胶原纤维数量增多、排列更规则，炎细胞减少，血管减少并玻璃样变。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1942,7 +1949,7 @@ const QUESTION_DATA = {
       "option_d": "钙化",
       "option_e": "变性",
       "answer": "C",
-      "explanation": "C：机化"
+      "explanation": "肉芽组织取代坏死组织、血栓、炎性渗出物或其他异物的过程称为机化。如血栓机化、纤维素机化。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -1954,7 +1961,7 @@ const QUESTION_DATA = {
       "option_d": "糖尿病",
       "option_e": "维生素C缺乏",
       "answer": "C",
-      "explanation": "C：局部血液循环"
+      "explanation": "影响创伤愈合的全身因素包括年龄、营养状况(蛋白质、维生素C)、糖尿病、激素等。局部血液循环属于局部因素。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2098,7 +2105,7 @@ const QUESTION_DATA = {
       "option_d": "酒精中毒可致肝细胞脂肪变",
       "option_e": "严重贫血可致肾小管上皮细胞脂肪变",
       "answer": "B",
-      "explanation": "正确答案是B：严重贫血可致心肌细胞脂肪变。"
+      "explanation": "严重贫血时心肌细胞可出现脂肪变，因缺氧导致脂肪酸氧化障碍，甘油三酯在心肌细胞内沉积所致。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2542,7 +2549,7 @@ const QUESTION_DATA = {
       "option_d": "肺不张",
       "option_e": "毛细血管内微血栓形成",
       "answer": "D",
-      "explanation": "正确答案是D：肺不张。"
+      "explanation": "新生儿呼吸窘迫综合征主要因肺表面活性物质缺乏导致肺泡萎陷，病变特征为肺泡壁附有嗜红色透明膜。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2686,7 +2693,7 @@ const QUESTION_DATA = {
       "option_d": "心肌梗死",
       "option_e": "细菌性心肌炎",
       "answer": "B",
-      "explanation": "正确答案是B：病毒性心肌炎。"
+      "explanation": "病毒性心肌炎时心肌间质中可见大量淋巴细胞和单核细胞浸润，这是病毒感染引起的免疫反应表现。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2842,7 +2849,7 @@ const QUESTION_DATA = {
       "option_d": "胃肠道淤血",
       "option_e": "蜘蛛痣",
       "answer": "E",
-      "explanation": "正确答案是E：蜘蛛痣。"
+      "explanation": "门脉高压症的表现包括脾肿大、腹水、侧支循环形成、胃肠道淤血。蜘蛛痣是肝功能减退的表现，不属于门脉高压症。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2938,7 +2945,7 @@ const QUESTION_DATA = {
       "option_d": "凝血块",
       "option_e": "瘀点",
       "answer": "E",
-      "explanation": "正确答案是E：瘀点。"
+      "explanation": "皮肤、黏膜和浆膜表面直径<2mm的出血灶称为瘀点，2-3mm为紫癜，>3mm为瘀斑。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -2986,7 +2993,7 @@ const QUESTION_DATA = {
       "option_d": "胃癌呕血",
       "option_e": "肺淤血性出血",
       "answer": "C",
-      "explanation": "正确答案是C：十二指肠溃疡柏油样便。"
+      "explanation": "十二指肠溃疡柏油样便属于破裂性出血，血液经消化道排出呈黑色，不是漏出性出血。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -3118,7 +3125,7 @@ const QUESTION_DATA = {
       "option_d": "梗塞",
       "option_e": "中央静脉和肝血窦扩张淤血",
       "answer": "D",
-      "explanation": "正确答案是D：梗塞。"
+      "explanation": "循环血液中的凝血块随血流运行至相应大小血管引起管腔阻塞的过程称为栓塞，阻塞物称为栓子。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -3262,7 +3269,7 @@ const QUESTION_DATA = {
       "option_d": "血小板增多",
       "option_e": "静脉曲张",
       "answer": "B",
-      "explanation": "B：血管内膜损伤"
+      "explanation": "最常见的栓子是血栓栓子(脱落的血栓)。其他栓子包括脂肪滴、气体、羊水、肿瘤细胞团等。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -3274,7 +3281,7 @@ const QUESTION_DATA = {
       "option_d": "肺泡壁纤维化",
       "option_e": "漏出性出血",
       "answer": "C",
-      "explanation": "C：心力衰竭细胞"
+      "explanation": "慢性肺淤血最具特征的改变是肺泡腔内出现心力衰竭细胞(含铁血黄素巨噬细胞)。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -3286,7 +3293,7 @@ const QUESTION_DATA = {
       "option_d": "肝硬化",
       "option_e": "肝炎",
       "answer": "B",
-      "explanation": "B：慢性肝淤血"
+      "explanation": "槟榔肝是慢性肝淤血的肉眼特征。切面呈红黄相间的花纹，状似槟榔。红色为淤血区，黄色为脂肪变性区。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -3298,7 +3305,7 @@ const QUESTION_DATA = {
       "option_d": "透明血栓",
       "option_e": "附壁血栓",
       "answer": "D",
-      "explanation": "D：透明血栓"
+      "explanation": "最常见的栓子是血栓栓子(脱落的血栓)。其他栓子包括脂肪滴、气体、羊水、肿瘤细胞团等。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3538,7 +3545,7 @@ const QUESTION_DATA = {
       "option_d": "肺组织内出现灶状坏死",
       "option_e": "炎症从支气管、细支气管开始沿肺间",
       "answer": "A",
-      "explanation": "正确答案是A：常是上呼吸道病毒感染向下蔓延所致。"
+      "explanation": "病毒性肺炎主要由呼吸道传播，常先有上呼吸道病毒感染，再向下蔓延至肺部，非消化道传播。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3562,7 +3569,7 @@ const QUESTION_DATA = {
       "option_d": "[选项D待补充]",
       "option_e": "浆细胞、中性粒细胞和淋巴细胞",
       "answer": "C",
-      "explanation": "正确答案是C：淋巴细胞和浆细胞D. 单核细胞，嗜酸。"
+      "explanation": "梅毒血管周围炎的特征性炎细胞是淋巴细胞和浆细胞。浆细胞浸润是梅毒的病理学特征之一。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3610,7 +3617,7 @@ const QUESTION_DATA = {
       "option_d": "肥大细胞",
       "option_e": "巨噬细胞",
       "answer": "D",
-      "explanation": "慢性炎症中以淋巴细胞和浆细胞浸润为主，巨噬细胞也常见。"
+      "explanation": "慢性炎症中以淋巴细胞和浆细胞浸润为主，同时伴有巨噬细胞聚集，这是慢性炎症的细胞学特征。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3658,7 +3665,7 @@ const QUESTION_DATA = {
       "option_d": "炎性增生",
       "option_e": "红细胞漏出",
       "answer": "B",
-      "explanation": "正确答案是B：白细胞游出。"
+      "explanation": "急性炎症反应按出现顺序最先出现的是血管扩张(细动脉短暂收缩后)，不是白细胞游出。顺序：收缩→扩张→通透性增高→白细胞游出。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3694,7 +3701,7 @@ const QUESTION_DATA = {
       "option_d": "淋巴细胞",
       "option_e": "肥大细胞",
       "answer": "A",
-      "explanation": "正确答案是A：巨噬细胞。"
+      "explanation": "类上皮细胞来源于巨噬细胞。在结核等肉芽肿性炎中，巨噬细胞转化为类上皮细胞(胞质丰富、呈上皮样)。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3718,7 +3725,7 @@ const QUESTION_DATA = {
       "option_d": "伪膜性炎",
       "option_e": "出血性炎",
       "answer": "D",
-      "explanation": "正确答案是D：伪膜性炎。"
+      "explanation": "溶血性链球菌感染最常引起蜂窝织炎，而非伪膜性炎。链球菌产生透明质酸酶和链激酶，使炎症易于扩散。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3790,7 +3797,7 @@ const QUESTION_DATA = {
       "option_d": "单核吞噬细胞系统功能下降",
       "option_e": "血浆中缓激肽浓度增高",
       "answer": "B",
-      "explanation": "正确答案是B：血管壁广泛损伤。"
+      "explanation": "弥漫性血管内凝血发生广泛出血的主要原因是大量血小板和凝血因子消耗，导致凝血功能障碍。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3874,7 +3881,7 @@ const QUESTION_DATA = {
       "option_d": "中性粒细胞",
       "option_e": "嗜酸性粒细胞",
       "answer": "A",
-      "explanation": "正确答案是A：单核细胞。"
+      "explanation": "动脉粥样硬化脂纹病变中主要细胞成分是泡沫细胞(由单核细胞来源的巨噬细胞和少量T淋巴细胞构成)。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3886,7 +3893,7 @@ const QUESTION_DATA = {
       "option_d": "NK 细胞",
       "option_e": "单核巨噬细胞",
       "answer": "E",
-      "explanation": "正确答案是E：单核巨噬细胞。"
+      "explanation": "急性病毒性肝炎时最常见的炎症细胞是淋巴细胞。病毒抗原刺激T淋巴细胞，引起肝细胞变性坏死。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3922,7 +3929,7 @@ const QUESTION_DATA = {
       "option_d": "穿孔后引起溃疡周围脓肿形成",
       "option_e": "穿孔后引起慢性包裹性腹膜炎",
       "answer": "C",
-      "explanation": "正确答案是C：穿孔后引起肠粘连。"
+      "explanation": "溃疡病穿孔后最严重的后果是穿孔后引起急性弥漫性腹膜炎，可导致感染性休克死亡。肠粘连是较轻微的并发症。"
     },
     {
       "chapter": "第4章 炎症",
@@ -3946,7 +3953,7 @@ const QUESTION_DATA = {
       "option_d": "淋巴细胞为主型→结节硬化型→混合",
       "option_e": "淋巴细胞消减型→淋巴细胞为主型→",
       "answer": "C",
-      "explanation": "正确答案是C：淋巴细胞为主型→结节硬化型→淋巴。"
+      "explanation": "急性病毒性肝炎时最常见的炎症细胞是淋巴细胞。病毒抗原刺激T淋巴细胞，引起肝细胞变性坏死。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4030,7 +4037,7 @@ const QUESTION_DATA = {
       "option_d": "浆细胞",
       "option_e": "单核细胞",
       "answer": "C",
-      "explanation": "正确答案是C：液体静置后凝固。"
+      "explanation": "与巨噬细胞来源无关的是印戒细胞。印戒细胞是腺癌的一种细胞类型，由肿瘤细胞黏液蓄积形成。泡沫细胞、Aschoff细胞、伤寒细胞、类上皮细胞均来源于巨噬细胞。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4114,7 +4121,7 @@ const QUESTION_DATA = {
       "option_d": "中性粒细胞",
       "option_e": "嗜酸性粒细胞",
       "answer": "C",
-      "explanation": "正确答案是C：组织细胞。"
+      "explanation": "与移植物迟发排斥反应关系最密切的细胞是淋巴细胞(T细胞)。迟发排斥是细胞免疫介导的IV型超敏反应。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4138,7 +4145,7 @@ const QUESTION_DATA = {
       "option_d": "血胰岛素水平明显降低",
       "option_e": "肥胖者多见",
       "answer": "C",
-      "explanation": "正确答案是C：胰岛数目正常或轻度减少。"
+      "explanation": "无抗胰岛细胞抗体见于2型糖尿病。1型糖尿病有抗胰岛细胞抗体、抗GAD抗体等自身抗体。2型糖尿病胰岛素抵抗为主。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4162,7 +4169,7 @@ const QUESTION_DATA = {
       "option_d": "中性粒细胞",
       "option_e": "红细胞",
       "answer": "C",
-      "explanation": "正确答案是C：嗜酸粒细胞。"
+      "explanation": "与巨噬细胞来源无关的是印戒细胞。印戒细胞是腺癌的一种细胞类型，由肿瘤细胞黏液蓄积形成。泡沫细胞、Aschoff细胞、伤寒细胞、类上皮细胞均来源于巨噬细胞。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4198,7 +4205,7 @@ const QUESTION_DATA = {
       "option_d": "病毒包涵体",
       "option_e": "单核细胞和淋巴细胞浸润",
       "answer": "B",
-      "explanation": "正确答案是B：肺泡性肺炎。"
+      "explanation": "病毒性肺炎的主要病理诊断依据是肺泡间质内大量淋巴细胞浸润和肺泡上皮细胞增生，形成间质性肺炎。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4210,7 +4217,7 @@ const QUESTION_DATA = {
       "option_d": "浆细胞",
       "option_e": "巨噬细胞",
       "answer": "E",
-      "explanation": "正确答案是E：巨噬细胞。"
+      "explanation": "类上皮细胞来源于巨噬细胞。在结核等肉芽肿性炎中，巨噬细胞转化为类上皮细胞(胞质丰富、呈上皮样)。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4270,7 +4277,7 @@ const QUESTION_DATA = {
       "option_d": "大量成纤维细胞",
       "option_e": "大量嗜酸性粒细胞",
       "answer": "A",
-      "explanation": "正确答案是A：大量巨噬细胞。"
+      "explanation": "类上皮细胞来源于巨噬细胞。在结核等肉芽肿性炎中，巨噬细胞转化为类上皮细胞(胞质丰富、呈上皮样)。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4402,7 +4409,7 @@ const QUESTION_DATA = {
       "option_d": "印戒细胞",
       "option_e": "类上皮细胞",
       "answer": "B",
-      "explanation": "正确答案是B：Aschoff 细胞。"
+      "explanation": "类上皮细胞来源于巨噬细胞。在结核等肉芽肿性炎中，巨噬细胞转化为类上皮细胞(胞质丰富、呈上皮样)。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4522,7 +4529,7 @@ const QUESTION_DATA = {
       "option_d": "见寄生虫病及过敏性疾病",
       "option_e": "见于某些部位的亚急性或者慢性炎症",
       "answer": "D",
-      "explanation": "正确答案是D：见寄生虫病及过敏性疾病。"
+      "explanation": "在寄生虫感染病变中常见嗜酸性粒细胞。寄生虫感染和过敏反应是嗜酸性粒细胞增多的两大原因。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4606,7 +4613,7 @@ const QUESTION_DATA = {
       "option_d": "生物病原体进入炎区组织",
       "option_e": "炎症向周围组织扩展",
       "answer": "A",
-      "explanation": "正确答案是A：白细胞自血管内进入炎区组织。"
+      "explanation": "炎性浸润是指白细胞自血管内进入炎区组织的过程。包括白细胞附壁、游出、趋化和吞噬等步骤。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4630,7 +4637,7 @@ const QUESTION_DATA = {
       "option_d": "单核细胞",
       "option_e": "中性粒细胞",
       "answer": "E",
-      "explanation": "正确答案是E：中性粒细胞。"
+      "explanation": "可释放血小板激活因子的细胞包括内皮细胞、嗜碱性粒细胞、单核细胞等，淋巴细胞不是主要释放细胞。"
     },
     {
       "chapter": "第4章 炎症",
@@ -4654,7 +4661,7 @@ const QUESTION_DATA = {
       "option_d": "溶血性链球菌感染",
       "option_e": "葡萄球菌感染",
       "answer": "C",
-      "explanation": "正确答案是C：乙脑病毒感染。"
+      "explanation": "在寄生虫感染病变中常见嗜酸性粒细胞。寄生虫感染和过敏反应是嗜酸性粒细胞增多的两大原因。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -4990,7 +4997,7 @@ const QUESTION_DATA = {
       "option_d": "癌变",
       "option_e": "粘连",
       "answer": "A",
-      "explanation": "正确答案是A：出血。"
+      "explanation": "慢性胃溃疡最常见的并发症是出血，约占15-25%。其次为穿孔、幽门梗阻、癌变。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5062,7 +5069,7 @@ const QUESTION_DATA = {
       "option_d": "卵巢",
       "option_e": "胃肠道",
       "answer": "C",
-      "explanation": "正确答案是C：乳腺。"
+      "explanation": "纤维腺瘤最常见于乳腺。是乳腺最常见的良性肿瘤，好发于青年女性。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5146,7 +5153,7 @@ const QUESTION_DATA = {
       "option_d": "促性腺激素细胞腺瘤",
       "option_e": "促甲状腺素细胞腺瘤",
       "answer": "B",
-      "explanation": "正确答案是B：催乳素细胞腺瘤。"
+      "explanation": "按垂体腺瘤功能分类，以催乳素细胞腺瘤最多见。可表现为泌乳-闭经综合征(女性)或性功能减退(男性)。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5542,7 +5549,7 @@ const QUESTION_DATA = {
       "option_d": "无性细胞瘤",
       "option_e": "内胚窦瘤",
       "answer": "E",
-      "explanation": "正确答案是E：内胚窦瘤。"
+      "explanation": "乳腺最常见的良性肿瘤是乳腺纤维腺瘤，不是卵巢。卵巢是生殖器官，不是乳腺肿瘤。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5626,7 +5633,7 @@ const QUESTION_DATA = {
       "option_d": "卵巢胚胎性癌",
       "option_e": "漏斗部",
       "answer": "C",
-      "explanation": "正确答案是C：间质部。"
+      "explanation": "输卵管妊娠最常见的部位是壶腹部（约占78%），因壶腹部管腔较宽、受精卵易在此着床发育。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5686,7 +5693,7 @@ const QUESTION_DATA = {
       "option_d": "成熟型畸胎瘤",
       "option_e": "内胚窦瘤",
       "answer": "C",
-      "explanation": "正确答案是C：无性细胞瘤。"
+      "explanation": "乳腺最常见的良性肿瘤是乳腺纤维腺瘤，不是卵巢。卵巢是生殖器官，不是乳腺肿瘤。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5734,7 +5741,7 @@ const QUESTION_DATA = {
       "option_d": "良性肿瘤没有",
       "option_e": "以上都不是",
       "answer": "E",
-      "explanation": "正确答案是E：以上都不是。"
+      "explanation": "关于病理性核分裂象正确的描述是良性肿瘤也可以有病理性核分裂象。病理性核分裂象不是恶性肿瘤特有的。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5866,7 +5873,7 @@ const QUESTION_DATA = {
       "option_d": "蓝痣",
       "option_e": "上皮样痣",
       "answer": "E",
-      "explanation": "正确答案是E：上皮样痣。"
+      "explanation": "容易恶变的痣是交界痣，不是上皮样痣。交界痣位于表皮真皮交界处，恶变风险较高。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5902,7 +5909,7 @@ const QUESTION_DATA = {
       "option_d": "平滑肌肉瘤",
       "option_e": "局部淋巴结肿大",
       "answer": "C",
-      "explanation": "正确答案是C：平滑肌瘤。"
+      "explanation": "皮下一肿块，边界清楚、有包膜、质硬、灰白色、编织状条纹，应诊断为纤维瘤，不是平滑肌瘤。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -5974,7 +5981,7 @@ const QUESTION_DATA = {
       "option_d": "[选项D待补充]",
       "option_e": "MCV",
       "answer": "E",
-      "explanation": "正确答案是E：MCV。"
+      "explanation": "关于CIN的描述错误的是HBV与CIN无关。CIN与人乳头状瘤病毒(HPV)感染有关，不是HBV或MCV。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -6586,7 +6593,7 @@ const QUESTION_DATA = {
       "option_d": "肺动脉高压",
       "option_e": "右心衰竭",
       "answer": "D",
-      "explanation": "正确答案是D：肺动脉高压。"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6646,7 +6653,7 @@ const QUESTION_DATA = {
       "option_d": "原发性高血压",
       "option_e": "二尖瓣狭窄",
       "answer": "E",
-      "explanation": "正确答案是E：二尖瓣狭窄。"
+      "explanation": "血液凝固性增加见于血栓形成，风湿性心内膜炎主要侵犯二尖瓣，形成白色血栓附着于瓣膜闭锁缘。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6694,7 +6701,7 @@ const QUESTION_DATA = {
       "option_d": "白细胞附壁，粘着",
       "option_e": "血管通透性升高",
       "answer": "B",
-      "explanation": "正确答案是B：伤寒。"
+      "explanation": "血流变慢甚至停滞常见于静脉，是静脉血栓形成的三大因素之一（Virchow三联征：血流缓慢、血管内皮损伤、血液高凝）。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6706,7 +6713,7 @@ const QUESTION_DATA = {
       "option_d": "上肢动脉",
       "option_e": "主动脉及脑血管",
       "answer": "B",
-      "explanation": "正确答案是B：动脉。"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6742,7 +6749,7 @@ const QUESTION_DATA = {
       "option_d": "受累瓣膜以三尖瓣为主",
       "option_e": "赘生物位于房室瓣的心室面",
       "answer": "C",
-      "explanation": "正确答案是C：受累瓣膜易穿孔。"
+      "explanation": "风湿性心内膜炎描述正确的是瓣膜赘生物小而牢固(不易脱落)，不含细菌(无菌性赘生物)，受累瓣膜不易穿孔。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6874,7 +6881,7 @@ const QUESTION_DATA = {
       "option_d": "药物中毒",
       "option_e": "柯萨奇 B 组病毒",
       "answer": "D",
-      "explanation": "正确答案是D：药物中毒。"
+      "explanation": "引起心肌炎最常见的原因是病毒感染(柯萨奇B组病毒)，不是药物中毒。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6898,7 +6905,7 @@ const QUESTION_DATA = {
       "option_d": "溶血性链球菌",
       "option_e": "草绿色链球菌",
       "answer": "E",
-      "explanation": "正确答案是E：草绿色链球菌。"
+      "explanation": "急性感染性心内膜炎最常见的病原体是金黄色葡萄球菌，不是草绿色链球菌。草绿色链球菌引起亚急性感染性心内膜炎。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6910,7 +6917,7 @@ const QUESTION_DATA = {
       "option_d": "可引起血液动力学和心脏的变化",
       "option_e": "一般不会同时累及两个以上的瓣膜",
       "answer": "C",
-      "explanation": "正确答案是C：二尖瓣最常受累，其次是主动脉瓣。"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6934,7 +6941,7 @@ const QUESTION_DATA = {
       "option_d": "心肌",
       "option_e": "冠状动脉口",
       "answer": "B",
-      "explanation": "正确答案是B：心瓣膜。"
+      "explanation": "心脏赘生物最常见于心瓣膜。风湿性心内膜炎、感染性心内膜炎的赘生物均位于瓣膜。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6946,7 +6953,7 @@ const QUESTION_DATA = {
       "option_d": "斑块破裂",
       "option_e": "动脉瘤",
       "answer": "C",
-      "explanation": "C：脂纹"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6958,7 +6965,7 @@ const QUESTION_DATA = {
       "option_d": "心房",
       "option_e": "室间隔后部",
       "answer": "A",
-      "explanation": "A：左心室前壁"
+      "explanation": "心肌梗死最常见的部位是左心室前壁、室间隔前2/3，由前降支供血。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6970,7 +6977,7 @@ const QUESTION_DATA = {
       "option_d": "小静脉扩张",
       "option_e": "毛细血管增生",
       "answer": "B",
-      "explanation": "B：全身细动脉玻璃样变"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6982,7 +6989,7 @@ const QUESTION_DATA = {
       "option_d": "玻璃样变性",
       "option_e": "淀粉样变性",
       "answer": "B",
-      "explanation": "B：风湿小体(Aschoff小体)"
+      "explanation": "风湿病的特征性病变是风湿小体(Aschoff小体)，具有诊断意义。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -6994,7 +7001,7 @@ const QUESTION_DATA = {
       "option_d": "三尖瓣",
       "option_e": "所有瓣膜同等受累",
       "answer": "C",
-      "explanation": "C：二尖瓣"
+      "explanation": "风湿性心内膜炎最常侵犯二尖瓣（约75%），其次为主动脉瓣，引起瓣膜边缘形成细小疣状赘生物。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -7006,7 +7013,7 @@ const QUESTION_DATA = {
       "option_d": "梅毒性主动脉炎",
       "option_e": "先天性冠状动脉畸形",
       "answer": "C",
-      "explanation": "C：冠状动脉粥样硬化"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
@@ -7018,7 +7025,7 @@ const QUESTION_DATA = {
       "option_d": "动脉中膜钙化",
       "option_e": "静脉血栓形成",
       "answer": "B",
-      "explanation": "B：细动脉纤维素样坏死"
+      "explanation": "动脉瘤最好发的部位是主动脉(腹主动脉)和脑底动脉环(Willis环)，不是冠状动脉。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7042,7 +7049,7 @@ const QUESTION_DATA = {
       "option_d": "膀胱",
       "option_e": "呼吸道",
       "answer": "C",
-      "explanation": "正确答案是C：胃肠道。"
+      "explanation": "平滑肌瘤最常发生于胃肠道(尤其胃和小肠)，其次为子宫。呼吸系统不是平滑肌瘤好发部位。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7162,7 +7169,7 @@ const QUESTION_DATA = {
       "option_d": "实变体征不明显",
       "option_e": "可闻及湿罗音",
       "answer": "C",
-      "explanation": "正确答案是C：起病隐匿。"
+      "explanation": "可由多种细菌所致的肺炎是支气管肺炎(小叶性肺炎)，不是起病隐匿。起病隐匿是支原体肺炎的特点。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7174,7 +7181,7 @@ const QUESTION_DATA = {
       "option_d": "肺炎克雷伯杆菌",
       "option_e": "金黄色葡萄球菌",
       "answer": "C",
-      "explanation": "正确答案是C：溶血性链球菌。"
+      "explanation": "引起间质性肺炎的病原体是肺炎支原体，不是溶血性链球菌。支原体肺炎以间质性炎症为特征。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7210,7 +7217,7 @@ const QUESTION_DATA = {
       "option_d": "胸膜纤维化",
       "option_e": "肺气肿",
       "answer": "D",
-      "explanation": "正确答案是D：胸膜纤维化。"
+      "explanation": "肺硅沉着症的特征性病变是硅结节形成，不是胸膜纤维化。硅结节是同心圆状排列的胶原纤维。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7234,7 +7241,7 @@ const QUESTION_DATA = {
       "option_d": "糖尿病",
       "option_e": "胆汁郁积性肝炎",
       "answer": "C",
-      "explanation": "正确答案是C：重型肝炎。"
+      "explanation": "可导致肝脏肿大的疾病不包括糖尿病。肺源性心脏病(右心衰→肝淤血)、肝炎均可致肝大。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7246,7 +7253,7 @@ const QUESTION_DATA = {
       "option_d": "肺炎克雷伯杆菌",
       "option_e": "大肠杆菌",
       "answer": "B",
-      "explanation": "B：肺炎链球菌"
+      "explanation": "不会导致支气管扩张症的疾病是大叶性肺炎。大叶性肺炎消散后肺组织可完全恢复正常，不破坏支气管壁。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7258,7 +7265,7 @@ const QUESTION_DATA = {
       "option_d": "肺结核",
       "option_e": "间质性肺炎",
       "answer": "B",
-      "explanation": "B：慢性支气管炎"
+      "explanation": "肺气肿最常继发于慢性支气管炎。COPD是肺气肿最常见的原因。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7270,7 +7277,7 @@ const QUESTION_DATA = {
       "option_d": "胸膜增厚",
       "option_e": "空洞形成",
       "answer": "B",
-      "explanation": "B：矽结节形成"
+      "explanation": "矽肺的特征性病变是矽结节形成。矽结节由同心圆状排列的胶原纤维构成，是硅肺的诊断依据。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7282,7 +7289,7 @@ const QUESTION_DATA = {
       "option_d": "支气管平滑肌痉挛",
       "option_e": "支气管壁软骨破坏",
       "answer": "B",
-      "explanation": "B：黏液腺肥大增生、杯状细胞增多"
+      "explanation": "肺气肿最常继发于慢性支气管炎。COPD是肺气肿最常见的原因。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7294,7 +7301,7 @@ const QUESTION_DATA = {
       "option_d": "肉芽肿性炎",
       "option_e": "纤维素性炎",
       "answer": "A",
-      "explanation": "A：以肺小叶为单位的化脓性炎"
+      "explanation": "小叶性肺炎的病变特征是以肺小叶为单位、以细支气管为中心的化脓性炎。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -7306,7 +7313,7 @@ const QUESTION_DATA = {
       "option_d": "淋巴上皮瘤样癌",
       "option_e": "腺样囊性癌",
       "answer": "B",
-      "explanation": "B：鳞状细胞癌"
+      "explanation": "鼻咽癌最常见的组织学类型为未分化非角化性癌（鳞状细胞癌），与EB病毒感染密切相关。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7414,7 +7421,7 @@ const QUESTION_DATA = {
       "option_d": "胞浆内细胞器的变性",
       "option_e": "以上都不是",
       "answer": "A",
-      "explanation": "正确答案是A：内质网内有大量 HbsAg。"
+      "explanation": "慢性肝炎时肝细胞毛玻璃样改变的原因是内质网内有大量HBsAg沉积，需特殊染色才能清晰显示。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7486,7 +7493,7 @@ const QUESTION_DATA = {
       "option_d": "钩端螺旋体病",
       "option_e": "丹毒",
       "answer": "D",
-      "explanation": "正确答案是D：钩端螺旋体病。"
+      "explanation": "钩端螺旋体病属出血性炎，可引起肝脏、肾脏等多器官出血，肝脏可见肝细胞坏死和出血。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7498,7 +7505,7 @@ const QUESTION_DATA = {
       "option_d": "肠系膜淋巴结肿大",
       "option_e": "病变肠黏膜高度水肿如铺路石",
       "answer": "A",
-      "explanation": "正确答案是A：病变主要累及结肠。"
+      "explanation": "Crohn病可累及全消化道从口腔至肛门，以回肠末端最为常见，并非仅累及结肠。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7534,7 +7541,7 @@ const QUESTION_DATA = {
       "option_d": "溃疡周围黏膜皱襞呈放射状",
       "option_e": "溃疡一般较深",
       "answer": "C",
-      "explanation": "正确答案是C：溃疡边缘整齐不隆起。"
+      "explanation": "慢性胃溃疡溃疡边缘整齐不隆起，边缘黏膜常因瘢痕收缩而融合，与胃癌溃疡边缘隆起呈火山口状不同。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7546,7 +7553,7 @@ const QUESTION_DATA = {
       "option_d": "链球菌",
       "option_e": "大肠杆菌",
       "answer": "A",
-      "explanation": "正确答案是A：幽门螺杆菌。"
+      "explanation": "幽门螺杆菌（Hp）是慢性胃炎发病最重要的病因，约90%以上的慢性胃炎与Hp感染有关。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7582,7 +7589,7 @@ const QUESTION_DATA = {
       "option_d": "亚急性重型肝炎",
       "option_e": "酒精性肝病",
       "answer": "B",
-      "explanation": "正确答案是B：慢性普通型肝炎。"
+      "explanation": "毛玻璃样肝细胞可见于慢性乙型肝炎，是肝细胞内大量HBsAg堆积在内质网中形成的特征性改变。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7594,7 +7601,7 @@ const QUESTION_DATA = {
       "option_d": "肝炎病毒",
       "option_e": "肝炎病毒",
       "answer": "D",
-      "explanation": "正确答案是D：肝炎病毒B、C、D。"
+      "explanation": "乙型肝炎病毒（HBV）、丙型肝炎病毒（HCV）和丁型肝炎病毒（HDV）均可造成慢性感染。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7606,7 +7613,7 @@ const QUESTION_DATA = {
       "option_d": "机体免疫功能缺陷，缺乏有效免疫反",
       "option_e": "以上都不是",
       "answer": "C",
-      "explanation": "正确答案是C：T细胞功能正常，感染病毒最多，毒。"
+      "explanation": "急性重型肝炎时T细胞功能亢进，对感染病毒的肝细胞发动强烈免疫攻击，导致大片肝细胞坏死。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7678,7 +7685,7 @@ const QUESTION_DATA = {
       "option_d": "胃底部",
       "option_e": "十二指肠升部",
       "answer": "B",
-      "explanation": "B：胃小弯近幽门部"
+      "explanation": "消化性溃疡最好发于胃小弯近幽门部，此处受胃酸和胃蛋白酶作用最强，黏膜防御能力相对较弱。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7690,7 +7697,7 @@ const QUESTION_DATA = {
       "option_d": "纤维组织增生",
       "option_e": "炎细胞浸润",
       "answer": "C",
-      "explanation": "C：假小叶形成"
+      "explanation": "肝硬化最具特征性的病变是假小叶形成，即正常肝小叶结构被纤维间隔分割包围的再生结节取代。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7702,7 +7709,7 @@ const QUESTION_DATA = {
       "option_d": "肝细胞脂肪变性",
       "option_e": "Kupffer细胞增生",
       "answer": "D",
-      "explanation": "D：肝细胞脂肪变性"
+      "explanation": "病毒性肝炎基本病理变化包括肝细胞变性坏死、炎症细胞浸润和肝细胞再生，不包括肝细胞脂肪变性。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7714,7 +7721,7 @@ const QUESTION_DATA = {
       "option_d": "类癌",
       "option_e": "未分化癌",
       "answer": "B",
-      "explanation": "B：腺癌"
+      "explanation": "胃癌最常见的组织学类型为腺癌，其中肠型胃癌与慢性萎缩性胃炎和肠上皮化生密切相关。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7726,7 +7733,7 @@ const QUESTION_DATA = {
       "option_d": "纤维板层型肝癌",
       "option_e": "肝母细胞瘤",
       "answer": "B",
-      "explanation": "B：肝细胞癌"
+      "explanation": "原发性肝癌最常见的组织学类型为肝细胞癌（HCC），约占原发性肝癌的85%-90%。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -7738,7 +7745,7 @@ const QUESTION_DATA = {
       "option_d": "浆膜层",
       "option_e": "邻近器官",
       "answer": "B",
-      "explanation": "B：黏膜下层"
+      "explanation": "早期胃癌定义为癌组织浸润仅限于黏膜层或黏膜下层，不论病灶大小或有无淋巴结转移。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7774,7 +7781,7 @@ const QUESTION_DATA = {
       "option_d": "分为霍奇金淋巴瘤、非霍奇金淋巴瘤",
       "option_e": "淋巴组织结构破坏，瘤细胞弥漫分布，",
       "answer": "C",
-      "explanation": "正确答案是C：是原发于淋巴结和结外淋巴组织的恶。"
+      "explanation": "淋巴瘤是原发于淋巴结和结外淋巴组织的恶性肿瘤，非炎症性疾病，可发生于任何年龄。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7798,7 +7805,7 @@ const QUESTION_DATA = {
       "option_d": "精原细胞瘤",
       "option_e": "白血病",
       "answer": "B",
-      "explanation": "正确答案是B：恶性间皮瘤。"
+      "explanation": "淋巴瘤是恶性淋巴细胞增殖性疾病，恶性间皮瘤来源于间皮，不属于淋巴瘤范畴。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7822,7 +7829,7 @@ const QUESTION_DATA = {
       "option_d": "嗜酸性粒细胞",
       "option_e": "组织细胞",
       "answer": "B",
-      "explanation": "B：R-S细胞"
+      "explanation": "R-S细胞（Reed-Sternberg细胞）是霍奇金淋巴瘤的诊断性细胞，典型者呈双核、核仁大而嗜酸性。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7834,7 +7841,7 @@ const QUESTION_DATA = {
       "option_d": "边缘区淋巴瘤",
       "option_e": "Burkitt淋巴瘤",
       "answer": "B",
-      "explanation": "B：弥漫大B细胞淋巴瘤"
+      "explanation": "非霍奇金淋巴瘤中最常见的类型为弥漫大B细胞淋巴瘤，占所有NHL的30%以上。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7846,7 +7853,7 @@ const QUESTION_DATA = {
       "option_d": "肉芽肿形成",
       "option_e": "骨髓萎缩",
       "answer": "B",
-      "explanation": "B：大量原始幼稚细胞增生"
+      "explanation": "急性白血病最特征性的骨髓改变是大量原始幼稚细胞（≥20%）增生，正常造血受抑制。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7858,7 +7865,7 @@ const QUESTION_DATA = {
       "option_d": "免疫表型CD3阳性",
       "option_e": "来源于B细胞",
       "answer": "C",
-      "explanation": "C：胞核大、核仁明显呈鹰眼样"
+      "explanation": "典型R-S细胞胞核大、核仁明显呈鹰眼样（包容体样），胞质丰富，是霍奇金淋巴瘤的标志。"
     },
     {
       "chapter": "第12章 淋巴造血系统疾病",
@@ -7870,7 +7877,7 @@ const QUESTION_DATA = {
       "option_d": "慢性粒细胞白血病",
       "option_e": "毛细胞白血病",
       "answer": "C",
-      "explanation": "C：急性粒细胞白血病"
+      "explanation": "绿色瘤（粒细胞肉瘤）最常见于急性粒细胞白血病，为粒细胞肿瘤细胞在骨膜下形成的实体瘤。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7894,7 +7901,7 @@ const QUESTION_DATA = {
       "option_d": "电子致密物沉积",
       "option_e": "免疫球蛋白",
       "answer": "C",
-      "explanation": "正确答案是C：补体沉积。"
+      "explanation": "狼疮性肾炎特征性病变为苏木素小体形成和铜线样改变，补体沉积是免疫病理诊断的重要依据。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7906,7 +7913,7 @@ const QUESTION_DATA = {
       "option_d": "Aschoff 小体的生成",
       "option_e": "晚期关节的畸形",
       "answer": "D",
-      "explanation": "正确答案是D：Aschoff 小体的生成。"
+      "explanation": "类风湿性关节炎病变特点包括滑膜炎、类风湿结节和血管炎，Aschoff小体是风湿病的特征。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7930,7 +7937,7 @@ const QUESTION_DATA = {
       "option_d": "类风湿性关节炎",
       "option_e": "重症肌无力",
       "answer": "B",
-      "explanation": "正确答案是B：急性胰腺炎。"
+      "explanation": "急性胰腺炎多为代谢性和创伤性疾病，非自身免疫性疾病，而系统性红斑狼疮、类风湿关节炎等为自身免疫病。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7966,7 +7973,7 @@ const QUESTION_DATA = {
       "option_d": "皮肤红斑",
       "option_e": "关节滑膜炎",
       "answer": "A",
-      "explanation": "A：狼疮小体"
+      "explanation": "SLE最具特征性的病变是狼疮小体（苏木素小体），为核蛋白被抗体攻击后形成的均质棒状结构。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7978,7 +7985,7 @@ const QUESTION_DATA = {
       "option_d": "关节融合",
       "option_e": "痛风石形成",
       "answer": "B",
-      "explanation": "B：滑膜慢性增生性炎"
+      "explanation": "类风湿关节炎基本病变为滑膜慢性增生性炎，形成血管翳，侵蚀关节软骨和骨质。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -7990,7 +7997,7 @@ const QUESTION_DATA = {
       "option_d": "免疫抑制剂用量不足",
       "option_e": "病毒感染",
       "answer": "B",
-      "explanation": "B：ABO血型不合"
+      "explanation": "超急性移植排斥反应主要因受者体内预存抗供者HLA或ABO血型抗体，与ABO血型不合有关。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -8002,7 +8009,7 @@ const QUESTION_DATA = {
       "option_d": "常伴发Kaposi肉瘤",
       "option_e": "主要经消化道传播",
       "answer": "E",
-      "explanation": "E：主要经消化道传播"
+      "explanation": "AIDS经性接触、血液和母婴传播，不经消化道传播，因HIV在胃酸中迅速失活。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -8014,7 +8021,7 @@ const QUESTION_DATA = {
       "option_d": "新月体形成",
       "option_e": "间质纤维化",
       "answer": "C",
-      "explanation": "C：苏木素小体"
+      "explanation": "狼疮性肾炎最具诊断价值的病理改变为苏木素小体和铜线样改变，反映免疫复合物沉积和核蛋白变性。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8038,7 +8045,7 @@ const QUESTION_DATA = {
       "option_d": "足突融合",
       "option_e": "肾小管萎缩",
       "answer": "B",
-      "explanation": "B：内皮细胞和系膜细胞增生"
+      "explanation": "急性弥漫性增生性肾小球肾炎主要病变为肾小球内皮细胞和系膜细胞增生，伴中性粒细胞浸润。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8050,7 +8057,7 @@ const QUESTION_DATA = {
       "option_d": "内皮细胞增生",
       "option_e": "免疫复合物沉积",
       "answer": "C",
-      "explanation": "C：新月体形成"
+      "explanation": "快速进行性肾小球肾炎（新月体性肾炎）特征性病变为肾小球囊壁层上皮细胞增生形成新月体。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8062,7 +8069,7 @@ const QUESTION_DATA = {
       "option_d": "系膜增生",
       "option_e": "内皮细胞肿胀",
       "answer": "C",
-      "explanation": "C：足突广泛融合"
+      "explanation": "脂性肾病（微小病变性肾病）电镜下特征为肾小球足突广泛融合消失，光镜下肾小球基本正常。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8074,7 +8081,7 @@ const QUESTION_DATA = {
       "option_d": "直接蔓延",
       "option_e": "医源性感染",
       "answer": "B",
-      "explanation": "B：上行性感染"
+      "explanation": "急性肾盂肾炎最常见的感染途径为上行性感染，即细菌经尿道、膀胱、输尿管逆行至肾盂。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8086,7 +8093,7 @@ const QUESTION_DATA = {
       "option_d": "集合管癌",
       "option_e": "肉瘤样癌",
       "answer": "C",
-      "explanation": "C：透明细胞癌"
+      "explanation": "肾细胞癌最常见的组织学类型为透明细胞癌，占肾癌的70%-80%，细胞质富含脂质和糖原呈透明状。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8098,7 +8105,7 @@ const QUESTION_DATA = {
       "option_d": "毛细血管壁线状IgG沉积",
       "option_e": "无免疫复合物沉积",
       "answer": "B",
-      "explanation": "B：基底膜IgG和C3颗粒状沉积"
+      "explanation": "膜性肾病特征性免疫荧光表现为基底膜IgG和C3颗粒状沉积，电镜下可见上皮下免疫复合物沉积。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -8110,7 +8117,7 @@ const QUESTION_DATA = {
       "option_d": "20-30岁",
       "option_e": "50岁以上",
       "answer": "B",
-      "explanation": "B：1-4岁"
+      "explanation": "肾母细胞瘤（Wilms瘤）好发于1-4岁儿童，是儿童最常见的肾脏恶性肿瘤。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8206,7 +8213,7 @@ const QUESTION_DATA = {
       "option_d": "瘤组织常呈灰白色、编织状或漩涡状",
       "option_e": "子宫肌层内",
       "answer": "A",
-      "explanation": "正确答案是A：子宫颈。"
+      "explanation": "异位妊娠最常发生在输卵管（占95%），其中以壶腹部最为多见，因输卵管炎症导致管腔狭窄。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8218,7 +8225,7 @@ const QUESTION_DATA = {
       "option_d": "瘤组织常呈灰白色、编织状或漩涡状",
       "option_e": "瘤细胞与正常平滑肌细胞相似",
       "answer": "B",
-      "explanation": "正确答案是B：可以单发或多发。"
+      "explanation": "子宫肌瘤可单发也可多发（约25%为多发性），由平滑肌细胞增生形成，边界清楚。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8242,7 +8249,7 @@ const QUESTION_DATA = {
       "option_d": "乳房穿刺物",
       "option_e": "以上均可",
       "answer": "C",
-      "explanation": "正确答案是C：胸腔积液。"
+      "explanation": "脱落细胞学可用于检查胸腔积液找癌细胞，也可用于宫颈涂片筛查宫颈癌和腹腔积液检查。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8266,7 +8273,7 @@ const QUESTION_DATA = {
       "option_d": "口服避孕药",
       "option_e": "遗传因素",
       "answer": "B",
-      "explanation": "B：高危型HPV持续感染"
+      "explanation": "高危型HPV（尤其是HPV16和HPV18）持续感染是子宫颈癌最主要的危险因素，99%以上宫颈癌与此相关。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8278,7 +8285,7 @@ const QUESTION_DATA = {
       "option_d": "绒毛纤维化",
       "option_e": "绒毛血管增生",
       "answer": "A",
-      "explanation": "A：绒毛间质水肿和滋养细胞增生"
+      "explanation": "葡萄胎特征性病变为绒毛间质水肿呈水泡状和滋养细胞不同程度增生，无胎儿组织。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8290,7 +8297,7 @@ const QUESTION_DATA = {
       "option_d": "有无子宫增大",
       "option_e": "有无阴道流血",
       "answer": "A",
-      "explanation": "A：有无绒毛结构"
+      "explanation": "绒毛膜癌与葡萄胎的主要区别在于有无绒毛结构，绒癌无绒毛结构，仅见异型滋养细胞和出血坏死。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8302,7 +8309,7 @@ const QUESTION_DATA = {
       "option_d": "髓样癌",
       "option_e": "黏液癌",
       "answer": "B",
-      "explanation": "B：浸润性导管癌"
+      "explanation": "乳腺癌最常见的组织学类型为浸润性导管癌，约占乳腺癌的70%-80%。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8314,7 +8321,7 @@ const QUESTION_DATA = {
       "option_d": "浸润癌",
       "option_e": "腺体非典型增生",
       "answer": "C",
-      "explanation": "C：重度非典型增生和原位癌"
+      "explanation": "宫颈上皮内瘤变（CIN）III级包括重度非典型增生和原位癌，异型细胞累及上皮全层的2/3以上。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8326,7 +8333,7 @@ const QUESTION_DATA = {
       "option_d": "卵巢感染性囊肿",
       "option_e": "卵巢巧克力样脓肿",
       "answer": "A",
-      "explanation": "A：卵巢子宫内膜异位症反复出血"
+      "explanation": "巧克力囊肿即卵巢子宫内膜异位囊肿，形成机制为异位的子宫内膜反复周期性出血积聚于囊腔。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
@@ -8338,7 +8345,7 @@ const QUESTION_DATA = {
       "option_d": "发热",
       "option_e": "性功能障碍",
       "answer": "B",
-      "explanation": "B：排尿困难"
+      "explanation": "前列腺增生症最常见的症状是排尿困难，因增生的前列腺压迫尿道导致尿道延长、弯曲和狭窄。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8374,7 +8381,7 @@ const QUESTION_DATA = {
       "option_d": "克汀病",
       "option_e": "佝偻病",
       "answer": "D",
-      "explanation": "正确答案是D：克汀病。"
+      "explanation": "新生儿或幼儿时期甲状腺功能低下表现为克汀病（呆小症），以智力低下和身材矮小为特征。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8410,7 +8417,7 @@ const QUESTION_DATA = {
       "option_d": "Cushing 综合征",
       "option_e": "[选项E待补充]",
       "answer": "A",
-      "explanation": "正确答案是A：黏液水肿。"
+      "explanation": "成年及少年甲状腺功能低下表现为黏液性水肿，因黏多糖和透明质酸在皮下组织沉积所致。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8434,7 +8441,7 @@ const QUESTION_DATA = {
       "option_d": "遗传",
       "option_e": "碘摄入过高",
       "answer": "B",
-      "explanation": "正确答案是B：缺碘。"
+      "explanation": "地方性甲状腺肿最主要原因是缺碘，碘是合成甲状腺激素的必需原料，缺碘导致T3、T4合成减少。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8446,7 +8453,7 @@ const QUESTION_DATA = {
       "option_d": "基础代谢增强",
       "option_e": "血中有抗甲状腺自身抗体",
       "answer": "C",
-      "explanation": "正确答案是C：大脑发育不全，智力低下。"
+      "explanation": "克汀病因胎儿期甲状腺激素缺乏导致大脑发育不全、智力低下，同时伴有身材矮小等表现。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8458,7 +8465,7 @@ const QUESTION_DATA = {
       "option_d": "甲状腺素合成障碍",
       "option_e": "甲状腺炎",
       "answer": "B",
-      "explanation": "B：自身抗体(TSI)刺激TSH受体"
+      "explanation": "Graves病发病机制是自身抗体（TSI）刺激TSH受体，模拟TSH作用导致甲状腺激素分泌过多。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8470,7 +8477,7 @@ const QUESTION_DATA = {
       "option_d": "滤泡上皮明显异型",
       "option_e": "肉芽肿形成",
       "answer": "A",
-      "explanation": "A：滤泡上皮嗜酸性变和间质淋巴组织增生"
+      "explanation": "桥本甲状腺炎病理特征为滤泡上皮嗜酸性变（Hürthle细胞）和间质大量淋巴组织增生伴滤泡生发中心。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8482,7 +8489,7 @@ const QUESTION_DATA = {
       "option_d": "胰岛素受体缺陷",
       "option_e": "胰岛淀粉样变性",
       "answer": "B",
-      "explanation": "B：胰岛β细胞自身免疫性破坏"
+      "explanation": "1型糖尿病发病机制主要是胰岛β细胞自身免疫性破坏，导致胰岛素绝对缺乏。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8494,7 +8501,7 @@ const QUESTION_DATA = {
       "option_d": "核多形性",
       "option_e": "核膜光滑",
       "answer": "B",
-      "explanation": "B：毛玻璃样核(核大淡染)"
+      "explanation": "甲状腺乳头状癌最具诊断意义的核特征是毛玻璃样核（核大淡染）、核沟和核内假包涵体。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8506,7 +8513,7 @@ const QUESTION_DATA = {
       "option_d": "垂体ACTH瘤",
       "option_e": "异位ACTH综合征",
       "answer": "C",
-      "explanation": "C：医源性(长期使用糖皮质激素)"
+      "explanation": "Cushing综合征最常见的病因为医源性，即长期使用糖皮质激素类药物导致肾上腺皮质增生。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
@@ -8518,7 +8525,7 @@ const QUESTION_DATA = {
       "option_d": "肿瘤",
       "option_e": "遗传因素",
       "answer": "A",
-      "explanation": "A：缺碘"
+      "explanation": "单纯性甲状腺肿最主要病因是缺碘，导致甲状腺代偿性增生肿大，属非肿瘤性甲状腺疾病。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -10001,7 +10008,7 @@ const QUESTION_DATA = {
       "term": "糜烂",
       "english": "erosion",
       "type": "名词解释",
-      "definition": "",
+      "definition": "黏膜或皮肤表层坏死脱落后遗留的浅表性缺损称为糜烂，较浅未突破基底膜，愈后一般不形成瘢痕。",
       "_orig_index": 60
     },
     {
@@ -10172,7 +10179,7 @@ const QUESTION_DATA = {
       "term": "瘤的实质是指",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "肿瘤的实质是指肿瘤细胞本身，是肿瘤的主要成分，决定肿瘤的性质、生物学行为和分类。",
       "_orig_index": 80
     },
     {
@@ -10235,7 +10242,7 @@ const QUESTION_DATA = {
       "term": "病理核分裂象",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "病理性核分裂象指细胞核分裂时出现不对称、多极等异常分裂形式，是恶性肿瘤的重要诊断依据。",
       "_orig_index": 88
     },
     {
@@ -10262,7 +10269,7 @@ const QUESTION_DATA = {
       "term": "又称粥样瘤",
       "english": "atheroma",
       "type": "名词解释",
-      "definition": "",
+      "definition": "粥样斑块表面由纤维帽覆盖，深层为坏死物和胆固醇结晶，状如粥，故称粥样瘤。",
       "_orig_index": 93
     },
     {
@@ -10343,7 +10350,7 @@ const QUESTION_DATA = {
       "term": "宫颈息肉",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "宫颈息肉是宫颈黏膜局部增生形成的赘生物，常为单发，呈红色锥形，质软易出血，多为慢性炎症刺激所致。",
       "_orig_index": 150
     },
     {
@@ -10388,7 +10395,7 @@ const QUESTION_DATA = {
       "term": "垂体腺瘤",
       "english": "pituitary adenoma",
       "type": "名词解释",
-      "definition": "",
+      "definition": "垂体腺瘤是来源于垂体前叶的良性肿瘤，可分泌过多催乳素、生长激素或ACTH等，引起相应内分泌症状。",
       "_orig_index": 171
     },
     {
@@ -10541,7 +10548,7 @@ const QUESTION_DATA = {
       "term": "积水",
       "english": "hydrops",
       "type": "名词解释",
-      "definition": "",
+      "definition": "浆膜腔内液体过量蓄积称为积水，如胸腔积液、腹腔积液和心包积液，可为漏出液或渗出液。",
       "_orig_index": 48
     },
     {
@@ -10550,7 +10557,7 @@ const QUESTION_DATA = {
       "term": "在活体的心脏或血管腔内血液发生凝",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "在活体的心脏或血管腔内，血液成分凝固或某些成分聚集形成固体质块的过程称为血栓形成。",
       "_orig_index": 52
     },
     {
@@ -10577,7 +10584,7 @@ const QUESTION_DATA = {
       "term": "红色肝样变",
       "english": "red hepatization",
       "type": "名词解释",
-      "definition": "",
+      "definition": "大叶性肺炎红色肝样变期，肺泡腔内充满红细胞和少量纤维素中性粒细胞，肺质地如肝，肉眼呈红色。",
       "_orig_index": 98
     },
     {
@@ -10586,7 +10593,7 @@ const QUESTION_DATA = {
       "term": "灰色肝样变",
       "english": "gray hepatization",
       "type": "名词解释",
-      "definition": "",
+      "definition": "大叶性肺炎灰色肝样变期，肺泡腔内渗出以纤维素和中性粒细胞为主，红细胞大多溶解，肺呈灰白色。",
       "_orig_index": 109
     },
     {
@@ -10622,7 +10629,7 @@ const QUESTION_DATA = {
       "term": "革囊胃",
       "english": "linitis plastica",
       "type": "名词解释",
-      "definition": "",
+      "definition": "胃癌弥漫浸润胃壁全层，使胃壁增厚变硬胃腔缩小，黏膜皱襞消失，状似皮革囊袋，称革囊胃。",
       "_orig_index": 123
     },
     {
@@ -10640,7 +10647,7 @@ const QUESTION_DATA = {
       "term": "列举四种引起肠道溃疡的疾病及溃疡",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "常见肠道溃疡疾病：①肠结核溃疡呈环形与肠轴垂直；②克罗恩病溃疡呈裂隙状纵行；③细菌性痢疾呈地图状溃疡；④伤寒溃疡长轴与肠轴平行。",
       "_orig_index": 200
     },
     {
@@ -10712,7 +10719,7 @@ const QUESTION_DATA = {
       "term": "成人肺结核临床最常见的类型是",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "继发性肺结核是成人最常见的肺结核类型，其中浸润性肺结核最为常见，好发于肺尖和锁骨下区。",
       "_orig_index": 191
     },
     {
@@ -10721,7 +10728,7 @@ const QUESTION_DATA = {
       "term": "是起源于淋巴结和结外淋巴及其他组",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "淋巴瘤是起源于淋巴结和结外淋巴组织或其他淋巴组织的恶性肿瘤，分霍奇金淋巴瘤和非霍奇金淋巴瘤两大类。",
       "_orig_index": 128
     },
     {
@@ -10952,7 +10959,7 @@ const QUESTION_DATA = {
       "term": "女性生殖系统结核病最常见的是",
       "english": "",
       "type": "名词解释",
-      "definition": "",
+      "definition": "女性生殖系统结核病最常见的是输卵管结核占85%以上，常继发于身体其他部位结核病灶的血道播散。",
       "_orig_index": 192
     },
     {
@@ -11192,16 +11199,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 2,
-      "question": "细胞核在细胞坏死时可能发生哪些形态学变化?叙述其演变过程。",
+      "question": "80%以上乳腺癌来源于什么结构？",
       "type": "简答题",
-      "answer": "细胞坏死时细胞核发生三种特征性改变：(1)核固缩：细胞核脱水浓缩，体积缩小，染色质凝聚，嗜碱性增强呈深蓝色。(2)核碎裂：核膜破裂，染色质崩解成多个致密蓝染的小碎片，散布于胞浆中。(3)核溶解：在DNA酶和蛋白水解酶的作用下，染色质的DNA和蛋白质被完全分解，核的轮廓完全消失。这三种改变是一个连续的过程，反映了坏死细胞的不可逆性。在光镜下观察坏死组织时，根据坏死发生的时间不同，可同时或分别看到这三种核的改变。"
+      "answer": "80%以上乳腺癌来源于乳腺导管上皮其中浸润性导管癌最为常见。少数来源于乳腺小叶上皮（浸润性小叶癌）。非增生性纤维囊性变是良性病变不直接发展为癌。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 3,
-      "question": "什么叫化生?支气管黏膜上皮常在何种情况下出现化生?它可能产生哪些影响？",
+      "question": "硅肺的病理特点是什么？",
       "type": "简答题",
-      "answer": "化生是指一种已分化成熟的细胞类型被另一种分化成熟的细胞类型所取代的过程。常见于：支气管黏膜上皮在长期吸烟或慢性炎症刺激下，假复层纤毛柱状上皮可转变为复层鳞状上皮（鳞状上皮化生）；慢性胃炎时胃黏膜上皮可转变为肠上皮（肠上皮化生）。化生具有一定的适应性意义，但同时也失去了原有上皮的保护功能，且可能在此基础上发生恶变。"
+      "answer": "硅肺病理特点：①硅结节形成（特征性病变）早期为细胞性结节后发展为胶原性结节；②弥漫性肺纤维化；③肺门淋巴结肿大。硅结节中央为玻璃样变胶原纤维周围有硅尘巨噬细胞。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -11276,9 +11283,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第2章 损伤的修复",
       "number": 15,
-      "question": "影响再生修复的主要因素有哪些?各举",
+      "question": "影响创伤愈合的因素有哪些？",
       "type": "简答题",
-      "answer": "影响再生修复的主要因素包括全身因素和局部因素。全身因素：(1)年龄：青少年再生能力强，老年人再生能力弱。(2)营养状况：蛋白质缺乏影响肉芽组织和胶原形成；维生素C缺乏影响胶原合成（脯氨酸羟化需维生素C）；锌缺乏影响细胞分裂增殖。(3)内分泌：糖皮质激素抑制肉芽组织形成；甲状腺激素促进再生。局部因素：(1)感染与异物：感染化脓会加重组织损伤、延迟愈合；异物存留阻碍愈合。(2)局部血液循环：良好的血供是再生修复的基本条件，缺血（如动脉粥样硬化、静脉淤血）显著影响愈合。(3)神经支配：去神经支配的组织（如截瘫患者）伤口不易愈合。(4)机械因素：伤口张力过大影响愈合。(5)电离辐射：抑制细胞分裂和肉芽组织增生。"
+      "answer": "包括全身因素和局部因素。全身因素：年龄（青少年再生能力强）、营养状态（蛋白质和维生素充足有利愈合）、内分泌因素、疾病状态（糖尿病恶性肿瘤延缓愈合）。局部因素：感染、异物、血液循环、神经支配、伤口类型和部位。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -11286,13 +11293,6 @@ const QUESTION_DATA = {
       "question": "结局：①引起炎症反应：②溶解、吸收：③分离、排出，形成缺损；④机化；⑤包裹；⑥营养不良性钙化。",
       "type": "简答题",
       "answer": "化脓性炎是以中性粒细胞大量渗出为主，伴不同程度组织坏死和脓液形成。概念及类型：(1)脓肿：局限性化脓性炎伴组织坏死液化形成脓腔。如皮肤疖、痈、肺脓肿。(2)蜂窝织炎：疏松结缔组织的弥漫性化脓性炎。如皮下蜂窝织炎、阑尾蜂窝织炎。(3)表面化脓：黏膜或浆膜表面的化脓性炎，脓液沿表面排出。如化脓性支气管炎、化脓性尿道炎（淋病）。(4)积脓：脓液在体腔或空腔器官内积聚。如胆囊积脓、输卵管积脓。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 2,
-      "question": "①核固缩：由于核脱水使染色质浓缩，染色变深，核的体积缩小；②核碎裂：核染色质崩解为致密蓝染的小碎片，核膜破裂溶解，染色质碎片分散在胞浆中；③核溶解：在脱氧核糖核酸酶的作用下，染色质的DNA分解，染色变淡，只见，甚至不见核轮廓。当损伤因子较弱，病变过程较缓慢时，可先出现核固缩，而后碎裂，最后溶解。但如果损伤强，过程快时，则可先产生染色质边集，继而碎裂，或由正常状态直接发生核溶解。",
-      "type": "简答题",
-      "answer": ""
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -11304,16 +11304,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 4,
-      "question": "坏疽分为干性坏疽、湿性坏疽和气性坏疽。干性坏疽多见于四肢末梢，动脉阻塞而静脉回流畅通时发生，由于缺血，干燥引起皱缩，呈黑色，与正常组织间有明显炎症分界线，因在体表，恶臭及全身中毒症状较轻。湿性坏疽多见于与外界相通但水分不易蒸发的脏器，在动脉阻塞又有静脉回流受阻伴淤血水肿时发生，局部组织肿胀、湿润、呈黑绿色。因炎症弥漫，故与正常组织间无明显界限，有严重恶臭及全身中毒症状。常见的有坏疽性阑尾炎，肠坏疽等。气性坏疽为湿性坏疽的特殊类型，常见于深达肌肉的开放性创伤合并产气荚膜杆菌等厌氧菌的感染，坏死组织呈蜂窝状，压之有捻发感。有严重的全身中毒症状，发展迅速，后果严重。",
+      "question": "简述子宫颈上皮不典型增生原位癌和浸润癌的关系。",
       "type": "简答题",
-      "answer": "从下肢静脉脱落的血栓栓子随血流经右心房→右心室→肺动脉，可引起以下后果：(1)小栓子：栓塞肺动脉的小分支，因肺有双重血供（肺动脉和支气管动脉），单纯小分支栓塞一般不引起肺梗死，可无明显症状。(2)大栓子（骑跨性栓子）：栓塞肺动脉主干或左右肺动脉分叉处，导致肺动脉血流突然大部分中断→急性肺动脉高压→急性右心衰竭（急性肺源性心脏病）→患者突发呼吸困难、发绀、胸痛、咯血、休克甚至猝死。(3)多发反复小栓子：反复多次栓塞肺小动脉分支→慢性肺动脉高压→慢性肺源性心脏病（右心室肥厚→右心衰竭）。(4)若存在房间隔或室间隔缺损（右向左分流），下肢静脉血栓可通过缺损进入体循环→脑栓塞、肾栓塞等（交叉性栓塞/反常栓塞）。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 7,
-      "question": "实质细胞变性包括细胞水肿、脂肪变、细胞内玻璃样变、细胞内病理性色素沉着(如巨噬细胞内的含铁血黄素、萎缩细胞内的脂褐素等)，肾、肺、胃等一些细胞内钙盐沉积等；间质包括间质和细动脉壁的玻璃样变，淀粉样变、黏液样变性，以及病理性色素或钙盐在间质内沉积等。",
-      "type": "简答题",
-      "answer": "实质细胞变性（细胞变性）主要包括：(1)细胞水肿（水变性）：细胞肿大、胞浆疏松淡染，严重时呈气球样变（如急性病毒性肝炎时的肝细胞）。(2)脂肪变性：胞浆内出现大小不等的脂滴空泡，最常见于肝细胞、心肌细胞和肾小管上皮细胞。(3)细胞内玻璃样变性：胞浆内出现均质红染的圆形小体（如酒精性肝病时的Mallory小体、肾病综合征时肾小管上皮重吸收蛋白质形成的玻璃样小滴）。(4)病理性色素沉着：如萎缩细胞内的脂褐素、慢性肺淤血时的心力衰竭细胞（含铁血黄素）。(5)病理性钙化：如坏死组织内的营养不良性钙化。间质变性包括：玻璃样变性（如瘢痕组织、高血压时的细动脉壁）、淀粉样变性、黏液样变性。"
+      "answer": "子宫颈上皮不典型增生（CIN）原位癌（CIS）浸润癌是一个连续发展过程。轻度不典型增生累及上皮下1/3中度累及1/3-2/3重度累及2/3以上至全层（即原位癌）。突破基底膜后即为浸润癌。HPV持续感染是重要诱因。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -11330,13 +11323,6 @@ const QUESTION_DATA = {
       "answer": "骨折愈合的基本过程分为四个阶段：(1)血肿形成期（骨折后即刻）：骨折断端血管破裂出血，在骨折部位形成血肿，随后凝固。(2)纤维性骨痂形成期（骨折后2-3天至2-3周）：血肿被肉芽组织取代→成纤维细胞和软骨细胞增生→形成透明软骨和纤维结缔组织（纤维性骨痂），将骨折断端初步连接。(3)骨性骨痂形成期（骨折后数周至数月）：骨样组织（类骨质）沉积并钙化→编织骨（骨性骨痂），此时骨折已达到临床愈合。(4)骨改建期（持续数月至数年）：编织骨按力学负重方向改建为板层骨，多余的骨痂被吸收，骨髓腔再通，最终恢复骨的原有力学结构。"
     },
     {
-      "chapter": "第2章 损伤的修复",
-      "number": 11,
-      "question": "肉芽组织的间质水分逐渐吸收减少；炎细胞减少并逐渐消失；部分毛细血管管腔闭塞，数目减少，少数毛细血管管壁增厚，改建为小动脉和小静脉；成纤维细胞产生越来越多的胶原纤维，最后变为纤维细胞。肉芽组织逐渐转化为瘢痕组织。(1)肝部分切除后，肝细胞分裂增生，短期内恢复原来大小。(2)肝细胞坏死后，肝小叶网状支架完整，再生的肝细胞沿支架延伸，可恢复正常结(3)肝细胞广泛坏死，肝小叶网状支架塌陷，网状纤维转化为胶原纤维。或者肝细胞反复坏死及炎症刺激，使纤维组织大量增生，形成肝小叶内间隔，正常的肝小叶结构被破坏，取而代之的是结构紊乱的肝",
-      "type": "简答题",
-      "answer": "相同点：(1)两者均可导致组织或器官体积增大。(2)两者常合并存在，例如妊娠子宫既有平滑肌细胞肥大又有数量增生。(3)两者都是细胞对刺激的适应性反应。不同点：(1)本质不同：肥大是细胞体积增大，细胞数目不变；增生是细胞数目增多。(2)发生条件不同：永久性细胞（心肌细胞、神经细胞、骨骼肌细胞）只能发生肥大不能增生（因为这些细胞无分裂能力）；不稳定细胞和稳定细胞既可肥大又可增生。(3)机制不同：肥大主要涉及蛋白质合成增加和降解减少；增生涉及细胞周期激活和分裂增殖。(4)举例：高血压时心肌细胞肥大（无增生）；缺碘性甲状腺肿主要是滤泡上皮增生。"
-    },
-    {
       "chapter": "第4章 炎症",
       "number": 13,
       "question": "肉眼：为鲜红色，颗粒状，柔软湿润，形似鲜嫩的肉芽。镜下：(1)新生的毛细血管：形成实性细胞索或扩张毛细血管，向创面垂直生长，以小动脉为轴心，形成祥状弯曲毛细血管网。新生的内皮细胞核体积大，呈椭圆形，向腔内突出，数目增多。(2)成纤维细胞：体积大，两端常有突起，突起可呈星状，胞浆略嗜碱性。(3)各种炎细胞：巨噬细胞、中性白细胞、淋巴细胞等。",
@@ -11349,13 +11335,6 @@ const QUESTION_DATA = {
       "question": "痂下愈合表现为在伤口表面由血液、渗出液及坏死物质干燥后形成黑褐色的痂皮，愈合过程在痂皮下进行。其特点包括：表皮的再生必先把相应的痂皮溶解后进行，故愈合所需时间较长；痂皮干燥不利于感染发生，但如已有感染，则可有碍炎性渗出物的引流，因而加重感染，对愈合即停止增生，为机体所需。",
       "type": "简答题",
       "answer": "痂下愈合是指伤口表面形成黑褐色硬痂，表皮在痂下再生，待上皮再生完成后痂皮即脱落。愈合过程特点：(1)伤口表面的血液、渗出液及坏死组织干燥后形成硬痂。(2)表皮细胞在痂下从创缘向中心生长。(3)痂皮对伤口有保护作用（防止细菌侵入、保持创面湿润），但不利于引流。(4)愈合时间一般较无痂情况下稍长（因表皮需在痂下长过整个创面）。(5)一般当上皮再生完成后，痂皮才脱落。(6)干燥的痂皮一般不利于细菌感染。"
-    },
-    {
-      "chapter": "第2章 损伤的修复",
-      "number": 15,
-      "question": "包括全身性因素和局部因素两个方面。全身因素包括年龄、营养状态等，如青少年再生能力较强，适当的蛋白质和充分的维生素供给有利于愈合。局部因素如伤口感染或有异物可妨碍再生的过程，局部血液循环不良时也不利于再生，局部的神经支配不完整，其他如电离辐射等也能对再生造成不良影响。",
-      "type": "简答题",
-      "answer": ""
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -11388,37 +11367,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 20,
-      "question": "何谓淤血?简述淤血的病变特点?",
+      "question": "淤血的病因、病理变化和后果是什么？",
       "type": "简答题",
-      "answer": "淤血是指静脉回流受阻，血液淤积在小静脉和毛细血管内，使局部组织或器官的含血量增多。病变特点：（1）淤血组织或器官体积增大、重量增加。（2）淤血组织呈暗红色，皮肤黏膜发绀。（3）代谢功能降低，局部温度下降。（4）镜下见小静脉和毛细血管扩张、充满红细胞。（5）长期淤血可引起组织水肿、变性、萎缩甚至坏死，间质纤维组织增生导致器官硬化。"
+      "answer": "病因：静脉受压、静脉腔阻塞、心力衰竭。病理变化：器官肿胀暗紫色重量增加切面湿润温度降低。镜下小静脉和毛细血管扩张充盈可伴水肿出血实质细胞萎缩变性坏死。后果：长期淤血可致组织水肿实质细胞萎缩纤维化。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 21,
-      "question": "动脉性充血的局部组织有何病理变化？",
+      "question": "动脉性充血的原因、病理变化和后果是什么？",
       "type": "简答题",
-      "answer": "淤血（静脉性充血）是指静脉回流受阻，血液淤积在小静脉和毛细血管内，使局部组织或器官的含血量增多。病变特点：(1)大体：受累器官或组织体积增大、重量增加，呈暗紫红色（发绀），局部温度下降（血流缓慢、代谢降低）。(2)镜下：小静脉和毛细血管显著扩张、管腔内充满红细胞。(3)长期淤血的后果：①水肿：毛细血管内静水压增高→液体漏出增多；②漏出性出血：毛细血管壁缺氧受损→红细胞漏出；③实质细胞萎缩、变性、坏死（缺氧和代谢产物堆积）；④间质纤维组织增生→器官硬化（如肺褐色硬化、淤血性肝硬化）。⑤皮肤慢性淤血可导致色素沉着和慢性溃疡（如下肢静脉曲张性溃疡）。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 17,
-      "question": "下肢静脉内血栓脱落对机体的影响，与血栓栓子的数量及大小有关。当血栓栓子体积较大或数量较多时，随血流运行，可",
-      "type": "简答题",
-      "answer": "肿瘤对机体的影响：(1)局部影响：①压迫和阻塞（如食管癌引起吞咽困难、胰头癌压迫胆总管致阻塞性黄疸）；②破坏器官结构和功能（如骨肉瘤导致病理性骨折、肝癌破坏肝功能）；③出血（肿瘤侵犯血管）和感染（肿瘤阻塞管腔继发感染）；④疼痛（侵犯神经或包膜张力增高）。(2)全身影响：①恶病质（恶性肿瘤晚期出现严重消瘦、贫血、乏力、食欲不振等，是多种因素综合作用的结果）；②异位激素综合征（有些非内分泌肿瘤可分泌激素样物质，如肺癌分泌ACTH引起Cushing综合征）；③副肿瘤综合征（肿瘤产物或其他不明原因引起的神经肌肉、皮肤、血液等方面的异常）；④发热（肿瘤坏死因子等致热原释放）；⑤心理精神影响。良性肿瘤主要产生局部压迫和阻塞；恶性肿瘤早期即可出现全身症状。"
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 20,
-      "question": "器官或组织因静脉回流受阻，使血液淤积于毛细血管和小静脉内，称为淤血。淤血时表现为：器官肿胀，呈暗紫色，包膜紧张，重量增加，切面湿润多血，淤血局部温度降低。全身淤血时可出现发绀。镜下可见组织内小静脉和毛细血管扩张、充满血液，可伴有水",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 21,
-      "question": "动脉性充血的主要表现为小动脉和毛细血管扩张，局部血液含量增多，颜色鲜红，由于局部小动脉扩张，血流加快，物质代谢增强，",
-      "type": "简答题",
-      "answer": ""
+      "answer": "原因：生理性（运动后肌肉充血）和病理性（炎症早期减压后充血）。病理变化：动脉输入血量增多局部组织体积增大颜色鲜红温度升高代谢增强。后果：一般一过性解除原因后恢复长期充血可致静脉淤血。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -11472,9 +11430,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 27,
-      "question": "试述(急性)炎症蔓延扩散的方式。",
+      "question": "输卵管妊娠最常见的部位是？",
       "type": "简答题",
-      "answer": "急性炎症蔓延扩散的方式：(1)局部蔓延：病原微生物沿组织间隙或器官自然管道向周围扩散。如急性阑尾炎→阑尾周围脓肿→局限性腹膜炎→弥漫性腹膜炎。(2)淋巴道扩散：病原微生物进入淋巴管→淋巴管炎（红线）→局部淋巴结炎（淋巴结肿大疼痛）→进一步可入血。如手指感染→前臂淋巴管炎→腋窝淋巴结炎。(3)血道扩散：病原微生物入血，根据程度分为①菌血症：细菌入血但无全身中毒症状；②毒血症：细菌毒素入血，血培养阴性，有全身中毒症状；③败血症：细菌在血中大量繁殖产毒，全身中毒症状重，血培养阳性；④脓毒败血症：化脓菌引起的败血症伴全身多发性栓塞性脓肿。"
+      "answer": "输卵管妊娠最常见的部位是壶腹部（约占78%）因壶腹部管腔较宽受精卵易在此着床和发育。其次为峡部伞部和间质部。输卵管炎是导致异位妊娠的最常见原因。"
     },
     {
       "chapter": "第4章 炎症",
@@ -11521,23 +11479,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第4章 炎症",
       "number": 37,
-      "question": "解释炎症是防御为主的反应。",
+      "question": "为什么说炎症是防御为主的反应？",
       "type": "简答题",
-      "answer": ""
+      "answer": "炎症的防御意义：①稀释中和有害物质（渗出液作用）；②带来营养物质和氧；③运走代谢产物和病原体；④纤维素渗出可限制炎症扩散并促进修复；⑤细胞浸润消灭病原体。但过度炎症也可导致组织损伤。"
     },
     {
       "chapter": "第4章 炎症",
       "number": 38,
       "question": "试述炎症的基本病理改变。",
       "type": "简答题",
-      "answer": ""
+      "answer": "炎症的基本病理变化包括变质、渗出和增生三方面。①变质：局部组织细胞变性坏死；②渗出：血管反应和液体细胞成分渗出到血管外；③增生：实质细胞和间质细胞增多。三者相互关联不同炎症各有侧重。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 39,
       "question": "试述炎性增生的作用并举例说明。",
       "type": "简答题",
-      "answer": ""
+      "answer": "炎性增生是炎症过程中的修复反应包括巨噬细胞成纤维细胞和内皮细胞增生。作用：①限制炎症扩散；②消灭病原体和清除坏死组织；③修复损伤组织。举例：慢性炎症中肉芽组织形成和结核结节中上皮样细胞增生。"
     },
     {
       "chapter": "第4章 炎症",
@@ -11547,25 +11505,11 @@ const QUESTION_DATA = {
       "answer": "炎症的结局：(1)痊愈：①完全痊愈（完全再生）：损伤范围小、组织再生能力强，炎症渗出物完全被吸收，受损组织通过同种细胞再生完全恢复原有结构和功能（如大叶性肺炎溶解消散后肺组织恢复正常）。②不完全痊愈（瘢痕修复）：损伤范围大、组织再生能力弱或炎症渗出物多，由肉芽组织修复形成纤维瘢痕取代（如大叶性肺炎机化→肺肉质变）。(2)迁延不愈→慢性炎：致炎因子持续存在，机体抵抗力较弱，急性炎转变为慢性炎。(3)蔓延扩散：机体抵抗力低下、病原微生物数量多毒力强时，炎症可经局部蔓延、淋巴道或血道扩散→菌血症→败血症→脓毒败血症→感染性休克→死亡。"
     },
     {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 24,
-      "question": "炎性水肿指炎症时渗出液位于组织间质，如阑尾炎时肌层水肿：炎性积液指炎症时渗出液位于浆膜腔，如结核时的胸腔",
-      "type": "简答题",
-      "answer": "炎性水肿与炎性积液的区别：(1)炎性水肿：炎症时渗出液积聚在组织间隙内。举例：急性阑尾炎时阑尾壁各层水肿增厚；急性蜂窝织炎时皮下组织高度水肿。(2)炎性积液：炎症时渗出液积聚在浆膜腔（胸腔、腹腔、心包腔、关节腔）内。举例：结核性胸膜炎→胸腔积液（胸水）；结核性腹膜炎→腹腔积液（腹水）。炎性渗出液的特点：蛋白含量高（>30g/L）、比重高（>1.018）、细胞数多（>500×10⁶/L）、Rivalta试验阳性、易凝固（含纤维蛋白原）。(3)临床上鉴别渗出液与漏出液对于疾病性质的判断有重要意义——渗出液提示炎症性疾病，漏出液提示非炎症性因素（如心衰、肝硬化、肾病综合征等）。"
-    },
-    {
       "chapter": "第2章 损伤的修复",
       "number": 25,
       "question": "白细胞游出到达炎症灶，吞噬和消化病原体及组织崩解碎片：杀伤病原微生物清除异物，有利于修复。(1)概念：中性粒细胞大量渗出，伴有不同程度的组织坏死和脓液形成。(2)类型①表面化脓和积脓。表面化脓：黏膜或浆膜的化脓性炎，深部组织无明显中性粒细胞浸润。积脓：浆膜腔或内脏空腔的被覆黏膜化脓。②蜂窝织炎：疏松组织中大量中性粒细胞弥漫性浸润。③脓肿：局限性的化脓性炎症，伴有组织坏死溶解，形成充满脓液的腔。",
       "type": "简答题",
       "answer": "化脓性炎是以中性粒细胞大量渗出为主，伴不同程度组织坏死和脓液形成。概念及类型：(1)脓肿：局限性化脓性炎伴组织坏死液化形成脓腔。如皮肤疖、痈、肺脓肿。(2)蜂窝织炎：疏松结缔组织的弥漫性化脓性炎。如皮下蜂窝织炎、阑尾蜂窝织炎。(3)表面化脓：黏膜或浆膜表面的化脓性炎，脓液沿表面排出。如化脓性支气管炎、化脓性尿道炎（淋病）。(4)积脓：脓液在体腔或空腔器官内积聚。如胆囊积脓、输卵管积脓。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 27,
-      "question": "局部蔓延：病原微生物经组织间隙或器官的自然通道向周围组织和器官扩散。淋巴道扩散：病原微生物随淋巴液扩散，引起淋巴管炎或淋巴结炎。血道扩散：包括菌血症，毒血症，败血症和脓毒败血症。",
-      "type": "简答题",
-      "answer": "急性炎症蔓延扩散的方式：(1)局部蔓延：病原微生物沿组织间隙或器官自然管道向周围扩散。如急性阑尾炎→阑尾周围脓肿→局限性腹膜炎→弥漫性腹膜炎。(2)淋巴道扩散：病原微生物进入淋巴管→淋巴管炎（红线）→局部淋巴结炎（淋巴结肿大疼痛）→进一步可入血。如手指感染→前臂淋巴管炎→腋窝淋巴结炎。(3)血道扩散：病原微生物入血，根据程度分为①菌血症：细菌入血但无全身中毒症状；②毒血症：细菌毒素入血，血培养阴性，有全身中毒症状；③败血症：细菌在血中大量繁殖产毒，全身中毒症状重，血培养阳性；④脓毒败血症：化脓菌引起的败血症伴全身多发性栓塞性脓肿。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -11578,13 +11522,6 @@ const QUESTION_DATA = {
       "chapter": "第4章 炎症",
       "number": 29,
       "question": "炎症的防御功能主要是依赖渗出的白细胞，同时白细胞也释放水解酶和炎症介质，加剧组织的损伤。白细胞的渗出过程：①边集；②粘着；③游出；④趋化作用。",
-      "type": "简答题",
-      "answer": "白细胞渗出（白细胞游出）是炎症反应最重要的形态学特征之一。过程：(1)白细胞边集和附壁（margination and pavementing）：血流减慢，白细胞由轴流进入边流（边集），沿血管壁滚动，通过选择素及其配体介导的弱黏附与内皮细胞可逆性结合。(2)牢固黏附：白细胞表面的整合素（LFA-1等）与内皮细胞表面的黏附分子（ICAM-1、VCAM-1）结合，实现牢固黏附。(3)游出（emigration/diapedesis）：白细胞伸出伪足，以阿米巴样运动方式通过内皮细胞间隙穿过血管壁（主要发生在毛细血管后微静脉）。(4)趋化作用：游出的白细胞在趋化因子作用下向炎症灶定向移动。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 30,
-      "question": "渗出液：蛋白含量高，细胞含量多，比重>1.020，外观混浊，Rivalta 试验(+)。漏出液：蛋白含量低，细胞含量少。比重",
       "type": "简答题",
       "answer": "白细胞渗出（白细胞游出）是炎症反应最重要的形态学特征之一。过程：(1)白细胞边集和附壁（margination and pavementing）：血流减慢，白细胞由轴流进入边流（边集），沿血管壁滚动，通过选择素及其配体介导的弱黏附与内皮细胞可逆性结合。(2)牢固黏附：白细胞表面的整合素（LFA-1等）与内皮细胞表面的黏附分子（ICAM-1、VCAM-1）结合，实现牢固黏附。(3)游出（emigration/diapedesis）：白细胞伸出伪足，以阿米巴样运动方式通过内皮细胞间隙穿过血管壁（主要发生在毛细血管后微静脉）。(4)趋化作用：游出的白细胞在趋化因子作用下向炎症灶定向移动。"
     },
@@ -11605,9 +11542,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 35,
-      "question": "以增生为主。浸润的炎细胞主要为巨噬细胞起吞噬作用；淋巴细胞、浆细胞参与免疫反应。间质中成纤维细胞增生，有时小血管也增生。实质：被覆上皮，腺上皮及实质细胞增生。结局：痊愈：完全痊愈和不完全痊愈；蔓延扩散：通过局部、淋巴道、血道扩散。(1)以纤维素渗出为主的炎症，内含白细胞(纤维素为红染条索，呈网状，大量纤维素片状红染，均质)；.(2)黏膜(喉头、肠黏膜)，浆膜(胸膜、腹膜、心包膜)，肺；(3)量少时溶解，吸收；量多时机化，引起浆膜增厚、粘连。",
+      "question": "以下关于前列腺增生症的描述错误的是？",
       "type": "简答题",
-      "answer": "炎症时白细胞吞噬作用及其意义：(1)吞噬作用是指白细胞伸出伪足将病原体或组织崩解产物包围并吞入胞浆内形成吞噬体，吞噬体与溶酶体融合形成吞噬溶酶体，通过溶酶体酶（酸性水解酶、髓过氧化物酶）和氧自由基（超氧阴离子、H₂O₂等）将吞噬物杀灭消化的过程。(2)主要吞噬细胞：中性粒细胞（小吞噬细胞）：吞噬细菌和组织碎片，是急性炎症的主要效应细胞；巨噬细胞（大吞噬细胞）：吞噬较大的病原体、坏死组织、异物，并参与抗原呈递。(3)意义：吞噬作用是炎症防御反应的核心环节，对于清除病原体、消除坏死组织和异物至关重要。吞噬功能缺陷（如慢性肉芽肿病）导致反复感染。"
+      "answer": "前列腺增生症早期结节主要由增生的腺体和纤维组织组成并非仅由纤维组织组成。其他描述均正确：常见于老年人多发生于尿道周围及移行区呈结节状增生。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -11619,9 +11556,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 38,
-      "question": "炎症的基本病理变化包括：(1)变质：炎症局部组织发生的变性和坏死，称为变质。这是致炎因子的直接损伤作用及炎症过程中发生局部血循环障碍和反应产物共同作用的结果。(2)渗出：以血管反应为中心的渗出病变是炎症的重要标志。炎症局部组织血管内的液体、蛋白质和白细胞通过血管壁进人间(3)增生：在致炎因子、组织崩解产物或某些理化因子刺激下，炎症局部的巨噬细胞、内皮细胞和成纤维细胞增生。变质是机体损伤的表现，而渗出和增生则为抗损",
+      "question": "恶性与良性葡萄胎的相同点在于？",
       "type": "简答题",
-      "answer": "实质细胞变性（细胞变性）主要包括：(1)细胞水肿（水变性）：细胞肿大、胞浆疏松淡染，严重时呈气球样变（如急性病毒性肝炎时的肝细胞）。(2)脂肪变性：胞浆内出现大小不等的脂滴空泡，最常见于肝细胞、心肌细胞和肾小管上皮细胞。(3)细胞内玻璃样变性：胞浆内出现均质红染的圆形小体（如酒精性肝病时的Mallory小体、肾病综合征时肾小管上皮重吸收蛋白质形成的玻璃样小滴）。(4)病理性色素沉着：如萎缩细胞内的脂褐素、慢性肺淤血时的心力衰竭细胞（含铁血黄素）。(5)病理性钙化：如坏死组织内的营养不良性钙化。间质变性包括：玻璃样变性（如瘢痕组织、高血压时的细动脉壁）、淀粉样变性、黏液样变性。"
+      "answer": "良性葡萄胎和恶性葡萄胎（侵蚀性葡萄胎）的相同点在于两者均可见胎盘绒毛组织（这是与绒癌的根本区别绒癌无绒毛结构）。恶性葡萄胎的特点是绒毛侵入子宫肌层或转移至其他器官。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -11640,9 +11577,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 41,
-      "question": "癌与肉瘤的区别有哪些？",
+      "question": "下列关于子宫颈原位癌的描述哪项是正确的？",
       "type": "简答题",
-      "answer": "（1）组织来源：癌来源于上皮组织，肉瘤来源于间叶组织。（2）发病率：癌较常见，约占恶性肿瘤的85%以上。（3）大体特点：癌质硬、灰白色、干燥，肉瘤质软、粉红色、湿润似鱼肉。（4）镜下特点：癌细胞呈巢状分布，实质与间质分界清楚，癌巢间有网状纤维；肉瘤细胞弥漫分布，实质与间质分界不清，肉瘤细胞间多有网状纤维。（5）转移方式：癌多经淋巴道转移，肉瘤多经血道转移。"
+      "answer": "子宫颈原位癌癌细胞未突破上皮基底膜预后良好局部淋巴结无转移（因无间质浸润）。阴道脱落细胞涂片可发现癌细胞呈阳性。累及腺体时仍属原位癌不称为浸润癌。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -11661,9 +11598,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 44,
-      "question": "试述转移瘤的形态特点。",
+      "question": "尖锐湿疣的病因是？",
       "type": "简答题",
-      "answer": "转移瘤的形态特点：(1)数目：常为多个，散布于受累器官（种植性转移可形成无数小结节）。(2)分布：多位于器官表面（血道转移时栓子易阻塞在器官表浅部位的末梢小动脉），如肺转移瘤多位于肺周边胸膜下。(3)形态：结节状，大小较一致，境界较清楚（因来自同一原发肿瘤的多个转移灶生长速度相近，且周围可有纤维组织包绕），切面灰白色。(4)与原发瘤关系：转移瘤的组织形态和免疫表型与原发瘤一致（这是判断转移瘤原发部位的重要依据）。(5)转移瘤通常无包膜，但有时有纤维性假包膜。(6)转移瘤中央常发生坏死（因生长快、血供不足），形成'癌脐'（中央凹陷）。"
+      "answer": "尖锐湿疣的病因是HPV（人乳头瘤病毒）感染主要为HPV6和HPV11型。病变表现为外生殖器或肛周的乳头状或菜花状赘生物属于性传播疾病。HPV感染也是宫颈癌的重要危险因素。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -11675,9 +11612,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 46,
-      "question": "肿瘤的异型性包括哪几个方面?简述其",
+      "question": "子宫颈癌与下列何种病毒感染有关？",
       "type": "简答题",
-      "answer": "肿瘤异型性与分化程度及良恶性的关系：(1)异型性是指肿瘤组织在细胞形态和组织结构上与其来源的正常组织有不同程度的差异。(2)异型性越大→分化程度越低→恶性程度越高。(3)良性肿瘤：异型性小，细胞较成熟，分化程度高，与起源组织相似度高。(4)恶性肿瘤：异型性明显，包括组织结构的异型性（排列紊乱、极向消失）和细胞异型性（细胞多形性、核大深染、核浆比例增大、核分裂增多并出现病理性核分裂）。(5)间变性肿瘤：异型性极为显著，分化极差，难以辨认其组织来源，属于高度恶性肿瘤。因此，异型性是判断肿瘤良恶性和恶性程度最重要的形态学指标。"
+      "answer": "子宫颈癌与人乳头瘤病毒（HPV）感染密切相关尤其是高危型HPV16和HPV18。99%以上的宫颈癌可检测到HPVDNA。HPV通过整合入宿主基因组E6和E7癌蛋白抑制p53和Rb抑癌基因。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -11689,7 +11626,7 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 48,
-      "question": "试述高分化鳞状细胞癌的组织学特点。",
+      "question": "细胞坏死时细胞核发生哪些特征性改变？",
       "type": "简答题",
       "answer": "高分化鳞状细胞癌来源于鳞状上皮，也可由化生的鳞状上皮发生。组织学特点：(1)癌细胞形成癌巢，癌巢中央可出现同心圆状红染的角化珠（癌珠）。(2)细胞间可见细胞间桥（桥粒）。(3)癌细胞呈多角形，胞浆丰富嗜酸性。(4)核大深染，核分裂多见。好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可化为鳞状上皮的部位。"
     },
@@ -11703,9 +11640,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 87,
-      "question": "恶性肿瘤细胞连续不断地沿组织间隙、淋巴管、血管或神经束衣侵入或破坏邻近正常组织和器官并继续生长。",
+      "question": "简述恶性肿瘤的浸润和转移途径。",
       "type": "简答题",
-      "answer": ""
+      "answer": "浸润：癌细胞沿组织间隙淋巴管血管或神经束衣侵入破坏邻近正常组织。转移途径：①淋巴道转移（癌常见）；②血道转移（肉瘤常见至肺肝骨脑）；③种植性转移（体腔器官癌如胃癌腹膜种植）。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -11717,16 +11654,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 89,
-      "question": "指癌变仅限于黏膜上皮层内或皮肤表皮层内(常波及上皮的全层)未突破基底膜，称为原位癌。",
+      "question": "什么是原位癌？",
       "type": "简答题",
-      "answer": ""
+      "answer": "原位癌指癌变仅限于黏膜上皮层内或皮肤表皮层内（常波及上皮全层）但未突破基底膜无间质浸润。属于早期癌预后良好手术切除即可治愈。常见部位：宫颈乳腺导管皮肤等。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 90,
-      "question": "指某些具有癌变倾向的良性病变，如不及时治愈，可能转变为癌。",
+      "question": "什么是癌前病变？",
       "type": "简答题",
-      "answer": ""
+      "answer": "癌前病变是指某些具有癌变潜在可能的良性病变如长期不治愈可能转变为癌。常见：慢性萎缩性胃炎（胃癌）、结肠多发性息肉（结肠癌）、乳腺增生症（乳腺癌）、皮肤慢性溃疡（皮肤癌）等。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -11744,20 +11681,6 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第6章 肿瘤",
-      "number": 45,
-      "question": "肿瘤的异型性越大，其分化成熟度越低，越倾向于恶性；反之，肿瘤的异型性越小，其分化成熟度越高，越倾向于良性。",
-      "type": "简答题",
-      "answer": "肿瘤异型性与分化程度及良恶性的关系：(1)异型性是指肿瘤组织在细胞形态和组织结构上与其来源的正常组织有不同程度的差异。(2)异型性越大→分化程度越低→恶性程度越高。(3)良性肿瘤：异型性小，细胞较成熟，分化程度高，与起源组织相似度高。(4)恶性肿瘤：异型性明显，包括组织结构的异型性（排列紊乱、极向消失）和细胞异型性（细胞多形性、核大深染、核浆比例增大、核分裂增多并出现病理性核分裂）。(5)间变性肿瘤：异型性极为显著，分化极差，难以辨认其组织来源，属于高度恶性肿瘤。因此，异型性是判断肿瘤良恶性和恶性程度最重要的形态学指标。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 47,
-      "question": "任何肿瘤在组织结构上均分为实质和间质两部分。实质即为肿瘤细胞的总称，",
-      "type": "简答题",
-      "answer": "肿瘤的组织结构：任何肿瘤都由实质和间质两部分组成。(1)实质：是肿瘤细胞的总称，决定肿瘤的生物学特性（良恶性、组织来源、分化程度等）。肿瘤的命名、分类、组织学诊断主要依据实质细胞的形态。来源于同一组织的肿瘤，其实质细胞的形态、免疫表型和分化方向与其起源组织有不同程度的相似性。(2)间质：由结缔组织（纤维组织）、血管和淋巴管等构成，对实质细胞起支持和营养作用。间质不是肿瘤性成分，而是机体对肿瘤的宿主反应性增生。不同肿瘤间质/实质比例不同（如乳腺硬癌间质多、髓样癌实质多）。间质的多少影响肿瘤的质地和生长速度。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
       "number": 92,
       "question": "指恶性肿瘤细胞缺乏分化，异型性显著，往往难以确定其组织来源。",
       "type": "简答题",
@@ -11771,25 +11694,11 @@ const QUESTION_DATA = {
       "answer": "相同点：(1)两者均可导致组织或器官体积增大。(2)两者常合并存在，例如妊娠子宫既有平滑肌细胞肥大又有数量增生。(3)两者都是细胞对刺激的适应性反应。不同点：(1)本质不同：肥大是细胞体积增大，细胞数目不变；增生是细胞数目增多。(2)发生条件不同：永久性细胞（心肌细胞、神经细胞、骨骼肌细胞）只能发生肥大不能增生（因为这些细胞无分裂能力）；不稳定细胞和稳定细胞既可肥大又可增生。(3)机制不同：肥大主要涉及蛋白质合成增加和降解减少；增生涉及细胞周期激活和分裂增殖。(4)举例：高血压时心肌细胞肥大（无增生）；缺碘性甲状腺肿主要是滤泡上皮增生。"
     },
     {
-      "chapter": "第6章 肿瘤",
-      "number": 48,
-      "question": "肿瘤实质与间质分界清楚，瘤细胞形成癌巢，间质围绕在癌巢周边。癌巢中央见红色呈同心圆状排列的角化珠。细胞间见",
-      "type": "简答题",
-      "answer": "癌与肉瘤的主要区别：(1)组织来源：癌来源于上皮组织；肉瘤来源于间叶组织（纤维、脂肪、平滑肌、横纹肌、血管、淋巴管、骨、软骨等）。(2)发病率：癌远较肉瘤常见，约占恶性肿瘤的85%以上。(3)好发年龄：癌多见于40岁以上中老年人；肉瘤好发于青少年。(4)大体特点：癌质硬、灰白色、干燥、切面粗糙；肉瘤质软、粉红色、湿润、细腻似鱼肉。(5)镜下特点：癌细胞排列呈巢状（癌巢），实质与间质分界清楚，癌巢间有网状纤维（嗜银染色）；肉瘤细胞弥漫分布，单个细胞间有网状纤维，实质与间质分界不清。(6)转移途径：癌多经淋巴道转移（因此常先有局部淋巴结转移）；肉瘤多经血道转移（因此易早期发生远处转移）。(7)免疫组化：癌细胞角蛋白（CK/cytokeratin）阳性；肉瘤细胞波形蛋白（vimentin）阳性（癌CK+肉瘤Vim+，但需注意有些癌肉瘤双表达）。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 49,
-      "question": "肿瘤性增生：瘤细胞分化不成熟，呈相对自主性生长，病因去除后细胞仍持续生长，对机体有害无益。炎性增生：细胞分化成熟，生长受机体调控，具有自限性，病因去除后细胞即停止增生，为机体所",
-      "type": "简答题",
-      "answer": "肿瘤性增生与炎性增生的本质区别：(1)克隆性：肿瘤性增生是单克隆性的（来源于一个发生了基因突变的细胞）；炎性增生是多克隆性的（多种细胞对损伤刺激的反应性增殖）。(2)自主性：肿瘤性增生是自主性的，失去正常生长调控，去除致瘤因素后仍持续增生；炎性增生是受调控的，致炎因子去除后增生即停止。(3)细胞分化：肿瘤细胞有不同程度的异型性（去分化）；炎性增生的细胞分化成熟、无异型性。(4)对机体影响：肿瘤性增生对机体有害无益（消耗营养、破坏组织）；炎性增生对机体有防御和修复意义。(5)消退：肿瘤一旦形成不会自行消退（极少数如神经母细胞瘤可自行分化成熟但极为罕见）；炎性增生在病因去除后可完全消退。(6)目的性：炎性增生是有目的性的（防御、修复），肿瘤性增生是盲目的、无休止的。"
-    },
-    {
       "chapter": "第9章 心血管系统疾病",
       "number": 1,
-      "question": "简述风湿病的基本病变及其一般所持续",
+      "question": "简述风湿病的基本病变及其一般所持续的时间。",
       "type": "简答题",
-      "answer": ""
+      "answer": "分三期：①变质渗出期（1-2个月）：结缔组织黏液样变和纤维素样坏死；②增生期肉芽肿期（2-3个月）：形成特征性风湿小体（Aschoff小体）；③瘢痕期愈合期（2-3个月）：小体变为瘢痕。全程约4-6个月。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -11797,13 +11706,6 @@ const QUESTION_DATA = {
       "question": "引起肺气肿的最重要原因是B. 空气污染C. 小气道感染D. 肺尘埃沉着症E. 慢性阻塞性细支气管炎",
       "type": "简答题",
       "answer": "炎性水肿与炎性积液的区别：(1)炎性水肿：炎症时渗出液积聚在组织间隙内。举例：急性阑尾炎时阑尾壁各层水肿增厚；急性蜂窝织炎时皮下组织高度水肿。(2)炎性积液：炎症时渗出液积聚在浆膜腔（胸腔、腹腔、心包腔、关节腔）内。举例：结核性胸膜炎→胸腔积液（胸水）；结核性腹膜炎→腹腔积液（腹水）。炎性渗出液的特点：蛋白含量高（>30g/L）、比重高（>1.018）、细胞数多（>500×10⁶/L）、Rivalta试验阳性、易凝固（含纤维蛋白原）。(3)临床上鉴别渗出液与漏出液对于疾病性质的判断有重要意义——渗出液提示炎症性疾病，漏出液提示非炎症性因素（如心衰、肝硬化、肾病综合征等）。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 38,
-      "question": "慢性支气管炎患者出现阻塞性通气障碍、缺氧的主要环节是()A. 支气管壁组织因炎症而破坏B. 支气管壁腺体增生、肥大C. 病变引起小气道狭窄或阻塞D. 肺组织高度纤维化E. 急、慢性细支气管炎及细支气管周围",
-      "type": "简答题",
-      "answer": "相同点：(1)两者均可导致组织或器官体积增大。(2)两者常合并存在，例如妊娠子宫既有平滑肌细胞肥大又有数量增生。(3)两者都是细胞对刺激的适应性反应。不同点：(1)本质不同：肥大是细胞体积增大，细胞数目不变；增生是细胞数目增多。(2)发生条件不同：永久性细胞（心肌细胞、神经细胞、骨骼肌细胞）只能发生肥大不能增生（因为这些细胞无分裂能力）；不稳定细胞和稳定细胞既可肥大又可增生。(3)机制不同：肥大主要涉及蛋白质合成增加和降解减少；增生涉及细胞周期激活和分裂增殖。(4)举例：高血压时心肌细胞肥大（无增生）；缺碘性甲状腺肿主要是滤泡上皮增生。"
     },
     {
       "chapter": "第4章 炎症",
@@ -11814,17 +11716,10 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第4章 炎症",
-      "number": 40,
-      "question": "下列哪项不符合小叶性肺炎A. 多由致病力弱的肺炎球菌引起B. 好发于老人、儿童、久病卧床者C. 以细支气管为中心的纤维素性炎症D. 常作为其它疾病的并发症出现E. 病灶可互相融合",
-      "type": "简答题",
-      "answer": "纤维素性炎是以纤维蛋白原渗出为主的炎症类型。特征：(1)渗出的纤维蛋白原在组织凝血活酶作用下转化为纤维蛋白（纤维素），HE染色呈红染的网状或片状物质。(2)好发部位：黏膜（喉白喉、结肠细菌性痢疾的假膜性炎）；浆膜（胸膜、腹膜、心包的纤维素性炎→分别导致胸膜粘连、腹膜粘连和绒毛心）；肺（大叶性肺炎的灰色肝样变期，肺泡腔内充满纤维素和中性粒细胞）。(3)举例：①大叶性肺炎（肺泡腔内大量纤维素）；②白喉（喉和气管黏膜的假膜性炎）；③细菌性痢疾（结肠黏膜假膜性炎）；④风湿性心包炎（绒毛心）；⑤急性纤维素性腹膜炎。"
-    },
-    {
-      "chapter": "第4章 炎症",
       "number": 41,
-      "question": "慢性支气管炎最常见的并发症是A. 支气管扩张症B. 大叶性肺炎C. 肺气肿D. 小叶性肺炎E. 肺脓肿",
+      "question": "简述自身免疫性疾病的概念。",
       "type": "简答题",
-      "answer": "炎性水肿与炎性积液的区别：(1)炎性水肿：炎症时渗出液积聚在组织间隙内。举例：急性阑尾炎时阑尾壁各层水肿增厚；急性蜂窝织炎时皮下组织高度水肿。(2)炎性积液：炎症时渗出液积聚在浆膜腔（胸腔、腹腔、心包腔、关节腔）内。举例：结核性胸膜炎→胸腔积液（胸水）；结核性腹膜炎→腹腔积液（腹水）。炎性渗出液的特点：蛋白含量高（>30g/L）、比重高（>1.018）、细胞数多（>500×10⁶/L）、Rivalta试验阳性、易凝固（含纤维蛋白原）。(3)临床上鉴别渗出液与漏出液对于疾病性质的判断有重要意义——渗出液提示炎症性疾病，漏出液提示非炎症性因素（如心衰、肝硬化、肾病综合征等）。"
+      "answer": "自身免疫性疾病是指由机体自身产生的抗体或致敏淋巴细胞攻击自身正常组织细胞导致组织损伤和器官功能障碍的原发性免疫性疾病。其发生与遗传感染内分泌和免疫调节紊乱等因素有关。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -11836,30 +11731,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 43,
-      "question": "大叶性肺炎患者灰色肝样变期与红色肝样变期的临床表现不同在于A. 胸痛消失B. 咳铁锈色痰C. 缺氧状况有所好转D. 重新出现啰音E. 开始出现肺实变体征",
+      "question": "简述大叶性肺炎灰色肝样变期与红色肝样变期的临床表现区别。",
       "type": "简答题",
-      "answer": ""
+      "answer": "红色肝样变期：高热咳嗽铁锈色痰胸痛肺实变体征缺氧明显。灰色肝样变期：体温仍高但缺氧有所改善（肺泡内红细胞溶解破坏）咳痰由铁锈色转为脓性肺实变体征持续啰音减少。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 44,
-      "question": "大叶性肺炎患者，明显的紫绀症状常出现在哪一期()A. 充血水肿期B. 红色肝样变期C. 灰色肝样变期D. 溶解消散期E. 病变恢复期",
+      "question": "简述急性肾小球肾炎的临床病理联系。",
       "type": "简答题",
-      "answer": "淤血（静脉性充血）是指静脉回流受阻，血液淤积在小静脉和毛细血管内，使局部组织或器官的含血量增多。病变特点：(1)大体：受累器官或组织体积增大、重量增加，呈暗紫红色（发绀），局部温度下降（血流缓慢、代谢降低）。(2)镜下：小静脉和毛细血管显著扩张、管腔内充满红细胞。(3)长期淤血的后果：①水肿：毛细血管内静水压增高→液体漏出增多；②漏出性出血：毛细血管壁缺氧受损→红细胞漏出；③实质细胞萎缩、变性、坏死（缺氧和代谢产物堆积）；④间质纤维组织增生→器官硬化（如肺褐色硬化、淤血性肝硬化）。⑤皮肤慢性淤血可导致色素沉着和慢性溃疡（如下肢静脉曲张性溃疡）。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 45,
-      "question": "鼻咽癌的常见组织学类型A. 高分化鳞癌B. 泡状核细胞癌C. 未分化癌E. 低分化鳞癌",
-      "type": "简答题",
-      "answer": "高分化鳞状细胞癌的组织学特点：(1)癌细胞呈巢状（癌巢）排列，癌巢中央可出现同心圆状红染的角化珠（癌珠/角化珠/keratin pearl），是鳞状细胞癌分化良好的标志。(2)细胞间可见细胞间桥（桥粒的形态表现）。(3)癌细胞呈多角形，胞浆丰富嗜酸性（含角蛋白）。(4)核大深染、核浆比例增大。(5)癌巢周围有基底膜（PAS染色可显示）和纤维间质围绕。(6)好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可发生鳞化的部位。分化差的鳞癌角化珠和细胞间桥不明显甚至消失。"
+      "answer": "血尿（肾小球基底膜断裂红细胞漏出）、蛋白尿（滤过屏障损伤）、少尿（肾小球滤过率下降）、高血压（水钠潴留）和轻度水肿。严重者可出现急性肾功能衰竭和高血压脑病。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 46,
-      "question": "下列哪种类型为不累及肺泡的肺气肿A. 全腺泡型B. 腺泡中央型C. 腺泡周围型D. 不规则型E. 间质性肺气肿",
+      "question": "下列哪种类型为不累及肺泡的肺气肿？",
       "type": "简答题",
-      "answer": ""
+      "answer": "不规则型肺气肿（瘢痕性肺气肿）不累及肺泡主要累及终末细支气管远端因瘢痕压迫导致的局部扩张。全腺泡型、腺泡中央型、腺泡周围型和间质性肺气肿均累及肺泡结构。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -11867,13 +11755,6 @@ const QUESTION_DATA = {
       "question": "下列不会导致支气管扩张症的疾病是A. 肺结核B. 慢性支气管炎C. 小叶性肺炎D. 大叶性肺炎E. 肺囊性纤维化",
       "type": "简答题",
       "answer": "化脓性炎是以中性粒细胞大量渗出为主，伴不同程度组织坏死和脓液形成。概念及类型：(1)脓肿：局限性化脓性炎伴组织坏死液化形成脓腔。如皮肤疖、痈、肺脓肿。(2)蜂窝织炎：疏松结缔组织的弥漫性化脓性炎。如皮下蜂窝织炎、阑尾蜂窝织炎。(3)表面化脓：黏膜或浆膜表面的化脓性炎，脓液沿表面排出。如化脓性支气管炎、化脓性尿道炎（淋病）。(4)积脓：脓液在体腔或空腔器官内积聚。如胆囊积脓、输卵管积脓。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 48,
-      "question": "鼻咽癌的组织学类型中，以哪一种最为A. 未分化癌B. 泡状核细胞癌C. 低分化鳞状细胞癌D. 高分化鳞状细胞癌E. 腺泡状腺癌",
-      "type": "简答题",
-      "answer": "高分化鳞状细胞癌来源于鳞状上皮，也可由化生的鳞状上皮发生。组织学特点：(1)癌细胞形成癌巢，癌巢中央可出现同心圆状红染的角化珠（癌珠）。(2)细胞间可见细胞间桥（桥粒）。(3)癌细胞呈多角形，胞浆丰富嗜酸性。(4)核大深染，核分裂多见。好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可化为鳞状上皮的部位。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -11934,9 +11815,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 57,
-      "question": "鼻咽癌常发生在A. 鼻咽后部B. 鼻咽顶部C. 鼻咽侧壁D. 鼻咽前壁E. 鼻咽底部",
+      "question": "鼻咽癌常发生在哪个部位？",
       "type": "简答题",
-      "answer": ""
+      "answer": "鼻咽癌最常发生在鼻咽顶部（约占40%-50%），其次为鼻咽侧壁（咽隐窝约占30%）。多为低分化癌与EB病毒感染密切相关好发于中南地区（广东广西等地）。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -11969,44 +11850,30 @@ const QUESTION_DATA = {
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 3,
-      "question": "大叶性肺炎. 小叶性肺炎. 病毒性肺炎",
+      "question": "简述严重急性呼吸综合征（SARS）的肺病理变化。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第10章 呼吸系统疾病",
-      "number": 3,
-      "question": "大叶性肺炎患者的铁锈色痰变成黏液农痰是在(). 红色肝样变期灰色肝样变期. 溶解消散期. 病变恢复期",
-      "type": "简答题",
-      "answer": "浆液性炎的特点：(1)以血清渗出为主，渗出物主要是血浆中的液体成分（浆液），含少量白细胞（以淋巴细胞为主）和纤维素。(2)好发部位：疏松结缔组织（形成炎性水肿）、黏膜（浆液性卡他性炎，如感冒初期流清鼻涕）、浆膜（形成浆膜腔积液，如结核性胸膜炎）和皮肤（形成水疱，如二度烧伤、单纯疱疹）。(3)举例：感冒初期的鼻黏膜卡他性炎；二度烧伤时的皮肤水疱；结核性胸膜炎时的胸腔积液。(4)结局：浆液性炎是最轻的炎症类型，病因去除后渗出液易于吸收消退，组织损伤轻微，一般不留下痕迹。但若浆膜腔大量积液可压迫周围器官影响其功能（如大量胸腔积液压迫肺、心包积液压迫心脏）。"
+      "answer": "SARS肺病理变化特点：①弥漫性肺泡损伤（DAD）分渗出期和机化期；②肺泡腔内充满脱落上皮细胞纤维素和炎细胞可见透明膜形成；③间质淋巴细胞和单核细胞浸润；④肺泡上皮增生电镜下可见病毒颗粒。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 4,
-      "question": "大叶性肺炎不会出现的并发症是",
+      "question": "大叶性肺炎不会出现的并发症是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "大叶性肺炎并发症包括肺肉质变胸膜粘连脓胸和肺脓肿。不会出现细支气管壁破坏和支气管扩张（小叶性肺炎特点）。大叶性肺炎一般不引起细支气管壁的破坏性改变。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 55,
-      "question": "下列不属于小叶性肺炎临床特点的是A. 多发生于青壮年",
+      "question": "下列不属于小叶性肺炎临床特点的是？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 3,
-      "question": "可由多种细菌所致C. 起病隐匿D. 实变体征不明显E. 可闻及湿罗音",
-      "type": "简答题",
-      "answer": ""
+      "answer": "小叶性肺炎多发生于婴幼儿老人和体弱者而非青壮年。其临床特点为起病缓慢症状较轻咳嗽咳痰双肺散在湿啰音X线显示双肺下野散在片状阴影。青壮年多见的是大叶性肺炎。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 66,
-      "question": "下列能引起间质性肺炎的病原体是A. 肺炎链球菌B. 肺炎支原体C. 溶血性链球菌D. 肺炎克雷伯杆菌E. 金黄色葡萄球菌",
+      "question": "下列能引起间质性肺炎的病原体是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "肺炎支原体是引起间质性肺炎的常见病原体。此外还包括病毒（流感病毒冠状病毒等）衣原体军团菌等。肺炎链球菌溶血性链球菌肺炎克雷伯杆菌和金黄色葡萄球菌主要引起肺泡性肺炎。"
     },
     {
       "chapter": "第4章 炎症",
@@ -12018,44 +11885,44 @@ const QUESTION_DATA = {
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 68,
-      "question": "慢性肺源性心脏病的主要发病因素不A. 肺循环阻力增加B. 体循环阻力增加C. 肺动脉高压D. 肺气肿E. 气道阻塞",
+      "question": "慢性肺源性心脏病的主要发病因素不包括？",
       "type": "简答题",
-      "answer": ""
+      "answer": "慢性肺心病主要发病因素为肺动脉高压（核心机制）由肺循环阻力增加气道阻塞和肺气肿引起。体循环阻力增加不是其主要发病因素。肺动脉高压导致右心室肥厚扩张最终右心衰竭。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 69,
-      "question": "以下哪一项描述不符合硅肺的病变特A. I期硅肺以淋巴结内引起硅结节为特B. 硅结节可融合成团C. 胸膜可有纤维组织增生、肥厚D. 易合并恶性胸膜间皮瘤E. 可形成胸膜肼胝",
+      "question": "以下哪一项描述不符合硅肺的病变特点？",
       "type": "简答题",
-      "answer": ""
+      "answer": "硅肺易合并肺结核但不易并发恶性胸膜间皮瘤（恶性胸膜间皮瘤主要与石棉接触有关）。硅肺病变特点：I期以淋巴结硅结节为主结节可融合成团胸膜纤维性增厚可形成肺气肿。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 70,
-      "question": "下列哪项不是肺硅沉着症常见的并发A. 阻塞性肺气肿B. 自发性气胸C. 肺结核病D. 肺肉质变E. 肺源性心脏病",
+      "question": "下列哪项不是肺硅沉着症常见的并发症？",
       "type": "简答题",
-      "answer": ""
+      "answer": "肺硅沉着症常见并发症包括肺结核病（最常见）阻塞性肺气肿自发性气胸和肺源性心脏病。肺肉质变是大叶性肺炎的并发症不是硅肺的常见并发症。"
     },
     {
       "chapter": "第4章 炎症",
       "number": 71,
-      "question": "早期硅结节中的细胞是(A. 大量巨噬细胞B. 大量淋巴细胞C. 大量浆细胞D. 大量成纤维细胞E. 大量嗜酸性粒细胞",
+      "question": "早期硅结节中的主要细胞是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "早期硅结节中主要细胞是巨噬细胞。硅尘被巨噬细胞吞噬后巨噬细胞死亡释放硅尘和趋化因子吸引更多巨噬细胞聚集同时释放纤维化因子最终形成以成纤维细胞增生和胶原沉积为主的纤维性硅结节。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 72,
-      "question": "肺石棉沉着症并发的最常见的恶性肿C. 食管癌E. 恶性胸膜间皮瘤",
+      "question": "肺石棉沉着症并发的最常见的恶性肿瘤是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "肺石棉沉着症并发最常见的恶性肿瘤是恶性胸膜间皮瘤其次为肺癌。石棉纤维被巨噬细胞吞噬后引起慢性炎症和纤维化长期刺激导致间皮细胞恶变潜伏期可达20-40年。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
       "number": 73,
-      "question": "肺硅沉着症的特征性病变是A. 肺门淋巴结肿大B. 肺间质纤维化C. 硅结节形成D. 胸膜纤维化E. 肺气肿",
+      "question": "肺硅沉着症的特征性病变是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "肺硅沉着症（硅肺）的特征性病变是硅结节形成。硅结节为境界清楚的圆形或椭圆形结节中央为玻璃样变的胶原纤维周围有硅尘沉积的巨噬细胞和成纤维细胞。硅结节可融合成团。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -12088,16 +11955,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第15章 内分泌系统疾病",
       "number": 78,
-      "question": "二氧化硅尘致病力最强的是A. <5 微米B. >5 微米C. <3 微米D. 1-2 微米E. 3-4 微米",
+      "question": "二氧化硅尘致病力最强的粒径是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "二氧化硅尘致病力最强的是粒径在>5微米者此类粉尘最易沉积于肺泡并被巨噬细胞吞噬引发硅肺。粒径<2微米的粉尘虽可到达肺泡但致病力较弱因不易被巨噬细胞有效吞噬。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 79,
-      "question": "肺癌的早期诊断中最有价值的检查是A. 早期症状的发现B. 纤维支气管镜活检C. X 线检查D. CT 检查E. 血液检查",
+      "question": "肺癌的早期诊断中最有价值的检查是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "肺癌早期诊断最有价值的检查是纤维支气管镜活检可直接观察肿瘤并取组织进行病理诊断是确诊的金标准。影像学检查（X线和CT）有助于发现病变但不能定性。"
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -12107,32 +11974,11 @@ const QUESTION_DATA = {
       "answer": "化脓性炎是以中性粒细胞大量渗出为主，伴不同程度组织坏死和脓液形成。概念及类型：(1)脓肿：局限性化脓性炎伴组织坏死液化形成脓腔。如皮肤疖、痈、肺脓肿。(2)蜂窝织炎：疏松结缔组织的弥漫性化脓性炎。如皮下蜂窝织炎、阑尾蜂窝织炎。(3)表面化脓：黏膜或浆膜表面的化脓性炎，脓液沿表面排出。如化脓性支气管炎、化脓性尿道炎（淋病）。(4)积脓：脓液在体腔或空腔器官内积聚。如胆囊积脓、输卵管积脓。"
     },
     {
-      "chapter": "第10章 呼吸系统疾病",
-      "number": 3,
-      "question": "简述严重急性呼吸综合征(SARS)的肺",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
       "chapter": "第2章 损伤的修复",
       "number": 2,
       "question": "慢性支气管炎的病理变化：①呼吸道上皮的损伤：纤毛柱状上皮细胞呈不同程度的变性、坏死、脱落，上皮细胞在修复过程中，杯状细胞增多，并可发生鳞状上皮化生。②腺体肥大、增生，浆液腺上皮发生黏液腺化生。③管壁慢性炎症的损害，表现为间质充血、水肿、慢性炎性细胞浸润。晚期管壁平滑肌弹力纤维及软骨萎缩、破坏，出现纤维化、钙化及骨化。常见的并发症有：①支气管肺炎；②肺气肿；③支气管扩张；④慢性肺源性心脏病。",
       "type": "简答题",
       "answer": "化生是指一种已分化成熟的细胞类型被另一种分化成熟的细胞类型所取代的过程。常见于上皮组织。支气管黏膜上皮在长期吸烟或慢性炎症刺激下，假复层纤毛柱状上皮可转化为复层鳞状上皮（鳞状上皮化生）。慢性胃炎时胃黏膜上皮可转变为肠上皮（肠上皮化生）。化生具有一定适应性意义，但失去了原有上皮的特殊功能，且化生基础上可能发生恶变。"
-    },
-    {
-      "chapter": "第10章 呼吸系统疾病",
-      "number": 3,
-      "question": "新近由 WHO 命名的以呼吸道传播为主的急性传染病。本病传染性强，现已确定本病为一种新型的冠状病毒所致，以近距离空气飞沫传播，以发热为首发症状，可能与病毒直接损伤呼吸系统及免疫器官有关。其肺部病变有以下特点：肉眼观：双肺呈斑块状实变，严重者双肺完全性实部病变特征。",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 4,
-      "question": "哪些疾病肺组织中有明显的纤维组织增生，试举一例说明。",
-      "type": "简答题",
-      "answer": ""
     },
     {
       "chapter": "第10章 呼吸系统疾病",
@@ -12151,16 +11997,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 7,
-      "question": "简述早期肺癌的分型及特点。",
+      "question": "简述乳腺癌时皮肤出现桔皮样外观的原因。",
       "type": "简答题",
-      "answer": ""
+      "answer": "乳腺癌累及Cooper韧带时韧带缩短使肿瘤表面皮肤凹陷呈酒窝征。当癌细胞阻塞皮下淋巴管时引起皮肤淋巴水肿而毛囊处皮肤与皮下组织紧密相连水肿时形成多个凹陷点呈桔皮样外观。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 72,
-      "question": "E77.A变，表面暗红色，切面可见肺出血灶及出血性梗死灶。镜下：以弥漫性肺泡损伤为主，肺组织重度充血、出血和肺水肿，肺泡腔内充满大量脱落和增生的肺泡上皮细胞及渗出的单核细胞、淋巴细胞和浆细胞。部分肺泡上皮细胞胞质内可见典型的病毒包涵体，电镜证实为病毒颗粒。肺泡腔内可见广泛透明膜形成，部分病例肺泡腔内渗出物出现机化呈肾小球样机化性肺炎改变。肺小血管呈血管炎改变，部分管壁可见纤维样坏死伴血栓形成，微血管内可见纤维素性血栓。",
+      "question": "肺梗死的病变特点是什么？",
       "type": "简答题",
-      "answer": "细胞坏死时细胞核发生三种特征性改变：(1)核固缩：细胞核脱水浓缩，体积缩小，染色质凝聚，嗜碱性增强呈深蓝色。(2)核碎裂：核膜破裂，染色质崩解成多个致密蓝染的小碎片，散布于胞浆中。(3)核溶解：在DNA酶和蛋白水解酶的作用下，染色质的DNA和蛋白质被完全分解，核的轮廓完全消失。这三种改变是一个连续的过程，反映了坏死细胞的不可逆性。在光镜下观察坏死组织时，根据坏死发生的时间不同，可同时或分别看到这三种核的改变。"
+      "answer": "肺梗死多为出血性梗死，常发生于肺淤血基础上。病变特点：①肉眼：肺组织呈暗红色梗死灶，呈锥体型，尖端指向肺门；②镜下：肺泡腔内充满红细胞，肺泡壁结构模糊，肺组织坏死；③常见原因：肺动脉分支被血栓栓子阻塞，同时存在肺静脉淤血。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -12168,20 +12014,6 @@ const QUESTION_DATA = {
       "question": "在病理上表现为肺部明显纤维组织增生的疾病甚多，大致可以分为以下几类：(1)肺血液循环障碍：常见的有慢性肺淤血，肺梗死后肉芽组织修复。(2)炎症：大叶性肺炎肺肉质变，肺结核，特别是纤维空洞型肺结核。(3)肿瘤：各种肿瘤均可有纤维组织增生，尤其是疤痕癌，其中央有明显的纤维组织(4)尘肺：硅肺、石棉肺等。(5)其他：AIDS 后期，弥漫性肺纤维化，支扩症。上述肺内纤维组织增生在病理上可以表现为局灶性增生或弥漫性增生，增生的纤维组织有的主要在肺泡间隔或支气管周围，有的则可从肺间质向肺泡内扩",
       "type": "简答题",
       "answer": "主要原因：左心衰竭（二尖瓣狭窄或关闭不全、高血压性心脏病、冠心病等）。病理形态改变：(1)急性肺淤血：肺泡壁毛细血管扩张充血，肺泡腔内充满粉红色水肿液（肺水肿），可有少量红细胞漏出。(2)慢性肺淤血：肺泡壁增厚纤维化，肺泡腔内可见心力衰竭细胞（含铁血黄素的巨噬细胞），肺泡隔毛细血管扩张，肺组织呈褐色硬化改变。(3)临床：呼吸困难、咳嗽，咳铁锈色痰或血性痰。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
-      "question": "慢性支气管炎时主要病变为小气管的阻塞，从而造成进入肺泡的气体量增加而呼出的气体量减少，久之肺泡内残气越来越多，超出了肺组织适应性，则引起肺泡壁断裂，肺泡融合形成较大的囊腔，此时由于肺泡壁上毛细血管断裂，造成毛细血管床减少，另一方面肺部炎症引起肺小动脉壁增厚，腔狭窄。这两种因素可引起肺动脉高压，从而引起右心肥大与扩张，最终导致右心衰竭。",
-      "type": "简答题",
-      "answer": "淤血（静脉性充血）是指静脉回流受阻，血液淤积在小静脉和毛细血管内，使局部组织或器官的含血量增多。病变特点：(1)大体：受累器官或组织体积增大、重量增加，呈暗紫红色（发绀），局部温度下降（血流缓慢、代谢降低）。(2)镜下：小静脉和毛细血管显著扩张、管腔内充满红细胞。(3)长期淤血的后果：①水肿：毛细血管内静水压增高→液体漏出增多；②漏出性出血：毛细血管壁缺氧受损→红细胞漏出；③实质细胞萎缩、变性、坏死（缺氧和代谢产物堆积）；④间质纤维组织增生→器官硬化（如肺褐色硬化、淤血性肝硬化）。⑤皮肤慢性淤血可导致色素沉着和慢性溃疡（如下肢静脉曲张性溃疡）。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 7,
-      "question": "癌侵犯支气管及其周围肺组织，无局部淋巴结转移者称为早期肺癌。早期肺癌可分为以下三型：(1)管内型：癌局限在腔内呈息肉状或乳头状，黏膜呈颗粒状增厚。(2)管壁浸润型：癌沿管壁浸润致管壁增厚变硬。黏膜皱襞消失，但未侵及壁外肺组(3)管周型：癌由管壁向外侵及肺组织形成肿块，其直径在2cm 以内者。(4)隐性肺癌：痰细胞学癌细胞阳性，临床及x线阴性，手术切除标本证实为原位癌或早期侵润癌",
-      "type": "简答题",
-      "answer": "实质细胞变性（细胞变性）主要包括：(1)细胞水肿（水变性）：细胞肿大、胞浆疏松淡染，严重时呈气球样变（如急性病毒性肝炎时的肝细胞）。(2)脂肪变性：胞浆内出现大小不等的脂滴空泡，最常见于肝细胞、心肌细胞和肾小管上皮细胞。(3)细胞内玻璃样变性：胞浆内出现均质红染的圆形小体（如酒精性肝病时的Mallory小体、肾病综合征时肾小管上皮重吸收蛋白质形成的玻璃样小滴）。(4)病理性色素沉着：如萎缩细胞内的脂褐素、慢性肺淤血时的心力衰竭细胞（含铁血黄素）。(5)病理性钙化：如坏死组织内的营养不良性钙化。间质变性包括：玻璃样变性（如瘢痕组织、高血压时的细动脉壁）、淀粉样变性、黏液样变性。"
     },
     {
       "chapter": "第11章 消化系统疾病",
@@ -12193,9 +12025,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第11章 消化系统疾病",
       "number": 10,
-      "question": "简述门脉性肝硬化晚期腹水形成的机",
+      "question": "简述门脉性肝硬化晚期腹水形成的机制。",
       "type": "简答题",
-      "answer": ""
+      "answer": "门脉性肝硬化腹水形成机制：①门静脉高压使肠系膜毛细血管静水压升高液体漏入腹腔；②肝细胞合成白蛋白减少血浆胶体渗透压降低；③继发性醛固酮和抗利尿激素增多导致水钠潴留；④淋巴液生成过多溢出肝表面。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12214,9 +12046,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 13,
-      "question": "简述原发性肝癌的组织学类型。129、C137、D145、D153、E130、E138、E146、B154、A131、D139、A147、A155、D132、A140、A148、C156、C133、C141、B149、A157、C134、E142、E1450、D158、B135、D143、C151、E159、D136、C144、C152、C160、B",
+      "question": "简述原发性肝癌的组织学类型。",
       "type": "简答题",
-      "answer": ""
+      "answer": "原发性肝癌组织学类型：①肝细胞癌（HCC最常见占85%-90%分梁索型假腺型硬化型和结节型）；②胆管细胞癌（占5%-10%）；③混合型肝癌（兼有HCC和胆管细胞癌成分最少见）。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -12228,16 +12060,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第11章 消化系统疾病",
       "number": 19,
-      "question": "Mallory小体：在酒精性肝病时，一些肝细胞中可出现均质的嗜酸性的透明小体，称之为Mallory 小体，主要由属于中丝蛋白的前角蛋白组成。有相对的诊断意",
+      "question": "简述Mallory小体的形成和意义。",
       "type": "简答题",
-      "answer": ""
+      "answer": "Mallory小体是酒精性肝病时肝细胞内出现的均质嗜酸性透明小体由中间丝蛋白（角蛋白8和18）聚集形成。具有相对诊断意义提示酒精性肝损伤亦可见于非酒精性脂肪性肝炎。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 20,
-      "question": "早期胃癌：胃癌组织浸润仅限于黏膜层及黏膜下层者均属早期胃癌。",
+      "question": "简述早期胃癌的定义和分型。",
       "type": "简答题",
-      "answer": ""
+      "answer": "早期胃癌定义：癌组织浸润仅限于黏膜层或黏膜下层不论病灶大小或有无淋巴结转移。大体分型：①隆起型（Ⅰ型）病灶突出黏膜表面>5mm；②浅表型（Ⅱ型）病灶平坦；③凹陷型（Ⅲ型）病灶深度>5mm。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -12249,16 +12081,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 22,
-      "question": "进展期胃癌：胃癌组织浸润到黏膜下层以下者均属进展期胃癌。",
+      "question": "简述进展期胃癌的定义和分型。",
       "type": "简答题",
-      "answer": ""
+      "answer": "进展期胃癌定义：癌组织浸润至黏膜下层以下者。大体分型：①息肉型肿块型向腔内突出边界清楚；②溃疡型深达肌层边缘隆起呈堤状；③浸润型向胃壁弥漫浸润胃壁增厚变硬胃腔缩小称革囊胃。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 23,
-      "question": "革囊胃：胃癌组织向胃壁内弥漫浸润时致胃壁增厚、变硬、胃腔缩小，黏膜皱襞大部分消失，其胃状似皮革制成的囊袋，故称革囊胃。",
+      "question": "简述革囊胃的病理特征。",
       "type": "简答题",
-      "answer": ""
+      "answer": "革囊胃是进展期胃癌的浸润型表现癌组织向胃壁内弥漫浸润致胃壁增厚变硬胃腔缩小黏膜皱襞大部分消失胃状似皮革制成的囊袋。多见于未分化癌预后差。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -12277,9 +12109,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 26,
-      "question": "点状坏死：病毒性肝炎时一个或几个肝细胞的坏死所形成的肝小叶内散在坏死灶，同时伴有炎细胞浸润。",
+      "question": "简述点状坏死的概念和发生部位。",
       "type": "简答题",
-      "answer": ""
+      "answer": "点状坏死是病毒性肝炎时肝小叶内散在的单个或数个肝细胞坏死伴有炎细胞浸润。常见于轻度慢性肝炎。较严重时可发展为碎片状坏死（界面性肝炎）和桥接坏死。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12291,9 +12123,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 8,
-      "question": "早期食道癌：临床上尚无明显症状，钡餐检查基本正常或管壁轻度局限性僵硬。病理检查：癌仅累及黏膜层和黏膜下层内，未侵犯肌层，淋巴结无转移，为早期食道癌。早期胃癌：癌组织浸润仅限于黏膜层和黏膜下层者，不论有无淋巴结转移均属早期胃癌。早期胃癌又称黏膜内癌或表浅扩散性癌。早期肠癌：癌组织局限于黏膜层和黏膜下层，未侵及肌层：无淋巴结转移者为早期肠癌。早期肝癌：又称小肝癌。指单个癌结节直径在3cm以下，或结节数目不超过2个，其早期直径总和在3cm以下，患者常无临床症状，而血清AFP阳性的原发性肝癌。",
+      "question": "简述乳腺癌的扩散途径。",
       "type": "简答题",
-      "answer": "炎症的结局：(1)痊愈：①完全痊愈（完全再生）：损伤范围小、组织再生能力强，炎症渗出物完全被吸收，受损组织通过同种细胞再生完全恢复原有结构和功能（如大叶性肺炎溶解消散后肺组织恢复正常）。②不完全痊愈（瘢痕修复）：损伤范围大、组织再生能力弱或炎症渗出物多，由肉芽组织修复形成纤维瘢痕取代（如大叶性肺炎机化→肺肉质变）。(2)迁延不愈→慢性炎：致炎因子持续存在，机体抵抗力较弱，急性炎转变为慢性炎。(3)蔓延扩散：机体抵抗力低下、病原微生物数量多毒力强时，炎症可经局部蔓延、淋巴道或血道扩散→菌血症→败血症→脓毒败血症→感染性休克→死亡。"
+      "answer": "①局部蔓延：沿乳腺导管筋膜和脂肪组织浸润；②淋巴道转移：主要至腋窝淋巴结（最重要）其次为内乳淋巴结和锁骨上淋巴结；③血道转移：晚期可至肺肝骨脑等；④直接蔓延：侵犯胸肌和胸壁。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12311,59 +12143,52 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第6章 肿瘤",
-      "number": 13,
-      "question": "肝癌的组织学类型：(1)肝细胞癌：最多见，是由肝细胞发生肝癌。其分化较好者癌细胞与正常的肝胞相似。分化差者癌细胞异型性明显，有巨核及多核瘤细胞。有的癌细胞排列条索状(索状型)；亦可呈腺管样(假腺型)。有时癌组织中有大量纤维组织分割(2)胆管上皮癌较为少见，是由肝内胆管皮发生的癌。其组织结构多为腺癌。较合并肝硬化。有时继发于华支睾吸虫病。(3)混合性肝癌具有肝细胞癌及胆管上癌两者结构，最少见。十、十一淋巴造血系统疾病及免疫病",
-      "type": "简答题",
-      "answer": "肿瘤异型性与分化程度及良恶性的关系：(1)异型性是指肿瘤组织在细胞形态和组织结构上与其来源的正常组织有不同程度的差异。(2)异型性越大→分化程度越低→恶性程度越高。(3)良性肿瘤：异型性小，细胞较成熟，分化程度高，与起源组织相似度高。(4)恶性肿瘤：异型性明显，包括组织结构的异型性（排列紊乱、极向消失）和细胞异型性（细胞多形性、核大深染、核浆比例增大、核分裂增多并出现病理性核分裂）。(5)间变性肿瘤：异型性极为显著，分化极差，难以辨认其组织来源，属于高度恶性肿瘤。因此，异型性是判断肿瘤良恶性和恶性程度最重要的形态学指标。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
       "number": 14,
       "question": "简述霍奇金淋巴瘤的临床分期。",
       "type": "简答题",
-      "answer": ""
+      "answer": "Ann Arbor分期：Ⅰ期病变局限于一组淋巴结或一个结外器官；Ⅱ期病变局限于膈肌同侧两组或以上淋巴结；Ⅲ期膈肌两侧淋巴结均受累；Ⅳ期弥漫性结外器官受累。每型分A（无症状）和B（有发热盗汗体重减轻）。"
     },
     {
       "chapter": "第5章 免疫性疾病",
       "number": 15,
-      "question": "系统性红斑狼疮的病理改变。",
+      "question": "简述系统性红斑狼疮的病理改变。",
       "type": "简答题",
-      "answer": ""
+      "answer": "SLE病理改变：①皮肤：表皮萎缩基底细胞液化变性真皮与表皮交界处IgG和C3沉积（狼疮带）；②肾脏：铜线样改变和苏木素小体；③心脏：Libman-Sacks心内膜炎；④关节：非侵蚀性关节炎；⑤血管：坏死性血管炎。"
     },
     {
       "chapter": "第5章 免疫性疾病",
       "number": 16,
-      "question": "自身免疫性疾病有那些？",
+      "question": "列举常见自身免疫性疾病。",
       "type": "简答题",
-      "answer": ""
+      "answer": "器官特异性：桥本甲状腺炎Graves病1型糖尿病重症肌无力多发性硬化。系统性：系统性红斑狼疮类风湿关节炎系统性硬化症多发性肌炎天疱疮自身免疫性溶血性贫血。"
     },
     {
       "chapter": "第5章 免疫性疾病",
       "number": 17,
       "question": "简述自身免疫性疾病的基本特征。",
       "type": "简答题",
-      "answer": ""
+      "answer": "①患者有遗传倾向不少与HLA抗原有关；②血液中存在高滴度自身抗体和/或致敏淋巴细胞；③病程反复发作慢性经过好发于女性；④病因大多不明免疫抑制剂治疗有效；⑤病变组织可见血管周围淋巴细胞浸润和纤维化。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 34,
-      "question": "一般在器官移植后数月至数年发生，是急性排斥反应延续而成，主要病理特征是移植器官的毛细血管床内皮细胞增生、动脉腔狭窄，并逐渐纤维化，脏器功能进行",
+      "question": "前列腺增生症对人体最大的危害在于？",
       "type": "简答题",
-      "answer": ""
+      "answer": "前列腺增生症最大危害是引起排尿困难导致尿潴留膀胱扩张输尿管反流最终可致肾积水和肾功能损害。长期排尿困难还易并发膀胱结石和泌尿系感染。"
     },
     {
       "chapter": "第5章 免疫性疾病",
       "number": 35,
-      "question": "是排斥反应中最常见的一种类型，一般于移植后数天到几月内发生，进展迅速，主要机制是细胞免疫，也可以是体液免疫，引起急性器官功能障碍。",
+      "question": "简述急性排斥反应的特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "急性排斥反应是移植后数天到几月内发生进展迅速。主要机制是细胞免疫（T细胞介导）也可有体液免疫参与。病理特征：间质大量淋巴细胞和单核细胞浸润血管炎实质细胞变性坏死。可使用免疫抑制剂控制。"
     },
     {
       "chapter": "第5章 免疫性疾病",
       "number": 36,
-      "question": "是由于免疫系统发育不全或遭受损害所致的免疫功能缺陷而引发的疾病。可分为两种类型，原发性免疫缺陷病和继发性免疫缺陷病。",
+      "question": "简述免疫缺陷病的基本概念和分类。",
       "type": "简答题",
-      "answer": ""
+      "answer": "免疫缺陷病是免疫系统发育不全或遭受损害所致的免疫功能缺陷。分为原发性（遗传性如X连锁无丙种球蛋白血症DiGeorge综合征）和继发性（获得性如AIDS化疗后大面积烧伤）。特点是反复感染和恶性肿瘤发生率增高。"
     },
     {
       "chapter": "第2章 损伤的修复",
@@ -12373,32 +12198,11 @@ const QUESTION_DATA = {
       "answer": "细胞坏死时细胞核发生三种特征性改变：(1)核固缩：细胞核脱水浓缩，体积缩小，染色质凝聚，嗜碱性增强呈深蓝色。(2)核碎裂：核膜破裂，染色质崩解成多个致密蓝染的小碎片，散布于胞浆中。(3)核溶解：在DNA酶和蛋白水解酶的作用下，染色质的DNA和蛋白质被完全分解，核的轮廓完全消失。这三种改变是一个连续的过程，反映了坏死细胞的不可逆性。在光镜下观察坏死组织时，根据坏死发生的时间不同，可同时或分别看到这三种核的改变。"
     },
     {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 38,
-      "question": "是以多发性和对称性增生性滑膜炎为主要表现的慢性全身性自身免疫性疾病，可引起关节软骨和关节囊的破坏，最终可导致关节强直畸形。",
-      "type": "简答题",
-      "answer": "一般慢性炎症的基本病理变化：(1)以增生性病变为主：主要表现为成纤维细胞、血管内皮细胞增生，巨噬细胞、淋巴细胞和浆细胞等慢性炎细胞浸润。(2)实质细胞可同时有萎缩、变性和增生。(3)单核-巨噬细胞系统激活和增生。(4)可有肉芽组织形成和纤维化。(5)结局：可导致组织纤维化、器官变形和功能受损，如慢性肝炎→肝硬化；慢性肾小球肾炎→肾固缩。慢性炎可急性发作（如慢性阑尾炎急性发作、慢性胆囊炎急性发作）。"
-    },
-    {
       "chapter": "第5章 免疫性疾病",
       "number": 39,
-      "question": "系统性红斑狼疮的皮肤红斑，做免疫荧光检查时，可见真皮与表皮交界处有IgG、IgM 及 C3 的沉积，形成颗粒状或团块状的荧光带，即“狼疮带”。",
+      "question": "简述狼疮带的病理意义。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 40,
-      "question": "系统性红斑狼疮时，狼疮小体对中性粒细胞和巨噬细胞有趋化作用，在补体存在时可促进细胞对狼疮小体的吞噬作用，吞噬了狼疮小体的细胞称为狼疮细胞。",
-      "type": "简答题",
-      "answer": "炎症时白细胞吞噬作用及其意义：(1)吞噬作用是指白细胞伸出伪足将病原体或组织崩解产物包围并吞入胞浆内形成吞噬体，吞噬体与溶酶体融合形成吞噬溶酶体，通过溶酶体酶（酸性水解酶、髓过氧化物酶）和氧自由基（超氧阴离子、H₂O₂等）将吞噬物杀灭消化的过程。(2)主要吞噬细胞：中性粒细胞（小吞噬细胞）：吞噬细菌和组织碎片，是急性炎症的主要效应细胞；巨噬细胞（大吞噬细胞）：吞噬较大的病原体、坏死组织、异物，并参与抗原呈递。(3)意义：吞噬作用是炎症防御反应的核心环节，对于清除病原体、消除坏死组织和异物至关重要。吞噬功能缺陷（如慢性肉芽肿病）导致反复感染。"
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 41,
-      "question": "是指由机体自身产生的抗体或致敏淋巴细胞破坏、损伤自身的组织和细胞成分，导致组织损害和器官功能障碍的原发性免疫性疾病。",
-      "type": "简答题",
-      "answer": ""
+      "answer": "SLE患者皮肤红斑做直接免疫荧光检查时真皮与表皮交界处可见IgGIgM及C3呈颗粒状或团块状沉积形成狼疮带。这是免疫复合物沉积的表现对SLE诊断具有重要价值阳性率约70%-80%。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12410,23 +12214,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第11章 消化系统疾病",
       "number": 14,
-      "question": "Ⅰ期：病变局限于一组淋巴结或一个结外器官或部位；Ⅱ期：病变局限于膈肌同侧的两组或两组以上的淋巴结或直接蔓延至一个结外器官或部位；Ⅲ期：累及膈肌两侧的淋巴结或再累及一个结外器官或部位或脾脏或两者；V：弥漫或播散性累及一个或多个结外器官，如骨髓、消化",
+      "question": "简述霍奇金淋巴瘤的Ann Arbor临床分期标准。",
       "type": "简答题",
-      "answer": ""
+      "answer": "Ⅰ期：病变局限于一组淋巴结或一个结外器官。Ⅱ期：病变局限于膈肌同侧两组或以上淋巴结或直接蔓延至邻近结外器官。Ⅲ期：累及膈肌两侧淋巴结可伴脾受累。Ⅳ期：弥漫性或播散性结外器官受累。"
     },
     {
       "chapter": "第9章 心血管系统疾病",
       "number": 16,
-      "question": "自身免疫性疾病通常包括以下几类：①系统性红斑狼疮②类风湿性关节炎③口眼干燥综合征④多发性肌炎⑤硬皮病等",
+      "question": "简述自身免疫性疾病包括哪些常见疾病。",
       "type": "简答题",
-      "answer": ""
+      "answer": "包括：①系统性红斑狼疮（SLE）；②类风湿关节炎（RA）；③口眼干燥综合征（Sjogren综合征）；④多发性肌炎皮肌炎；⑤系统性硬化症（硬皮病）；⑥自身免疫性溶血性贫血；⑦1型糖尿病等。"
     },
     {
       "chapter": "第4章 炎症",
       "number": 17,
-      "question": "①患者有明显的家族倾向性，不少与HLA 抗原有关。②血液中存在高滴度自身抗体和(或)能与自身组织成分起反应的致敏淋巴细胞。③病程反复发作，好发于女性。④病因大多不明。⑤可在实验动物中复制出类似人类自身免疫性疾病的模型。⑥目前尚无明显疗效。",
+      "question": "简述自身免疫性疾病的特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "①有明显家族倾向性不少与HLA抗原有关；②血液中可检出高滴度自身抗体和/或致敏淋巴细胞；③病程反复发作慢性经过好发于女性；④病因大多不明免疫抑制治疗有效；⑤病变组织可见慢性炎症细胞浸润和纤维化。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
@@ -12440,21 +12244,14 @@ const QUESTION_DATA = {
       "number": 19,
       "question": "简述急性肾盂肾炎的合并症。",
       "type": "简答题",
-      "answer": ""
+      "answer": "急性肾盂肾炎合并症包括：①肾乳头坏死（严重并发症可导致大片肾组织坏死脱落）；②肾周围炎和肾周围脓肿；③败血症和感染性休克；④肾盂积脓；⑤高血压；⑥慢性肾盂肾炎迁延不愈。"
     },
     {
       "chapter": "第13章 泌尿系统疾病",
       "number": 20,
       "question": "简述急性肾盂肾炎的病因及发病机制。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第3章 局部血液循环障碍",
-      "number": 44,
-      "question": "起病急，主要表现为血尿、蛋白尿、少尿、常伴高血压和轻度水肿。",
-      "type": "简答题",
-      "answer": ""
+      "answer": "病因：大肠埃希菌最常见（占70%-80%）其次为副大肠杆菌变形杆菌葡萄球菌等。发病机制：主要经上行性感染（细菌沿尿道膀胱输尿管肾盂逆行）尿路梗阻和反流是重要诱因。女性尿道短更易发生。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12473,9 +12270,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第13章 泌尿系统疾病",
       "number": 47,
-      "question": "光镜下，肾小球基本正常，但近端肾小管上皮细胞内可见脂滴空泡，故称脂性肾病。电镜下，肾小球变现为脏层上皮细胞足突融合或消失，又称足突病。",
+      "question": "简述脂性肾病（微小病变性肾病）的病理特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "光镜下肾小球基本正常近端肾小管上皮细胞内可见脂滴空泡（脂性肾病）。电镜下特征性改变为肾小球脏层上皮细胞（足细胞）足突广泛融合或消失。免疫荧光阴性。临床表现为肾病综合征对激素治疗敏感。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12494,51 +12291,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 50,
-      "question": "是来源于肾小管上皮细胞的恶性肿瘤，",
+      "question": "简述肾细胞癌（肾透明细胞癌）的病理特点。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 18,
-      "question": "(1)主要病理变化：光镜下肾小球内大量（超过50%）新月体形成：肾小囊上皮细胞/肾小球壁层上皮细胞增生、渗出的单核细胞等组成细胞性新月体，以后，纤维成分逐渐增多，形成纤维细胞性新月体，最终形成为纤维性新月体，整个肾小球纤维化玻璃样变。(2)临床病理联系：①血尿、蛋白尿：肾小球毛细血管壁断裂。②少尿、无尿：大量新月体形成，阻塞毛细血管腔。③氮质血症：新月体形成，代谢废物不能排出，体内潴留。④高血压：肾小球毛细血管阻塞、肾组织缺血、水钠潴留等。⑤肾功能衰竭：D. 鳞状细胞癌E. 透明细胞癌",
-      "type": "简答题",
-      "answer": "高分化鳞状细胞癌来源于鳞状上皮，也可由化生的鳞状上皮发生。组织学特点：(1)癌细胞形成癌巢，癌巢中央可出现同心圆状红染的角化珠（癌珠）。(2)细胞间可见细胞间桥（桥粒）。(3)癌细胞呈多角形，胞浆丰富嗜酸性。(4)核大深染，核分裂多见。好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可化为鳞状上皮的部位。"
+      "answer": "来源于肾小管上皮细胞最常见类型为透明细胞癌。大体：肿瘤呈圆形边界清切面黄色（富含脂质）常伴出血坏死和囊性变。镜下：肿瘤细胞胞质透明（糖原和脂质丰富）呈巢状或腺管状排列间质血管丰富。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 4,
-      "question": "子宫颈癌的组织发生可来源于A. 子宫颈鳞状上皮B. 子宫颈管的黏膜柱状上皮C. 子宫颈的储备细胞D. 以上都可以E. 以上都不是",
+      "question": "子宫颈癌的组织发生可来源于哪些结构？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
-      "question": "子宫颈癌的癌前病变是(A. 宫颈息肉B. 腺体潴留性囊肿C. 宫颈上皮鳞状化生D. 宫颈上皮异型增生E. 宫颈肥厚",
-      "type": "简答题",
-      "answer": "化生是指一种已分化成熟的细胞类型被另一种分化成熟的细胞类型所取代的过程。常见于上皮组织。支气管黏膜上皮在长期吸烟或慢性炎症刺激下，假复层纤毛柱状上皮可转化为复层鳞状上皮（鳞状上皮化生）。慢性胃炎时胃黏膜上皮可转变为肠上皮（肠上皮化生）。化生具有一定适应性意义，但失去了原有上皮的特殊功能，且化生基础上可能发生恶变。"
+      "answer": "子宫颈癌的组织发生可来源于：①子宫颈鳞状上皮（鳞癌最常见）；②子宫颈管黏膜柱状上皮（腺癌）；③子宫颈储备细胞（可分化为鳞状或柱状上皮）。因此以上三种来源均可发生宫颈癌。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 6,
-      "question": "确认早期宫颈癌最可靠的依据是A. 白带多，有接触性出血B. 阴道镜检查C. 盆腔检查D. 宫颈刮片细胞学检查E. 宫颈活检病理切片诊断",
+      "question": "确认早期宫颈癌最可靠的依据是什么？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 7,
-      "question": "子宫颈原位癌与不典型增生的鉴别主要病变广泛，大量代谢产物体内堆积，水电解质和酸碱平衡调节紊乱所致。",
-      "type": "简答题",
-      "answer": "相同点：(1)两者均可导致组织或器官体积增大。(2)两者常合并存在，例如妊娠子宫既有平滑肌细胞肥大又有数量增生。(3)两者都是细胞对刺激的适应性反应。不同点：(1)本质不同：肥大是细胞体积增大，细胞数目不变；增生是细胞数目增多。(2)发生条件不同：永久性细胞（心肌细胞、神经细胞、骨骼肌细胞）只能发生肥大不能增生（因为这些细胞无分裂能力）；不稳定细胞和稳定细胞既可肥大又可增生。(3)机制不同：肥大主要涉及蛋白质合成增加和降解减少；增生涉及细胞周期激活和分裂增殖。(4)举例：高血压时心肌细胞肥大（无增生）；缺碘性甲状腺肿主要是滤泡上皮增生。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 19,
-      "question": "(1)急性坏死性乳头炎：肾乳头发生凝固性坏死。常见于患有糖尿病或尿路阻塞的急性肾盂肾炎患者。(2)肾盂积脓：输尿管高位完全阻塞时，脓性液体不能排出，潴留于肾盂肾盏内。(3)肾周围脓肿：肾内化脓性炎侵破肾被膜，在肾周围组织中形成脓肿。",
-      "type": "简答题",
-      "answer": "化脓性炎是以中性粒细胞大量渗出为主，伴不同程度组织坏死和脓液形成。概念及类型：(1)脓肿：局限性化脓性炎伴组织坏死液化形成脓腔。如皮肤疖、痈、肺脓肿。(2)蜂窝织炎：疏松结缔组织的弥漫性化脓性炎。如皮下蜂窝织炎、阑尾蜂窝织炎。(3)表面化脓：黏膜或浆膜表面的化脓性炎，脓液沿表面排出。如化脓性支气管炎、化脓性尿道炎（淋病）。(4)积脓：脓液在体腔或空腔器官内积聚。如胆囊积脓、输卵管积脓。"
+      "answer": "确认早期宫颈癌最可靠的依据是宫颈活检病理切片诊断这是诊断的金标准。宫颈刮片细胞学检查（Pap涂片）是筛查方法但确诊必须依靠组织病理学检查。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12549,80 +12318,38 @@ const QUESTION_DATA = {
     },
     {
       "chapter": "第6章 肿瘤",
-      "number": 8,
-      "question": "下列关于子宫颈癌的描述，错误的是A. 发病高峰为45岁)B. 发病与 HPV 感染有关C. 中分化鳞癌最多见D. 几乎所有的子宫颈癌均来源于子宫颈E. 早期即可侵犯膀胱和直肠",
-      "type": "简答题",
-      "answer": "高分化鳞状细胞癌的组织学特点：(1)癌细胞呈巢状（癌巢）排列，癌巢中央可出现同心圆状红染的角化珠（癌珠/角化珠/keratin pearl），是鳞状细胞癌分化良好的标志。(2)细胞间可见细胞间桥（桥粒的形态表现）。(3)癌细胞呈多角形，胞浆丰富嗜酸性（含角蛋白）。(4)核大深染、核浆比例增大。(5)癌巢周围有基底膜（PAS染色可显示）和纤维间质围绕。(6)好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可发生鳞化的部位。分化差的鳞癌角化珠和细胞间桥不明显甚至消失。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
       "number": 9,
-      "question": "乳腺癌最常见的类型为()A. 导管内癌B. 小叶原位癌C. 浸润性导管癌D. 浸润性小叶癌E. 髓样癌",
+      "question": "乳腺癌最常见的类型是什么？",
       "type": "简答题",
-      "answer": ""
+      "answer": "乳腺癌最常见的类型为浸润性导管癌（约占70%-80%）其次为浸润性小叶癌。导管内癌和小叶原位癌属于非浸润性癌预后较好。髓样癌较少见。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 11,
-      "question": "乳腺癌最常发生于乳房的A. 外上象限B. 外下象限C. 内上象限D. 内下象限E. 中央部",
+      "question": "乳腺癌最常发生于乳房的哪个部位？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 2,
-      "question": "80%以上乳腺癌来源于(A. 非增生性纤维囊性变",
-      "type": "简答题",
-      "answer": ""
+      "answer": "乳腺癌最常发生于乳房外上象限（约占50%）因该区域乳腺组织最丰富。其次为外下象限内上象限和乳头部。中央区乳腺癌多见于男性。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 3,
-      "question": "乳腺导管上皮C. 腺泡上皮. 小叶间质. 乳腺纤维腺瘤",
+      "question": "简述子宫颈癌的扩散和转移途径。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 3,
-      "question": "生育期妇女最常见的疾病是A. 卵巢癌",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 3,
-      "question": "宫颈癌C. 子宫平滑肌瘤",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 4,
-      "question": "乳腺最常见的良性肿瘤是",
-      "type": "简答题",
-      "answer": ""
+      "answer": "①直接蔓延：向阴道宫旁组织子宫体膀胱和直肠蔓延；②淋巴道转移（主要途径）：先至宫旁闭孔髂内/外淋巴结后至主动脉旁淋巴结；③血道转移（晚期）：可至肺肝骨。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 0,
-      "question": "纤维腺瘤三. 导管内乳头状瘤",
+      "question": "乳腺常见的肿瘤有哪些？简述其特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "乳腺常见肿瘤：①纤维腺瘤（最常见良性肿瘤，青年女性，边界清楚活动度好）；②导管内乳头状瘤（中等大小导管内良性肿瘤，可伴乳头溢液）；③乳腺癌（最常见恶性肿瘤，浸润性导管癌最常见类型）。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 5,
-      "question": "关于乳腺粉刺癌的描述，正确的是A. 乳头皮肤发生的癌",
+      "question": "关于乳腺粉刺癌的描述正确的是？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 3,
-      "question": "导管原位癌C. 早期浸润癌D. 小叶原位癌E. 小叶浸润癌",
-      "type": "简答题",
-      "answer": ""
+      "answer": "乳腺粉刺癌是导管内癌的一种亚型（高级别导管内癌）其特征为中央坏死物呈粉刺样挤出细胞异型性明显核分裂象多见。属于非浸润性癌预后较好手术切除后治愈率高。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -12634,9 +12361,9 @@ const QUESTION_DATA = {
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 17,
-      "question": "子宫腺肌病主要的病理学特征是A. 子宫体积增大B. 子宫内膜增生C. 子宫肌壁内形成平滑肌增生的结节D. 子宫肌壁内出现子宫内膜及腺体E. 子宫内膜腺体出现于其他器官的肌层",
+      "question": "子宫腺肌病主要的病理学特征是什么？",
       "type": "简答题",
-      "answer": ""
+      "answer": "子宫腺肌病主要的病理学特征是子宫肌壁内出现子宫内膜腺体及间质（异位的子宫内膜），伴周围肌细胞增生和肥大。子宫呈球形增大，切面可见肌壁内有散在的内膜腺体和间质。"
     },
     {
       "chapter": "第6章 肿瘤",
@@ -12648,16 +12375,16 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 19,
-      "question": "子宫颈癌多开始发生于(A. 子宫颈内口B. 子宫颈外口上皮移行区C. 子宫颈管D. 子宫颈前唇近阴道部E. 子宫颈后唇分泌物浸渍处",
+      "question": "子宫颈癌多开始发生于哪个部位？",
       "type": "简答题",
-      "answer": ""
+      "answer": "子宫颈癌多开始发生于子宫颈外口上皮移行区（鳞柱交界处），此处细胞活跃易受HPV感染和致癌因素作用而发生癌变。"
     },
     {
       "chapter": "第11章 消化系统疾病",
       "number": 20,
-      "question": "子宫内膜异位症最多见的部位是A. 子宫腺肌病C. 盆腔淋巴结D. 子宫直肠陷凹",
+      "question": "子宫内膜异位症最多见的部位是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "子宫内膜异位症最多见的部位是卵巢（约占80%），其次为子宫直肠陷凹、宫骶韧带、阔韧带和阴道直肠隔。病变为子宫内膜组织生长在子宫腔以外部位。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12667,74 +12394,53 @@ const QUESTION_DATA = {
       "answer": "肿瘤异型性与分化程度及良恶性的关系：(1)异型性是指肿瘤组织在细胞形态和组织结构上与其来源的正常组织有不同程度的差异。(2)异型性越大→分化程度越低→恶性程度越高。(3)良性肿瘤：异型性小，细胞较成熟，分化程度高，与起源组织相似度高。(4)恶性肿瘤：异型性明显，包括组织结构的异型性（排列紊乱、极向消失）和细胞异型性（细胞多形性、核大深染、核浆比例增大、核分裂增多并出现病理性核分裂）。(5)间变性肿瘤：异型性极为显著，分化极差，难以辨认其组织来源，属于高度恶性肿瘤。因此，异型性是判断肿瘤良恶性和恶性程度最重要的形态学指标。"
     },
     {
-      "chapter": "第6章 肿瘤",
-      "number": 22,
-      "question": "女性，53岁，阴道不规则流血，超声显像见子宫浆膜下、肌壁和黏膜有多个大小不等结节，最可能诊断是(A. 子宫内膜癌B. 绒毛膜癌C. 侵蚀性葡萄胎D. 子宫平滑肌瘤E. 子宫内膜异位症",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 23,
-      "question": "下列关于子宫颈上皮非典型增生的描述，错误的是()A. 重度非典型增生和原位癌没有明显界B. 好发部位是鳞、柱状细胞交界带C. 非典型增生如合并感染 HPV-16、18、33型，易恶变D. 细胞来源为移行带柱状上皮E. 宫颈浸润癌的形成并非均通过上皮非典型增生-原位癌-浸润癌发展的过程",
+      "question": "下列关于子宫颈上皮非典型增生的描述错误的是？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 24,
-      "question": "女性，30岁，右下腹发现包块已3月，手术见右侧卵巢被一囊性肿物取代。囊内充满皮脂样物、毛发及牙齿。该肿块最可能诊断为()A. 囊腺瘤B. 囊腺癌C. 畸胎瘤D. 无性细胞瘤)E. 内胚窦瘤",
-      "type": "简答题",
-      "answer": ""
+      "answer": "子宫颈上皮非典型增生好发于鳞柱状细胞交界带，重度非典型增生和原位癌无明显界线，合并HPV-16感染时癌变风险高。错误描述应为其他不符合上述特点的选项。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
       "number": 25,
-      "question": "异位妊娠最常发生的部位是A. 子宫颈C. 输卵管E. 子宫肌层内",
+      "question": "异位妊娠最常发生的部位是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "异位妊娠最常发生在输卵管（占95%以上）其中又以壶腹部最为常见（约占78%）其次为峡部伞部和间质部。输卵管炎症是导致异位妊娠的主要原因。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 26,
-      "question": "下列哪一项不符合子宫肌瘤的病理学A. 可以发生在子宫壁内、浆膜下或黏膜B. 可以单发或多发C. 具有明显的包膜)D. 瘤组织常呈灰白色、编织状或漩涡状E. 瘤细胞与正常平滑肌细胞相似",
+      "question": "下列哪一项不符合子宫肌瘤的病理学特点？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第4章 炎症",
-      "number": 27,
-      "question": "输卵管妊娠最常见的部位是B. 壶腹部C. 间质部)E. 漏斗部",
-      "type": "简答题",
-      "answer": ""
+      "answer": "子宫肌瘤具有假包膜但不具有明显包膜。不具有明显包膜是其特点因此\"具有明显包膜\"的描述是错误的。其他特点：可单发或多发呈灰白色编织状瘤细胞为平滑肌细胞。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 28,
-      "question": "下列哪种肿瘤易发生腹腔和盆腔种植A. 子宫颈癌B. 子宫绒毛膜癌C. 卵巢畸胎瘤D. 卵巢胚胎性癌E. 卵巢黏液性囊腺癌",
+      "question": "下列哪种肿瘤易发生腹腔和盆腔种植转移？",
       "type": "简答题",
-      "answer": ""
+      "answer": "卵巢黏液性囊腺癌易发生腹腔和盆腔种植转移。当肿瘤破裂时癌细胞可种植于腹膜和盆腔器官表面形成多处转移灶。卵巢肿瘤腹腔种植转移是其重要的扩散方式。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 29,
-      "question": "卵巢生殖细胞瘤中最常见的是A. 不成熟畸胎瘤B. 卵巢胚胎性癌C. 无性细胞瘤D. 成熟型畸胎瘤E. 内胚窦瘤",
+      "question": "卵巢生殖细胞瘤中最常见的是？",
       "type": "简答题",
-      "answer": ""
+      "answer": "卵巢生殖细胞肿瘤中最常见的是成熟型畸胎瘤（约占95%）为良性肿瘤由来自外中内三个胚层的成熟组织构成常见皮肤毛发牙齿甲状腺等组织。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 30,
-      "question": "下列哪项不是绒癌的特征A. 子宫肌层内可见侵蚀的绒毛B. 呈暗红色、出血坏死的肿块C. 主要为血道转移D. 可有阴道结节出现E. 刮宫后 HCG 不恢复正常",
+      "question": "下列哪项不是绒癌的特征？",
       "type": "简答题",
-      "answer": ""
+      "answer": "绒癌特征是无绒毛结构（仅有异型滋养细胞）出血坏死明显主要为血道转移可发生阴道结节HCG升高。可见胎盘绒毛组织是恶性葡萄胎的特征而非绒癌特征。"
     },
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
       "number": 32,
-      "question": "葡萄胎来源于何种细胞(A. 蜕膜细胞B. 胎盘内血管内皮细胞C. 子宫内膜细胞D. 滋养层细胞E. 原始生殖细胞",
+      "question": "葡萄胎来源于何种细胞？",
       "type": "简答题",
-      "answer": ""
+      "answer": "葡萄胎来源于滋养层细胞（合体滋养细胞和细胞滋养细胞）是妊娠滋养细胞疾病的一种。表现为绒毛间质水肿呈水泡状滋养细胞增生无胎儿组织。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12742,20 +12448,6 @@ const QUESTION_DATA = {
       "question": "关于前列腺肥大哪种说法是错误的A. 与雄激素和雌激素平衡失调有关B. 增大的前列腺呈结节状，切面筛孔状C. 前列腺的腺体、平滑肌和纤维组织不D. 腺腔内可见淀粉样小体E. 是一种肿瘤性疾病",
       "type": "简答题",
       "answer": "相同点：(1)两者均可导致组织或器官体积增大。(2)两者常合并存在，例如妊娠子宫既有平滑肌细胞肥大又有数量增生。(3)两者都是细胞对刺激的适应性反应。不同点：(1)本质不同：肥大是细胞体积增大，细胞数目不变；增生是细胞数目增多。(2)发生条件不同：永久性细胞（心肌细胞、神经细胞、骨骼肌细胞）只能发生肥大不能增生（因为这些细胞无分裂能力）；不稳定细胞和稳定细胞既可肥大又可增生。(3)机制不同：肥大主要涉及蛋白质合成增加和降解减少；增生涉及细胞周期激活和分裂增殖。(4)举例：高血压时心肌细胞肥大（无增生）；缺碘性甲状腺肿主要是滤泡上皮增生。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 34,
-      "question": "前列腺增生症对人体最大的危害在于A. 引起性功能障碍B. 使内分泌紊乱C. 引起排尿困难D. 易恶变E. 以上都不是",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 35,
-      "question": "以下关于前列腺增生症的描述，错误的A. 常见于老年人B. 多发生于前列腺的尿道周围及移行区C. 呈结节状增生D. 早期结节由增生的腺体和纤维组织组E. 与前列腺癌无直接关系",
-      "type": "简答题",
-      "answer": ""
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12767,72 +12459,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第6章 肿瘤",
       "number": 37,
-      "question": "Krukenberg 瘤是指(A. 卵巢黏液性囊腺瘤恶变B. 卵巢乳头状腺癌C. 卵巢腺癌伴广泛转移一D. 卵巢转移性黏液癌E. 卵巢转移性子宫内膜癌",
+      "question": "Krukenberg瘤是指？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 38,
-      "question": "恶性与良性葡萄胎的相同点在于A. 可见胎盘绒毛组织B. 明显的出血坏死一C. 侵犯肌层内D. 发生阴道结节E. 可有远隔脏器转移",
-      "type": "简答题",
-      "answer": ""
+      "answer": "Krukenberg瘤是指卵巢的转移性黏液癌原发灶多来自胃肠道（尤其胃癌）。肿瘤切面呈胶冻状镜下可见印戒细胞（胞质内大量黏液将核挤向一侧）。双侧卵巢受累多见。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 39,
-      "question": "成熟畸胎瘤镜下最常见的组织为A. 甲状腺B. 皮肤组织、脂肪C. 骨、软骨",
+      "question": "成熟畸胎瘤镜下最常见的组织为？",
       "type": "简答题",
-      "answer": ""
+      "answer": "成熟畸胎瘤最常见的组织成分是皮肤组织（含毛囊皮脂腺汗腺）和脂肪组织其次为呼吸道和消化道上皮软骨骨神经组织等。来源于两个或三个胚层的成熟组织。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 40,
-      "question": "子宫颈早期浸润癌是指(A. 癌细胞未突破基底膜B. 癌细胞未突破基底膜，但已累及腺体C. 癌浸润深度不超过基底膜下 5mmD. 癌浸润深度不超过基底膜下1mmE. 癌浸润深度不超过基底膜下1cm",
+      "question": "子宫颈早期浸润癌是指？",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 41,
-      "question": "下列关于子宫颈原位癌的描述，哪项是A. 预后良好B. 阴道脱落细胞涂片检查阳性C. 局部淋巴结无转移D. 累及腺体时称为浸润癌E. 癌细胞未突破上皮基底膜",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 42,
-      "question": "下列关于良性畸胎瘤的描述，正确的是A. 也称为不成熟畸胎瘤B. 来源于生殖细胞C. 一般体积较小，实性多见D. 镜下可见菊形团神经管样神经上皮E. 无恶变可能",
-      "type": "简答题",
-      "answer": "实质细胞变性（细胞变性）主要包括：(1)细胞水肿（水变性）：细胞肿大、胞浆疏松淡染，严重时呈气球样变（如急性病毒性肝炎时的肝细胞）。(2)脂肪变性：胞浆内出现大小不等的脂滴空泡，最常见于肝细胞、心肌细胞和肾小管上皮细胞。(3)细胞内玻璃样变性：胞浆内出现均质红染的圆形小体（如酒精性肝病时的Mallory小体、肾病综合征时肾小管上皮重吸收蛋白质形成的玻璃样小滴）。(4)病理性色素沉着：如萎缩细胞内的脂褐素、慢性肺淤血时的心力衰竭细胞（含铁血黄素）。(5)病理性钙化：如坏死组织内的营养不良性钙化。间质变性包括：玻璃样变性（如瘢痕组织、高血压时的细动脉壁）、淀粉样变性、黏液样变性。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 43,
-      "question": "下列关CIN的描述，错误的是A. CIN 属于癌前病变B. CINIII级即原位癌C. 阴道涂片可发现早期病变D. CINⅠ 级是指异型细胞局限于上皮下E. 确诊需阴道镜检查",
-      "type": "简答题",
-      "answer": "癌前病变是指具有癌变潜在可能性的良性病变。常见的有：(1)大肠腺瘤（绒毛状腺瘤癌变率最高）。(2)慢性子宫颈炎伴宫颈糜烂。(3)乳腺增生性纤维囊性变（伴有导管上皮非典型增生者）。(4)慢性萎缩性胃炎伴肠上皮化生。(5)慢性溃疡性结肠炎。(6)皮肤慢性溃疡。(7)口腔和外阴黏膜白斑。(8)肝硬化（特别是乙肝肝硬化）。必须强调的是并非所有癌前病变都会癌变。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 44,
-      "question": "尖锐湿疣的病因是()A. HPV 感染B. HSV 感染C. MCV 感染D. 与梅毒有关E. 细菌感染",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 45,
-      "question": "子宫颈上皮不典型增生是一种A. 恶性肿瘤病变B. 良性肿瘤病变C. 炎症性病变D. 癌前病变E. 组织损伤性病变",
-      "type": "简答题",
-      "answer": "癌前病变是指具有癌变潜在可能性的良性病变。常见的有：(1)大肠腺瘤（绒毛状腺瘤癌变率最高）。(2)慢性子宫颈炎伴宫颈糜烂。(3)乳腺增生性纤维囊性变（伴有导管上皮非典型增生者）。(4)慢性萎缩性胃炎伴肠上皮化生。(5)慢性溃疡性结肠炎。(6)皮肤慢性溃疡。(7)口腔和外阴黏膜白斑。(8)肝硬化（特别是乙肝肝硬化）。必须强调的是并非所有癌前病变都会癌变。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 46,
-      "question": "子宫颈癌与下列何种病毒感染有关A. HSVB. HPVC. HBV）D. HIVE. MCV",
-      "type": "简答题",
-      "answer": ""
+      "answer": "子宫颈早期浸润癌是指肿瘤细胞增生突破基底膜但浸润深度不超过基底膜下3-5mm。属于浸润癌的最早期阶段淋巴结转移率极低（<1%）预后良好。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
@@ -12844,86 +12487,23 @@ const QUESTION_DATA = {
     {
       "chapter": "第14章 生殖系统和乳腺疾病",
       "number": 1,
-      "question": "根据葡萄胎的组织学特点，联系它在临床上可能产生哪些变化？",
+      "question": "根据葡萄胎的组织学特点联系它在临床上可能产生哪些变化？",
       "type": "简答题",
-      "answer": ""
+      "answer": "葡萄胎组织学特点：绒毛间质水肿呈水泡状滋养细胞增生无胎儿组织。临床变化：①停经后阴道流血（最常见症状）；②子宫大于妊娠月份；③妊娠剧吐和子痫前期征象；④血清HCG异常升高；⑤卵巢黄素化囊肿；⑥可能恶变。"
     },
     {
       "chapter": "第6章 肿瘤",
       "number": 2,
       "question": "简述子宫颈癌的大体与组织学分型。",
       "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 3,
-      "question": "简述子宫颈癌的散及转移？",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 4,
-      "question": "子宫颈上皮不典型增生、子宫颈原位癌、",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 1,
-      "question": "由于滋养层细胞增生，尿HCG增多，妊娠试验强阳性。由于绒毛水肿，子宫明显增大，超过同月份正常妊娠子宫大小。由于增生的滋养层细胞有较强的破坏血管的能力，导致阴道出血。由于绒毛血管减少或消失，胎儿多死亡，临床无胎儿存",
-      "type": "简答题",
-      "answer": "炎性水肿与炎性积液的区别：(1)炎性水肿：炎症时渗出液积聚在组织间隙内。举例：急性阑尾炎时阑尾壁各层水肿增厚；急性蜂窝织炎时皮下组织高度水肿。(2)炎性积液：炎症时渗出液积聚在浆膜腔（胸腔、腹腔、心包腔、关节腔）内。举例：结核性胸膜炎→胸腔积液（胸水）；结核性腹膜炎→腹腔积液（腹水）。炎性渗出液的特点：蛋白含量高（>30g/L）、比重高（>1.018）、细胞数多（>500×10⁶/L）、Rivalta试验阳性、易凝固（含纤维蛋白原）。(3)临床上鉴别渗出液与漏出液对于疾病性质的判断有重要意义——渗出液提示炎症性疾病，漏出液提示非炎症性因素（如心衰、肝硬化、肾病综合征等）。"
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 2,
-      "question": "子宫颈癌的大体根据肿瘤外形及生长方式可分为：①外生菜花型；②内生浸润型；③糜烂型。宫颈癌的组织学分型依其组织来源分为：①鳞状细胞癌，依其分化程度又分为高、中、低分化鳞状细胞癌；依其浸润深度分为原位癌、早期浸润癌、浸润癌；②腺癌，来源于宫颈管柱状上皮或腺上皮，亦同样有高、中、低恶性之分及浸润深度之分。(1)直接蔓延到阴道穹窿部，向上蔓延破坏整段子宫颈及子宫体，向前浸润膀胱壁。向后浸润直肠，向两侧可延及宫旁及盆壁(2)淋巴道转移首先到子宫颈旁淋巴结，然后到盆腔淋巴结。(3)血道转移到肺、骨、肝。",
-      "type": "简答题",
-      "answer": "高分化鳞状细胞癌来源于鳞状上皮，也可由化生的鳞状上皮发生。组织学特点：(1)癌细胞形成癌巢，癌巢中央可出现同心圆状红染的角化珠（癌珠）。(2)细胞间可见细胞间桥（桥粒）。(3)癌细胞呈多角形，胞浆丰富嗜酸性。(4)核大深染，核分裂多见。好发部位：皮肤、口腔、食管、喉、子宫颈、支气管等覆有鳞状上皮或被覆上皮可化为鳞状上皮的部位。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 4,
-      "question": "子宫颈上皮不典型增生是指子宫颈上皮层内有异型细胞增生，分轻度、中度、重",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 7,
-      "question": "为什么乳腺癌时皮肤出现桔皮样外观？",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
-      "chapter": "第6章 肿瘤",
-      "number": 8,
-      "question": "乳腺癌的扩散途径有哪些？",
-      "type": "简答题",
-      "answer": ""
+      "answer": "大体分型：①外生型（菜花型）最常见向阴道内生长；②内生型（浸润型）向宫颈深部浸润；③溃疡型肿瘤坏死脱落形成溃疡。组织学分型：①鳞状细胞癌最常见占80%-85%；②腺癌占15%-20%。"
     },
     {
       "chapter": "第1章 细胞和组织的适应与损伤",
       "number": 41,
-      "question": "D46.B度；子宫颈原位癌是指子宫颈上皮层内增生的异型细胞弥漫全层，但未突破基底膜；子宫颈早期浸润癌是指肿瘤细胞增生突破基底膜，但浸润深度不超过基底膜下3~5mm；超过基底膜下5mm时称为子宫颈浸润癌。是一个连续性的发展过程。",
+      "question": "简述凝固性坏死的病理变化及其常见部位。",
       "type": "简答题",
       "answer": "肿瘤异型性与分化程度及良恶性的关系：(1)异型性是指肿瘤组织在细胞形态和组织结构上与其来源的正常组织有不同程度的差异。(2)异型性越大→分化程度越低→恶性程度越高。(3)良性肿瘤：异型性小，细胞较成熟，分化程度高，与起源组织相似度高。(4)恶性肿瘤：异型性明显，包括组织结构的异型性（排列紊乱、极向消失）和细胞异型性（细胞多形性、核大深染、核浆比例增大、核分裂增多并出现病理性核分裂）。(5)间变性肿瘤：异型性极为显著，分化极差，难以辨认其组织来源，属于高度恶性肿瘤。因此，异型性是判断肿瘤良恶性和恶性程度最重要的形态学指标。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 5,
-      "question": "子宫颈上皮内瘤变是指子宫颈上皮非典型增生至原位癌这一系列癌前病变的连续发展过程，分为Ⅰ、Ⅱ、Ⅲ级，Ⅰ级相当于轻度非典型增生，Ⅱ级相当于中度非典型增生，Ⅲ级相当于重度非典型增生和原位癌，但并非所有的子宫颈癌一定发展",
-      "type": "简答题",
-      "answer": "癌前病变是指具有癌变潜在可能性的良性病变。常见的有：(1)大肠腺瘤（绒毛状腺瘤癌变率最高）。(2)慢性子宫颈炎伴宫颈糜烂。(3)乳腺增生性纤维囊性变（伴有导管上皮非典型增生者）。(4)慢性萎缩性胃炎伴肠上皮化生。(5)慢性溃疡性结肠炎。(6)皮肤慢性溃疡。(7)口腔和外阴黏膜白斑。(8)肝硬化（特别是乙肝肝硬化）。必须强调的是并非所有癌前病变都会癌变。"
-    },
-    {
-      "chapter": "第1章 细胞和组织的适应与损伤",
-      "number": 6,
-      "question": "多见于浸润性导管癌，位于乳头下的肿瘤如累及大导管又伴有大量纤维组织增生时，由于纤维组织收缩，使乳头下陷。",
-      "type": "简答题",
-      "answer": ""
     },
     {
       "chapter": "第3章 局部血液循环障碍",
@@ -12933,32 +12513,25 @@ const QUESTION_DATA = {
       "answer": "炎性水肿与炎性积液的区别：(1)炎性水肿：炎症时渗出液积聚在组织间隙内。举例：急性阑尾炎时阑尾壁各层水肿增厚；急性蜂窝织炎时皮下组织高度水肿。(2)炎性积液：炎症时渗出液积聚在浆膜腔（胸腔、腹腔、心包腔、关节腔）内。举例：结核性胸膜炎→胸腔积液（胸水）；结核性腹膜炎→腹腔积液（腹水）。炎性渗出液的特点：蛋白含量高（>30g/L）、比重高（>1.018）、细胞数多（>500×10⁶/L）、Rivalta试验阳性、易凝固（含纤维蛋白原）。(3)临床上鉴别渗出液与漏出液对于疾病性质的判断有重要意义——渗出液提示炎症性疾病，漏出液提示非炎症性因素（如心衰、肝硬化、肾病综合征等）。"
     },
     {
-      "chapter": "第6章 肿瘤",
-      "number": 8,
-      "question": "乳腺癌扩散途径有：①乳腺内蔓延扩散：癌组织沿导管系统、结缔组织间隙和筋膜浸润周围脂肪组织，甚至侵犯胸肌。②淋巴道扩散：癌细胞侵入淋巴管，随淋巴液到达同侧股窝淋巴结，晚期可到锁骨上下淋巴结等。③血道扩散：晚期癌细胞侵入血管转移到肺、脑、骨等。",
-      "type": "简答题",
-      "answer": ""
-    },
-    {
       "chapter": "第15章 内分泌系统疾病",
       "number": 9,
       "question": "试述弥漫性非毒性甲状腺肿的病因及各期病变特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "病因：缺碘（最常见）致甲状腺肿物质甲状腺激素合成酶缺陷。病变分三期：①弥漫性增生期：甲状腺弥漫对称肿大滤泡上皮增生胶质少；②弥漫性胶样肿期：滤泡高度扩张充满胶质上皮扁平；③弥漫性结节期：甲状腺呈结节状伴出血坏死囊性变和纤维化。"
     },
     {
       "chapter": "第15章 内分泌系统疾病",
       "number": 10,
-      "question": "甲亢时甲状腺组织学特征和临床表现",
+      "question": "简述Graves病（甲亢）时甲状腺组织学特征和临床表现。",
       "type": "简答题",
-      "answer": ""
+      "answer": "组织学特征：甲状腺弥漫性肿大滤泡上皮增生呈柱状或乳头状滤泡边沿见生发中心胶质稀薄边缘出现吸收空泡。临床表现：高代谢综合征（怕热多汗心悸消瘦）突眼甲状腺肿大手颤情绪易激动等。"
     },
     {
       "chapter": "第3章 局部血液循环障碍",
       "number": 11,
       "question": "简述甲状腺功能低下的原因及克汀病和黏液水肿的主要病变特点。",
       "type": "简答题",
-      "answer": ""
+      "answer": "原因：缺碘（地方性）甲状腺发育不良或手术切除（原发性）下丘脑-垂体疾病（继发性）。克汀病：胎儿期甲减致智力低下和身材矮小骨骼发育障碍。黏液水肿：成年甲减致皮下黏多糖沉积面部和四肢非凹陷性水肿代谢低下。"
     },
     {
       "chapter": "第5章 免疫性疾病",
@@ -13063,4 +12636,10 @@ const QUESTION_DATA = {
       "answer": "免疫组织化学(IHC)在肿瘤诊断中的应用：\n1. 肿瘤定性：确定病变是良性还是恶性\n2. 肿瘤分类：鉴别肿瘤的组织来源(上皮源性、间叶源性、淋巴造血源性等)\n3. 常用标记物：\n   - 上皮标记：CK(细胞角蛋白)、EMA\n   - 间叶标记：VIM(波形蛋白)\n   - 神经内分泌标记：CgA、Syn、NSE\n   - 淋巴造血标记：LCA(CD45)\n   - 黑色素标记：HMB-45、S-100\n   - 肌肉标记：Desmin、MyoD1\n4. 指导靶向治疗：如HER2检测指导乳腺癌曲妥珠单抗治疗\n5. 判断预后：Ki-67增殖指数评估肿瘤生长活性"
     }
   ]
-};
+}
+
+
+
+
+
+

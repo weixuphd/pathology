@@ -59,6 +59,12 @@ body {
 .ch-card:nth-child(11) .ch-icon { background:#f9ebea; } .ch-card:nth-child(11) { border-left-color:#c0392b; }
 .ch-card:nth-child(12) .ch-icon { background:#e8daef; } .ch-card:nth-child(12) { border-left-color:#7d3c98; }
 .ch-card:nth-child(13) .ch-icon { background:#d5f5e3; } .ch-card:nth-child(13) { border-left-color:#17a589; }
+.ch-card:nth-child(14) .ch-icon { background:#fcf3e9; } .ch-card:nth-child(14) { border-left-color:#d4860b; }
+.ch-card:nth-child(15) .ch-icon { background:#e8f4f8; } .ch-card:nth-child(15) { border-left-color:#2471a3; }
+.ch-card:nth-child(16) .ch-icon { background:#f5eef8; } .ch-card:nth-child(16) { border-left-color:#7d3c98; }
+.ch-card:nth-child(17) .ch-icon { background:#eaf2e5; } .ch-card:nth-child(17) { border-left-color:#6a994e; }
+.ch-card:nth-child(18) .ch-icon { background:#fde8e8; } .ch-card:nth-child(18) { border-left-color:#cb2c2c; }
+.ch-card:nth-child(19) .ch-icon { background:#e5e8f0; } .ch-card:nth-child(19) { border-left-color:#4a6274; }
 
 /* Study view */
 .study-view { display:none; padding:12px; max-width:800px; margin:0 auto; }
@@ -170,12 +176,14 @@ let cType = 'single_choice';
 let cChapter = ''; let cIdx = 0;
 let bookmarks = new Set(); let doneItems = new Set(); let bmFilter = false; let searchQ = '';
 
-const CH_ICONS = ['🔬','🩹','🩸','🔥','🎗️','❤️','🫁','🍽️','🦠','🛡️','🫘','👶','🦋'];
+const CH_ICONS = ['🔬','🩹','🩸','🔥','🛡️','🎗️','🫁','🍽️','🧬','❤️','🫁','🦠','🩻','🤰','🧠','🦴','🦠','🔬'];
 const CH_ORDER = [
     "第1章 细胞和组织的适应与损伤","第2章 损伤的修复","第3章 局部血液循环障碍",
-    "第4章 炎症","第5章 肿瘤","第6章 心血管系统疾病","第7章 呼吸系统疾病",
-    "第8章 消化系统疾病","第9章 淋巴造血系统疾病","第10章 免疫性疾病",
-    "第11章 泌尿系统疾病","第12章 生殖系统和乳腺疾病","第13章 内分泌系统疾病"
+    "第4章 炎症","第5章 免疫性疾病","第6章 肿瘤","第7章 环境和营养性疾病",
+    "第8章 遗传性疾病和儿童疾病","第9章 心血管系统疾病","第10章 呼吸系统疾病",
+    "第11章 消化系统疾病","第12章 淋巴造血系统疾病","第13章 泌尿系统疾病",
+    "第14章 生殖系统和乳腺疾病","第15章 内分泌系统疾病","第16章 神经系统疾病",
+    "第17章 骨关节和软组织疾病","第18章 传染病","第19章 病理学诊断与研究技术"
 ];
 
 try {

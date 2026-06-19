@@ -268,10 +268,10 @@ body {{
         if sc_items:
             html += f'    <h2 class="section-title">📝 单选题 ({len(sc_items)}题)</h2>\n'
             for q in sc_items:
-                opts = [{'l':'A','t':q.get('option_a','')},{'l':'B','t':q.get('option_b','')},
-                       {'l':'C','t':q.get('option_c','')},{'l':'D','t':q.get('option_d','')},
-                       {'l':'E','t':q.get('option_e','')}]
-                opts = [o for o in opts if o['t'] and len(o['t'])>1]
+                opts = [{'l':'A','t':str(q.get('option_a',''))},{'l':'B','t':str(q.get('option_b',''))},
+                       {'l':'C','t':str(q.get('option_c',''))},{'l':'D','t':str(q.get('option_d',''))},
+                       {'l':'E','t':str(q.get('option_e',''))}]
+                opts = [o for o in opts if o['t'].strip()]
 
                 html += f'    <div class="card">\n'
                 html += f'        <div class="card-header">\n'
